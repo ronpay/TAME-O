@@ -1,0 +1,28 @@
+[project]
+name = "tame-o"
+version = "0.1.0"
+description = "TAMEing the Open-World Personalization: Towards Open-Set Personalized MLLM Assistant"
+readme = "README.md"
+requires-python = ">=3.14,<3.15"
+dependencies = [
+    "accelerate>=1.13.0",
+    "colorama>=0.4.6",
+    "flash-attn",
+    "flash-linear-attention>=0.4.2",
+    "httpx[socks]>=0.28.1",
+    "huggingface-hub>=1.11.0",
+    "loguru>=0.7.3",
+    "numpy>=2.4.4",
+    "pandas>=3.0.2",
+    "pillow>=12.2.0",
+    "python-dotenv>=1.2.2",
+    "pyyaml>=6.0.3",
+    "qwen-vl-utils>=0.0.14",
+    "requests>=2.33.1",
+    "torch>=2.11.0,<2.12",
+    "torchvision>=0.26.0,<0.27",
+    "transformers>=5.5.4,<5.6",
+]
+
+[tool.uv.sources]
+flash-attn = { url = "https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.4/flash_attn-2.8.3+cu130torch2.11-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl" }
