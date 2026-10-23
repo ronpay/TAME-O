@@ -1,0 +1,84 @@
+- id: 1
+  type: Preference Conflict
+  question: "I'm having a lot of trouble pulling the zipper shut today. [IMAGE] Based on what I usually prefer for this bag, why is this happening?"
+  image_prompt: "A close-up of the black tote bag's top zipper being strained and pulled taut by a bulky gray gym towel inside."
+  evaluation_criteria:
+    ideal_answer: "The bag's zipper is difficult to close because it is currently overstuffed with a thick gym towel. This conflicts with the bag's long-term dislike of being overstuffed with bulky items that distort its zipper line."
+    key_points:
+      - "The bag is currently overstuffed with a thick, bulky gym towel."
+      - "The bag has a long-term dislike for overstuffing that distorts its zipper line."
+  options:
+    - "The image shows a zipper under strain, but not why this bag's usual packing preference is being violated."
+    - "The bulky gym towel has overstuffed the bag, violating its preference for a clean zipper line."
+    - "The tote's side structure may be too rigid for the towel's awkward fold."
+    - "The user may be pulling the zipper at an angle while rushing after the gym stop."
+  answer: "The bulky gym towel has overstuffed the bag, violating its preference for a clean zipper line."
+  image_id: hq_1
+
+- id: 2
+  type: State Identification
+  question: "I'm at a construction site for a quick walkthrough. [IMAGE] Which of the bag's usual preferences is being most directly ignored right now?"
+  image_prompt: "The black tote bag sitting on a dusty, unfinished concrete floor in a building under construction."
+  evaluation_criteria:
+    ideal_answer: "By placing the bag on a dusty construction site floor, the user is ignoring its long-term dislike of direct contact with abrasive concrete or dirty floors. This contrasts with its usual preferred environment of a clean, dry office desk."
+    key_points:
+      - "The bag is currently sitting on a dusty concrete floor at a construction site."
+      - "The bag has a long-term dislike of direct contact with abrasive concrete or wet floors."
+  options:
+    - "The bag is visible in a work zone, but the photo does not reveal which usual surface preference is being ignored."
+    - "The bag is sitting on a dusty concrete floor, violating its dislike of abrasive or dirty surfaces."
+    - "The bag is being carried through a loud work zone, which differs from its quiet professional routine."
+    - "The bag is being left out of the user's sight, which could conflict with how carefully it is normally handled."
+  answer: "The bag is sitting on a dusty concrete floor, violating its dislike of abrasive or dirty surfaces."
+  image_id: hq_2
+
+- id: 3
+  type: Causal Inference
+  question: "I just tied this silk scarf on for tonight. [IMAGE] Considering how I first got this bag, what does this change say about my plans?"
+  image_prompt: "The black tote bag with a vibrant silk scarf tied to the handle, sitting next to a professional invitation to a gallery opening."
+  evaluation_criteria:
+    ideal_answer: "The addition of the silk scarf signals a transition from a professional work setting to a special social event like a gallery opening. This is significant because the bag was originally a gift for a promotion, marking it as a professional milestone."
+    key_points:
+      - "A new decorative silk scarf was recently tied to the bag's handle for a special event."
+      - "The bag was originally a gift from a mentor to celebrate a professional promotion."
+  options:
+    - "The visible scarf simply suggests evening decoration, without showing why this particular bag matters to the user."
+    - "The user is dressing up their professional promotion bag for a more elegant social event."
+    - "The scarf is a new gift from the same mentor who originally gave the user the bag."
+    - "The user wants to make the bag look less professional because they are leaving their current job."
+  answer: "The user is dressing up their professional promotion bag for a more elegant social event."
+  image_id: hq_3
+
+- id: 4
+  type: Causal Inference
+  question: "After what happened this morning, I'm looking for a specialized fabric protector. [IMAGE] Why did today's commute make this a priority?"
+  image_prompt: "The black tote bag sitting on a chair with visible damp patches on the signature canvas from morning rain."
+  evaluation_criteria:
+    ideal_answer: "The user is seeking a fabric protector because the bag got wet during a rainy morning commute. This is a priority because the bag normally 'loves' dry office environments and the user wants to protect its sentimental canvas material."
+    key_points:
+      - "The bag recently got wet during a rainy day commute."
+      - "The bag has a long-term preference for dry, air-conditioned office environments."
+  options:
+    - "The picture shows the bag after a commute, but the exact reason for needing fabric protector is not visible."
+    - "The bag got wet in the rain, so the user wants to prevent future water damage to its canvas."
+    - "The leather handles may have felt dry after the commute, making a conditioner seem necessary."
+    - "The construction dust from the walkthrough may have made the user think about surface protection."
+  answer: "The bag got wet in the rain, so the user wants to prevent future water damage to its canvas."
+  image_id: hq_4
+
+- id: 5
+  type: Preference Conflict
+  question: "I've got my gym towel in here now, but it feels all wrong. [IMAGE] How does this current state conflict with my usual internal setup?"
+  image_prompt: "The interior of the black tote bag where a bulky gym towel is squashed against a neat leather organizer."
+  evaluation_criteria:
+    ideal_answer: "The presence of the bulky gym towel conflicts with the user's long-term habit of using a structured leather organizer to keep the bag's interior orderly. The towel disrupts the 'loves being organized' preference of the bag."
+    key_points:
+      - "A bulky gym towel is currently stuffed inside, disrupting the bag's internal space."
+      - "The bag has a long-term preference for being organized with internal pouches and a leather organizer."
+  options:
+    - "The damp towel could leave moisture inside the tote, which would make the interior feel less clean."
+    - "The towel's color clashing with the internal leather organizer makes the user feel unprofessional."
+    - "The user forgot to remove the laptop before putting the towel in, causing a safety conflict."
+    - "The bulky towel is squashing the leather organizer, violating the bag's preference for internal order."
+  answer: "The bulky towel is squashing the leather organizer, violating the bag's preference for internal order."
+  image_id: hq_5

@@ -1,0 +1,80 @@
+- id: 1
+  type: Causal Inference
+  question: "Here’s the bottle after the accident. [IMAGE] Knowing it always contains lemonade and is now half-empty, what likely happened before noticing the spill?"
+  image_prompt: A transparent blue water bottle, half-empty and lying on a kitchen countertop with water spilled around it.
+  evaluation_criteria:
+    ideal_answer: Before the spill was noticed, the user likely spilled the lemonade by accidentally knocking over the bottle. The half-empty state indicates an abrupt spill during handling, contradicting its usual full state with lemonade.
+    key_points:
+    - The bottle was recently knocked over and left half-empty.
+    - Thirsty typically contains chilled lemonade as a preferred drink.
+  options:
+    - The half-empty level alone does not show what happened before the spill was noticed.
+    - The user left the bottle unattended and a pet knocked it down, causing the spill.
+    - The user forgot to close the cap properly, and lemonade slowly leaked out over time.
+    - During handling, perhaps while refilling, the bottle was knocked over and lemonade spilled.
+  answer: During handling, perhaps while refilling, the bottle was knocked over and lemonade spilled.
+  image_id: hq_1
+- id: 2
+  type: State Identification
+  question: Look at this scene. [IMAGE] The bottle is usually kept on the kitchen counter. What could have caused it to be seen at the gym today?
+  image_prompt: A transparent blue water bottle being refilled at a water station in a gym.
+  evaluation_criteria:
+    ideal_answer: The bottle is being used in a gym setting, which is unusual because it typically rests on the kitchen counter. This change reflects a shift in the user's routine, likely due to hydration needs during exercise.
+    key_points:
+    - The bottle was recently seen being refilled at the gym.
+    - Thirsty is usually kept on the kitchen counter as its resting spot.
+  options:
+    - The user needed hydration during their workout and brought it for the occasion.
+    - The user put it by the gym refill station because their normal workout bottle was left at home.
+    - The user was running late and mistakenly grabbed it instead of a gym bottle.
+    - The user's gym bottle was lost, so they temporarily used it as a substitute.
+  answer: The user needed hydration during their workout and brought it for the occasion.
+  image_id: hq_2
+- id: 3
+  type: Preference Conflict
+  question: Check out this photo now. [IMAGE] Given its dislike for spills and the appearance of a new scratch, what might have caused this event conflicting with its usual state?
+  image_prompt: A close-up of a transparent blue water bottle with a visible scratch on its side.
+  evaluation_criteria:
+    ideal_answer: The new scratch conflicts with the bottle's usual dislike for spills and damage. A probable cause is an accidental impact, such as knocking it against a hard surface during or after the spill incident.
+    key_points:
+    - The bottle has a new scratch, a recent and atypical event.
+    - Thirsty dislikes spills and any resulting dirtiness and damage.
+  options:
+    - The scratch alone does not show whether it came from the spill incident or an unrelated bag contact.
+    - The scratch resulted from dragging the bottle across a rough surface.
+    - The scratch was likely caused by improper handling while filling the bottle.
+    - There was a collision with another object, possibly during the spill incident.
+  answer: There was a collision with another object, possibly during the spill incident.
+  image_id: hq_3
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: Imagine this situation. [IMAGE] The bottle is always kept filled, but now has a temporary red cap. What recommendation best suits moving forward given the user's routine and the replacement?
+  image_prompt: A transparent blue water bottle with a temporary red cap, shown against a plain background.
+  evaluation_criteria:
+    ideal_answer: The recommendation is to replace the red cap with a new blue cap to maintain the bottle's usual design and functional consistency, ensuring it matches the user's preference for the familiar blue look.
+    key_points:
+    - The user has temporarily replaced the blue cap with a red one.
+    - Thirsty prefers its original blue cap for design and routine familiarity.
+  options:
+    - Replace the red cap with the original blue one to restore its usual appearance.
+    - Continue using the red cap as it might serve better in the long run.
+    - "Keep the red cap through the week because its tighter seal matters more than matching colors."
+    - Find a multi-colored cap that makes the bottle stand out more.
+  answer: Replace the red cap with the original blue one to restore its usual appearance.
+  image_id: hq_4
+- id: 5
+  type: Causal Inference
+  question: Review this picture. [IMAGE] The bottle is typically found on the kitchen counter. Can you explain why it had to be moved to the gym during this event?
+  image_prompt: A transparent blue water bottle resting on a gym water station, depicting the change in its usual location.
+  evaluation_criteria:
+    ideal_answer: The move to the gym, a departure from its usual location on the kitchen counter, was necessary because the user benefited from having their trusted water bottle handy for hydration during exercise.
+    key_points:
+    - The bottle was recently seen at a gym being refilled.
+    - Thirsty frequently remains on the kitchen counter as its common resting spot.
+  options:
+    - "The picture only shows the bottle at the gym, not why it had to leave the kitchen counter."
+    - The bottle's usual place was occupied, so the user temporarily stored it at the gym.
+    - The user needed immediate access to a familiar and reliable hydration source during exercise.
+    - The user's regular gym bottle was left at home, so this filled counter bottle became the quickest backup.
+  answer: The user needed immediate access to a familiar and reliable hydration source during exercise.
+  image_id: hq_5

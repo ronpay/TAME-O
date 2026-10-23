@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "Look at this photo of Snowy. [IMAGE] I love the bumpy sherpa texture; it's so soft to the touch."
+  assistant_response: "It looks very cozy! That white sherpa texture is definitely its most recognizable feature."
+  image_prompt: "A clear, well-lit photo of a white sherpa-textured bunny plush sitting on a clean surface."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "This is a close-up of the neck area. [IMAGE] I added this peach knitted scarf myself to keep it warm."
+  assistant_response: "The peach-colored knitted scarf is a lovely touch. It looks like a permanent part of its outfit now."
+  image_prompt: "A close-up shot focusing on the peach-colored knitted scarf with fringe tassels around the neck of the white plush."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "I always feel like it's listening when I talk. [IMAGE] That little black 'X' for a mouth makes it such a quiet, non-judgmental companion."
+  assistant_response: "The 'X' mouth really gives it a peaceful expression. It seems like the perfect study partner."
+  image_prompt: "A front-facing view of the plush's face, highlighting the black bead eyes and the signature black 'X' embroidered mouth."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "I usually keep it right here on my oak nightstand. [IMAGE] It’s the perfect spot where it won't get knocked over or lost."
+  assistant_response: "That oak nightstand seems like a very safe and dedicated home for it."
+  image_prompt: "The white bunny plush sitting neatly on the top of a clean, light-colored oak nightstand next to a lamp."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "I'm very careful about where I put it. [IMAGE] I try to keep it in dust-free areas and away from direct sunlight because I want to maintain that bright white color."
+  assistant_response: "Maintaining that white fur is important. Keeping it away from dusty spots and harsh light is a good strategy."
+  image_prompt: "The white plush sitting in a pristine, clutter-free environment, away from any windows, emphasizing its clean and bright appearance."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "I received this during my graduation ceremony. [IMAGE] It's more than just a toy; it represents all the hard work I put into my degree."
+  assistant_response: "That's a wonderful sentiment. It's clearly a meaningful symbol of your academic achievements."
+  image_prompt: "A nostalgic photo of the bunny plush being held near a graduation gown or diploma, symbolizing its origin."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "I decided to move it to the wide window sill this morning. [IMAGE] I wanted it to be able to 'watch' the sunrise while I had my coffee."
+  assistant_response: "That's a nice change of scenery! The window sill provides a great view of the morning light."
+  image_prompt: "The white bunny plush sitting on a wide, white window sill with soft morning light streaming in through the glass."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "I had a bit of a mishap during my late-night session. [IMAGE] A tiny drop of chamomile tea splashed onto its left paw."
+  assistant_response: "Oh no! A small tea spill during work can happen. It's a tiny mark, but definitely a recent change."
+  image_prompt: "A close-up of the plush's left foot, showing a very small, light brown tea stain on the white sherpa fabric."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "I'm keeping it inside this clear acrylic box for now. [IMAGE] There's a lot of dust from the room renovation next door, and I want to protect it."
+  assistant_response: "That's a smart precaution. The acrylic box will definitely keep the renovation dust away from the white fur."
+  image_prompt: "The white bunny plush seen through the walls of a transparent acrylic display box sitting on a table."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "It looks a bit different today without its usual accessory. [IMAGE] I finally took the peach scarf off to give it a proper hand-wash."
+  assistant_response: "It does look different! Washing the scarf after a long time is a good idea to keep everything fresh."
+  image_prompt: "The white bunny plush sitting on a surface without its peach scarf, looking slightly bare around the neck."
+  image_id: turn_10

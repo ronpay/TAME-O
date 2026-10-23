@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: japanese_chin_1
+concept_type: "pet"
+name: "Yoshi"
+category: "Japanese Chin"
+
+core_identity:
+  summary: "A small, fluffy black-and-white Japanese Chin puppy with distinct facial markings."
+  role_in_user_life: "A cherished new puppy that brings joy and requires attentive, gentle care from the owner."
+
+stable_visual_identity:
+  summary: "A predominantly white fluffy puppy with black patches on its head, ears, and side/back."
+  key_features:
+    - "Black patches around both eyes and ears, separated by a white blaze down the forehead"
+    - "A short, pushed-in snout"
+    - "A black patch along the side/back"
+
+stable_behavioral_identity:
+  traits:
+    - "Playful in short bursts but tires quickly"
+    - "Cautious around new, noisy objects"
+  preferences:
+    loves:
+      - "Sleeping on his soft yellow fleece blanket"
+      - "Chewing on his blue plush squeaky bone"
+    dislikes:
+      - "Walking on cold, wet grass"
+      - "Getting bathed in water"
+
+relational_meaning:
+  user_relationship: "The owner is his primary caretaker and source of comfort."
+  emotional_value: "Provides companionship and a sense of daily routine."
+  related_entities:
+    - "The owner's warm lap"
+
+history:
+  knowledge:
+    - "Instruction: Introduce that Yoshi is a Japanese Chin puppy with black patches around both eyes and ears."
+    - "Instruction: Introduce that Yoshi's absolute favorite toy is a small blue plush squeaky bone."
+    - "Instruction: Introduce that Yoshi loves sleeping on his soft yellow fleece blanket."
+    - "Instruction: Introduce that Yoshi strongly dislikes water and avoids getting bathed at all costs."
+    - "Instruction: Introduce that Yoshi is terrified of loud motorized sounds."
+    - "Instruction: Introduce that Yoshi refuses to walk on wet grass because he hates how it feels on his paws."
+  event:
+    - "Instruction: Introduce that Yoshi recently got covered in thick mud after digging in the garden."
+    - "Instruction: Introduce that the owner recently washed Yoshi's yellow fleece blanket and hung it outside to dry."
+    - "Instruction: Introduce that the owner recently bought a loud motorized toy car and turned it on."
+    - "Instruction: Introduce that the sprinkler system accidentally turned on while Yoshi was in the yard."
+
+hard_questions:
+  - "Draft: Create a causal-inference question that combines his strong dislike of baths with him recently getting covered in mud."
+  - "Draft: Create a preference-conflict question that combines his love for the yellow fleece blanket with the blanket recently being washed and hung outside."
+  - "Draft: Create a state-identification question that combines his terror of loud motorized sounds with the recent introduction of the motorized toy car."
+  - "Draft: Create a causal-inference question that combines his refusal to walk on wet grass with the sprinkler system accidentally turning on in the yard."
+  - "Draft: Create a state-identification question that combines his favorite blue plush bone with him recently getting covered in mud while digging."

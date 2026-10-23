@@ -1,0 +1,56 @@
+concept_id: rabbit_2
+concept_type: "pet"
+name: "Pepper"
+category: "Netherland Dwarf Rabbit"
+
+core_identity:
+  summary: "A small charcoal-black rabbit with a white chin, neck band, chest patch, and light toes, holding a cautious, observant posture."
+  role_in_user_life: "A compact indoor companion whose reactions help the user notice every shift in the room."
+
+stable_visual_identity:
+  summary: "A dark rabbit with upright ears, a white chin, a clear white neck band, a white chest patch, and light toes."
+  key_features:
+    - "A charcoal-black coat with soft silver-white tones around the chest and lower sides"
+    - "A white patch under the mouth that continues into a neck band and chest patch"
+    - "Light white toes on the front paws"
+    - "Short upright ears that stay sharply alert"
+
+stable_behavioral_identity:
+  traits:
+    - "Freezes first and then hides when sharp household noises happen"
+    - "Very suspicious of sudden motion from human hands above him"
+  preferences:
+    loves:
+      - "Flat-leaf parsley"
+      - "Resting inside a woven grass tunnel"
+    dislikes:
+      - "The high-pitched whine of the blender"
+      - "Wet, slippery hardwood floors"
+
+relational_meaning:
+  user_relationship: "The user has learned to approach him patiently and give him time to settle."
+  emotional_value: "He turns ordinary household sounds into a clear emotional barometer for the home."
+  related_entities:
+    - "A woven grass tunnel that functions as his main hideout"
+    - "A low rug by the hallway where he pauses before moving forward"
+
+history:
+  knowledge:
+    - "Instruction: Introduce Pepper's charcoal-black coat, white chin, white neck band, white chest patch, light toes, and upright ears as stable visual features."
+    - "Instruction: Introduce that flat-leaf parsley is Pepper's favorite snack."
+    - "Instruction: Introduce that Pepper is especially frightened by the high whine of the blender."
+    - "Instruction: Introduce that Pepper refuses to walk over wet, slippery hardwood."
+    - "Instruction: Introduce the woven grass tunnel as Pepper's safest hiding place."
+    - "Instruction: Introduce that Pepper dislikes hands reaching down from above him."
+  event:
+    - "Instruction: Introduce that a metal pan recently clanged loudly in the kitchen."
+    - "Instruction: Introduce that Pepper curled up inside the woven grass tunnel right after the noise."
+    - "Instruction: Introduce that the blender was running while parsley was left outside the tunnel, but Pepper still would not come out."
+    - "Instruction: Introduce that Pepper's water bowl tipped over and left a wet patch across the hardwood near the hallway."
+
+hard_questions:
+  - "Draft: Create a causal-inference question about why he bolted into the tunnel after the kitchen noise."
+  - "Draft: Create a preference-conflict question about why he would not come out for parsley."
+  - "Draft: Create a state-identification question about why he is frozen at the edge of the rug instead of crossing the wet floor."
+  - "Draft: Create a counterfactual or recommendation question about how the user should approach him while he is hiding in the tunnel."
+  - "Draft: Create a state-identification question about why he still looks tense even though parsley is right outside the tunnel."

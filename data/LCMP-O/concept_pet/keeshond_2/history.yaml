@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "This is Nimbus in his usual spot. [IMAGE] He always wears that blue woven collar with the silver bone-shaped tag."
+  assistant_response: "Got it. I've noted Nimbus's blue woven collar and silver bone tag as stable visual features."
+  image_prompt: "A fluffy silver and black Keeshond dog sitting indoors, clearly wearing a blue woven collar with a silver bone-shaped tag."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "Look at this picture. [IMAGE] He always 'smiles' like this by curling his lips up when he is very excited or happy."
+  assistant_response: "Understood. I've recorded his habit of 'smiling' by curling his lips when excited."
+  image_prompt: "A close-up of a happy Keeshond dog 'smiling' by curling his lips upwards in a joyful expression."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "Here he is with his absolute favorite toy. [IMAGE] It's a squeaky rubber chicken that he carries almost everywhere."
+  assistant_response: "I've noted the squeaky rubber chicken as his favorite toy."
+  image_prompt: "A Keeshond dog happily holding a yellow squeaky rubber chicken toy in his mouth."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "He strongly dislikes loud noises. [IMAGE] Whenever the vacuum cleaner is out, he immediately runs to hide under the bed."
+  assistant_response: "I've recorded his strong dislike of loud noises, especially the vacuum cleaner, and his tendency to hide from them."
+  image_prompt: "A Keeshond dog hiding under a bed, looking cautiously out, with a vacuum cleaner visible in the foreground."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "Because of his thick double coat, he prefers cool surfaces. [IMAGE] He almost always chooses to lie on the cold tile floor in the bathroom."
+  assistant_response: "I've noted his preference for lying on cold tile floors due to his thick coat."
+  image_prompt: "A Keeshond dog lying flat and relaxed on a cold, light-colored tile floor in a bathroom."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "I tried this once and never again. [IMAGE] He absolutely hates wearing any kind of dog booties on his paws."
+  assistant_response: "I've recorded his strong hatred for wearing dog booties on his paws."
+  image_prompt: "A Keeshond dog looking extremely unhappy and awkwardly lifting his paws while trying on a set of dog booties indoors."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "I just accidentally knocked a heavy metal pot off the kitchen counter, and it made a huge crash. [IMAGE] I feel terrible."
+  assistant_response: "I've noted the recent loud crash of a metal pot falling in the kitchen."
+  image_prompt: "A heavy metal pot lying on the floor of a kitchen, having just fallen from the counter."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "It's freezing outside and the sidewalks are covered in sharp ice, so we had to put these bright red dog booties on him for our walk today. [IMAGE] It was the only way to protect his feet."
+  assistant_response: "I've recorded that he wore bright red dog booties outside today to protect his paws from the ice."
+  image_prompt: "A Keeshond dog standing outside in snowy, icy weather, wearing bright red dog booties on all four paws."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "I just surprised him with a brand new replacement of his squeaky rubber chicken! [IMAGE] The old one was falling apart."
+  assistant_response: "I've noted the recent event of surprising him with a brand new squeaky rubber chicken."
+  image_prompt: "A brand new, shiny yellow squeaky rubber chicken being held out toward a Keeshond dog."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "Our air conditioning completely broke down today during a heatwave. [IMAGE] The tile floor got too warm, so I had to lay out a special gel cooling mat for him in the living room."
+  assistant_response: "I've recorded that the AC broke today, forcing him to use a gel cooling mat instead of the tile floor."
+  image_prompt: "A blue gel cooling mat laid out on a living room rug, with a Keeshond dog resting on it during a hot day."
+  image_id: turn_10

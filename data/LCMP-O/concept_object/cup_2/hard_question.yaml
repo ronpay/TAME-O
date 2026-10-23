@@ -1,0 +1,84 @@
+- id: 1
+  type: Preference Conflict
+  question: "I noticed this bottle in the sink today. [IMAGE] Given how I normally care for this pitcher, why is this surprising?"
+  image_prompt: "A bottle of harsh industrial-strength green liquid soap sitting next to the decorative ceramic pitcher in a kitchen sink."
+  evaluation_criteria:
+    ideal_answer: "The user normally avoids harsh chemicals and hand-washes the pitcher with gentle soap to protect its glaze. However, because they ran out of their usual soap, they used a harsh industrial degreaser today, which conflicts with their long-term care preference."
+    key_points:
+      - "The user recently used a harsh industrial degreaser because they ran out of their usual soap."
+      - "The user has a long-term preference for hand-washing with gentle soap and a soft sponge."
+  options:
+    - "It is surprising because the image alone shows sink placement, not the user's usual care routine."
+    - "It is surprising because the user is normally more concerned about sponge texture than soap type."
+    - "It is surprising because the user normally only uses gentle soap to protect the glaze, but used a harsh degreaser today due to necessity."
+    - "It is surprising because the pitcher is usually displayed on a shelf and rarely needs deep cleaning."
+  answer: "It is surprising because the user normally only uses gentle soap to protect the glaze, but used a harsh degreaser today due to necessity."
+  image_id: hq_1
+
+- id: 2
+  type: Causal Inference
+  question: "I moved the pitcher as soon as I saw it here. [IMAGE] Based on what you know about its needs, why did I react so quickly?"
+  image_prompt: "The ceramic pitcher sitting on a kitchen counter extremely close to a glowing red stovetop burner."
+  evaluation_criteria:
+    ideal_answer: "The user reacted quickly because the pitcher was accidentally left near a hot stove. Since the pitcher has a long-term sensitivity to extreme heat, which can craze or damage the glaze, the user moved it to prevent permanent damage."
+    key_points:
+      - "The pitcher was recently left dangerously close to a hot, glowing stove burner."
+      - "The pitcher has a long-term sensitivity/dislike for extremely hot temperatures that might damage its glaze."
+  options:
+    - "The user moved it because the image shows heat nearby, but not the pitcher's known sensitivity."
+    - "The user moved it because it was too close to an active burner and might get knocked over while cooking."
+    - "The user moved it because the heat from the stove could damage the delicate glaze, which is a known sensitivity for this object."
+    - "The user moved it because they did not want the cream inside to warm up beside the stove."
+  answer: "The user moved it because the heat from the stove could damage the delicate glaze, which is a known sensitivity for this object."
+  image_id: hq_2
+
+- id: 3
+  type: State Identification
+  question: "The pitcher is in a different spot today. [IMAGE] How does its current use and location differ from its normal routine?"
+  image_prompt: "The ceramic pitcher filled with colorful wildflowers, sitting in the center of a wooden dining table."
+  evaluation_criteria:
+    ideal_answer: "Normally, the pitcher is used to serve cream during Sunday breakfasts and is stored on a sunny kitchen shelf. Today, it is being used as a vase for wildflowers and is located on the dining table, representing a temporary shift in both function and placement."
+    key_points:
+      - "The pitcher was recently used to hold wildflowers on the dining table instead of cream."
+      - "The pitcher is normally stored on a sunny kitchen shelf and used for serving cream at breakfast."
+  options:
+    - "It is normally used for hot tea in the living room, but today it is holding water on the kitchen counter."
+    - "It is normally kept in a closed cabinet, but today it has been staged as dining-table decor."
+    - "It is normally used for family dinners, but today it is part of a solo breakfast setup with flowers nearby."
+    - "It is normally a breakfast cream pitcher stored on a kitchen shelf, but it is currently serving as a flower vase on the dining table."
+  answer: "It is normally a breakfast cream pitcher stored on a kitchen shelf, but it is currently serving as a flower vase on the dining table."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "Now that this has happened, [IMAGE] would it be a good idea to finally start putting the pitcher in the dishwasher to save time?"
+  image_prompt: "A macro shot showing a small white chip near the yellow base of the ceramic pitcher."
+  evaluation_criteria:
+    ideal_answer: "No, it would not be a good idea. The pitcher already has a new chip from being bumped, and it has a long-term requirement for gentle hand-washing. Putting it in a dishwasher would likely exacerbate the damage or lead to further chipping and glaze wear."
+    key_points:
+      - "A small chip recently appeared near the base of the pitcher after an accident."
+      - "The pitcher requires long-term gentle hand-washing and is never supposed to go in the dishwasher."
+  options:
+    - "No, because the recent chip makes it even more fragile, and it already requires gentle hand-washing to protect the glaze."
+    - "Yes, because a dishwasher cycle would avoid extra hand pressure on the chipped area."
+    - "No, the chip is a sign to keep the careful hand-wash routine rather than adding dishwasher stress."
+    - "Yes, because the chip means the pitcher is no longer worth careful hand-washing."
+  answer: "No, because the recent chip makes it even more fragile, and it already requires gentle hand-washing to protect the glaze."
+  image_id: hq_4
+
+- id: 5
+  type: Causal Inference
+  question: "I was thinking of using this for hot tea this afternoon. [IMAGE] Given what happened earlier today, why might that be a risky choice?"
+  image_prompt: "A close-up of the pitcher sitting on a counter with steam from a nearby stove visible in the background."
+  evaluation_criteria:
+    ideal_answer: "Using it for hot tea is risky because the pitcher was already exposed to high heat when it was left near the stove earlier today. Combined with its long-term dislike of boiling liquids (which can cause crazing), the additional thermal stress from hot tea could damage the already stressed glaze."
+    key_points:
+      - "The pitcher was recently exposed to extreme heat by being left next to a hot stove."
+      - "The pitcher has a long-term dislike for extremely hot boiling liquids which can craze the glaze."
+  options:
+    - "It is risky because the image only shows nearby steam, not whether the pitcher already faced heat earlier."
+    - "It is risky because the chipped base could wobble when hot liquid is poured into it."
+    - "It is risky because the pitcher was just cleaned with harsh soap, which might affect the taste of the tea."
+    - "It is risky because the previous heat exposure from the stove and its sensitivity to boiling liquids could cause the glaze to craze."
+  answer: "It is risky because the previous heat exposure from the stove and its sensitivity to boiling liquids could cause the glaze to craze."
+  image_id: hq_5

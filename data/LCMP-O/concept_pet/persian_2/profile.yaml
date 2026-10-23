@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: persian_2
+concept_type: "pet"
+name: "Duchess"
+category: "Persian Cat"
+
+core_identity:
+  summary: "A purebred Persian cat with long, fluffy fur, known for her regal and calm demeanor."
+  role_in_user_life: "A pampered and deeply loved indoor companion who provides a sense of peace and luxury to the user's home."
+
+stable_visual_identity:
+  summary: "An extremely fluffy Persian cat in her normal state."
+  key_features:
+    - "Long, dense, smoky gray fur that is always well-groomed"
+    - "Strikingly bright amber, round eyes"
+    - "No visible collar or accessories"
+
+stable_behavioral_identity:
+  traits:
+    - "Regal and slow-moving, preferring to lounge gracefully rather than play aggressively"
+    - "Highly particular about her grooming routine and keeping her fur pristine"
+  preferences:
+    loves:
+      - "Lounging exclusively on the expensive velvet armchair in the living room"
+      - "Eating premium wet salmon pate from her crystal dish"
+    dislikes:
+      - "Getting wet, which instantly ruins her perfectly groomed fluff"
+      - "Loud noises or chaotic environments like vacuum cleaners"
+
+relational_meaning:
+  user_relationship: "The user treats Duchess like royalty, dedicating significant time to her grooming and comfort."
+  emotional_value: "She represents a calming, elegant presence that helps the user unwind after a stressful day."
+  related_entities:
+    - "The velvet armchair, which acts as her throne"
+
+history:
+  knowledge:
+    - "Instruction: Introduce that Duchess is a smoky gray Persian cat with striking amber eyes."
+    - "Instruction: Introduce that she has no visible collar or accessories."
+    - "Instruction: Introduce her stable preference for lounging exclusively on the user's expensive velvet armchair."
+    - "Instruction: Introduce her deep, long-term dislike of getting wet or being in the rain."
+    - "Instruction: Introduce her stable favorite food, premium wet salmon pate served in a crystal dish."
+    - "Instruction: Introduce the fact that the user spends significant time brushing her long gray fur to maintain her pristine appearance."
+  event:
+    - "Instruction: Introduce that she recently got caught in a sudden rain shower when the patio door was left open, soaking her fur."
+    - "Instruction: Introduce that she recently jumped onto the kitchen counter and knocked over a flour jar, covering herself in flour."
+    - "Instruction: Introduce that she was recently photographed sleeping in a cheap cardboard box instead of her velvet armchair."
+    - "Instruction: Introduce that she recently refused to eat her salmon pate because the user ran out of clean crystal dishes and served it on a generic paper plate."
+
+hard_questions:
+  - "Draft: Create a state-identification question that combines her long-term dislike of getting wet with the recent event of her getting caught in the rain on the patio."
+  - "Draft: Create a preference-conflict question that combines her long-term love for the velvet armchair with the recent event of her sleeping in a cardboard box."
+  - "Draft: Create a causal-inference question that combines her long-term favorite food with the recent event of her refusing to eat it off a paper plate."
+  - "Draft: Create a counterfactual or recommendation question that combines her long-term pristine gray fur with the recent event of her getting covered in flour."
+  - "Draft: Create another multi-clue reasoning question grounded only in history, using her long-term grooming needs and the recent rain shower event."

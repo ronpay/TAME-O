@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: headphone_1
+concept_type: "object"
+name: "Red-Cord Zenith"
+category: "Professional Wired Headset"
+
+core_identity:
+  summary: "A professional-grade black headset featuring a signature bright red audio cable and an integrated boom microphone."
+  role_in_user_life: "The user's primary tool for focused work, remote meetings, and late-night gaming sessions."
+
+stable_visual_identity:
+  summary: "A sleek black headset with a minimalist design, accented by a long, vibrant red cable."
+  key_features:
+    - "Bright red 3.5mm audio cable"
+    - "Adjustable black boom microphone"
+    - "Gray padded underside on the headband"
+
+stable_behavioral_identity:
+  traits:
+    - "Always kept coiled neatly when not in use to prevent cable tangles"
+    - "Used exclusively at the user's home office desk"
+  preferences:
+    loves:
+      - "Quiet, controlled indoor environments"
+      - "High-fidelity lossless audio tracks"
+    dislikes:
+      - "Being used outdoors or in humid conditions"
+      - "Rough handling of the red cable"
+
+relational_meaning:
+  user_relationship: "A reliable companion for professional communication and personal immersion."
+  emotional_value: "A gift from a mentor that marked the start of the user's freelance career."
+  related_entities:
+    - "A dedicated wooden headphone stand on the desk"
+
+history:
+  knowledge:
+    - "Instruction: Introduce the headset by its name, 'Red-Cord Zenith', showing it on its wooden stand."
+    - "Instruction: Introduce the signature red cable and how the user always ensures it is untangled."
+    - "Instruction: Introduce the gray headband padding, showing a close-up of its texture."
+    - "Instruction: Introduce the headset's preference for lossless audio by showing it connected to a high-end DAC."
+    - "Instruction: Introduce the backstory of it being a gift from a mentor, possibly with a small card nearby."
+    - "Instruction: Introduce the boom microphone's role in professional meetings, showing it in the 'down' position."
+  event:
+    - "Instruction: Introduce a recent event where the user accidentally spilled some water near the red cable but cleaned it immediately."
+    - "Instruction: Introduce a recent late-night session where the user used the headset for 6 hours straight during a project deadline."
+    - "Instruction: Introduce a recent situation where the user had to use it outdoors briefly due to an emergency, showing it in a non-ideal setting."
+    - "Instruction: Introduce a recent observation of slight wear on the gray headband padding after years of use."
+
+hard_questions:
+  - "Draft: Create a preference-conflict question that combines the headset's dislike for humid/outdoor environments with the recent emergency outdoor use."
+  - "Draft: Create a causal-inference question that combines the sentimental value (mentor's gift) with the recent careful cleaning after the water spill."
+  - "Draft: Create a state-identification question that combines the stable 'neatly coiled' trait with the recent 6-hour intense session where it might be left messy."
+  - "Draft: Create a counterfactual question about whether the user would replace it, combining its current wear (gray padding) with its emotional value."
+  - "Draft: Create a multi-clue reasoning question about why the user was so worried about the minor water spill, combining the red cable's vulnerability with the mentor's gift backstory."

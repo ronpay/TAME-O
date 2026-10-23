@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "Here is my Red-Cord Zenith on its wooden stand. [IMAGE] I've had it since I started my freelance business."
+  assistant_response: "I've noted the Red-Cord Zenith and its dedicated wooden stand."
+  image_prompt: "A professional black headset with a bright red cable resting on a minimalist wooden headphone stand on a clean office desk."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "I always make sure the red cable is perfectly untangled like this. [IMAGE] It's one of those habits I can't break."
+  assistant_response: "I've recorded that you prioritize keeping the signature red cable untangled."
+  image_prompt: "A close-up of a bright red audio cable coiled neatly on a dark desk surface, showing no tangles or knots."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "The gray padding on the headband is still so soft. [IMAGE] You can see the texture here."
+  assistant_response: "Understood. I've noted the soft texture and gray color of the headband padding."
+  image_prompt: "A macro shot of the gray padded underside of a black headset headband, showing the soft, textured material."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "I love using it with this DAC for lossless audio. [IMAGE] The sound quality is just incredible."
+  assistant_response: "I've noted your preference for high-fidelity lossless audio and your use of a DAC."
+  image_prompt: "The black headset with a red cable connected to a sleek silver external DAC on a desk, with a laptop screen showing a high-resolution audio player in the background."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "This little card from my mentor always stays near it. [IMAGE] It reminds me of why I started."
+  assistant_response: "I've recorded the sentimental value of the headset as a gift from your mentor, along with the accompanying card."
+  image_prompt: "The headset on its stand next to a small, handwritten 'Best of Luck' card on a desk, creating a sentimental atmosphere."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "Ready for my big presentation today. [IMAGE] Having the mic down like this helps me focus on the call."
+  assistant_response: "I've noted that you use the boom microphone in the 'down' position for professional meetings."
+  image_prompt: "A side view of the black headset with the boom microphone extended downwards, ready for use."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "I had a minor heart attack when I spilled some water near the cable earlier. [IMAGE] I dried it off immediately though."
+  assistant_response: "I've noted the recent water spill near the red cable and your quick action to clean and dry it."
+  image_prompt: "A few drops of water on a desk near a bright red audio cable, with a microfiber cloth wiping the area clean."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "Just finished a 6-hour marathon session for the project deadline. [IMAGE] Everything is a bit of a mess now."
+  assistant_response: "I've recorded your recent 6-hour intensive use of the headset during a project deadline."
+  image_prompt: "A cluttered desk at night with a laptop, empty coffee mugs, and the headset lying haphazardly among papers, showing signs of a long work session."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "Had an emergency and had to take a call outside in the rain briefly. [IMAGE] I hope it's okay."
+  assistant_response: "I've noted that you recently used the headset outdoors in rainy conditions due to an emergency."
+  image_prompt: "The black headset being held by a hand outdoors, with visible raindrops on the surface and a blurred, damp background."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "I'm starting to see some slight wear on the gray padding after all these years. [IMAGE] It's subtle but there."
+  assistant_response: "I've recorded the emerging wear on the gray headband padding."
+  image_prompt: "A close-up of the gray headband padding showing minor scuffs and signs of long-term use."
+  image_id: turn_10

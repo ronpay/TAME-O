@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "This is Pepper, my little rabbit. [IMAGE] His white chin and dark coat make him easy to recognize right away."
+  assistant_response: "I've noted his name along with the white chin, dark coat, and upright ears as stable visual features."
+  image_prompt: "A close portrait of a small charcoal rabbit with upright ears, a pale chest, and a bright white chin."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "Flat-leaf parsley is his favorite thing to snack on. [IMAGE] He usually comes over as soon as he smells it."
+  assistant_response: "I've recorded flat-leaf parsley as his favorite snack."
+  image_prompt: "A dark rabbit leaning eagerly toward a small pile of flat-leaf parsley on the floor."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "He really cannot handle the blender. [IMAGE] The high whine makes him tense up immediately."
+  assistant_response: "Understood. I've noted that the blender's high-pitched sound frightens him."
+  image_prompt: "A charcoal rabbit crouched low while a blender sits on a nearby kitchen counter."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "He refuses to cross wet hardwood. [IMAGE] If the floor gets slippery, he just stops and waits."
+  assistant_response: "I've recorded that he avoids wet, slippery hardwood floors."
+  image_prompt: "A small rabbit standing at the edge of a damp hardwood floor and refusing to step forward."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "This woven grass tunnel is his safest place. [IMAGE] He dives in there whenever the room feels too intense."
+  assistant_response: "I've noted the woven grass tunnel as his main hiding place."
+  image_prompt: "A dark rabbit half-inside a woven grass tunnel on a living room floor."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "He hates it when hands come down from above him. [IMAGE] I have to move slowly or he flinches."
+  assistant_response: "I've recorded that overhead reaching motions make him uncomfortable."
+  image_prompt: "A small rabbit looking wary as a hand slowly reaches down from above."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "A metal pan just clanged really hard in the kitchen. [IMAGE] It was a sharp noise that echoed through the room."
+  assistant_response: "I've noted the recent loud pan clang in the kitchen."
+  image_prompt: "A metal pan on a kitchen floor after a loud drop, with a dark rabbit in the background looking startled."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "Right after that, he curled up inside the woven tunnel. [IMAGE] He has barely moved since he went in."
+  assistant_response: "I've recorded that he retreated into the woven tunnel after the noise."
+  image_prompt: "A charcoal rabbit curled up deep inside a woven grass tunnel, staying very still."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "I set parsley right outside the tunnel while the blender was running, but he still would not come out. [IMAGE]"
+  assistant_response: "I've noted that he stayed inside the tunnel even with parsley nearby because the blender was on."
+  image_prompt: "A dark rabbit peeking from a woven grass tunnel with parsley on the floor outside and a blender visible in the background."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "His water bowl tipped over and left a wet patch across the hardwood by the hallway. [IMAGE] He stopped right at the edge."
+  assistant_response: "I've recorded the recent wet patch on the hardwood and his hesitation near it."
+  image_prompt: "A small rabbit paused at the edge of a wet patch on hardwood flooring near a tipped water bowl."
+  image_id: turn_10

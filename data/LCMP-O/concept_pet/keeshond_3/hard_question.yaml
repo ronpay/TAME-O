@@ -1,0 +1,84 @@
+- id: 1
+  type: Preference Conflict
+  question: "Why on earth is he sitting right in the middle of this? [IMAGE]"
+  image_prompt: "A fluffy Keeshond sitting directly and proudly in the middle of a muddy puddle on a dirt hiking trail."
+  evaluation_criteria:
+    ideal_answer: "He normally intensely dislikes getting his paws wet in puddles, but he recently sat proudly in a muddy puddle. He likely got so overheated or excited on the hike that the short-term thrill overrode his usual dislike of wet paws."
+    key_points:
+      - "He recently sat proudly right in the middle of a muddy puddle."
+      - "He has a long-term intense dislike of getting his paws wet in puddles."
+  options:
+    - "He chose to sit there because getting overheated on the hike temporarily overrode his usual intense dislike of getting his paws wet in puddles."
+    - "He overheated on the hike, so cooling off in the muddy puddle briefly mattered more than his usual dislike of wet paws."
+    - "He enjoys playing in water on hot days, so sitting in the puddle was a natural choice for him."
+    - "He was exhausted from the hike and needed to rest immediately, regardless of where he was."
+  answer: "He chose to sit there because getting overheated on the hike temporarily overrode his usual intense dislike of getting his paws wet in puddles."
+  image_id: hq_1
+
+- id: 2
+  type: Causal Inference
+  question: "Here is a photo from this afternoon. [IMAGE] Why does his choice of sleeping spot seem so unusual?"
+  image_prompt: "A sleeping Keeshond resting peacefully on the floor right beside an unplugged vacuum cleaner."
+  evaluation_criteria:
+    ideal_answer: "He normally dislikes the vacuum cleaner and hides when it's out, but he recently fell asleep right next to it while it was off. This suggests he realized the machine was inactive and harmless in that moment, temporarily overcoming his usual fear."
+    key_points:
+      - "He recently fell asleep right next to the turned-off vacuum cleaner."
+      - "He has a long-term strong dislike of the vacuum cleaner and usually hides from it."
+  options:
+    - "He slept there because afternoon light warmed the floor beside the vacuum, making it look like a comfortable nap spot."
+    - "He was trying to guard the area around the vacuum cleaner after another pet kept sniffing at it."
+    - "He likes the smooth plastic side of the vacuum against his fur when he is resting after a bath."
+    - "He realized the vacuum cleaner was turned off and harmless, allowing him to sleep next to it despite his usual strong dislike of the machine."
+  answer: "He realized the vacuum cleaner was turned off and harmless, allowing him to sleep next to it despite his usual strong dislike of the machine."
+  image_id: hq_2
+
+- id: 3
+  type: State Identification
+  question: "Look at this picture of him on the furniture. [IMAGE] Why does he look so exceptionally voluminous here?"
+  image_prompt: "A fluffy Keeshond looking unusually clean and exceptionally voluminous while resting comfortably curled up on a cozy, oversized reading chair."
+  evaluation_criteria:
+    ideal_answer: "He often claims the reading chair as his own resting spot, and he was recently bathed. He looks exceptionally voluminous because he just had a bath making him fluffy, and he is now relaxing in his usual favorite spot."
+    key_points:
+      - "He was recently bathed and looks unusually fluffy and clean."
+      - "He has a long-term habit of frequently claiming the reading chair as his resting place."
+  options:
+    - "He looks huge because the close camera angle and chair arms compress his outline, making his coat spread outward."
+    - "He looks exceptionally voluminous because he was recently bathed and fluffy, and is now relaxing in the reading chair he often claims as his resting place."
+    - "He is wearing a special thick sweater that makes him appear more voluminous on the furniture."
+    - "He is sprawled across the cushions with his forelegs spread, which makes his body fill the reading chair."
+  answer: "He looks exceptionally voluminous because he was recently bathed and fluffy, and is now relaxing in the reading chair he often claims as his resting place."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "I took this photo in the kitchen earlier. [IMAGE] If I were to offer him a specific worn object right now, would he likely take it?"
+  image_prompt: "A Keeshond enthusiastically eating treats spilled from a small bag on the kitchen floor."
+  evaluation_criteria:
+    ideal_answer: "He normally loves to chew on his well-worn rope toy, but he recently found a hidden stash of dog treats. The immediate reward of the treats is highly motivating, so he would likely ignore his favorite long-term toy temporarily."
+    key_points:
+      - "He recently found a hidden stash of dog treats and is enthusiastically eating them."
+      - "He has a long-term preference for chewing on a well-worn rope toy."
+  options:
+    - "He would ignore the object because the immediate reward of finding the hidden stash of dog treats temporarily overrides his long-term love for his well-worn rope toy."
+    - "He would briefly sniff the rope, then return to searching because the kitchen smells like treats right now."
+    - "He would try to carry the rope toward the treats and drop it once he noticed food under the cabinet."
+    - "He would ignore the object because the worn rope was washed recently and no longer smells familiar."
+  answer: "He would ignore the object because the immediate reward of finding the hidden stash of dog treats temporarily overrides his long-term love for his well-worn rope toy."
+  image_id: hq_4
+
+- id: 5
+  type: State Identification
+  question: "Here is a close-up from today. [IMAGE] Why are his usual facial features harder to see than normal?"
+  image_prompt: "A close-up of a mostly pale silver-white Keeshond looking unusually fluffy and clean after a bath, making the subtle dark 'spectacle' markings around the eyes less pronounced due to the puffed-up pale fur."
+  evaluation_criteria:
+    ideal_answer: "He has subtle dark 'spectacle' markings around his eyes against his pale face, but he was recently bathed and looks unusually fluffy. The extra volume of his freshly cleaned pale coat is partially obscuring his normal facial markings."
+    key_points:
+      - "He was recently bathed and looks unusually fluffy and clean."
+      - "He has long-term subtle dark 'spectacle' markings around his eyes against his pale face."
+  options:
+    - "His face is harder to see because the close-up focus softens the darker markings around his eyes."
+    - "His features are obscured because the extra volume from being recently bathed is hiding his subtle long-term dark 'spectacle' markings against his pale face."
+    - "His face is harder to see because age has gradually lightened the contrast of his markings."
+    - "His face is harder to see because dust from the floor temporarily muted the darker fur around his eyes."
+  answer: "His features are obscured because the extra volume from being recently bathed is hiding his subtle long-term dark 'spectacle' markings against his pale face."
+  image_id: hq_5

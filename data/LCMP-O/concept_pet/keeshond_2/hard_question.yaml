@@ -1,0 +1,84 @@
+- id: 1
+  type: Causal Inference
+  question: "Here is a photo from a few minutes ago. [IMAGE] Why is he hiding so far under the bed right now?"
+  image_prompt: "A Keeshond dog hiding far underneath a bed, looking startled, with a dropped metal pot visible in the background kitchen area."
+  evaluation_criteria:
+    ideal_answer: "He has a long-term dislike of loud noises, and you recently dropped a heavy metal pot in the kitchen. He is hiding because the loud crash frightened him."
+    key_points:
+      - "A loud heavy metal pot recently crashed in the kitchen."
+      - "He has a strong long-term fear and dislike of loud noises."
+  options:
+    - "He is hiding under the bed, but the image does not reveal which noise or event triggered it."
+    - "He is hiding under the bed because the loud crash of the dropped pot frightened him, as he strongly dislikes loud noises."
+    - "He dragged his favorite toy under the bed and is guarding it from being taken away."
+    - "He is avoiding getting his paws wiped after coming inside from a walk."
+  answer: "He is hiding under the bed because the loud crash of the dropped pot frightened him, as he strongly dislikes loud noises."
+  image_id: hq_1
+
+- id: 2
+  type: State Identification
+  question: "Look at this photo from our walk today. [IMAGE] Why does his posture look so stiff and uncomfortable?"
+  image_prompt: "A Keeshond dog walking stiffly and awkwardly on an icy sidewalk while wearing bright red dog booties."
+  evaluation_criteria:
+    ideal_answer: "He normally hates wearing dog booties, but he had to wear them today because of the sharp ice. His stiff posture is because he dislikes the booties he is currently forced to wear."
+    key_points:
+      - "He is currently wearing bright red booties to protect his paws from ice."
+      - "He strongly hates wearing any kind of dog booties on his paws."
+  options:
+    - "He is walking stiffly, but the image alone does not show whether booties, ice, or fatigue is responsible."
+    - "He is tired from a long walk in the snow and wants to go back inside."
+    - "He normally hates wearing booties, so wearing them to protect his paws from the ice is making him walk awkwardly."
+    - "He is trying to shake the snow off his fur and it makes his posture look stiff."
+  answer: "He normally hates wearing booties, so wearing them to protect his paws from the ice is making him walk awkwardly."
+  image_id: hq_2
+
+- id: 3
+  type: State Identification
+  question: "Take a look at his face in this picture. [IMAGE] Why is he curling his lips up like that?"
+  image_prompt: "A Keeshond dog looking at a brand new yellow squeaky rubber chicken, with his lips curled up in a noticeable 'smile'."
+  evaluation_criteria:
+    ideal_answer: "He curls his lips to 'smile' when he is very excited, and he was just surprised with a brand new version of his favorite toy, the rubber chicken. He is showing excitement for the new toy."
+    key_points:
+      - "He was just surprised with a brand new squeaky rubber chicken."
+      - "He expresses high excitement or happiness by curling his lips into a 'smile'."
+  options:
+    - "He is curling his lips because the new toy's squeak startled him at close range."
+    - "He is showing his teeth because he feels protective of the new toy and does not want it taken away."
+    - "He smelled something unusual on the new toy and is reacting to the strange scent."
+    - "He is expressing extreme excitement because he was just presented with a brand new version of his favorite rubber chicken toy."
+  answer: "He is expressing extreme excitement because he was just presented with a brand new version of his favorite rubber chicken toy."
+  image_id: hq_3
+
+- id: 4
+  type: Preference Conflict
+  question: "Here he is resting this afternoon. [IMAGE] Since he normally prefers the bathroom tile, why is he lying here instead?"
+  image_prompt: "A Keeshond dog sleeping on a blue gel cooling mat in the middle of a living room rug."
+  evaluation_criteria:
+    ideal_answer: "He normally prefers cold tile floors due to his thick coat, but the air conditioning broke today and the tiles got too warm. He is lying on the gel cooling mat because it is currently the only cold surface available."
+    key_points:
+      - "The air conditioning broke today, so a gel cooling mat was laid out for him."
+      - "He prefers lying on cold surfaces like tile due to his thick double coat."
+  options:
+    - "He is lying on the mat because it is closer to a fan that is still blowing cool air."
+    - "The tile floor was wet from the shower, so he had to find a different place to rest."
+    - "He enjoys the soft texture of the cooling mat more than the hard surface of the bathroom tile."
+    - "The air conditioning broke and the tile became too warm, so he is using the cooling mat to satisfy his need for a cold surface."
+  answer: "The air conditioning broke and the tile became too warm, so he is using the cooling mat to satisfy his need for a cold surface."
+  image_id: hq_4
+
+- id: 5
+  type: Counterfactual / Recommendation Reasoning
+  question: "If I hadn't put these on him before we stepped outside [IMAGE], what would likely happen?"
+  image_prompt: "A close-up of the bright red dog booties on the Keeshond's paws, standing on sharp, jagged ice."
+  evaluation_criteria:
+    ideal_answer: "The sidewalks are currently covered in sharp ice, and while he normally hates booties, they are protecting him. If he weren't wearing them, his bare paws would get injured or painfully cold from the ice."
+    key_points:
+      - "The ground outside is currently covered in freezing, sharp ice."
+      - "He normally refuses to wear booties and hates them on his paws."
+  options:
+    - "Without the booties, he would walk normally because the sidewalk has already been salted and cleared."
+    - "He would walk faster and more comfortably because the booties are the main thing bothering him."
+    - "His bare paws would be exposed to the sharp ice, leading to pain or injury, even though he strongly prefers not to wear booties."
+    - "He would refuse to continue because the cold air makes him want to be carried back inside."
+  answer: "His bare paws would be exposed to the sharp ice, leading to pain or injury, even though he strongly prefers not to wear booties."
+  image_id: hq_5

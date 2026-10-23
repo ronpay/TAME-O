@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: person_13
+concept_type: "person"
+name: "Robert Miller"
+category: "Amateur Photographer & Nature Enthusiast"
+
+core_identity:
+  summary: "A methodical amateur photographer who spends his weekends documenting the quiet beauty of local forest preserves."
+  role_in_user_life: "A close friend and hiking companion who shares the user's appreciation for the outdoors."
+
+stable_visual_identity:
+  summary: "A middle-aged man with a focused expression, typically seen with his photography gear."
+  key_features:
+    - "Thin-framed rectangular prescription glasses"
+    - "A silver wedding band worn on the left ring finger"
+    - "A preference for light-colored striped shirts"
+
+stable_behavioral_identity:
+  traits:
+    - "Patient and quiet, often waiting for long periods to get the perfect shot"
+    - "Methodical in his approach to his hobbies"
+  preferences:
+    loves:
+      - "Natural, soft lighting (golden hour)"
+      - "The tranquility of secluded natural spots"
+    dislikes:
+      - "Artificial flash photography, which he feels ruins the mood"
+      - "Noisy, crowded urban environments"
+
+relational_meaning:
+  user_relationship: "Long-time hiking partner and photography mentor."
+  emotional_value: "Represents a source of calm and creative inspiration for the user."
+  related_entities:
+    - "The local forest preserve where they frequently hike"
+
+history:
+  knowledge:
+    - "Instruction: Introduce that Robert always wears his thin-framed rectangular glasses for clarity while shooting. [IMAGE]"
+    - "Instruction: Introduce his strict preference for natural light and his refusal to use a flash. [IMAGE]"
+    - "Instruction: Introduce the silver wedding band he always wears on his left hand. [IMAGE]"
+    - "Instruction: Introduce his favorite striped outdoor shirt that he wears on almost every hike. [IMAGE]"
+    - "Instruction: Introduce his passion for nature photography and his collection of landscape shots. [IMAGE]"
+    - "Instruction: Introduce his habit of seeking out the quietest parts of the woods to avoid people. [IMAGE]"
+  event:
+    - "Instruction: Introduce that he was forced to use his phone's flash during a very dark twilight hike yesterday. [IMAGE]"
+    - "Instruction: Introduce that he accidentally left his glasses at home during this morning's outing. [IMAGE]"
+    - "Instruction: Introduce that he reluctantly attended a crowded city festival last weekend. [IMAGE]"
+    - "Instruction: Introduce that he recently set his phone to permanent silent mode to avoid scaring birds. [IMAGE]"
+
+hard_questions:
+  - "Draft: Create a preference-conflict question asking why he used a flash in a recent photo despite his known dislike for artificial light."
+  - "Draft: Create a causal-inference question about why he is struggling to see his camera settings today, linking it to his missing glasses."
+  - "Draft: Create a state-identification question about his visible discomfort in a photo taken at the city festival, linking it to his dislike of crowds."
+  - "Draft: Create a recommendation question about whether he would enjoy a surprise party at a popular downtown lounge, based on his environmental preferences."
+  - "Draft: Create a reasoning question about why his phone didn't ring when he received a call during a shoot, combining his photography hobby with his recent settings change."

@@ -1,0 +1,84 @@
+- id: 1
+  type: State Identification
+  question: "Her backhand looks much weaker and more awkward than usual in this match. [IMAGE] Why is she struggling with her signature shot today?"
+  image_prompt: "A photo of her hitting a one-handed backhand with a bandage visible on her finger, looking clearly less confident than her usual form."
+  evaluation_criteria:
+    ideal_answer: "Her backhand is weak because she is currently using a one-handed stroke to compensate for a finger injury, which directly conflicts with her long-term signature strength, the two-handed backhand."
+    key_points:
+      - "She recently injured her finger and is using a one-handed backhand to compensate."
+      - "Her signature and most powerful long-term technique is a two-handed backhand."
+  options:
+    - "She is playing cautiously, but the image alone does not explain why her backhand changed."
+    - "She is currently using a one-handed backhand due to a finger injury, which is not her usual powerful two-handed style."
+    - "She is playing more cautiously to avoid further injury, causing her backhand to lose its power."
+    - "Her equipment is not suited for a two-handed backhand, forcing her to change her style today."
+  answer: "She is currently using a one-handed backhand due to a finger injury, which is not her usual powerful two-handed style."
+  image_id: hq_1
+
+- id: 2
+  type: Causal Inference
+  question: "She seems completely drained after only a few games today. [IMAGE] Why is she experiencing such unusual exhaustion so early in the match?"
+  image_prompt: "A photo of her leaning on her racket and breathing heavily in a visibly humid and stifling indoor court environment."
+  evaluation_criteria:
+    ideal_answer: "She is exhausted because the ventilation system at the club failed today, creating high humidity. This is particularly difficult for her because she has a long-term dislike for humid conditions, which she finds physically taxing."
+    key_points:
+      - "The club's ventilation system failed, leading to high humidity on the court."
+      - "She has a long-standing dislike for humidity as it makes her feel sluggish."
+  options:
+    - "She is tired because she arrived late and had to rush onto the court without any rest."
+    - "The match intensity could be draining her early because this setting is tougher than her usual controlled practice."
+    - "She is overexerting herself to make up for her equipment issues, leading to early fatigue."
+    - "The broken ventilation system has made the court humid, and she find these conditions especially exhausting."
+  answer: "The broken ventilation system has made the court humid, and she find these conditions especially exhausting."
+  image_id: hq_2
+
+- id: 3
+  type: Preference Conflict
+  question: "She’s been frustrated with the feel of her shots all afternoon. [IMAGE] What is causing her current dissatisfaction with her racket?"
+  image_prompt: "A close-up of her looking at her racket strings with a frustrated expression during a break in the match."
+  evaluation_criteria:
+    ideal_answer: "Her frustration stems from being forced to use a standard string brand because her usual ones were out of stock. This clashes with her long-term strict preference for high-tension professional strings."
+    key_points:
+      - "She was forced to use a standard string brand today because her usual brand was out of stock."
+      - "She has a strict long-term preference for high-tension professional strings for control."
+  options:
+    - "She is unhappy because her racket was re-strung incorrectly, affecting her usual control."
+    - "She is frustrated because she is using standard strings instead of her preferred high-tension ones."
+    - "She believes her racket tension is too low today, even though she is using her favorite brand."
+    - "The humidity is affecting the feel of the strings, making her think the equipment is at fault."
+  answer: "She is frustrated because she is using standard strings instead of her preferred high-tension ones."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "Looking at her stiff movement on the court today, [IMAGE] what was the primary risk factor she ignored before starting this match?"
+  image_prompt: "A photo of her moving slowly and stiffly toward a ball, looking slightly uncomfortable on the court."
+  evaluation_criteria:
+    ideal_answer: "The primary risk factor was skipping her warmup. She arrived late and went straight into the match, ignoring her long-term strict 20-minute ritual that she considers essential for preventing injury."
+    key_points:
+      - "She arrived late today and skipped her usual 20-minute warmup session."
+      - "She considers a strict 20-minute warmup essential for avoiding muscle strains and injuries."
+  options:
+    - "The primary risk was skipping her normal 20-minute warmup before play, which is now showing up in her stiff movement."
+    - "She is playing with the wrong equipment, which is causing her to move more cautiously than usual."
+    - "She skipped her mandatory 20-minute warmup due to lateness, which she normally uses to prevent injury."
+    - "The high humidity in the court is making her muscles feel tighter and less flexible."
+  answer: "She skipped her mandatory 20-minute warmup due to lateness, which she normally uses to prevent injury."
+  image_id: hq_4
+
+- id: 5
+  type: Preference Conflict
+  question: "Despite the extreme heat and humidity on the court, [IMAGE] why does she refuse to change out of that specific navy blue t-shirt?"
+  image_prompt: "A photo of her looking very hot and sweaty, but still wearing her navy blue 'TORONTO' t-shirt during an important match."
+  evaluation_criteria:
+    ideal_answer: "She refuses to remove the t-shirt because it is her 'lucky' tournament shirt. Even though the short-term event of the ventilation failure makes it uncomfortable, her long-term superstition outweighs her immediate physical comfort."
+    key_points:
+      - "The court is extremely humid today due to a ventilation failure."
+      - "She wears that specific navy blue t-shirt as a lucky charm for all important matches."
+  options:
+    - "She could change shirts because the court is humid after the ventilation failure, but the spare shirts are still in her bag."
+    - "She believes the t-shirt is lighter than her backup shirts in the heat, so changing would make the match worse."
+    - "She wants to maintain her professional appearance throughout the tournament because cameras are focused on the court."
+    - "She is wearing it as a lucky charm for her match, so she won't take it off despite the heat."
+  answer: "She is wearing it as a lucky charm for her match, so she won't take it off despite the heat."
+  image_id: hq_5

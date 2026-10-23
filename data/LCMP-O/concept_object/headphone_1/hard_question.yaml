@@ -1,0 +1,84 @@
+- id: 1
+  type: Preference Conflict
+  question: "I took this photo during my emergency call. [IMAGE] Based on my typical preferences, why would I be so worried about using it here?"
+  image_prompt: "The black headset being held outdoors in the rain, with droplets on its surface and a blurry outdoor background."
+  evaluation_criteria:
+    ideal_answer: "The user is worried because they normally dislike using the headset in outdoor or humid conditions, and the recent emergency forced them to use it in the rain, which directly conflicts with this long-term preference."
+    key_points:
+      - "The user recently had to use the headset outdoors in the rain due to an emergency."
+      - "The headset has a long-term dislike for being used outdoors or in humid conditions."
+  options:
+    - "Because the raindrops could damage the electronics or interfere with call audio."
+    - "Because the outdoor environment is too noisy for the boom microphone to work properly."
+    - "Because using it in the rain conflicts with its stable preference for controlled indoor environments."
+    - "Because the user is afraid the gray padding will absorb water and become uncomfortable."
+  answer: "Because using it in the rain conflicts with its stable preference for controlled indoor environments."
+  image_id: hq_1
+
+- id: 2
+  type: Causal Inference
+  question: "I spent so much time cleaning up this tiny spill earlier. [IMAGE] Why was I so panicked about such a small amount of water?"
+  image_prompt: "A few drops of water on a desk near the bright red cable, with a person's hand quickly wiping it away with a cloth."
+  evaluation_criteria:
+    ideal_answer: "The user panicked because the headset was a sentimental gift from a mentor, marking the start of their career. This deep emotional value makes even a minor spill near the signature red cable feel like a significant threat."
+    key_points:
+      - "The user recently cleaned a minor water spill near the red cable with great urgency."
+      - "The headset is a sentimental gift from a mentor that marked the start of the user's freelance career."
+  options:
+    - "The user treats it with extreme care because it is a sentimental gift from a mentor."
+    - "The user was worried that the red cable would stain the desk if it stayed wet."
+    - "The user is perfectionistic about keeping the red cable perfectly dry at all times."
+    - "The user feared the water would seep into the internal wiring of the headset immediately."
+  answer: "The user treats it with extreme care because it is a sentimental gift from a mentor."
+  image_id: hq_2
+
+- id: 3
+  type: State Identification
+  question: "My desk looks like this right now. [IMAGE] Given my usual habits, what does this tell you about my recent activity?"
+  image_prompt: "A very cluttered desk with the headset lying messily among papers and coffee mugs, with the red cable tangled."
+  evaluation_criteria:
+    ideal_answer: "The messy state of the headset and tangled cable identifies that the user just finished an intense, long-term session. This conflicts with their usual stable habit of keeping the cable neatly coiled when not in use."
+    key_points:
+      - "The user just finished a 6-hour marathon work session for a project deadline."
+      - "The user normally keeps the red cable coiled neatly to prevent tangles."
+  options:
+    - "The cluttered papers and coffee mugs suggest a long, intense work session at the desk."
+    - "The user is testing a new way of organizing their desk after a successful presentation."
+    - "The user is planning to replace the headset soon, so they no longer care about the cable's state."
+    - "The recent 6-hour marathon session caused the user to leave the headset in a messy state, unlike their usual habit."
+  answer: "The recent 6-hour marathon session caused the user to leave the headset in a messy state, unlike their usual habit."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "I'm noticing this wear on the padding now. [IMAGE] If I were a purely practical person, I might replace it, but why am I unlikely to do that?"
+  image_prompt: "A close-up of the gray headband padding showing visible scuffs and wear marks."
+  evaluation_criteria:
+    ideal_answer: "The user is unlikely to replace it despite the wear because it has high emotional value as a gift from their mentor. The sentimental attachment outweighs the practical need for a pristine headband."
+    key_points:
+      - "The gray headband padding is showing recent signs of long-term wear."
+      - "The headset has significant emotional value as a gift from a mentor."
+  options:
+    - "Because its sentimental value as a mentor's gift makes it more than just a practical tool."
+    - "Because the headset still feels irreplaceable after years of use, despite the worn padding."
+    - "Because the wear is only on the gray padding and doesn't affect the sound quality."
+    - "Because the user believes the wear adds character to a professional-grade headset."
+  answer: "Because its sentimental value as a mentor's gift makes it more than just a practical tool."
+  image_id: hq_4
+
+- id: 5
+  type: Causal Inference
+  question: "Even after working for 6 hours straight and being completely exhausted, I still didn't just plug the headset into the laptop's jack. [IMAGE] Why was I so insistent on setting it up this way?"
+  image_prompt: "The black headset with its red cable carefully connected to a silver external DAC on a cluttered desk at night."
+  evaluation_criteria:
+    ideal_answer: "Even while exhausted from a 6-hour session, the user's long-term preference for high-fidelity audio overrides their desire for convenience. They insist on using the DAC because they value the sound quality it provides for their immersive work sessions."
+    key_points:
+      - "The user recently completed a 6-hour marathon session and was extremely exhausted."
+      - "The user has a stable, strong preference for high-fidelity lossless audio and always uses an external DAC."
+  options:
+    - "The image shows a DAC on the desk, but not why the user insisted on it despite exhaustion."
+    - "The familiar desk setup may have seemed easier after six hours of work."
+    - "The user's preference for high-fidelity sound quality through a DAC is strong enough to override their extreme exhaustion."
+    - "The user was worried that plugging it into the laptop directly would damage the red cable."
+  answer: "The user's preference for high-fidelity sound quality through a DAC is strong enough to override their extreme exhaustion."
+  image_id: hq_5

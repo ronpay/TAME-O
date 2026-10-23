@@ -1,0 +1,84 @@
+- id: 1
+  type: Preference Conflict
+  question: "Here she is looking at her newest purchase. [IMAGE] Given what we know about her living room decor, why did she choose this specific item for her office?"
+  image_prompt: "A woman with curly brown hair looking thoughtfully at a standard, square wall clock with a plain black frame and white face."
+  evaluation_criteria:
+    ideal_answer: "She bought a standard square clock because she needed it for a professional office setting, which contrasts with her personal preference for surrealist melting clocks like the one in her living room."
+    key_points:
+      - "She recently purchased a conventional, square office clock."
+      - "She has a signature surrealist melting wall clock in her living room and a deep love for that aesthetic."
+  options:
+    - "She bought a standard clock for a professional office environment, which overrides her usual preference for surrealist decor."
+    - "She needed a clock that matched the office's existing wall mount and furniture."
+    - "She chose it because it was on sale, even though it doesn't match her usual surrealist style."
+    - "She decided to try a more modern, minimalist look for her workspace to see if she liked it better."
+  answer: "She bought a standard clock for a professional office environment, which overrides her usual preference for surrealist decor."
+  image_id: hq_1
+
+- id: 2
+  type: Causal Inference
+  question: "Look at what she's wearing today. [IMAGE] Why isn't she in her usual purple fuzzy sweater?"
+  image_prompt: "A woman with curly brown hair wearing a structured, plain navy blue blazer in a formal setting."
+  evaluation_criteria:
+    ideal_answer: "She is wearing a navy blazer because she is attending a formal corporate dinner, which required her to set aside her signature purple fuzzy sweater that she normally wears to informal events."
+    key_points:
+      - "She recently attended a very formal corporate dinner."
+      - "She is almost always seen wearing her favorite purple fuzzy sweater at casual gatherings."
+  options:
+    - "The formal dinner photo shows a blazer, but not why her usual sweater was inappropriate."
+    - "She is wearing a blazer because she is at a formal corporate event where her usual fuzzy sweater would be inappropriate."
+    - "The restaurant was too warm for the sweater, so she switched to a lighter blazer."
+    - "She decided to change her style to be more sophisticated for this specific social gathering."
+  answer: "She is wearing a blazer because she is at a formal corporate event where her usual fuzzy sweater would be inappropriate."
+  image_id: hq_2
+
+- id: 3
+  type: State Identification
+  question: "She seems to be struggling to read the menu here. [IMAGE] Based on her usual appearance, why is she having such a hard time?"
+  image_prompt: "A woman squinting with a concentrated expression as she holds a menu very close to her face."
+  evaluation_criteria:
+    ideal_answer: "She is squinting at the menu because she is not wearing her usual rectangular glasses, which are a stable part of her visual identity and necessary for her to see clearly."
+    key_points:
+      - "She was recently seen without her glasses and was squinting to see properly."
+      - "Her rectangular dark-framed glasses are one of her most recognizable and stable visual features."
+  options:
+    - "She is struggling with the menu, but the image alone does not show what usual item is missing."
+    - "She seems to be squinting because her eyes are tired after a long day."
+    - "She is squinting because she forgot her glasses, which she normally wears every day."
+    - "The menu was written in a font that was too small for her to read comfortably."
+  answer: "She is squinting because she forgot her glasses, which she normally wears every day."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "At this corporate dinner, she is being much more reserved than usual. [IMAGE] Why isn't she wearing her signature double party hats here?"
+  image_prompt: "A woman sitting upright and formal at a professional dinner table with no party accessories in sight."
+  evaluation_criteria:
+    ideal_answer: "She isn't wearing her double party hats because the corporate dinner is a formal environment, which conflicts with her quirky habit of wearing multiple hats at birthday celebrations."
+    key_points:
+      - "She recently attended a formal corporate dinner where traditional decorum is expected."
+      - "She has a playful habit of wearing two party hats at the same time during birthday parties."
+  options:
+    - "The formal nature of the corporate dinner means her usual quirky party habit would be out of place."
+    - "She left the party hats off because they would block people seated behind her."
+    - "She forgot to bring her hats with her because she was in a rush to get to the formal dinner."
+    - "She decided to act more maturely at this event to impress her professional colleagues."
+  answer: "The formal nature of the corporate dinner means her usual quirky party habit would be out of place."
+  image_id: hq_4
+
+- id: 5
+  type: State Identification
+  question: "She's at this event, but something important is missing. [IMAGE] Why does she seem so much more formal and less playful than usual?"
+  image_prompt: "A woman sitting in a professional setting without her usual colorful accessories or balloons."
+  evaluation_criteria:
+    ideal_answer: "She seems more formal because she is at a corporate dinner without her personalized 'G' balloon, which she usually brings to every social event to show her playful side."
+    key_points:
+      - "She recently attended a formal corporate dinner where she had to maintain a professional image."
+      - "She normally brings a personalized purple balloon with a stylized 'G' to every event she attends."
+  options:
+    - "The formal dinner may be why she is maintaining a more professional look here."
+    - "She lost her balloon on the way to the dinner and is feeling less cheerful because of it."
+    - "The corporate event is too serious for her usual personalized balloon, making her appear more formal."
+    - "She wanted to fit in with the other guests at the formal dinner, so she left the balloon behind."
+  answer: "The corporate event is too serious for her usual personalized balloon, making her appear more formal."
+  image_id: hq_5

@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: toy_3
+concept_type: "object"
+name: "Kiki"
+category: "Hello Kitty Plush Pillow"
+
+core_identity:
+  summary: "A soft, white Hello Kitty head-shaped plush pillow with a prominent pink bow."
+  role_in_user_life: "A sentimental companion that serves as a comfort object and a functional headrest during reading."
+
+stable_visual_identity:
+  summary: "A white plush pillow featuring Hello Kitty's iconic face and a large pink bow."
+  key_features:
+    - "Large, puffy pink bow on the left ear"
+    - "Yellow oval nose and brown embroidered eyes"
+    - "Three dark whiskers stitched onto each cheek"
+
+stable_behavioral_identity:
+  traits:
+    - "Always kept in the living room on the grey reading chair"
+    - "Functions as the primary headrest for the user's evening relaxation"
+  preferences:
+    loves:
+      - "Being freshly washed and smelling like lavender"
+      - "Staying in a clean, dry environment"
+    dislikes:
+      - "Sticky or dirty hands touching the white plush"
+      - "Being anywhere near open liquid containers like coffee mugs"
+
+relational_meaning:
+  user_relationship: "A cherished gift from a childhood best friend who moved to Japan years ago."
+  emotional_value: "The pillow is an irreplaceable link to a long-distance friendship and childhood memories."
+  related_entities:
+    - "The grey reading chair where it normally resides"
+
+history:
+  knowledge:
+    - "Instruction: Introduce Kiki and show it resting in its usual spot on the grey reading chair."
+    - "Instruction: Show a close-up of Kiki's pink bow and mention it's its most recognizable feature."
+    - "Instruction: Show Kiki being placed carefully away from a drink, mentioning the owner's fear of stains."
+    - "Instruction: Show a bottle of lavender detergent next to Kiki, stating its love for that specific scent."
+    - "Instruction: Show an old photo of Kiki being received as a gift from a friend who moved away."
+    - "Instruction: Show Kiki being used as a headrest during a late-night reading session."
+  event:
+    - "Instruction: Show a large coffee stain on the rug right next to the empty grey reading chair."
+    - "Instruction: Show Kiki sitting on a high, out-of-reach bedroom shelf instead of the living room."
+    - "Instruction: Show the owner holding a new, 'extra-strength' lavender-scented laundry soap."
+    - "Instruction: Show a toddler with messy, chocolate-covered hands entering the living room."
+
+hard_questions:
+  - "Draft: Create a state-identification question about why Kiki is on the high shelf (Event) instead of its usual chair (Knowledge)."
+  - "Draft: Create a causal-inference question about why the owner is washing Kiki immediately after the toddler's arrival (Event) despite its usual preference for cleanliness (Knowledge)."
+  - "Draft: Create a preference-conflict question about why the owner panicked when the coffee spilled nearby (Event) given Kiki's fear of liquids (Knowledge)."
+  - "Draft: Create a recommendation question about where to put Kiki during the toddler's visit (Event) to protect its sentimental value as a gift (Knowledge)."
+  - "Draft: Create a multi-clue reasoning question about why the owner is using the new detergent (Event) to satisfy Kiki's favorite sensory experience (Knowledge)."

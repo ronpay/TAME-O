@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: japanese_chin_2
+concept_type: "pet"
+name: "Yuki"
+category: "Japanese Chin"
+
+core_identity:
+  summary: "A small, elegant Japanese Chin with a silky coat."
+  role_in_user_life: "A constant, comforting companion who spends most of his day by the user's side."
+
+stable_visual_identity:
+  summary: "A small dog with a flat face, large dark eyes, and a long, flowing coat."
+  key_features:
+    - "A reddish-tan and white silky, feathered coat with tan ears and face patches"
+    - "Large, round, dark eyes and a short muzzle"
+    - "A plumed tail that curves over his back"
+
+stable_behavioral_identity:
+  traits:
+    - "Quiet and cat-like in his movements"
+    - "Highly possessive of his toys"
+  preferences:
+    loves:
+      - "Sleeping on the high blue velvet armchair"
+      - "Playing with his small red rubber ball"
+    dislikes:
+      - "Loud sudden noises and thunderstorms"
+      - "Getting his paws wet or dirty"
+
+relational_meaning:
+  user_relationship: "A deeply bonded lap dog who acts as a shadow to the user."
+  emotional_value: "Provides a calming presence and a sense of routine and peace."
+  related_entities:
+    - "The user's blue velvet armchair, his sanctuary"
+
+history:
+  knowledge:
+    - "Instruction: Introduce that Yuki has a distinct reddish-tan and white coat and large round eyes."
+    - "Instruction: Introduce his long, plumed tail that usually rests elegantly over his back."
+    - "Instruction: Introduce his strong long-term dislike of getting his paws wet or dirty."
+    - "Instruction: Introduce his deep love for sleeping high up on the blue velvet armchair."
+    - "Instruction: Introduce his extreme fear of loud, sudden noises."
+    - "Instruction: Introduce that he is highly possessive of his favorite toy, a small red rubber ball."
+  event:
+    - "Instruction: Introduce an event where he was caught outside during an unexpected rain shower."
+    - "Instruction: Introduce an event where the blue velvet armchair was temporarily covered with a crinkly plastic sheet."
+    - "Instruction: Introduce an event where loud construction started right outside the living room window."
+    - "Instruction: Introduce an event where a friend's new puppy came over and started playing with the toys."
+
+hard_questions:
+  - "Draft: Create a State Identification question that combines his hatred of getting wet paws with the recent unexpected rain shower."
+  - "Draft: Create a Preference Conflict question that combines his love for the blue velvet armchair with the recent plastic sheet covering."
+  - "Draft: Create a Causal Inference question that combines his fear of loud noises with the recent loud construction outside."
+  - "Draft: Create a Causal Inference question that combines his possessiveness over the red rubber ball with the visiting puppy."
+  - "Draft: Create a Counterfactual reasoning question that combines his fear of loud noises with the recent loud construction event."

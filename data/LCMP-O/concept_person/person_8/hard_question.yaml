@@ -1,0 +1,84 @@
+- id: 1
+  type: Preference Conflict
+  question: "Look at his stance on the mound during the fourth inning. [IMAGE] He’s usually very consistent, so why is his pitching so erratic today?"
+  image_prompt: "The player standing on a muddy baseball mound, with dark, wet dirt under his feet and a visible look of frustration on his face."
+  evaluation_criteria:
+    ideal_answer: "He is struggling because the field has become muddy due to a recent thunderstorm, which directly conflicts with his long-term dislike for muddy mounds. His consistency is suffering because he finds it difficult to pitch in these conditions."
+    key_points:
+      - "The field recently became muddy due to a thunderstorm."
+      - "He has a long-term dislike for pitching on muddy mounds."
+  options:
+    - "He is tired from pitching multiple games in a row and is losing his concentration."
+    - "He is frustrated because the rain has made the ball slippery and hard to grip."
+    - "His consistency is failing because he hates pitching on muddy mounds like the one today."
+    - "He is worried about his footing on the slippery grass in the outfield."
+  answer: "His consistency is failing because he hates pitching on muddy mounds like the one today."
+  image_id: hq_1
+
+- id: 2
+  type: State Identification
+  question: "He seems unusually distracted and anxious in the dugout today. [IMAGE] Based on his habits, what is the most likely cause for this behavior?"
+  image_prompt: "The player sitting in a dugout wearing a plain navy blue cap, looking down at the floor with his hands clasped nervously."
+  evaluation_criteria:
+    ideal_answer: "He is likely anxious because he is playing without his lucky navy blue cap with the red 'A' logo, which he recently forgot at home. He has a stable, long-term habit of wearing it for every game he plays."
+    key_points:
+      - "He recently forgot his lucky cap at home."
+      - "He has a long-term habit of wearing a specific lucky cap for every game."
+  options:
+    - "He is anxious because he is about to face the league's best batter."
+    - "He is distracted because he is wearing a plain cap instead of his lucky one."
+    - "He is worried that his signature goatee doesn't look right today."
+    - "He is stressed about his performance as the starting pitcher in the tournament."
+  answer: "He is distracted because he is wearing a plain cap instead of his lucky one."
+  image_id: hq_2
+
+- id: 3
+  type: Causal Inference
+  question: "Why is he spending his entire break rubbing oil into this piece of equipment? [IMAGE]"
+  image_prompt: "The player sitting on a bench, focused on a brand new, light-colored baseball glove, carefully applying leather oil to the webbing."
+  evaluation_criteria:
+    ideal_answer: "His old glove recently tore, forcing him to use a brand new backup. He is oiling it because he dislikes using stiff, new gloves and wants to break it in so it feels more like his old, flexible one."
+    key_points:
+      - "His old, broken-in glove recently developed a significant tear."
+      - "He has a long-term dislike for using stiff, new gloves."
+  options:
+    - "He is oiling the glove, but the image alone does not explain why this glove needs attention."
+    - "He is softening the glove because a teammate asked him to fix it during the break."
+    - "He is cleaning dirt from the glove after the muddy inning."
+    - "He is trying to break in a new, stiff glove because his old one was damaged."
+  answer: "He is trying to break in a new, stiff glove because his old one was damaged."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual Reasoning
+  question: "If the field had stayed dry today, would he likely be having these same traction issues during his wind-up? [IMAGE]"
+  image_prompt: "Ethan in a pitching motion on the muddy mound, his face visible as his yellow and black cleats slip in deep wet mud."
+  evaluation_criteria:
+    ideal_answer: "No, because he is wearing his yellow and black Nike cleats, which he specifically favors for their superior traction. The slipping is a result of the recent mud from the thunderstorm, which overcomes even his best gear."
+    key_points:
+      - "The field is currently muddy due to a recent thunderstorm."
+      - "He favors his yellow Nike cleats specifically because they provide superior traction."
+  options:
+    - "No, because his yellow cleats normally provide great traction on a dry field."
+    - "No, because the pressure of the inning would be the same on any surface."
+    - "No, because he would have chosen to wear different shoes if the field were dry."
+    - "Yes, because his cleats are worn smooth and would slip even on dry dirt."
+  answer: "No, because his yellow cleats normally provide great traction on a dry field."
+  image_id: hq_4
+
+- id: 5
+  type: Counterfactual / Recommendation Reasoning
+  question: "The coach is asking him to continue pitching for the next few innings. [IMAGE] Based on the recent conditions, why would he be particularly hesitant to agree?"
+  image_prompt: "The player standing on the edge of the muddy infield, gesturing towards the wet ground while talking to his coach."
+  evaluation_criteria:
+    ideal_answer: "As the starting pitcher, he takes his role seriously but has a strong dislike for muddy mounds. Since the recent rain has made the field a mess, he is likely hesitant because he knows his performance and accuracy will suffer."
+    key_points:
+      - "Recent rain has turned the baseball field into a muddy mess."
+      - "He is the starting pitcher but hates the impact of muddy fields on his consistency."
+  options:
+    - "He is hesitant because the coach may be asking him to pitch longer than planned."
+    - "He is hesitant because he takes his role seriously and knows mud ruins his consistency."
+    - "He wants to stop because he is worried about the traction of his yellow cleats."
+    - "He wants to leave because he is still distracted by having forgotten his lucky cap."
+  answer: "He is hesitant because he takes his role seriously and knows mud ruins his consistency."
+  image_id: hq_5

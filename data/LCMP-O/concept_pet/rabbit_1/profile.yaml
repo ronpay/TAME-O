@@ -1,0 +1,55 @@
+concept_id: rabbit_1
+concept_type: "pet"
+name: "Oreo"
+category: "Dutch Rabbit"
+
+core_identity:
+  summary: "A compact Dutch rabbit with a sharp white blaze, black ears, and an alert but gentle expression."
+  role_in_user_life: "A quiet indoor companion whose routines add calm structure to the user's day."
+
+stable_visual_identity:
+  summary: "A black-and-white rabbit with a classic Dutch pattern and upright ears."
+  key_features:
+    - "A sharp white blaze running down the center of the face"
+    - "Solid black ears and black patches around the cheeks"
+    - "A white front half with a darker saddle over the back"
+
+stable_behavioral_identity:
+  traits:
+    - "Very alert and quick to hide when startled by sudden noise"
+    - "Highly food-motivated when fresh herbs appear"
+  preferences:
+    loves:
+      - "Fresh cilantro"
+      - "Chewing on willow sticks"
+    dislikes:
+      - "Sudden loud noises from outside the house"
+      - "New rubber toys that do not feel natural to chew"
+
+relational_meaning:
+  user_relationship: "The user watches his moods closely and adjusts the room to keep him comfortable."
+  emotional_value: "He brings a calm, observant presence that makes the room feel lived-in."
+  related_entities:
+    - "A gray plush rug where he likes to stretch out"
+    - "A cardboard box he treats as a temporary hiding place"
+
+history:
+  knowledge:
+    - "Instruction: Introduce Oreo's sharp white blaze and black ears as stable visual features."
+    - "Instruction: Introduce that Oreo becomes extremely excited whenever he smells fresh cilantro."
+    - "Instruction: Introduce that Oreo is skittish and easily startled by sudden loud noises."
+    - "Instruction: Introduce that Oreo prefers chewing natural willow sticks instead of rubber toys."
+    - "Instruction: Introduce the blue ceramic bowl that he runs to when he expects a snack."
+    - "Instruction: Introduce the gray plush rug as Oreo's favorite place to rest."
+  event:
+    - "Instruction: Introduce that a loud delivery truck recently rumbled past the window."
+    - "Instruction: Introduce that Oreo recently hid inside a cardboard box after the noise."
+    - "Instruction: Introduce that the user gave him a new red rubber ball today, but he ignored it."
+    - "Instruction: Introduce that Oreo recently spent several minutes sniffing a spill of dried chamomile tea on the floor."
+
+hard_questions:
+  - "Draft: Create a causal-inference question about why he is hiding in the box after the truck passed by."
+  - "Draft: Create a preference-conflict question about why the new red rubber ball failed to interest him."
+  - "Draft: Create a state-identification question about why calm behavior during the truck noise would be unusual."
+  - "Draft: Create a counterfactual or recommendation question about what would happen if fresh cilantro were offered while he was focused on the tea spill."
+  - "Draft: Create a counterfactual or recommendation question about where he would likely settle once he leaves the cardboard box."

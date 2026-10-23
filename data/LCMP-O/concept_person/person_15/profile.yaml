@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: person_15
+concept_type: "person"
+name: "Elena"
+category: "Public Relations Consultant"
+
+core_identity:
+  summary: "A sharp, fast-talking PR professional who is rarely seen without her phone."
+  role_in_user_life: "The user's mentor in communication and the person they call when they need to handle a difficult social situation."
+
+stable_visual_identity:
+  summary: "Elena has a polished but practical outdoor look, characterized by her signature accessories."
+  key_features:
+    - "Always wears large, brown-tinted sunglasses when outside."
+    - "Carries a distinctive bright red mobile phone."
+    - "Wears a unique set of stacked gold and silver rings on her left hand."
+
+stable_behavioral_identity:
+  traits:
+    - "Highly multitasking, often handling calls while moving."
+    - "Direct and assertive communication style."
+  preferences:
+    loves:
+      - "Bright, bold colors, especially red."
+      - "Outdoor 'walking meetings' to stay productive."
+    dislikes:
+      - "Being unreachable or having a dead phone battery."
+      - "Static, indoor office environments for long periods."
+
+relational_meaning:
+  user_relationship: "Professional mentor and close family friend."
+  emotional_value: "Represents competence and the ability to stay calm under the pressure of constant communication."
+  related_entities:
+    - "Global PR Firm 'Vertex'"
+
+history:
+  knowledge:
+    - "Instruction: Introduce that Elena is a PR consultant who is always on her red work phone."
+    - "Instruction: Introduce her signature brown-tinted sunglasses that she wears in every outdoor photo."
+    - "Instruction: Introduce her preference for bold red clothing and accessories."
+    - "Instruction: Introduce her habit of wearing stacked gold and silver rings on her left hand."
+    - "Instruction: Introduce her role as the user's communication mentor."
+    - "Instruction: Introduce that she grew up in a sunny coastal city, which influenced her love for outdoor work."
+  event:
+    - "Instruction: Introduce that she recently decided to switch all her afternoon calls to 'walking meetings' in the park."
+    - "Instruction: Introduce that she just handled a major PR crisis for a client this morning."
+    - "Instruction: Introduce that her red phone's battery died unexpectedly during a walk today."
+    - "Instruction: Introduce that she recently bought a new red zip-up jacket to match her phone."
+
+hard_questions:
+  - "Draft: Create a causal-inference question about why she is walking in the park while talking on the phone, combining her career as a PR consultant with her new 'walking meeting' policy."
+  - "Draft: Create a state-identification question about why she looks unusually frustrated in a photo, combining her dislike of being unreachable with the event of her phone battery dying."
+  - "Draft: Create a preference-conflict question about why she is wearing a new red jacket, combining her long-term love for the color red with her recent purchase."
+  - "Draft: Create a multi-clue reasoning question about why she is squinting in an outdoor photo, combining her signature sunglasses habit with an event where she might have lost them."
+  - "Draft: Create a causal-inference question about why she is smiling despite a busy morning, combining her role as a mentor with the successful resolution of the PR crisis."

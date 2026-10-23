@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: persian_1
+concept_type: "pet"
+name: "Duchess"
+category: "Persian Cat"
+
+core_identity:
+  summary: "A fluffy white Persian cat known for her elegant appearance and calm demeanor."
+  role_in_user_life: "A beloved indoor companion who provides quiet comfort and a sense of routine to the user."
+
+stable_visual_identity:
+  summary: "A long-haired, pure white Persian cat with striking copper-colored eyes."
+  key_features:
+    - "Extremely dense and long pure white fur."
+    - "Large, round copper-colored eyes."
+    - "Always wears a pastel-pink velvet collar with a tiny silver bell."
+
+stable_behavioral_identity:
+  traits:
+    - "Very docile and prefers lounging on soft surfaces."
+    - "Has a habit of intensely grooming her long fur after every meal."
+  preferences:
+    loves:
+      - "Sleeping on the smooth silk throw pillow on the living room sofa."
+      - "Being brushed gently with a natural bristle brush."
+    dislikes:
+      - "Loud, sudden noises like the vacuum cleaner."
+      - "Getting her paws wet or stepping on damp floors."
+
+relational_meaning:
+  user_relationship: "The user views Duchess as a pampered companion and a source of daily serenity."
+  emotional_value: "Her steady, quiet presence helps the user de-stress after long work days."
+  related_entities:
+    - "The user's apartment, specifically the living room."
+
+history:
+  knowledge:
+    - "Instruction: Introduce that Duchess always wears a pastel-pink velvet collar with a tiny silver bell."
+    - "Instruction: Introduce that she is a pure white Persian cat with large copper-colored eyes."
+    - "Instruction: Introduce her absolute favorite sleeping spot: the smooth silk throw pillow on the living room sofa."
+    - "Instruction: Introduce her strong, long-term dislike of loud, sudden noises."
+    - "Instruction: Introduce her intense aversion to getting her paws wet or stepping on damp floors."
+    - "Instruction: Introduce the evening calming ritual where she is brushed with a natural bristle brush."
+  event:
+    - "Instruction: Introduce a recent event where the user dropped a heavy glass in the kitchen, making a very loud shattering noise."
+    - "Instruction: Introduce a recent event where the bathroom floor was completely flooded due to a leaky pipe."
+    - "Instruction: Introduce a recent event where the user replaced the old silk throw pillow with a rough wool one."
+    - "Instruction: Introduce a recent event where the user lost the usual brush and had to use a stiff plastic comb instead."
+
+hard_questions:
+  - "Draft: Create a causal-inference question that combines her dislike of loud noises with the recent glass shattering event."
+  - "Draft: Create a state-identification question that combines her dislike of wet paws with the recent bathroom flooding event."
+  - "Draft: Create a preference-conflict question that combines her favorite silk pillow with the recent replacement of it by a wool pillow."
+  - "Draft: Create a causal-inference question that combines her love for the bristle brush with the recent use of a stiff plastic comb."
+  - "Draft: Create a causal-inference question that combines her pink collar and silver bell with the recent glass shattering event, focusing on finding her after she hid."

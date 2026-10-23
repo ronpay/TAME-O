@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: keeshond_1
+concept_type: "pet"
+name: "Barnaby"
+category: "Keeshond"
+
+core_identity:
+  summary: "A fluffy, medium-sized Keeshond dog with distinctive 'spectacles' markings around his eyes and a predominantly dark charcoal-black coat."
+  role_in_user_life: "A loyal and energetic companion who provides daily comfort and insists on being part of every family activity."
+
+stable_visual_identity:
+  summary: "A sturdy, plush-coated Spitz-type dog with a dark charcoal-black coat, lighter tan-gray highlights, a plumed tail carried over his back, and striking facial markings."
+  key_features:
+    - "Predominantly dark charcoal-black double coat with tan-gray highlights on the legs, chest, muzzle, and ruff"
+    - "Distinctive dark 'spectacles' markings around his eyes"
+    - "A bright red nylon collar with a silver bone-shaped tag"
+
+stable_behavioral_identity:
+  traits:
+    - "Extremely vocal and prone to 'talking' or grumbling when he wants attention"
+    - "Tends to spin in circles when excited about going for a walk"
+  preferences:
+    loves:
+      - "Resting on cold surfaces"
+      - "Chewing on frozen carrot sticks"
+    dislikes:
+      - "Loud sudden noises, especially vacuum cleaners"
+      - "Being left alone in a closed room"
+
+relational_meaning:
+  user_relationship: "The user is Barnaby's primary caregiver and walking companion."
+  emotional_value: "Barnaby's constant presence and cheerful demeanor are a major source of stress relief for the user."
+  related_entities:
+    - "The user's green armchair, which Barnaby often tries to claim"
+
+history:
+  knowledge:
+    - "Instruction: Introduce that Barnaby wears a bright red nylon collar with a silver bone-shaped tag."
+    - "Instruction: Introduce Barnaby's predominantly dark charcoal-black double coat with tan-gray highlights and the distinctive dark 'spectacles' markings around his eyes."
+    - "Instruction: Introduce that Barnaby has a strong preference for resting on cold surfaces."
+    - "Instruction: Introduce that Barnaby hates the loud noise of the vacuum cleaner and has a habit of hiding under the bed."
+    - "Instruction: Introduce that Barnaby's absolute favorite treat is chewing on frozen carrot sticks."
+    - "Instruction: Introduce that Barnaby always tries to claim the user's green armchair as his favorite sleeping spot."
+  event:
+    - "Instruction: Introduce that a loud robot vacuum is currently operating and cleaning the floor in the living room."
+    - "Instruction: Introduce that it is currently a sweltering hot summer day indoors because the air conditioning is broken."
+    - "Instruction: Introduce that a frozen carrot stick was just dropped on the patterned kitchen rug."
+    - "Instruction: Introduce that the green armchair is currently covered completely with a pile of freshly folded laundry."
+
+hard_questions:
+  - "Draft: Create a Causal Inference question combining the active robot vacuum event and his fear of vacuum cleaners."
+  - "Draft: Create a State Identification question combining the sweltering hot indoor environment event and his preference for cold surfaces."
+  - "Draft: Create a State Identification question combining the sweltering hot indoor environment event and his thick double coat."
+  - "Draft: Create a Counterfactual / Recommendation Reasoning question combining the dropped frozen carrot stick event and his love for frozen carrots."
+  - "Draft: Create a Causal Inference question combining the laundry-covered armchair event and his habit of claiming the armchair."

@@ -1,0 +1,84 @@
+- id: 1
+  type: Preference Conflict
+  question: "He looks quite uncomfortable in his living room right now. [IMAGE] Based on his long-term preferences, why is he so distressed near this new device?"
+  image_prompt: "The man sitting on his couch with a pained expression, glancing toward a sleek modern smart speaker on a nearby table."
+  evaluation_criteria:
+    ideal_answer: "He is distressed because the smart speaker likely produces the synthetic digital sounds he has a long-standing dislike for, despite it being a recent gift from his grandson."
+    key_points:
+      - "He recently received a modern smart speaker as a gift from his grandson."
+      - "He has a long-term dislike for synthetic digital sounds."
+  options:
+    - "He is uneasy in the photo, but the visible device alone does not show which sound bothers him."
+    - "He is distressed because the device produces synthetic digital sounds that he has a long-standing dislike for."
+    - "He is unhappy because the speaker's modern design clashes with his traditional home decor."
+    - "He is annoyed because the speaker is playing loud music that interrupts his quiet afternoon."
+  answer: "He is distressed because the device produces synthetic digital sounds that he has a long-standing dislike for."
+  image_id: hq_1
+
+- id: 2
+  type: Causal Inference
+  question: "He is at a formal gala tonight, but look at his feet. [IMAGE] Given his usual standards, why is he wearing these bright blue medical sneakers with his tuxedo?"
+  image_prompt: "A full-length shot of the man in a formal tuxedo standing on a red carpet, with prominent blue medical-grade sneakers on his feet."
+  evaluation_criteria:
+    ideal_answer: "Although he strictly prefers formal attire for public appearances, he is wearing medical sneakers tonight because he recently sprained his ankle while gardening."
+    key_points:
+      - "He recently sprained his ankle while gardening."
+      - "He has a long-term strict preference for formal attire like tuxedos in public."
+  options:
+    - "He chose the sneakers, but the photo alone does not reveal why formal shoes were not workable."
+    - "He picked the sneakers because the tuxedo shoes felt stiff before the event."
+    - "He is wearing them because he recently sprained his ankle and needs the medical support, overriding his usual formal preference."
+    - "He finds the tuxedo shoes too uncomfortable for long events and chose sneakers for better mobility."
+  answer: "He is wearing them because he recently sprained his ankle and needs the medical support, overriding his usual formal preference."
+  image_id: hq_2
+
+- id: 3
+  type: State Identification
+  question: "He is conducting the rehearsal today, but something is wrong. [IMAGE] Why is he using a simple wooden stick from the garden instead of his professional equipment?"
+  image_prompt: "The man standing at a podium in a rehearsal hall, holding a rough wooden twig as a baton while looking slightly embarrassed."
+  evaluation_criteria:
+    ideal_answer: "As a professional conductor, he would normally use his favorite silver-tipped baton, but he is using a wooden stick today because he recently misplaced his preferred equipment."
+    key_points:
+      - "He recently misplaced his favorite silver-tipped conducting baton."
+      - "He has a long-term identity as a professional symphony conductor."
+  options:
+    - "He is using the wooden stick because he recently misplaced his favorite silver-tipped baton."
+    - "He is testing a new acoustic theory by using a different material for his conducting baton."
+    - "He is trying to show his students that the skill of conducting does not depend on the quality of the baton."
+    - "He broke his professional baton earlier that morning and found the twig as a temporary replacement."
+  answer: "He is using the wooden stick because he recently misplaced his favorite silver-tipped baton."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "After judging this specific performance at the contest, he looked quite pained. [IMAGE] Why would he likely recommend against a high-volume electronic set for the next round?"
+  image_prompt: "The man sitting at the judges' table, wincing as a youth band with heavy synthesizers and loud speakers performs in front of him."
+  evaluation_criteria:
+    ideal_answer: "He would recommend against it because he has a long-standing dislike for harsh, synthetic digital sounds, which was triggered by his recent role judging the youth band contest."
+    key_points:
+      - "He recently agreed to judge a 'Battle of the Bands' youth competition."
+      - "He has a long-term dislike for synthetic, high-pitched digital sounds."
+  options:
+    - "He would recommend against it because he finds synthetic digital sounds harsh and personally dislikes them."
+    - "He thinks the electronic set is too modern and lacks the traditional craftsmanship he values in music."
+    - "He would object to the volume because it seems unsafe for the young performers' ears, regardless of style."
+    - "He feels that electronic music does not allow the performers to demonstrate their true technical skill."
+  answer: "He would recommend against it because he finds synthetic digital sounds harsh and personally dislikes them."
+  image_id: hq_4
+
+- id: 5
+  type: Causal Inference
+  question: "He was about to start his music session, but he stopped to unplug the device his grandson gave him. [IMAGE] Why did he do this before putting on his music?"
+  image_prompt: "The man standing by his turntable, holding a vinyl record, while reaching over to pull the plug on the nearby smart speaker."
+  evaluation_criteria:
+    ideal_answer: "He unplugged the smart speaker because he treasures the pure sound of his vintage vinyl records and wanted to avoid any potential disruption from the synthetic digital sounds he dislikes."
+    key_points:
+      - "His grandson recently gave him a modern smart speaker."
+      - "He has a long-term passion for collecting and listening to vintage vinyl records."
+  options:
+    - "He moved the smart speaker because it was taking up space beside the turntable."
+    - "He unplugged it to prevent notifications or voice prompts from cutting into the quiet vinyl session."
+    - "He was frustrated that the smart speaker was taking up space on his record player stand."
+    - "He unplugged it because he values the pure experience of his vinyl and dislikes the synthetic sounds associated with the digital device."
+  answer: "He unplugged it because he values the pure experience of his vinyl and dislikes the synthetic sounds associated with the digital device."
+  image_id: hq_5

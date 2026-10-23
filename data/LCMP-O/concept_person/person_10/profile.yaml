@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: person_10
+concept_type: "person"
+name: "Elena"
+category: "Independent Film Curator"
+
+core_identity:
+  summary: "A methodical and creative film curator who manages a local independent cinema."
+  role_in_user_life: "A close friend and creative collaborator who shares a passion for classic cinema."
+
+stable_visual_identity:
+  summary: "Elena has long, dark hair with straight-cut bangs and often wears a signature brown patterned bowtie with a crisp white shirt."
+  key_features:
+    - "Long dark hair with straight-cut bangs"
+    - "A distinctive brown patterned bowtie"
+    - "A preference for crisp, white button-down shirts"
+
+stable_behavioral_identity:
+  traits:
+    - "Highly observant and methodical in her work"
+    - "Deeply committed to preserving analog film culture"
+  preferences:
+    loves:
+      - "Rare vintage film posters"
+      - "The ritual of taking notes in a leather-bound journal"
+    dislikes:
+      - "Digital streaming glitches"
+      - "Unorganized and loud social spaces"
+
+relational_meaning:
+  user_relationship: "Elena is the user's go-to expert for film history and a frequent companion at cinema events."
+  emotional_value: "She represents a shared dedication to art and the tangible history of storytelling."
+  related_entities:
+    - "The Silver Screen (Independent Cinema)"
+
+history:
+  knowledge:
+    - "Instruction: Introduce Elena's signature look with her white shirt and brown patterned bowtie."
+    - "Instruction: Introduce Elena's role as a curator at 'The Silver Screen' cinema."
+    - "Instruction: Introduce her impressive collection of vintage film posters stored in her office."
+    - "Instruction: Introduce her strong preference for analog film projection over digital formats."
+    - "Instruction: Introduce her habit of recording meticulous notes in her leather-bound journal during film screenings."
+    - "Instruction: Introduce her favorite spot for watching movies: the back row, middle seat of the theater."
+  event:
+    - "Instruction: Introduce a recent event where Elena was forced to use a digital projector because the film reel broke."
+    - "Instruction: Introduce a recent night where she stayed late at the cinema to prepare for a special midnight screening."
+    - "Instruction: Introduce the arrival of a rare 1950s French film poster she recently acquired."
+    - "Instruction: Introduce an accidental ink spill that recently ruined several pages of her leather-bound journal."
+
+hard_questions:
+  - "Draft: Create a preference-conflict question asking why Elena is using a digital projector in a recent photo despite her known love for analog film."
+  - "Draft: Create a causal-inference question explaining why Elena appears exhausted in a morning photo by linking it to her late-night screening prep."
+  - "Draft: Create a state-identification question identifying why Elena's office is particularly cluttered with a new poster tube today."
+  - "Draft: Create a counterfactual question about whether Elena would be upset about the ink spill based on her attachment to her journal."
+  - "Draft: Create a multi-clue reasoning question about why Elena is sitting in the front row today instead of her usual favorite spot."

@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "Here's a photo of Robert Mitchell during his latest keynote. [IMAGE] He always wears that signature pink patterned tie for his big talks."
+  assistant_response: "I've noted that Robert Mitchell wears a distinctive pink patterned tie for his major presentations."
+  image_prompt: "Robert Mitchell speaking on stage, wearing a dark suit and a prominent pink patterned silk tie."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "Notice the thin tan-colored headset he's wearing here. [IMAGE] He uses this exact same model for every single event."
+  assistant_response: "Got it. I've recorded the tan headset microphone as a stable part of his presentation gear."
+  image_prompt: "A close-up of the subject's ear showing a thin, tan-colored headset microphone wrapped around it."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "He's so energetic on stage. [IMAGE] He always uses both hands to gesture wildly when he gets into complex tech topics."
+  assistant_response: "I've noted his habit of using expressive, two-handed gestures during his talks."
+  image_prompt: "The subject on stage with both hands raised and fingers pointed outward, showing an energetic speaking pose."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "This is his favorite kind of setup. [IMAGE] He absolutely loves it when the stage lighting and background are a vibrant blue."
+  assistant_response: "Understood. I've noted his strong preference for blue stage lighting and backgrounds."
+  image_prompt: "The subject speaking in front of a large, bright blue screen with geometric patterns."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "He's very particular about his tools. [IMAGE] He always carries this tiny, minimalist black slide clicker that fits perfectly in his palm."
+  assistant_response: "I've recorded his preference for using a small, minimalist black slide clicker."
+  image_prompt: "A close-up of the subject's hand holding a very small, sleek black remote control."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "He really hates being confined. [IMAGE] He always asks the organizers to remove the podium so he can walk freely across the stage."
+  assistant_response: "I've noted his dislike for podiums and his preference for moving around the stage freely."
+  image_prompt: "An open stage with no podium, where the subject is walking while speaking."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "Poor guy had a bit of an accident last week. [IMAGE] He sprained his ankle, so he actually had to use a podium during his talk today to stay stable."
+  assistant_response: "I've noted that a recent ankle sprain has forced him to use a podium for support during his current talk."
+  image_prompt: "The subject standing still behind a wooden podium on stage, looking slightly restricted in his movement."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "Things didn't go smoothly today. [IMAGE] His favorite minimalist clicker stopped working, and he had to use this bulky standard remote the venue provided."
+  assistant_response: "I've recorded that he had to switch to a bulky standard remote after his preferred clicker failed."
+  image_prompt: "The subject holding a large, rectangular black remote with many buttons, looking at it with a bit of confusion."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "The tech crew really messed up the atmosphere today. [IMAGE] A glitch turned the whole stage lighting red, and you could tell it was throwing him off."
+  assistant_response: "I've noted the lighting glitch that turned the stage red, which disrupted his preferred environment."
+  image_prompt: "The subject on stage bathed in bright, saturated red light, looking somewhat uncomfortable."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "He was so rushed this morning that he actually forgot his usual tie. [IMAGE] He's wearing a plain blue one he had to borrow from a colleague."
+  assistant_response: "I've noted that he is currently wearing a borrowed plain blue tie instead of his signature pink one."
+  image_prompt: "The subject wearing his usual dark suit but with a simple, solid blue tie instead of the patterned pink one."
+  image_id: turn_10

@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: person_14
+concept_type: "person" # person | pet | object
+name: "Robert Mitchell"
+category: "Technology Speaker & Innovation Consultant"
+
+core_identity:
+  summary: "A seasoned technology speaker and innovation consultant known for his energetic and insightful presentations."
+  role_in_user_life: "A professional mentor and former supervisor who inspired the user's career in technology."
+
+stable_visual_identity:
+  summary: "A middle-aged man with salt-and-pepper hair, frequently seen in professional attire during tech keynotes."
+  key_features:
+    - "Short, curly salt-and-pepper hair"
+    - "Wears a thin, tan-colored headset microphone that wraps around his ear"
+    - "Often wears a distinctive pink patterned silk tie for major appearances"
+
+stable_behavioral_identity:
+  traits:
+    - "Uses expressive hand gestures to emphasize key points while speaking"
+    - "Prefers to walk across the stage rather than staying behind a podium"
+  preferences:
+    loves:
+      - "Vibrant blue stage lighting and backgrounds"
+      - "Ultra-minimalist, black slide clickers"
+    dislikes:
+      - "Static podiums that limit physical engagement"
+      - "Warm-toned or red stage lighting"
+
+relational_meaning:
+  user_relationship: "Long-term professional mentor and career advisor."
+  emotional_value: "His guidance and energetic style helped the user overcome a fear of public speaking."
+  related_entities:
+    - "TechForward Annual Conference"
+
+history:
+  knowledge:
+    - "Instruction: Introduce Robert's signature pink patterned tie that he wears for all his major keynote speeches."
+    - "Instruction: Introduce the stable visual cue of his tan-colored headset microphone used for every talk."
+    - "Instruction: Introduce his habit of using both hands for energetic gestures to explain complex tech concepts."
+    - "Instruction: Introduce his strong preference for blue-themed stage backgrounds as shown in his favorite venues."
+    - "Instruction: Introduce his reliance on a specific, tiny black minimalist slide clicker during his presentations."
+    - "Instruction: Introduce his long-standing dislike for podiums, explaining how he always requests they be removed from the stage."
+  event:
+    - "Instruction: Introduce a recent event where Robert had to use a podium because he sprained his ankle and couldn't walk around."
+    - "Instruction: Introduce a recent situation where Robert's minimalist clicker broke, forcing him to use a bulky standard remote."
+    - "Instruction: Introduce a recent talk where the venue lighting glitched and stayed on a bright red setting throughout."
+    - "Instruction: Introduce a recent session where he forgot his usual pink tie and had to wear a borrowed plain blue one."
+
+hard_questions:
+  - "Draft: Create a state-identification question: Robert is standing behind a podium in this photo. Why is this contrary to his usual speaking style?"
+  - "Draft: Create a causal-inference question: Robert looks visibly distracted by the red stage lights. Based on his history, why is this color problematic for him?"
+  - "Draft: Create a preference-conflict question: Robert is holding a large, bulky remote today. Why did he abandon his usual minimalist device?"
+  - "Draft: Create a causal-inference question: Robert is wearing a plain blue tie instead of his pink one. Given he is also behind a podium today, what does this suggest about his preparation for this talk?"
+  - "Draft: Create a recommendation question: If the technician offers to switch the red lights to blue but cannot remove the podium due to his injury, which change would improve Robert's comfort more?"

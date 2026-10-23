@@ -1,0 +1,59 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: bag_1
+concept_type: "object"
+name: "Astra"
+category: "Minimalist Laptop Backpack"
+
+core_identity:
+  summary: "A sleek, grey Case Logic laptop backpack with a minimalist design, characterized by its durable fabric and clean lines."
+  role_in_user_life: "The user's primary daily carry for work and travel, holding their most essential professional tools and personal items."
+
+stable_visual_identity:
+  summary: "A grey heather-textured backpack with a small square brown logo on the upper front and a horizontal zipper pocket."
+  key_features:
+    - "Heathered grey water-resistant fabric"
+    - "Small brown square Case Logic logo badge on the upper center"
+    - "Main horizontal zipper across the lower-middle front"
+    - "Padded black mesh shoulder straps"
+
+stable_behavioral_identity:
+  traits:
+    - "Consistently organized with specific slots for a laptop, tablet, and notebook"
+    - "Always kept clean and free of excessive keychains or decorations"
+  preferences:
+    loves:
+      - "Lightweight, tech-heavy loads like ultrabooks and chargers"
+      - "Dry, air-conditioned office environments"
+    dislikes:
+      - "Being overstuffed with bulky items like large hoodies or heavy books"
+      - "Dirty floors or dusty outdoor surfaces"
+
+relational_meaning:
+  user_relationship: "A reliable 'silent partner' in the user's career progression."
+  emotional_value: "Purchased to celebrate the user's first major promotion; it represents professional growth and readiness."
+  related_entities:
+    - "The user's silver MacBook Pro (primary occupant)"
+
+history:
+  knowledge:
+    - "Instruction: Introduce Astra as the user's daily work backpack, highlighting its clean, grey appearance and the small brown logo."
+    - "Instruction: Introduce its preference for lightweight tech gear, showing it easily holding a slim laptop and tablet."
+    - "Instruction: Introduce the user's habit of never placing it on the floor, always hanging it on a chair or placing it on a clean table."
+    - "Instruction: Introduce its dislike for being overstuffed, showing how the zippers strain when a bulky jacket is forced inside."
+    - "Instruction: Introduce its preference for dry indoor environments, showing it neatly placed in a clean office setting."
+    - "Instruction: Introduce its sentimental value as a 'promotion gift' that the user wants to keep in pristine condition."
+  event:
+    - "Instruction: Introduce a recent event where the user had to carry several heavy textbooks for a certification exam, making the backpack look unusually bulky."
+    - "Instruction: Introduce a recent situation where the user was caught in a sudden downpour, and the backpack's grey fabric is visibly damp."
+    - "Instruction: Introduce a recent coffee shop visit where the only available spot was a dusty floor, and the user reluctantly placed the backpack there."
+    - "Instruction: Introduce a recent trip where the user attached a bright red luggage tag to the handle for identification at the airport."
+
+hard_questions:
+  - "Draft: Create a preference-conflict question: Astra normally dislikes being overstuffed, so why does it look so bulky and strained in this photo? Combine the long-term dislike of bulky items with the short-term event of carrying textbooks for an exam."
+  - "Draft: Create a state-identification question: Why is the user likely concerned about Astra's condition in this image? Combine the long-term preference for dry environments with the recent event of being caught in a downpour."
+  - "Draft: Create a causal-inference question: Why did the user place Astra on the floor in this photo, despite their usual habit of avoiding it? Combine the long-term habit of avoiding dirty floors with the recent event of the crowded coffee shop with no other space."
+  - "Draft: Create a state-identification question: Why does Astra have a bright red tag on its handle now, when it's usually kept free of decorations? Combine the long-term trait of being kept clean/minimalist with the recent airport trip event."
+  - "Draft: Create a counterfactual question: If the user needs to pack a thick winter coat today, why might they hesitate to use Astra? Combine the long-term dislike of being overstuffed with the knowledge of how it reacted to the recent textbook event."

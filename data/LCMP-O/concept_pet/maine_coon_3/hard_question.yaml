@@ -1,0 +1,84 @@
+- id: 1
+  type: Preference Conflict
+  question: "Here is the desk right now. [IMAGE] He normally always sits here while I work, so why is he refusing to jump up?"
+  image_prompt: "A large orange tabby Maine Coon cat sitting on the floor, looking up apprehensively at a wooden desk that is covered in spilled water."
+  evaluation_criteria:
+    ideal_answer: "He normally sits on the desk while you work, but he strongly dislikes getting his paws wet. He is avoiding the desk because there is spilled water on it."
+    key_points:
+      - "Water was recently spilled all over the wooden desk."
+      - "He has a strong long-term dislike for getting his paws wet."
+  options:
+    - "He is staying off the desk, but the image alone does not show which surface problem matters to him."
+    - "He prefers sleeping on his cat tree instead of the hard wooden surface of the desk."
+    - "He is avoiding the desk because there is spilled water on it, and he strongly dislikes getting his paws wet."
+    - "He is waiting for you to finish cleaning the desk before he jumps up."
+  answer: "He is avoiding the desk because there is spilled water on it, and he strongly dislikes getting his paws wet."
+  image_id: hq_1
+
+- id: 2
+  type: Causal Inference
+  question: "Look at where he is hiding. [IMAGE] Why is he trembling on top of this tall bookshelf?"
+  image_prompt: "A large orange tabby Maine Coon cat crouched nervously on the very top of a tall bookshelf, looking down with wide eyes."
+  evaluation_criteria:
+    ideal_answer: "He is terrified of the vacuum cleaner, and you recently turned on a new robotic vacuum. He is hiding up high to escape the machine."
+    key_points:
+      - "A new robotic vacuum cleaner was just turned on."
+      - "He is terrified of vacuum cleaners and always runs away."
+  options:
+    - "He is hiding up high to escape the new robotic vacuum cleaner, as he is terrified of vacuums."
+    - "He climbed up high because the bookshelf gives him a wide view of the room."
+    - "He prefers to survey the room from the highest possible vantage point."
+    - "He is hiding from a loud noise outside the window that startled him."
+  answer: "He is hiding up high to escape the new robotic vacuum cleaner, as he is terrified of vacuums."
+  image_id: hq_2
+
+- id: 3
+  type: Preference Conflict
+  question: "Here he is right now. [IMAGE] He usually prefers lounging on the highest platform of his tree, so why is he squeezing under here?"
+  image_prompt: "A large orange tabby Maine Coon cat awkwardly squeezing his body under a low living room sofa, reaching his paw forward."
+  evaluation_criteria:
+    ideal_answer: "He normally prefers his high cat tree, but a fresh salmon treat recently rolled under the sofa. He is squeezing under there to retrieve the treat."
+    key_points:
+      - "A salmon treat recently rolled under the sofa."
+      - "He usually prefers lounging on the highest platform of his cat tree."
+  options:
+    - "He is trying to retrieve a toy mouse that he accidentally kicked under the sofa."
+    - "He is hiding under the sofa because he is scared of a sudden loud noise in the house."
+    - "He is looking for a cool, dark place to sleep because the room is too warm."
+    - "He is squeezing under the sofa to retrieve a fresh salmon treat that rolled under there, abandoning his usual high spot."
+  answer: "He is squeezing under the sofa to retrieve a fresh salmon treat that rolled under there, abandoning his usual high spot."
+  image_id: hq_3
+
+- id: 4
+  type: State Identification
+  question: "Take a look at this photo. [IMAGE] Why does his neck look bare and different from his usual appearance?"
+  image_prompt: "A close-up portrait of a large orange tabby Maine Coon cat, with a clearly visible bare neck and thick ruff, without his usual collar."
+  evaluation_criteria:
+    ideal_answer: "He normally wears a thick blue collar with a silver bell, but he recently managed to scratch it off, leaving his neck bare."
+    key_points:
+      - "He recently scratched off his blue collar and is not wearing it."
+      - "He normally wears a thick blue collar with a silver bell as a stable visual feature."
+  options:
+    - "His neck looks bare because his thick fur is currently shedding for the summer."
+    - "His neck looks bare because he recently scratched off his usual thick blue collar."
+    - "You removed his collar earlier to brush his thick neck ruff."
+    - "He is wearing a much thinner collar today that is hidden under his fur."
+  answer: "His neck looks bare because he recently scratched off his usual thick blue collar."
+  image_id: hq_4
+
+- id: 5
+  type: Causal Inference
+  question: "Look at him pawing at the floor. [IMAGE] Why is he so focused on the gap under this furniture?"
+  image_prompt: "A large orange tabby Maine Coon cat laying flat on the floor, intensely reaching one paw into the dark gap underneath a sofa."
+  evaluation_criteria:
+    ideal_answer: "He absolutely loves fresh salmon treats, and one recently rolled under the sofa. He is focused on the gap trying to reach his favorite snack."
+    key_points:
+      - "A salmon treat recently rolled under the sofa."
+      - "He absolutely loves fresh salmon treats."
+  options:
+    - "He is pawing at the gap because he can see something small under the sofa."
+    - "He is trying to reach a piece of a fresh salmon treat that rolled under the sofa, which he absolutely loves."
+    - "He is trying to retrieve his favorite blue collar that fell under the sofa."
+    - "He is stretching his legs and scratching the carpet near the sofa."
+  answer: "He is trying to reach a piece of a fresh salmon treat that rolled under the sofa, which he absolutely loves."
+  image_id: hq_5

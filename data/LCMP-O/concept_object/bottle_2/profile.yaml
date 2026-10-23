@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: bottle_2
+concept_type: "object"
+name: "Blue Casno Bottle"
+category: "Frosted Blue Sports Water Bottle"
+
+core_identity:
+  summary: "A reliable frosted blue water bottle from CASNO, essential for the user's daily hydration and fitness routine."
+  role_in_user_life: "Acts as a constant companion for gym sessions and a reminder to meet daily water intake goals."
+
+stable_visual_identity:
+  summary: "A semi-transparent frosted blue plastic body with a matching solid blue flip-top lid."
+  key_features:
+    - "Distinctive white 'CASNO' branding and slogan printed on the side"
+    - "Clear flip-top outer cap with a blue locking mechanism"
+    - "Integrated carrying loop on the lid for easy transport"
+
+stable_behavioral_identity:
+  traits:
+    - "Sturdy and leak-proof construction suitable for vigorous activities"
+    - "Holds temperature reasonably well for a non-insulated bottle"
+  preferences:
+    loves:
+      - "Chilled filtered water with a few ice cubes"
+      - "Being thoroughly cleaned after every use"
+    dislikes:
+      - "Boiling hot liquids which might warp the plastic"
+      - "Being left inside a hot car during summer"
+
+relational_meaning:
+  user_relationship: "The user's favorite fitness accessory, purchased specifically for their first 10k run."
+  emotional_value: "Represents the user's commitment to a healthier lifestyle and personal discipline."
+  related_entities:
+    - "The user's gym bag where it is always stored"
+
+history:
+  knowledge:
+    - "Instruction: Introduce that this bottle was a gift from a friend after the user's first 10k race."
+    - "Instruction: Introduce the habit of the user always filling it with exactly 5 ice cubes every morning."
+    - "Instruction: Introduce the visual fact that the 'CASNO' logo is slightly faded from frequent washing."
+    - "Instruction: Introduce the user's preference for only using the carrying loop when walking to the gym."
+    - "Instruction: Introduce that the bottle is always placed on a specific blue and white patterned tablecloth when at home."
+    - "Instruction: Introduce that the owner refuses to let anyone else use this specific bottle for hygiene reasons."
+  event:
+    - "Instruction: Introduce a recent event where the bottle was accidentally filled with hot coffee instead of water."
+    - "Instruction: Introduce a recent image showing a small new scratch near the base after a fall at the park."
+    - "Instruction: Introduce a recent event where the owner forgot the bottle at the office and had to go back for it."
+    - "Instruction: Introduce a recent decision where the owner added a small green leaf sticker to the lid to distinguish it from a colleague's bottle."
+
+hard_questions:
+  - "Draft: Based on the owner's usual morning routine and the recent coffee incident, why might the bottle be 'unhappy' today?"
+  - "Draft: Given where the bottle is usually placed at home and the recent scratch it sustained, describe its current state on the tablecloth."
+  - "Draft: Considering the owner's habit of using the carrying loop and the recent office event, why was the owner's walk to the gym interrupted yesterday?"
+  - "Draft: If the owner's colleague has the same bottle, how can the owner now identify their own based on a recent modification?"
+  - "Draft: How does the faded CASNO logo relate to the owner's hygienic rule about not sharing the bottle?"

@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "This is Barnaby, my new cat. [IMAGE] As a Maine Coon, he has those distinct, prominent ear tufts and a massive tabby coat."
+  assistant_response: "Got it. I have noted Barnaby's prominent ear tufts and large tabby coat as stable visual features."
+  image_prompt: "A clear portrait of a large tabby Maine Coon cat with prominent lynx-like ear tufts and a thick, fluffy coat."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "I managed to record him today. [IMAGE] He almost never meows; instead, he communicates constantly with little chirps and trills."
+  assistant_response: "Understood. I've recorded his habit of chirping and trilling instead of meowing."
+  image_prompt: "A close-up of a large Maine Coon cat with its mouth slightly open, appearing to make a vocalization like a chirp or trill."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "Look at this ridiculous habit. [IMAGE] Despite his huge size, he absolutely loves squeezing into the smallest, most awkwardly sized cardboard boxes he can find."
+  assistant_response: "I've noted his strong preference for sleeping in awkwardly small cardboard boxes despite his large size."
+  image_prompt: "A very large, fluffy Maine Coon cat curled up tightly inside a small, somewhat squished cardboard box."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "Here he is looking annoyed. [IMAGE] He has a very strong dislike of closed doors and will aggressively paw at them if they block his path."
+  assistant_response: "I've logged his strong dislike of closed doors and his tendency to paw at them."
+  image_prompt: "A large Maine Coon cat standing on its hind legs, reaching up to paw aggressively at a closed white interior door."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "This happens every time I use the sink. [IMAGE] He has a deep fascination with running tap water and loves to play with it."
+  assistant_response: "Got it. I've noted his fascination with playing with running tap water."
+  image_prompt: "A fluffy Maine Coon cat sitting on a bathroom counter, reaching a paw toward a stream of water running from the faucet."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "I tried to sit down to work today. [IMAGE] He is my constant shadow and has completely claimed my home office chair as his own bed."
+  assistant_response: "I've recorded that he is a constant companion who has claimed your office chair."
+  image_prompt: "A massive tabby Maine Coon cat sleeping comfortably, fully occupying a black mesh home office chair."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "I left some new shoes out yesterday. [IMAGE] He somehow managed to squeeze himself completely into the tiny shoe box, overflowing over the edges."
+  assistant_response: "I've noted the recent event where he squeezed into a tiny shoe box."
+  image_prompt: "A large Maine Coon cat overflowing out of a very small, rectangular cardboard shoe box on the floor."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "I had a confidential call and had to shut him out of the room. [IMAGE] He got accidentally locked out of the home office and sat right outside."
+  assistant_response: "I've recorded that he was recently locked out of the home office during a call."
+  image_prompt: "A large Maine Coon cat sitting on the floor in a hallway, staring intently up at a closed white door."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "I walked into the bathroom this morning. [IMAGE] He discovered the sink was dripping and ended up splashing water all over the counter and floor."
+  assistant_response: "I've noted the recent event where he found a dripping sink and splashed water everywhere."
+  image_prompt: "A messy bathroom counter covered in splashed water puddles, with a Maine Coon cat sitting nearby with wet paws."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "I finally upgraded my setup today. [IMAGE] I bought a brand-new, much larger ergonomic office chair, but he immediately claimed it before I could even sit down."
+  assistant_response: "I've noted that you bought a new, larger office chair and he immediately claimed it."
+  image_prompt: "A massive Maine Coon cat looking smug while sitting proudly in the center of a brand-new, oversized ergonomic office chair."
+  image_id: turn_10

@@ -1,0 +1,59 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: person_6
+concept_type: "person"
+name: "Elena"
+category: "Amateur Tennis Enthusiast"
+
+core_identity:
+  summary: "A dedicated and competitive amateur tennis player who is a regular at the local indoor sports club."
+  role_in_user_life: "The user's frequent doubles partner and a close friend who shares a passion for the sport."
+
+stable_visual_identity:
+  summary: "An athletic young woman with dark hair usually tied back in a functional ponytail for sports."
+  key_features:
+    - "Frequently wears a 'lucky' navy blue t-shirt with white 'TORONTO' lettering."
+    - "Uses a distinctive orange and black framed tennis racket."
+    - "Wears high-performance white tennis skirts and matching athletic shoes."
+
+stable_behavioral_identity:
+  traits:
+    - "Highly disciplined with a strict 20-minute pre-match warmup ritual."
+    - "Extremely protective of her equipment, especially her racket tension."
+  preferences:
+    loves:
+      - "Playing on high-speed hard courts."
+      - "Post-match replenishment with a specific brand of chocolate protein bar."
+    dislikes:
+      - "Playing in high-humidity environments, which she claims makes the ball feel 'heavy'."
+      - "Using any string brand other than her preferred high-tension professional series."
+
+relational_meaning:
+  user_relationship: "Doubles partner and training companion."
+  emotional_value: "A source of motivation and competitive spirit for the user; her consistency on the court is a grounding force."
+  related_entities:
+    - "The local indoor tennis club"
+    - "The 'Lucky' Navy T-shirt"
+
+history:
+  knowledge:
+    - "Instruction: Introduce Elena's 'lucky' navy blue t-shirt with white lettering that she wears for every important match."
+    - "Instruction: Introduce her strict 20-minute warmup ritual that she insists is necessary to avoid injury."
+    - "Instruction: Introduce her signature two-handed backhand technique which is her strongest shot."
+    - "Instruction: Introduce her strong preference for her specific high-tension racket strings."
+    - "Instruction: Introduce her intense dislike for humid playing conditions and how it affects her game."
+    - "Instruction: Introduce her post-match ritual of eating a chocolate protein bar for recovery."
+  event:
+    - "Instruction: Introduce a recent event where the tennis club's ventilation system failed, creating a very humid atmosphere."
+    - "Instruction: Introduce an event where Elena had to use a different string type because her usual brand was out of stock."
+    - "Instruction: Introduce a recent day where she arrived late and had to skip her 20-minute warmup."
+    - "Instruction: Introduce a minor finger injury that forced her to temporarily switch to a one-handed backhand."
+
+hard_questions:
+  - "Draft: Create a state-identification question about why she is struggling with her backhand today, combining the long-term pride in her two-handed backhand with the short-term finger injury."
+  - "Draft: Create a causal-inference question about her unusual exhaustion early in a match, combining her dislike of humidity with the broken ventilation event."
+  - "Draft: Create a preference-conflict question about her frustration with her racket's performance, combining her strict string preference with the forced use of a different brand."
+  - "Draft: Create a recommendation question about whether she should play at 100% intensity today, combining the importance of her 20-minute warmup with the event of skipping it."
+  - "Draft: Create a reasoning question about why she refuses to remove her navy t-shirt despite the extreme heat in the court, combining her lucky shirt superstition with the humid/hot conditions."

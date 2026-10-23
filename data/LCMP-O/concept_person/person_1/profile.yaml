@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: person_1
+concept_type: "person"
+name: "Elara Vance"
+category: "Avant-Garde Makeup Artist"
+
+core_identity:
+  summary: "A bold and expressive makeup artist known for using her own face as a canvas for asymmetrical, vibrant art."
+  role_in_user_life: "A close friend and creative collaborator who inspires the user to think outside traditional beauty standards."
+
+stable_visual_identity:
+  summary: "A striking appearance characterized by blonde hair and intentional visual dissonance in makeup."
+  key_features:
+    - "Signature asymmetrical eye makeup, often with clashing colors like green and purple."
+    - "A distinct lip piercing on the lower lip."
+    - "Platinum blonde hair usually tied back in a simple ponytail or pigtails."
+
+stable_behavioral_identity:
+  traits:
+    - "Fearless experimentation with clashing aesthetics."
+    - "A rebellious attitude towards traditional 'pretty' or 'corporate' standards."
+  preferences:
+    loves:
+      - "Vibrant, neon, and clashing color palettes."
+      - "Underground art scenes and urban exploration."
+    dislikes:
+      - "Monochromatic or 'safe' fashion choices."
+      - "Strict, conservative dress codes."
+
+relational_meaning:
+  user_relationship: "Creative partner and confidante."
+  emotional_value: "Represents freedom of expression and the courage to be unconventional."
+  related_entities:
+    - "The Neon Gallery (local underground art space)"
+
+history:
+  knowledge:
+    - "Instruction: Introduce Elara's signature asymmetrical eye makeup with different colors on each eye."
+    - "Instruction: Introduce her platinum blonde hair and how she prefers to keep it in a ponytail to focus on her face art."
+    - "Instruction: Introduce her long-term lip piercing as a stable part of her identity."
+    - "Instruction: Introduce her deep-seated dislike for conservative, corporate-style aesthetics."
+    - "Instruction: Introduce her preference for clashing neon colors like purple and green."
+    - "Instruction: Introduce her role as a professional avant-garde makeup artist who works in the underground scene."
+  event:
+    - "Instruction: Introduce a recent event where Elara was hired for a conservative wedding but showed up with her usual bold makeup."
+    - "Instruction: Introduce a recent photo where she is experimenting with a new, extremely thick neon green eye shadow."
+    - "Instruction: Introduce a recent situation where she misplaced her favorite lip ring and had to use a temporary, larger stud."
+    - "Instruction: Introduce a recent invitation she received for a 'Minimalist Black & White' gala that she is mocking."
+
+hard_questions:
+  - "Draft: Create a preference-conflict question about why Elara chose to wear vibrant neon makeup to a conservative wedding despite the formal setting. (Combine: Dislike of conservative aesthetics + Event: Conservative wedding)."
+  - "Draft: Create a causal-inference question explaining why her eye makeup looks unusually heavy in a recent photo. (Combine: Preference for clashing colors + Event: New neon green eyeshadow experiment)."
+  - "Draft: Create a state-identification question about the change in her facial jewelry. (Combine: Stable lip piercing identity + Event: Temporary larger stud)."
+  - "Draft: Create a counterfactual question about her likely reaction to the dress code of the upcoming gala. (Combine: Dislike of monochromatic styles + Event: Minimalist gala invitation)."
+  - "Draft: Create a reasoning question about why she might be looking for inspiration at the Neon Gallery for her next underground project. (Combine: Role as avant-garde artist + Event: Mocking the minimalist gala)."

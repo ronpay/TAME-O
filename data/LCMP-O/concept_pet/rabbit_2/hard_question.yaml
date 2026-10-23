@@ -1,0 +1,84 @@
+- id: 1
+  type: Causal Inference
+  question: "Why did he bolt straight into the woven tunnel after the kitchen noise? [IMAGE]"
+  image_prompt: "A charcoal rabbit rushing into a woven grass tunnel while a metal pan lies on the kitchen floor behind him."
+  evaluation_criteria:
+    ideal_answer: "He bolted into the woven tunnel because a metal pan recently clanged loudly in the kitchen, and the tunnel is his long-term safe hiding place when the room feels intense."
+    key_points:
+      - "A metal pan recently clanged loudly in the kitchen."
+      - "The woven grass tunnel is his safest hiding place."
+  options:
+    - "He ran into the tunnel because the loud pan clang startled him and the tunnel is his usual safe hideout."
+    - "He ran into the tunnel because he expected parsley to be hidden there after hearing kitchen sounds."
+    - "He ran into the tunnel because he wanted to find the parsley that had been there earlier."
+    - "He ran into the tunnel because he likes to sleep there every time the lights change."
+  answer: "He ran into the tunnel because the loud pan clang startled him and the tunnel is his usual safe hideout."
+  image_id: hq_1
+
+- id: 2
+  type: Preference Conflict
+  question: "Why is he still refusing to come out even though parsley is right outside the tunnel? [IMAGE]"
+  image_prompt: "A dark rabbit staying inside a woven tunnel while fresh parsley sits just outside the opening."
+  evaluation_criteria:
+    ideal_answer: "This is a conflict because parsley is normally his favorite snack, but the recent scene shows him staying hidden despite it."
+    key_points:
+      - "Parsley was recently left outside the tunnel, but he still would not come out."
+      - "Flat-leaf parsley is his favorite snack."
+  options:
+    - "He is refusing because the tunnel feels secure and the parsley sits just outside his reach."
+    - "He is refusing because staying hidden matters more to him right now even though parsley is usually his favorite."
+    - "He is refusing because he only eats snacks from a ceramic bowl."
+    - "He is refusing because he never eats inside the hallway area."
+  answer: "He is refusing because staying hidden matters more to him right now even though parsley is usually his favorite."
+  image_id: hq_2
+
+- id: 3
+  type: State Identification
+  question: "Why is he frozen at the edge of the rug instead of crossing the hallway? [IMAGE]"
+  image_prompt: "A small rabbit standing stiffly at the edge of a rug while a wet patch spreads across the hardwood ahead."
+  evaluation_criteria:
+    ideal_answer: "He is frozen there because the water bowl recently tipped over and left the hardwood wet, and he has a long-term refusal to walk over wet, slippery floors."
+    key_points:
+      - "His water bowl recently tipped over and left a wet patch across the hardwood."
+      - "He refuses to walk over wet, slippery hardwood."
+  options:
+    - "He is frozen there because the image alone does not show which floor surface he refuses."
+    - "He is frozen there because he is waiting for parsley to be moved closer."
+    - "He is frozen there because the wet hardwood is blocking a surface he usually refuses to cross."
+    - "He is frozen there because he thinks the woven tunnel belongs in the hallway."
+  answer: "He is frozen there because the wet hardwood is blocking a surface he usually refuses to cross."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "If I need to check on him while he is hiding in the tunnel, what is the best way to approach him? [IMAGE]"
+  image_prompt: "A hand paused near the entrance of a woven grass tunnel where a dark rabbit is hiding inside."
+  evaluation_criteria:
+    ideal_answer: "The best approach is to avoid reaching down from above and instead wait or lure him out gently, because he is currently hiding in the tunnel and he dislikes overhead hand movements."
+    key_points:
+      - "He recently curled up inside the woven tunnel and stayed there."
+      - "He dislikes hands reaching down from above him."
+  options:
+    - "Speak softly near the opening, though the image alone does not show his handling preference."
+    - "Lift the tunnel slightly so he understands that hiding there is temporary."
+    - "Tap the tunnel wall softly until he moves closer to the opening."
+    - "Approach gently without reaching down from above, and let him come out on his own or with a lure."
+  answer: "Approach gently without reaching down from above, and let him come out on his own or with a lure."
+  image_id: hq_4
+
+- id: 5
+  type: State Identification
+  question: "Why does he still look tense even though he can smell the parsley outside the tunnel? [IMAGE]"
+  image_prompt: "A charcoal rabbit peeking from a woven tunnel with ears held tight while parsley sits outside and a blender runs in the background."
+  evaluation_criteria:
+    ideal_answer: "He still looks tense because the blender was recently running beside the tunnel, and he has a long-term fear of the blender's high-pitched whine."
+    key_points:
+      - "The blender was recently running while parsley sat outside the tunnel."
+      - "He is especially frightened by the high whine of the blender."
+  options:
+    - "He still looks tense because rabbits often stay alert in enclosed spaces even when food is nearby."
+    - "He still looks tense because the hand near the tunnel entrance may be making him cautious."
+    - "He still looks tense because the white chin patch makes his face look sharper than usual."
+    - "He still looks tense because the blender noise is present and he is known to fear that sound."
+  answer: "He still looks tense because the blender noise is present and he is known to fear that sound."
+  image_id: hq_5

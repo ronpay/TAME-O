@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "This is Oreo, my Dutch rabbit. [IMAGE] The white blaze down his face and the black ears make him easy to recognize."
+  assistant_response: "I've noted his name and those black-and-white facial markings as stable visual features."
+  image_prompt: "A close portrait of a Dutch rabbit with a sharp white blaze down the face and solid black upright ears."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "He gets wildly excited whenever I open fresh cilantro. [IMAGE] You can tell right away because he starts sniffing and bouncing toward me."
+  assistant_response: "I've recorded that fresh cilantro is a strong favorite and reliably excites him."
+  image_prompt: "A black-and-white Dutch rabbit leaning eagerly toward a bunch of fresh cilantro on the floor."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "He is really skittish around sudden loud noises. [IMAGE] If something booms outside, he tenses up immediately."
+  assistant_response: "Understood. I've noted that sudden loud noises startle him very easily."
+  image_prompt: "A black-and-white rabbit standing alert with tense posture near a window after hearing a sudden noise."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "He never cares about rubber toys. [IMAGE] He would rather chew a willow stick than touch anything rubbery."
+  assistant_response: "I've recorded his clear preference for willow sticks over rubber toys."
+  image_prompt: "A Dutch rabbit chewing a thin willow stick while a rubber toy sits ignored nearby."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "That blue ceramic bowl is basically his snack station. [IMAGE] He runs there as soon as he thinks food is coming."
+  assistant_response: "I've noted the blue ceramic bowl as the place he associates with snacks."
+  image_prompt: "A blue ceramic bowl on the floor with a black-and-white rabbit waiting beside it expectantly."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "This gray plush rug is where he likes to settle down. [IMAGE] He stretches out there whenever the room feels calm."
+  assistant_response: "I've recorded the gray plush rug as his favorite resting spot."
+  image_prompt: "A Dutch rabbit stretched out comfortably on a soft gray plush rug in a living room."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "A delivery truck just rumbled loudly past the window. [IMAGE] The whole room felt shaky for a second."
+  assistant_response: "I've noted the recent loud truck passing outside."
+  image_prompt: "A large delivery truck passing the window while a black-and-white rabbit inside the room looks startled."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "Right after that, he squeezed himself into this cardboard box. [IMAGE] He has been staying in there for a while."
+  assistant_response: "I've recorded that he hid inside the cardboard box after the noise."
+  image_prompt: "A Dutch rabbit tucked inside a cardboard box, peeking out cautiously from the opening."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "I tried giving him this new red rubber ball today, but he just sniffed it and walked away. [IMAGE]"
+  assistant_response: "I've noted that the new red rubber ball did not interest him."
+  image_prompt: "A black-and-white rabbit turning away from a bright red rubber ball on the floor."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "I spilled some dried chamomile tea on the floor and he spent several minutes investigating it. [IMAGE] He kept sniffing every little piece."
+  assistant_response: "I've recorded that he recently focused on a spill of dried chamomile tea."
+  image_prompt: "A Dutch rabbit carefully sniffing loose dried chamomile tea scattered across a wooden floor."
+  image_id: turn_10

@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "Here is a picture of my friend Arthur. [IMAGE] He's almost never seen without that signature black fedora of his."
+  assistant_response: "I've noted that the black fedora is a signature part of Arthur's look."
+  image_prompt: "A man named Arthur wearing a classic black fedora and a white button-down shirt, looking directly at the camera."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "He's very meticulous. [IMAGE] Here he is working on a vintage circuit board, wearing his usual silver-rimmed oval glasses."
+  assistant_response: "Understood. I've recorded his use of silver-rimmed oval glasses and his interest in circuit boards."
+  image_prompt: "A close-up of a man in a white shirt and silver-rimmed oval glasses, carefully soldering components onto an old computer circuit board."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "Check out his tie collection. [IMAGE] He only ever wears these 8-bit, pixelated designs; he says standard silk ties are too boring."
+  assistant_response: "I've noted his exclusive preference for 8-bit pixelated ties over standard silk ones."
+  image_prompt: "Arthur standing beside a closet rack of pixelated 8-bit neckties in blue and black, wearing his white shirt and black fedora."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "He refuses to use emulators. [IMAGE] He insisted on setting up this original 1980s console just to play for twenty minutes."
+  assistant_response: "Got it. He has a strong preference for original hardware over digital emulators."
+  image_prompt: "A man sitting on a rug in front of a bulky CRT television, connecting a vintage 8-bit gaming console with various wires."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "His day job is pretty serious. [IMAGE] He's the Lead Architect for a cybersecurity firm that specializes in legacy systems."
+  assistant_response: "I've updated my records to include his role as a Lead Architect in cybersecurity."
+  image_prompt: "A man in a white shirt and black fedora standing in a modern server room, looking at a wall of monitors displaying code."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "He can't stand bright light. [IMAGE] He always keeps the heavy blinds closed in his home office like this."
+  assistant_response: "I've noted his sensitivity to bright light and his preference for keeping his workspace dark."
+  image_prompt: "An office interior with a man sitting at a desk, with thick, dark curtains completely blocking out the window light."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "He had a bit of an accident yesterday. [IMAGE] The frame of his silver-rimmed glasses snapped right in the middle."
+  assistant_response: "That's unfortunate. I've recorded that his glasses frame recently broke."
+  image_prompt: "Arthur standing at a wooden table without his usual glasses, looking worried at his broken silver-rimmed oval glasses on the tabletop."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "We went to a formal wedding last weekend. [IMAGE] It was so traditional that even he had to wear a regular red silk tie for once."
+  assistant_response: "I've noted that he wore a standard silk tie for a formal family wedding."
+  image_prompt: "A man in a dark suit wearing a plain red silk tie, looking slightly uncomfortable at a festive wedding reception."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "The team-building event was brutal for him. [IMAGE] We spent four hours in the middle of a sunny park with no shade."
+  assistant_response: "I've recorded that he recently spent several hours outdoors in a bright, sunny environment."
+  image_prompt: "A man sitting on a park bench in bright afternoon sun, squinting and shielding his eyes with his hand."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "He was so upset on the way to the Tech Expo. [IMAGE] He realized he'd left his favorite black fedora on the train."
+  assistant_response: "I've noted that he recently lost his signature black fedora while traveling to the expo."
+  image_prompt: "A man standing on a train platform looking frustrated, with his hair slightly messy and no hat on his head."
+  image_id: turn_10

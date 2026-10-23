@@ -1,0 +1,84 @@
+- id: 1
+  type: State Identification
+  question: "It's inside a clear box now. [IMAGE] Why was this protective measure taken instead of leaving it in its usual spot?"
+  image_prompt: "The white bunny plush sitting inside a transparent acrylic display box on a table, with construction tools like a hammer and a level visible in the background."
+  evaluation_criteria:
+    ideal_answer: "The plush is being protected from dust due to an ongoing renovation next door. This aligns with its long-term need for clean, dust-free environments to maintain its white fur."
+    key_points:
+      - "The user recently placed it in an acrylic box because of a dusty room renovation."
+      - "The plush has a long-term preference for dust-free environments."
+  options:
+    - "It is being displayed in the clear box because paint tools on the workbench could smudge its white fabric."
+    - "It is being kept in an acrylic box because its usual spot on the oak nightstand is currently being painted."
+    - "It was placed in a clear box to shield it from renovation dust and maintain its clean white color."
+    - "It is being stored in a box to prevent it from getting lost during the chaotic room reorganization."
+  answer: "It was placed in a clear box to shield it from renovation dust and maintain its clean white color."
+  image_id: hq_1
+
+- id: 2
+  type: Causal Inference
+  question: "The neck area looks quite bare in this photo. [IMAGE] Why is the usual accessory missing?"
+  image_prompt: "A close-up of the white bunny plush sitting on a table, showing its bare neck without the peach scarf."
+  evaluation_criteria:
+    ideal_answer: "The peach-colored knitted scarf, which is a stable part of its identity, was recently removed to be hand-washed. The missing accessory is a temporary state while it is being cleaned."
+    key_points:
+      - "The peach scarf was recently removed for a hand-wash."
+      - "The peach-colored knitted scarf is a permanent, stable visual accessory."
+  options:
+    - "The usual accessory is missing because it was recently removed to be cleaned for the first time in months."
+    - "The scarf was taken off because it was causing the white sherpa fur to mat and become damaged."
+    - "The scarf was lost during a recent study session and has not been replaced yet."
+    - "It is not wearing the scarf because the room is too warm and the user wants it to look cooler."
+  answer: "The usual accessory is missing because it was recently removed to be cleaned for the first time in months."
+  image_id: hq_2
+
+- id: 3
+  type: Preference Conflict
+  question: "It’s sitting right by the glass today. [IMAGE] Why does this new location conflict with its normal maintenance needs?"
+  image_prompt: "The white bunny plush sitting on a window sill with bright, direct sunlight hitting its fur."
+  evaluation_criteria:
+    ideal_answer: "While it was moved to the window to watch the sunrise, this conflicts with its long-term need to avoid direct sunlight, which could fade its bright white fur."
+    key_points:
+      - "It was recently moved to the window sill for a change of scenery."
+      - "It normally avoids direct sunlight to maintain its white color and prevent fading."
+  options:
+    - "The narrow glass sill is risky because a draft could knock the plush down before anyone notices."
+    - "The location is risky because it is away from its usual safe spot on the oak nightstand."
+    - "The window sill is more prone to dust than its usual spot, which threatens its cleanliness."
+    - "The bright light at the window sill conflicts with its need to stay out of direct sun to prevent fading."
+  answer: "The bright light at the window sill conflicts with its need to stay out of direct sun to prevent fading."
+  image_id: hq_3
+
+- id: 4
+  type: Causal Inference
+  question: "There is a small mark on the left paw. [IMAGE] How did this happen during the recent session?"
+  image_prompt: "A close-up of the plush's left paw with a small brown stain, sitting next to a laptop and a mug of tea."
+  evaluation_criteria:
+    ideal_answer: "The mark is a tea stain from a recent spill during a study session. This happened because the plush regularly sits next to the user as a study buddy during late-night work."
+    key_points:
+      - "A drop of chamomile tea was recently spilled on the left paw."
+      - "The plush acts as a long-term study buddy, often sitting next to the user's laptop."
+  options:
+    - "The small mark may have come from coffee or pencil graphite during the study session."
+    - "The stain was caused by a drop of tea that splashed onto it while it was acting as a study partner."
+    - "The discoloration happened because it was sitting too close to a dusty stack of books during work."
+    - "The mark is a small patch of worn sherpa fabric from being handled too much during study breaks."
+  answer: "The stain was caused by a drop of tea that splashed onto it while it was acting as a study partner."
+  image_id: hq_4
+
+- id: 5
+  type: Causal Inference
+  question: "It is being featured prominently in this window-side photo today. [IMAGE] Why was it specifically chosen to mark this anniversary?"
+  image_prompt: "The white bunny plush sitting on the window sill next to a framed graduation photo and a small diploma."
+  evaluation_criteria:
+    ideal_answer: "The plush was moved to the window for a celebratory photo because it was originally received as a graduation gift and remains a symbol of academic achievement."
+    key_points:
+      - "It was recently moved to the window sill to celebrate the morning view."
+      - "The plush was originally received as a graduation gift and represents academic hard work."
+  options:
+    - "It was featured because it was a graduation gift and is being used to commemorate academic milestones."
+    - "The bright window light was chosen because it made the white plush look clean for the anniversary photo."
+    - "The user wanted to show it off in a new setting to celebrate its anniversary in the house."
+    - "The window sill move was intended to make it the centerpiece of a room redecoration anniversary."
+  answer: "It was featured because it was a graduation gift and is being used to commemorate academic milestones."
+  image_id: hq_5

@@ -1,0 +1,84 @@
+- id: 1
+  type: Preference Conflict
+  question: "Look at the backpack here. [IMAGE] Why does it look so strained and bulky today, given what we know about how it's usually packed?"
+  image_prompt: "The grey backpack on a table, looking visibly stuffed and rounded with heavy items inside, causing the fabric to look tight."
+  evaluation_criteria:
+    ideal_answer: "The backpack looks strained and bulky because the user is currently carrying heavy textbooks for a certification exam. This conflicts with its long-term preference for lightweight tech-heavy loads like laptops and tablets."
+    key_points:
+      - "The user is currently carrying heavy textbooks for an exam."
+      - "The backpack normally prefers lightweight tech gear and struggles with bulky items."
+  options:
+    - "The image only shows a bulging backpack, not whether textbooks or another bulky load caused the strain."
+    - "It looks strained because it is currently filled with heavy textbooks for a certification exam, which goes against its normal use for lightweight tech gear."
+    - "The fabric is just reacting to the heavy weight of the textbooks being carried today."
+    - "The textbook load is pulling the backpack out of its slim office shape, unlike its usual laptop-and-tablet setup."
+  answer: "It looks strained because it is currently filled with heavy textbooks for a certification exam, which goes against its normal use for lightweight tech gear."
+  image_id: hq_1
+
+- id: 2
+  type: State Identification
+  question: "Here's a photo from earlier. [IMAGE] Why is the current state of the fabric particularly concerning for this item?"
+  image_prompt: "A close-up of the grey backpack fabric with large, dark wet patches from rain."
+  evaluation_criteria:
+    ideal_answer: "The fabric is currently soaking wet from a sudden downpour. This is concerning because the item is usually kept in dry, indoor office environments and the owner tries to keep it away from any humidity or wet conditions."
+    key_points:
+      - "The backpack was recently caught in a massive downpour and is soaking wet."
+      - "The backpack is normally kept in dry, indoor office environments."
+  options:
+    - "A leaking water bottle inside the pack may have soaked the fabric, which is risky for a bag that usually carries electronics."
+    - "It's wet from a downpour, which conflicts with its usual dry office environment."
+    - "The moisture could damage the electronics that are normally kept inside."
+    - "The fabric is currently soaked from the rain, which is a significant change from its typical dry office surroundings."
+  answer: "The fabric is currently soaked from the rain, which is a significant change from its typical dry office surroundings."
+  image_id: hq_2
+
+- id: 3
+  type: Causal Inference
+  question: "Look at where the backpack is sitting. [IMAGE] Why did the user place it there, even though they usually avoid doing that?"
+  image_prompt: "The grey backpack sitting on a dusty wooden floor next to a table leg in a crowded space."
+  evaluation_criteria:
+    ideal_answer: "The user placed the backpack on the floor because the coffee shop was so crowded that there were no extra chairs or table space. This action contradicts the user's long-term habit of always keeping it off the floor to maintain its cleanliness."
+    key_points:
+      - "The user is in a crowded coffee shop with no available chairs or table space."
+      - "The user has a long-term habit of never placing the backpack on the floor."
+  options:
+    - "The cafe had no clean chair or table space, so floor placement was the only choice despite the user's off-floor habit."
+    - "The floor was the only available spot in the crowded shop, forcing the user to break their habit of keeping it off the ground."
+    - "The user was in a hurry and didn't have time to find a better place for it."
+    - "The crowded cafe left the floor as the only nearby spot, even though that is exactly where the user tries not to put it."
+  answer: "The floor was the only available spot in the crowded shop, forcing the user to break their habit of keeping it off the ground."
+  image_id: hq_3
+
+- id: 4
+  type: State Identification
+  question: "Why was this specific accessory added to the handle? [IMAGE]"
+  image_prompt: "A close-up of the grey backpack's top handle with a bright red luggage tag attached."
+  evaluation_criteria:
+    ideal_answer: "The red tag was added because the user is currently headed to the airport and needs to identify it easily. This is unusual because the item is typically kept clean and free of any decorations or keychains."
+    key_points:
+      - "The user is currently headed to the airport for a trip."
+      - "The backpack is normally kept minimalist and free of decorations or accessories."
+  options:
+    - "The user added it to make the backpack look more personalized for their trip."
+    - "It was added for visibility at the airport, which stands out because the bag is usually kept entirely plain."
+    - "It's a bright tag for identification at the airport, which is a temporary addition to its normally minimalist look."
+    - "The red tag helps the user spot their bag quickly among others at the airport."
+  answer: "It was added for visibility at the airport, which stands out because the bag is usually kept entirely plain."
+  image_id: hq_4
+
+- id: 5
+  type: Counterfactual / Recommendation Reasoning
+  question: "If the user needed to pack a thick winter coat today, why would they likely choose a different bag instead of this one? [IMAGE]"
+  image_prompt: "The grey backpack on a table, looking rounded and tight due to the textbooks currently inside."
+  evaluation_criteria:
+    ideal_answer: "The user would choose a different bag because this one struggles with bulky items, as seen by how it currently looks strained with textbooks. Its long-term preference is for slim tech gear, and it has already shown signs of straining when overstuffed."
+    key_points:
+      - "The backpack is currently shown looking strained while carrying textbooks."
+      - "The backpack has a long-term dislike for being overstuffed with bulky items."
+  options:
+    - "The textbooks already show how badly it handles bulk, so a winter coat would overload the wrong kind of bag."
+    - "Based on how it's currently straining with books, it's clear this bag isn't meant for bulky items like a thick coat."
+    - "The bag is too small to fit a thick winter coat comfortably alongside other gear."
+    - "A thick coat would likely break the zippers, given its preference for lightweight tech."
+  answer: "Based on how it's currently straining with books, it's clear this bag isn't meant for bulky items like a thick coat."
+  image_id: hq_5

@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "Check out this look from Elara Vance. [IMAGE] She's always doing this cool asymmetrical thing where her eyes are completely different colors."
+  assistant_response: "That's a very striking style. I've noted that her signature look involves asymmetrical eye makeup with clashing colors."
+  image_prompt: "A portrait of Elara Vance with blonde hair, wearing purple lipstick and asymmetrical eye makeup: one eye has a purple shadow and the other has a broad green stripe."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "Here's another shot. [IMAGE] She usually keeps her platinum blonde hair tied back in a simple ponytail like this so her face stays the main focus."
+  assistant_response: "I see. Keeping her hair tied back definitely highlights her makeup art."
+  image_prompt: "A side profile of a woman with platinum blonde hair tied in a low ponytail, wearing a white collared shirt."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "She's had this lip piercing for as long as I've known her. [IMAGE] It's such a permanent part of her vibe."
+  assistant_response: "I've recorded that the lip piercing is a stable part of her visual identity."
+  image_prompt: "A close-up of a woman's lower face showing purple lipstick and a small silver stud piercing in the center of her lower lip."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "She absolutely can't stand anything 'corporate' or conservative. [IMAGE] Even when she's dressed up a bit, she has to add something rebellious."
+  assistant_response: "It's clear she has a strong dislike for traditional or conservative aesthetics."
+  image_prompt: "A woman wearing a white dress shirt and a loose, messy black tie, looking defiant."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "She's obsessed with clashing neon colors. [IMAGE] Most people would be afraid of purple and green together, but she loves the tension."
+  assistant_response: "The contrast between the purple and green is definitely bold. I've noted her preference for clashing neon palettes."
+  image_prompt: "A close-up of a woman's face featuring bright purple lipstick and vibrant neon green eye makeup."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "She actually makes a living as an avant-garde makeup artist in the underground scene. [IMAGE] This isn't just a hobby for her; it's her career."
+  assistant_response: "That makes sense. Her professional role as an avant-garde artist explains her dedication to these unconventional looks."
+  image_prompt: "A woman in a dimly lit art studio, surrounded by makeup kits and vibrant color palettes."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "Can you believe she was hired to do makeup for a really conservative wedding last weekend and showed up looking like this? [IMAGE] The bride's family was so shocked."
+  assistant_response: "That certainly would be a contrast to a conservative wedding. I've noted that she maintained her bold style even in a formal, traditional setting."
+  image_prompt: "A woman with asymmetrical neon makeup and a messy tie standing in a decorated wedding hall, looking out of place among formal guests."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "She just got this new neon green eyeshadow and she's been going way overboard with it lately. [IMAGE] It's even thicker than usual today."
+  assistant_response: "That neon green is very intense. I've recorded that she's recently been experimenting with a heavier application of this new eyeshadow."
+  image_prompt: "A close-up portrait where the green eyeshadow on one eye is applied in a thick, almost rectangular block of neon color."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "She misplaced her favorite small lip ring this morning, so she's stuck wearing this larger temporary stud for now. [IMAGE] She says it feels weird."
+  assistant_response: "I see the change. I've noted she's temporarily wearing a larger stud while her usual lip ring is missing."
+  image_prompt: "A close-up of a woman's lip featuring a noticeably larger, more prominent silver stud than her usual one."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "She got an invitation to this 'Minimalist Black & White' gala and she's just been laughing at it. [IMAGE] She's already planning how to clash with the theme."
+  assistant_response: "It sounds like she's looking forward to challenging the minimalist theme of the gala."
+  image_prompt: "A woman holding a sleek, minimalist black and white invitation card, with a mischievous and mocking expression on her face."
+  image_id: turn_10

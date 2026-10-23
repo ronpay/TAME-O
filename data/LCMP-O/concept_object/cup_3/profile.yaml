@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: cup_3
+concept_type: "object"
+name: "The Heritage Fluted Cup"
+category: "Vintage Porcelain Teacup"
+
+core_identity:
+  summary: "A delicate cream-colored vintage teacup and matching saucer with a distinctive diagonal fluted texture."
+  role_in_user_life: "A central part of the user's daily morning tea ritual and a symbol of family continuity."
+
+stable_visual_identity:
+  summary: "A creamy off-white porcelain teacup with elegant swirled patterns and a decorative scrolled handle."
+  key_features:
+    - "Distinctive diagonal fluting or 'ribbon' texture on the exterior of the cup and the edge of the saucer."
+    - "Creamy off-white or light ivory porcelain finish with a soft gloss."
+    - "An ornate, thin porcelain handle featuring a small scroll detail at the bottom attachment point."
+
+stable_behavioral_identity:
+  traits:
+    - "Always used with its matching fluted saucer to catch any drips."
+    - "Only hand-washed with a soft sponge to preserve the delicate porcelain."
+  preferences:
+    loves:
+      - "Being filled with light-colored herbal teas like chamomile."
+      - "Resting on a dark mahogany wooden coaster when not on its saucer."
+    dislikes:
+      - "Being placed in a dishwasher or near heavy cast-iron pots."
+      - "Holding strong-staining liquids like thick black coffee or dark beet juice."
+
+relational_meaning:
+  user_relationship: "A cherished heirloom inherited from a grandmother who used it every Sunday."
+  emotional_value: "Represents comfort, memory, and the importance of taking a slow moment in a busy day."
+  related_entities:
+    - "A specific silver teaspoon with a floral engraving"
+
+history:
+  knowledge:
+    - "Instruction: Introduce the Heritage Fluted Cup's creamy porcelain and swirled texture during a morning tea session."
+    - "Instruction: Introduce the ornate handle with the scroll detail as the user holds the cup."
+    - "Instruction: Show the matching saucer with its fluted edges resting on the user's wooden desk."
+    - "Instruction: Introduce the preference for light herbal tea by showing chamomile tea being poured into the cup."
+    - "Instruction: Introduce the fact that this cup is never put in the dishwasher by showing it being hand-washed in a sink."
+    - "Instruction: Introduce the silver teaspoon used alongside the cup to emphasize its role as a complete ritual set."
+  event:
+    - "Instruction: Introduce a recent event where the user accidentally left a small tea stain at the bottom after forgetting to wash it."
+    - "Instruction: Introduce a recent situation where the user had to use a different, non-matching saucer because the original was being used for something else."
+    - "Instruction: Introduce a recent moment where the user decided to use the cup for a cold drink instead of hot tea for the first time."
+    - "Instruction: Introduce a recent near-accident where the cup was almost knocked over by a stack of books but stayed upright."
+
+hard_questions:
+  - "Draft: Create a preference-conflict question that combines the cup's dislike for staining liquids with the recent event of leaving a tea stain."
+  - "Draft: Create a state-identification question that combines the normal use of the matching saucer with the recent use of a non-matching one."
+  - "Draft: Create a causal-inference question that combines the cup's role in morning rituals with the recent choice to use it for a cold drink."
+  - "Draft: Create a counterfactual question that combines the hand-wash-only rule with the recent stain event, asking what should be done next."
+  - "Draft: Create a multi-clue reasoning question grounded in the cup's visual identity and the recent near-accident with the books."

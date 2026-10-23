@@ -1,0 +1,84 @@
+- id: 1
+  type: Preference Conflict
+  question: "Here she is on a recent walk. [IMAGE] Given her usual preferences, why did I put this gear on her?"
+  image_prompt: "A Japanese Chin dog wearing a bright yellow dog raincoat standing near a muddy puddle."
+  evaluation_criteria:
+    ideal_answer: "She wore a small yellow raincoat for protection outdoors because she has a strong dislike of getting her paws wet or having to walk in any kind of mud."
+    key_points:
+      - "She recently wore a small yellow raincoat for protection outdoors."
+      - "She has a strong dislike of getting her paws wet or having to walk in any kind of mud."
+  options:
+    - "I put it on her because the photo shows wet ground, but not her specific paw preference."
+    - "I put it on her because she strongly dislikes getting her paws wet and walking in mud, so she needs the protection."
+    - "I put it on her because it makes her easier to spot when she runs far ahead on her walks in the rain."
+    - "I put it on her because she refuses to go outside unless she is fully dressed in her bright red gear."
+  answer: "I put it on her because she strongly dislikes getting her paws wet and walking in mud, so she needs the protection."
+  image_id: hq_1
+
+- id: 2
+  type: Causal Inference
+  question: "I took this photo yesterday while doing some cleaning. [IMAGE] Why was she hiding down here instead of being in her usual spot?"
+  image_prompt: "A Japanese Chin dog hiding anxiously underneath a dark bed frame."
+  evaluation_criteria:
+    ideal_answer: "She was hiding all the way under the bed because the loud vacuum cleaner was running, and she is terrified of loud noises."
+    key_points:
+      - "She recently hid all the way under the bed instead of her usual high spot."
+      - "She is terrified of loud noises, specifically the vacuum cleaner."
+  options:
+    - "She hid under the bed because she was scolded for getting muddy paws and wanted to avoid attention."
+    - "She hid under the bed because the sofa was occupied by guests, forcing her to find a new spot."
+    - "She hid under the bed because she is terrified of loud noises, specifically the vacuum cleaner."
+    - "She hid under the bed because she likes to sleep in the dark, and the high back of the sofa was too bright."
+  answer: "She hid under the bed because she is terrified of loud noises, specifically the vacuum cleaner."
+  image_id: hq_2
+
+- id: 3
+  type: State Identification
+  question: "Look at this picture. [IMAGE] Why is she no longer acting like her usual self?"
+  image_prompt: "A Japanese Chin dog looking anxious and actively moving away from a shiny new robotic vacuum cleaner on the floor."
+  evaluation_criteria:
+    ideal_answer: "She usually has a very calm, cat-like habit of resting perched on the high back of the sofa, but the loud new robotic vacuum cleaner disrupted her normal demeanor."
+    key_points:
+      - "A loud new robotic vacuum cleaner was recently brought home and runs automatically."
+      - "She normally has a calm, cat-like habit of resting perched on the high back of the sofa."
+  options:
+    - "Her usual calm demeanor was ruined because she had to wear her yellow raincoat indoors."
+    - "She is no longer acting calm because she just got caught in a sudden rainstorm and is agitated."
+    - "She is acting this way because she is excitedly trying to play with the new robotic vacuum cleaner."
+    - "Her usual calm, cat-like habit of resting on the sofa was disrupted by the loud new robotic vacuum cleaner."
+  answer: "Her usual calm, cat-like habit of resting on the sofa was disrupted by the loud new robotic vacuum cleaner."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "She just walked in looking like this. [IMAGE] What should I immediately prevent her from doing?"
+  image_prompt: "A Japanese Chin dog standing indoors with visibly muddy paws after a rainstorm."
+  evaluation_criteria:
+    ideal_answer: "Because she got caught in a sudden rainstorm and ended up with totally muddy paws, I should prevent her from jumping onto her absolute favorite spot, the soft velvet cushion in the reading chair."
+    key_points:
+      - "She recently got caught in a sudden rainstorm and ended up with totally muddy paws."
+      - "Her favorite spot is a soft velvet cushion in the reading chair."
+  options:
+    - "I should prevent her from shaking muddy water across the hallway."
+    - "I should prevent her from hiding all the way under the bed, which is where she usually goes."
+    - "I should prevent her from jumping onto her absolute favorite soft velvet cushion in the reading chair."
+    - "I should prevent her from immediately trying to take off her bright red bow collar."
+  answer: "I should prevent her from jumping onto her absolute favorite soft velvet cushion in the reading chair."
+  image_id: hq_4
+
+- id: 5
+  type: Causal Inference
+  question: "After this happened yesterday, I had to clean her up. [IMAGE] Why did the cleaning process take longer than it usually would for other dogs?"
+  image_prompt: "A Japanese Chin dog standing indoors with visibly muddy paws after a rainstorm."
+  evaluation_criteria:
+    ideal_answer: "Because she got muddy paws in the sudden rainstorm, she needed to be cleaned, but it took longer because she is a delicate companion who requires very gentle care and handling."
+    key_points:
+      - "She got caught in a sudden rainstorm and ended up with totally muddy paws."
+      - "She is a delicate companion who requires very gentle care and handling."
+  options:
+    - "It took longer because the mud had dried between her paw pads."
+    - "It took longer because her bright red bow collar got tangled in the mud and had to be carefully removed."
+    - "It took longer because she kept trying to hide all the way under the bed to avoid the bath."
+    - "It took longer because she is a delicate companion who requires very gentle care while washing off the mud."
+  answer: "It took longer because she is a delicate companion who requires very gentle care while washing off the mud."
+  image_id: hq_5

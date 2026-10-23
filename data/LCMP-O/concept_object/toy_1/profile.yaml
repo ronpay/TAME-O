@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: toy_1
+concept_type: "object"
+name: "Pinky Kitty"
+category: "Hello Kitty Plush Toy"
+
+core_identity:
+  summary: "A soft Hello Kitty plush toy wearing a distinctive pink dress and having a small yellow nose."
+  role_in_user_life: "A childhood companion that sits on the user's bed and provides comfort."
+
+stable_visual_identity:
+  summary: "A white plush cat with no mouth, black oval eyes, a yellow nose, and a pink ruffled dress."
+  key_features:
+    - "A bright pink ruffled dress that covers its torso."
+    - "Three brown whiskers embroidered on each side of its face."
+    - "A small, round, yellow embroidered nose."
+
+stable_behavioral_identity:
+  traits:
+    - "Always kept upright and propped against a pillow."
+    - "Usually stays in the user's bedroom."
+  preferences:
+    loves:
+      - "Freshly laundered linens."
+      - "Soft morning sunlight from the window."
+    dislikes:
+      - "Being left on the floor."
+      - "Spilled liquids or sticky surfaces."
+
+relational_meaning:
+  user_relationship: "The user has owned this plush since they were five years old."
+  emotional_value: "It represents a sense of security and nostalgia from childhood."
+  related_entities:
+    - "The user's childhood bedroom"
+
+history:
+  knowledge:
+    - "Instruction: Introduce that Pinky Kitty has been the user's favorite sleep companion since childhood."
+    - "Instruction: Introduce the specific pink ruffled dress as its signature outfit."
+    - "Instruction: Introduce its stable spot propped against the pillows on the bed."
+    - "Instruction: Introduce its strong dislike for being left on the cold, hard floor."
+    - "Instruction: Introduce that the user always makes sure it is in the sunlight during the day."
+    - "Instruction: Introduce the embroidered brown whiskers as a delicate feature the user admires."
+  event:
+    - "Instruction: Introduce a recent event where Pinky Kitty was accidentally knocked onto the floor during the night."
+    - "Instruction: Introduce an image of Pinky Kitty being washed after the floor incident."
+    - "Instruction: Introduce a moment where Pinky Kitty was placed in a new spot on a shelf temporarily while the bed was being made."
+    - "Instruction: Introduce a recent close-up of a small juice stain on the pink dress after a snack spill."
+
+hard_questions:
+  - "Draft: Create a preference-conflict question that combines the long-term dislike for the floor with the recent event of being knocked down."
+  - "Draft: Create a causal-inference question that combines the long-term preference for sunlight with the recent temporary move to a shelf."
+  - "Draft: Create a state-identification question that combines the signature pink dress with the recent juice stain event."
+  - "Draft: Create a recommendation question that combines the love for fresh linens with the recent washing event."
+  - "Draft: Create another multi-clue reasoning question using the embroidered whiskers and the recent juice stain cleanup."

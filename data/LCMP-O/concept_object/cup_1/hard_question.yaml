@@ -1,0 +1,84 @@
+- id: 1
+  type: Preference Conflict
+  question: "I took this photo during the blizzard last night. [IMAGE] Normally, I have a very specific morning drink I prefer, so why was I drinking this instead?"
+  image_prompt: "A close-up of the yellowish-orange basket-weave mug filled with hot cocoa and marshmallows, sitting on a table with a snowy window in the background."
+  evaluation_criteria:
+    ideal_answer: "The user normally prefers Earl Grey tea, but the recent snowy evening was a special occasion where they broke tradition to enjoy hot cocoa with marshmallows instead."
+    key_points:
+      - "The user recently chose to drink hot cocoa during a snowy evening."
+      - "The user has a long-term preference for Earl Grey tea."
+  options:
+    - "The user broke their usual Earl Grey habit to enjoy a seasonal treat during the snowstorm."
+    - "The user ran out of their usual tea bags and had to settle for a different warm beverage."
+    - "The user wanted a more festive and sweet drink to match the unusual snowy weather outside."
+    - "The user felt like trying something new since the morning routine was already disrupted by the snow."
+  answer: "The user broke their usual Earl Grey habit to enjoy a seasonal treat during the snowstorm."
+  image_id: hq_1
+
+- id: 2
+  type: Causal Inference
+  question: "I was so nervous when I saw the painter working right next to this spot. [IMAGE] Based on where it's sitting and what you know about it, why was I so anxious?"
+  image_prompt: "The yellowish-orange mug sitting on a high wooden bookshelf, with a painter's ladder and a partially painted wall visible nearby."
+  evaluation_criteria:
+    ideal_answer: "The user was anxious because the mug is a sentimental gift from their Grandmother Rose and it was temporarily moved to a bookshelf for safety during the kitchen painting. Its high emotional value makes the user extra protective."
+    key_points:
+      - "The mug was temporarily moved to a bookshelf during a kitchen painting event."
+      - "The mug is a long-term sentimental gift from Grandmother Rose."
+  options:
+    - "The user was worried about paint splattering on the unique basket-weave texture of the mug."
+    - "The user feared the painter might knock it off the shelf because it is an irreplaceable gift from their grandmother."
+    - "The user felt the bookshelf was not a stable enough surface for such a cherished item."
+    - "The user was concerned that the paint fumes might somehow damage the glossy finish of the mug."
+  answer: "The user feared the painter might knock it off the shelf because it is an irreplaceable gift from their grandmother."
+  image_id: hq_2
+
+- id: 3
+  type: State Identification
+  question: "I was in such a rush this morning and just snapped this photo. [IMAGE] Looking at how it's sitting here, what is clearly missing from the usual setup?"
+  image_prompt: "The yellowish-orange mug sitting directly on a cold marble countertop in a bright kitchen, with no other items around it."
+  evaluation_criteria:
+    ideal_answer: "The user has a strict habit of always using a specific handmade cork coaster, but in their morning rush, they left the mug sitting directly on the marble counter without it."
+    key_points:
+      - "The user recently left the mug directly on a marble counter in a rush."
+      - "The user has a long-term habit of always using a specific handmade cork coaster."
+  options:
+    - "The usual tea tag is missing from the rim, suggesting the drink wasn't prepared correctly."
+    - "The mug is sitting on a cold surface, which contradicts the user's preference for warmth."
+    - "The handmade cork coaster is absent, which is a departure from the user's strict habit."
+    - "The white interior of the mug appears empty, showing that the morning routine was incomplete."
+  answer: "The handmade cork coaster is absent, which is a departure from the user's strict habit."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "When I was drinking this hot cocoa last night, the mug was steaming. [IMAGE] Why was this specific mug a better choice for that moment than a smooth glass one?"
+  image_prompt: "A person's hands holding the yellowish-orange mug filled with steaming hot cocoa, showing the texture of the exterior clearly."
+  evaluation_criteria:
+    ideal_answer: "The yellowish-orange mug has a unique basket-weave texture that provides a superior grip, which is especially helpful when holding a mug full of steaming hot cocoa compared to a potentially slippery smooth glass."
+    key_points:
+      - "The user recently used the mug for steaming hot cocoa."
+      - "The mug has a long-term basket-weave texture that provides a superior grip."
+  options:
+    - "The photo only shows hot cocoa in a mug; it does not prove why this mug is safer than glass."
+    - "The white interior would make the cocoa color easier to see while drinking."
+    - "The large handle gives more room for the user's fingers than a standard glass."
+    - "The basket-weave texture offers a more secure grip, which is safer when the contents are steaming hot."
+  answer: "The basket-weave texture offers a more secure grip, which is safer when the contents are steaming hot."
+  image_id: hq_4
+
+- id: 5
+  type: State Identification
+  question: "I found this after I came back from my meetings. [IMAGE] Does this prove it's the same item I was worried about earlier, even though it's in a different room now?"
+  image_prompt: "A close-up of the bottom rim of the yellowish-orange mug sitting on the bookshelf, showing both the faint brown ring inside and the tiny chip on the edge."
+  evaluation_criteria:
+    ideal_answer: "Yes, the presence of the tiny chip on the bottom rim (a long-term identifier) along with the faint brown tea ring (from the recent 5-hour meeting event) confirms it is the same specific mug."
+    key_points:
+      - "The mug recently developed a faint brown ring after being left for five hours."
+      - "The mug has a long-term identifying feature: a tiny chip on the bottom rim."
+  options:
+    - "Yes, the combination of the long-term chip on the rim and the recent tea stain confirms its identity."
+    - "Yes, the basket-weave pattern alone would make it easy to identify anywhere."
+    - "No, many similar mugs could have tea stains after being left out for too long."
+    - "Yes, because the yellowish-orange color matches the one that was on the counter this morning."
+  answer: "Yes, the combination of the long-term chip on the rim and the recent tea stain confirms its identity."
+  image_id: hq_5

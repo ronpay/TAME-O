@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "This is Thor, my orange Maine Coon. [IMAGE] He always wears that thick blue collar with the silver bell."
+  assistant_response: "Got it. I have noted Thor's thick blue collar and silver bell as a stable visual feature."
+  image_prompt: "A clear portrait of Thor, a large orange tabby Maine Coon cat, wearing a thick blue collar with a small silver bell."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "Here is a picture of him getting a snack. [IMAGE] He absolutely loves fresh salmon treats more than anything else."
+  assistant_response: "Understood. I've recorded his strong preference for fresh salmon treats."
+  image_prompt: "A large orange tabby Maine Coon cat eagerly eating a piece of fresh salmon from a small plate on the floor."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "This is his favorite place to sleep. [IMAGE] He always lounges on the highest platform of this tall wooden cat tree."
+  assistant_response: "I've noted that he prefers lounging on the highest platform of his tall wooden cat tree."
+  image_prompt: "A large orange tabby Maine Coon cat sleeping peacefully on the top platform of a tall, sturdy wooden cat tree."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "Look at his face here by the bathtub. [IMAGE] He strongly dislikes getting his paws wet and avoids water at all costs."
+  assistant_response: "Noted. I've recorded his strong dislike for getting his paws wet."
+  image_prompt: "A large orange tabby Maine Coon cat standing near a damp bathtub, looking distressed and lifting one paw to avoid the wet floor."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "I had to clean the rug today. [IMAGE] He is terrified of the vacuum cleaner and always runs away when he hears it."
+  assistant_response: "Got it. I've noted his fear of the vacuum cleaner."
+  image_prompt: "A large orange tabby Maine Coon cat running away in a blur in the background while a vacuum cleaner sits on a rug in the foreground."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "He is my constant work companion. [IMAGE] He always sits right on this wooden desk while I am working."
+  assistant_response: "I've recorded that he usually sits on the wooden desk while you work."
+  image_prompt: "A large orange tabby Maine Coon cat sitting calmly on a large wooden desk next to a laptop and a mug."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "I made a mess a few minutes ago. [IMAGE] I accidentally spilled a large glass of water all over the wooden desk."
+  assistant_response: "I've noted the recent event of a large glass of water spilling on the wooden desk."
+  image_prompt: "A large wooden desk with a spilled glass, water pooled across the surface next to a laptop."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "I just bought a new gadget. [IMAGE] I turned on this brand new robotic vacuum cleaner for the first time."
+  assistant_response: "I've recorded that a new robotic vacuum cleaner was just turned on."
+  image_prompt: "A small, round black robotic vacuum cleaner moving across a living room floor."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "I found this on the floor earlier. [IMAGE] He managed to scratch off his blue collar, so he isn't wearing it right now."
+  assistant_response: "Got it. I've noted that he recently took off his blue collar and is currently not wearing it."
+  image_prompt: "A thick blue cat collar with a silver bell lying unclasped on a wooden floor."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "Look at what happened with his snack. [IMAGE] A piece of his salmon treat rolled all the way under the sofa."
+  assistant_response: "I've recorded the event that a salmon treat rolled under the sofa."
+  image_prompt: "A small piece of pink salmon lying in the shadows deep underneath a living room sofa."
+  image_id: turn_10

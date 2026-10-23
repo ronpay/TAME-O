@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "This is Barnaby in a recent photo. [IMAGE] He always wears that bright blue collar with a silver bell."
+  assistant_response: "Got it. I've noted that he wears a bright blue collar with a silver bell as a stable visual feature."
+  image_prompt: "A clear photo of a fluffy Keeshond wearing a bright blue collar with a small silver bell attached."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "Look at this close-up of him. [IMAGE] You can clearly see the subtle dark 'spectacle' markings around his eyes against his pale face."
+  assistant_response: "Understood. I've recorded the subtle dark 'spectacle' markings around his eyes against his pale face."
+  image_prompt: "A close-up portrait of a mostly pale silver-white Keeshond showing subtle dark 'spectacle' markings around the eyes."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "Here he is with his favorite thing. [IMAGE] He absolutely loves to chew on that well-worn rope toy."
+  assistant_response: "I've noted his long-term preference for chewing on the well-worn rope toy."
+  image_prompt: "A Keeshond lying on the floor happily chewing on a frayed, well-worn rope toy."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "This is where he usually goes during chores. [IMAGE] He completely dislikes the vacuum cleaner and hides when it's out."
+  assistant_response: "I've logged his strong dislike of the vacuum cleaner and his habit of hiding from it."
+  image_prompt: "A Keeshond hiding under a table, looking cautiously at a vacuum cleaner in the background."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "We tried to go for a walk yesterday. [IMAGE] He intensely dislikes getting his paws wet in puddles and will refuse to move."
+  assistant_response: "Noted. I've recorded his intense dislike of getting his paws wet in puddles."
+  image_prompt: "A Keeshond standing stubbornly on a sidewalk, refusing to step into a shallow puddle."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "This is his favorite spot in the house. [IMAGE] He often claims my comfortable reading chair as his own resting place."
+  assistant_response: "Understood. I've noted that he frequently claims your comfortable reading chair as his resting spot."
+  image_prompt: "A fluffy Keeshond sleeping comfortably curled up on a cozy, oversized reading chair."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "I took this after his grooming session today. [IMAGE] He was recently bathed and looks unusually fluffy and clean."
+  assistant_response: "I've logged that he was recently bathed and currently looks unusually fluffy."
+  image_prompt: "A very clean, exceptionally fluffy Keeshond standing proudly indoors after a bath."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "I caught him in the kitchen earlier. [IMAGE] He recently found a hidden stash of dog treats on the bottom shelf."
+  assistant_response: "I've noted the recent event of him finding a hidden stash of dog treats."
+  image_prompt: "A Keeshond enthusiastically eating treats spilled from a small bag on the kitchen floor."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "I couldn't believe this happened on our hike. [IMAGE] He recently sat proudly right in the middle of a muddy puddle."
+  assistant_response: "I've recorded that he recently chose to sit proudly in a muddy puddle."
+  image_prompt: "A fluffy Keeshond sitting directly in the middle of a muddy puddle on a dirt hiking trail, looking proud."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "This was a huge surprise this afternoon. [IMAGE] He recently fell asleep right next to the vacuum cleaner while it was turned off."
+  assistant_response: "I've noted the surprising recent event of him sleeping next to the turned-off vacuum cleaner."
+  image_prompt: "A sleeping Keeshond resting peacefully on the floor right beside an unplugged vacuum cleaner."
+  image_id: turn_10

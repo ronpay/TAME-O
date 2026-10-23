@@ -1,0 +1,84 @@
+- id: 1
+  type: State Identification
+  question: "Look at this photo. [IMAGE] Why does she look so incredibly miserable in this situation?"
+  image_prompt: "A soaking wet smoky gray Persian cat standing uncomfortably on a patio with a distinctly unhappy expression."
+  evaluation_criteria:
+    ideal_answer: "She normally has a deep dislike of getting wet or being near rain. Her miserable expression makes sense because her recent exposure to a sudden rain shower on the patio directly conflicts with her strong preference to stay dry."
+    key_points:
+      - "She recently got caught in a sudden rain shower that soaked her fur."
+      - "She has a long-term, deep dislike of getting wet or being in the rain."
+  options:
+    - "She is unhappy because she is locked out of the house and wants to return to her velvet armchair."
+    - "She is frustrated because she cannot groom her pristine gray fur while it is completely soaked."
+    - "She is displeased because it is cold outside and she is used to a pampered indoor environment."
+    - "She is miserable because she hates getting wet and was just caught in a sudden rain shower."
+  answer: "She is miserable because she hates getting wet and was just caught in a sudden rain shower."
+  image_id: hq_1
+
+- id: 2
+  type: Preference Conflict
+  question: "I took this photo earlier today. [IMAGE] Given her normal habits, why did she choose to sleep here instead of her usual spot?"
+  image_prompt: "A fluffy smoky gray Persian cat sleeping fast asleep curled up inside a plain, cheap cardboard delivery box."
+  evaluation_criteria:
+    ideal_answer: "She normally lounges exclusively on an expensive velvet armchair. However, she recently found a newly unpacked delivery box and temporarily chose to sleep in it, overriding her long-term preference for the armchair."
+    key_points:
+      - "She recently decided to sleep in a cheap cardboard box from a delivery."
+      - "She has a strong long-term preference for lounging exclusively on the velvet armchair."
+  options:
+    - "She chose the delivery box, but the image alone does not reveal why she abandoned her usual spot."
+    - "She wanted a warmer, more enclosed space than her usual velvet armchair provides."
+    - "She slept in the newly unpacked box despite her usual exclusive preference for the velvet armchair."
+    - "She was avoiding her armchair because someone else in the house was sitting on it."
+  answer: "She slept in the newly unpacked box despite her usual exclusive preference for the velvet armchair."
+  image_id: hq_2
+
+- id: 3
+  type: Causal Inference
+  question: "This is her current mealtime situation. [IMAGE] Even though this is her absolute favorite food, why is she stubbornly refusing to eat it?"
+  image_prompt: "A smoky gray Persian cat turning her head away in disgust from a portion of wet salmon pate served on a generic paper plate."
+  evaluation_criteria:
+    ideal_answer: "Her absolute favorite food is premium salmon pate, but she demands it be served in her crystal dish. She is refusing to eat it now because it was served on a generic paper plate after running out of clean dishes."
+    key_points:
+      - "The user recently served her salmon pate on a generic paper plate instead of her normal dish."
+      - "She has a stable preference for her food being served specifically in a crystal dish."
+  options:
+    - "She will not eat because the paper plate slides when she tries to reach the food."
+    - "She is full from eating earlier and is uninterested in the premium salmon pate right now."
+    - "She is distressed by her surroundings and feels too uncomfortable to eat her favorite food."
+    - "She will not eat because the food was served on a paper plate rather than her required crystal dish."
+  answer: "She will not eat because the food was served on a paper plate rather than her required crystal dish."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "I just walked into the kitchen and found her like this. [IMAGE] Based on her daily needs, what immediate action will I need to take?"
+  image_prompt: "A smoky gray Persian cat sitting on the kitchen floor, looking slightly guilty, with her usually pristine fur coated in white flour."
+  evaluation_criteria:
+    ideal_answer: "She usually requires significant daily brushing to maintain her pristine gray fur. Because she recently knocked over a jar and covered herself in flour, I will need to spend extra time intensely brushing the powder out of her coat."
+    key_points:
+      - "She recently knocked over a flour jar and covered her fur in white powder."
+      - "She has a long-term need for significant daily brushing to maintain her pristine appearance."
+  options:
+    - "I will need to spend considerable time brushing the spilled flour out of her long fur."
+    - "I will need to immediately give her a bath, even though she deeply hates getting wet."
+    - "I will have to thoroughly clean the kitchen floor while trying to keep her out of the room."
+    - "I will need to replace her favorite velvet armchair because it was likely ruined by the flour."
+  answer: "I will need to spend considerable time brushing the spilled flour out of her long fur."
+  image_id: hq_4
+
+- id: 5
+  type: Causal Inference
+  question: "Here she is on the patio earlier. [IMAGE] Why will my evening routine with her likely take much longer than usual tonight?"
+  image_prompt: "A soaking wet smoky gray Persian cat with her fur plastered to her body after a sudden rain shower."
+  evaluation_criteria:
+    ideal_answer: "My evening routine usually involves almost an hour of brushing her to maintain her pristine fur. Since she recently got completely soaked in a rain shower, restoring her thoroughly wet and tangled fur will require significantly more brushing than normal."
+    key_points:
+      - "She recently got her fur completely soaked in a sudden rain shower."
+      - "She requires significant daily brushing to maintain her long, fluffy appearance."
+  options:
+    - "My evening brushing routine will take longer because her fur is currently completely soaked and tangled."
+    - "She will need extra time being dried off and comforted because she strongly dislikes getting wet."
+    - "She will refuse her evening meal and require extra coaxing because she was traumatized by the rain."
+    - "I will need to spend extra time cleaning spilled flour from the kitchen counter and floor."
+  answer: "My evening brushing routine will take longer because her fur is currently completely soaked and tangled."
+  image_id: hq_5

@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: person_9
+concept_type: "person"
+name: "Arthur"
+category: "Retro Tech Enthusiast & Software Architect"
+
+core_identity:
+  summary: "A meticulous software architect with a deep-seated passion for 8-bit aesthetics and vintage computing."
+  role_in_user_life: "A close friend and long-time collaborator on various hobbyist coding projects."
+
+stable_visual_identity:
+  summary: "Known for a distinct 'analog-meets-digital' look, often combining formal wear with whimsical retro accessories."
+  key_features:
+    - "A signature black fedora worn in almost all public settings"
+    - "Silver-rimmed oval glasses that give him a scholarly appearance"
+    - "A collection of 8-bit, pixelated neckties in various shades of blue and black"
+
+stable_behavioral_identity:
+  traits:
+    - "Exhibits a very precise and methodical communication style"
+    - "Known for a stubborn preference for physical hardware over digital simulations"
+  preferences:
+    loves:
+      - "Authentic vintage hardware and manual interfaces"
+      - "The structured aesthetic of early computer graphics"
+    dislikes:
+      - "Modern 'minimalist' fashion and sterile design"
+      - "High-intensity, direct sunlight due to light sensitivity"
+
+relational_meaning:
+  user_relationship: "The user's primary contact for any questions regarding legacy systems or retro gaming history."
+  emotional_value: "Represents a nostalgic connection to the early days of personal computing."
+  related_entities:
+    - "The local Retro-Computing Museum where he volunteers"
+
+history:
+  knowledge:
+    - "Instruction: Establish that Arthur always wears his signature black fedora whenever he leaves the house."
+    - "Instruction: Show Arthur wearing his silver-rimmed oval glasses while working on a complex circuit board."
+    - "Instruction: Introduce Arthur's exclusive collection of pixelated 8-bit ties, showing multiple designs hanging in a closet."
+    - "Instruction: Highlight Arthur's strict preference for playing on original retro hardware rather than using modern emulators."
+    - "Instruction: Establish Arthur's role as a Lead Architect at a cybersecurity firm, focusing on secure legacy systems."
+    - "Instruction: Demonstrate Arthur's sensitivity to bright light, showing him pulling down heavy blinds in his office."
+  event:
+    - "Instruction: Introduce the recent event where Arthur accidentally broke the frame of his silver-rimmed oval glasses."
+    - "Instruction: Show Arthur attending a very formal, traditional family wedding where he was required to wear a standard silk tie."
+    - "Instruction: Introduce a recent afternoon where Arthur had to spend several hours in a bright, sunny park for a team-building event."
+    - "Instruction: Describe a recent incident where Arthur lost his signature black fedora on the train while traveling to a high-end Tech Expo."
+
+hard_questions:
+  - "Draft: Create a state-identification question about Arthur wearing contact lenses, combining his broken glasses event with his usual reliance on oval frames."
+  - "Draft: Create a preference-conflict question about Arthur wearing a standard red silk tie, combining the wedding event with his exclusive 8-bit tie collection."
+  - "Draft: Create a causal-inference question about Arthur wearing large, wrap-around sunglasses in a photo, combining the sunny park event with his known light sensitivity."
+  - "Draft: Create a state-identification question about Arthur appearing in a photo without his hat, combining the lost-hat event with his 'always wears a fedora' rule."
+  - "Draft: Create a recommendation question about whether Arthur would enjoy the VR emulators he saw at the Tech Expo, combining his preference for physical hardware with the expo visit."

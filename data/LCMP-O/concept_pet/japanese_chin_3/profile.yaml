@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: japanese_chin_3
+concept_type: "pet"
+name: "Kiku"
+category: "Japanese Chin"
+
+core_identity:
+  summary: "A small, elegant Japanese Chin with a distinctive flat face, a silky coat, and large expressive eyes."
+  role_in_user_life: "A beloved indoor companion who provides quiet comfort and an elegant presence in the home."
+
+stable_visual_identity:
+  summary: "A small Japanese Chin with a fluffy coat and a flat face."
+  key_features:
+    - "Silky mostly white coat with light tan patches on the ears and around the upper face."
+    - "Large, dark, wide-set eyes."
+    - "A white blaze down the face with a white muzzle, chest, and legs, and no visible collar."
+
+stable_behavioral_identity:
+  traits:
+    - "Has a very calm, cat-like demeanor, often climbing to high places like the back of the sofa."
+    - "Extremely gentle but reserved, preferring familiar quiet environments over noisy, chaotic places."
+  preferences:
+    loves:
+      - "Napping on soft velvet cushions in sunbeams."
+      - "Gentle brushing sessions."
+    dislikes:
+      - "Loud noises like vacuum cleaners or fireworks."
+      - "Getting her paws wet or walking in the mud."
+
+relational_meaning:
+  user_relationship: "The user views Kiku as a delicate, aristocratic family member who requires gentle handling."
+  emotional_value: "Kiku brings a sense of peace and refined beauty to the user's daily routine."
+  related_entities:
+    - "The user's velvet reading chair, Kiku's favorite spot."
+
+history:
+  knowledge:
+    - "Instruction: Introduce Kiku, a Japanese Chin with a mostly white coat, light tan ears and facial patches, and no visible collar."
+    - "Instruction: Introduce her cat-like habit of resting on the high back of the sofa."
+    - "Instruction: Introduce her favorite spot: a soft velvet cushion in the reading chair."
+    - "Instruction: Introduce her strong dislike of getting her paws wet or walking in mud."
+    - "Instruction: Introduce her fear of loud noises, specifically the vacuum cleaner."
+    - "Instruction: Introduce the user's view of her as a delicate companion requiring gentle care."
+  event:
+    - "Instruction: Introduce a recent event where Kiku accidentally got caught in a sudden rainstorm and had muddy paws."
+    - "Instruction: Introduce a recent event where the user brought home a loud new robotic vacuum cleaner."
+    - "Instruction: Introduce a recent photo of Kiku hiding under the bed instead of her usual high spot."
+    - "Instruction: Introduce a recent event where Kiku was photographed wearing a small yellow raincoat to protect her."
+
+hard_questions:
+  - "Draft: Create a preference-conflict question that combines her dislike of getting wet (knowledge) with the recent event of wearing a yellow raincoat (event)."
+  - "Draft: Create a causal-inference question that combines her fear of loud noises (knowledge) with the recent event of hiding under the bed instead of being on the sofa (event)."
+  - "Draft: Create a state-identification question that combines her usual calm, cat-like demeanor (knowledge) with her reaction to the new robotic vacuum (event)."
+  - "Draft: Create a counterfactual or recommendation question that combines her love for soft velvet cushions (knowledge) with the recent event of getting muddy paws (event)."
+  - "Draft: Create another multi-clue reasoning question grounded only in history, using her delicate nature (knowledge) and her reaction to the sudden rainstorm (event)."

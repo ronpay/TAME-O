@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "This is my Maine Coon, Leo. [IMAGE] He's absolutely massive and has that beautiful orange and white mane."
+  assistant_response: "Got it. I've noted Leo's large size and his fluffy orange and white mane."
+  image_prompt: "A clear portrait of a giant orange and white tabby Maine Coon cat with a thick mane around its neck, sitting proudly in a sunlit room."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "Here is a close-up of his face. [IMAGE] You can really see those distinctive lynx-like tufts on his ears."
+  assistant_response: "Understood. I've recorded his distinctive lynx-like ear tufts as a stable visual feature."
+  image_prompt: "A close-up photo of a Maine Coon cat's head, focusing on the prominent, long tufts of fur on the tips of its ears."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "He always has to be above everything else. [IMAGE] You'll almost always find him sleeping on the highest shelf in the living room."
+  assistant_response: "I've noted his stable habit of seeking out the highest possible resting spots, like the top shelf."
+  image_prompt: "A massive orange and white Maine Coon cat sleeping comfortably on the very top shelf of a tall wooden bookcase."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "He absolutely hates this thing. [IMAGE] The moment the vacuum cleaner comes out, he runs away in a complete panic."
+  assistant_response: "I've recorded his intense dislike and fear of the vacuum cleaner."
+  image_prompt: "A large orange Maine Coon cat looking panicked, with its fur puffed up, running away from a standard upright vacuum cleaner."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "These are his absolute favorite. [IMAGE] He will do anything for a fresh salmon treat."
+  assistant_response: "Noted. I've recorded his strong preference and obsession for fresh salmon treats."
+  image_prompt: "A large Maine Coon cat eagerly sniffing and reaching for a piece of fresh salmon treat held by a human hand."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "He is so loyal to this one spot. [IMAGE] He spends hours kneading and resting on his favorite soft blue blanket on the sofa."
+  assistant_response: "I've noted his loyalty and strong attachment to his favorite soft blue blanket on the sofa."
+  image_prompt: "A large orange Maine Coon cat purring and happily kneading a soft, fluffy blue blanket draped over a living room sofa."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "He got into trouble today exploring the unfinished basement. [IMAGE] His beautiful mane is completely covered in sticky cobwebs."
+  assistant_response: "I've noted the recent event where his mane got covered in cobwebs after exploring the basement."
+  image_prompt: "A giant orange and white Maine Coon cat looking slightly annoyed, with thick sticky cobwebs tangled in its fluffy neck mane."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "I just bought this today to help keep the floors clean. [IMAGE] It's a new robot vacuum, and it's quite loud when it operates."
+  assistant_response: "I've recorded the recent event of turning on a loud new robot vacuum cleaner to clean the floor."
+  image_prompt: "A brand new, sleek black robot vacuum cleaner operating on a hardwood floor, with its lights on."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "It was laundry day today. [IMAGE] I finally put his favorite soft blue blanket inside the washing machine."
+  assistant_response: "I've noted the recent event where his favorite blue blanket was placed inside the washing machine."
+  image_prompt: "A soft, fluffy blue blanket visibly tumbling inside the glass door of a modern front-loading washing machine."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "He tried to get a snack while I was out. [IMAGE] He knocked the jar of salmon treats onto the floor, but the lid remained perfectly sealed."
+  assistant_response: "I've recorded the event where he knocked over the salmon treat jar without managing to open the sealed lid."
+  image_prompt: "A sealed glass jar full of salmon treats lying on its side on the floor, with a large Maine Coon paw batting at it uselessly."
+  image_id: turn_10

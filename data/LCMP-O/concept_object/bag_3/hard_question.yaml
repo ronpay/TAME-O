@@ -1,0 +1,84 @@
+- id: 1
+  type: Preference Conflict
+  question: "I took a photo during my morning commute. [IMAGE] I usually try to keep my belongings from being crushed, so why does it look so compressed here?"
+  image_prompt: "A photo of the black sculpted leather backpack looking flattened as it's squeezed into a very tight overhead rack on a bus."
+  evaluation_criteria:
+    ideal_answer: "The backpack normally should not be squeezed or placed in tight spaces, but it was compressed this morning because it was wedged on a crowded bus. The short-term commute situation overrode the usual care to avoid squeezing it."
+    key_points:
+      - "The backpack was squeezed into a tight space on a crowded bus."
+      - "The concept has a long-term dislike for being squeezed into tight spaces."
+  options:
+    - "The commute photo shows compression, but not whether a crowded bus forced it into a tight space."
+    - "The bus was so crowded that it had to be squeezed into a tight space, even though it's normally kept free from being crushed."
+    - "The user was in a rush and didn't have time to find a better spot for the bag on the bus."
+    - "The bag was compressed to make more room for other passengers' belongings on the rack."
+  answer: "The bus was so crowded that it had to be squeezed into a tight space, even though it's normally kept free from being crushed."
+  image_id: hq_1
+
+- id: 2
+  type: State Identification
+  question: "I was sitting here during our lunch break. [IMAGE] Why am I so quick to move it back into the shade now?"
+  image_prompt: "A hand reaching for the black leather backpack, which is sitting in a patch of bright sunlight on an outdoor chair."
+  evaluation_criteria:
+    ideal_answer: "The user is moving the backpack into the shade because they are aware it has a long-term dislike for direct sunlight, which can dry out the leather. This follows a recent event where it was accidentally left in the sun for several hours during lunch."
+    key_points:
+      - "It was recently left in direct sunlight for several hours during a long lunch."
+      - "The concept has a long-term dislike for exposure to direct sunlight."
+  options:
+    - "The photo shows direct sun on the bag, but not why shade matters for this material."
+    - "They want to keep it cool so the tech inside doesn't overheat in the bright sun."
+    - "They are protecting it from sun damage since the leather is sensitive to drying out from direct exposure."
+    - "The user realized it had been left out for hours and wants to prevent any further sun exposure."
+  answer: "They are protecting it from sun damage since the leather is sensitive to drying out from direct exposure."
+  image_id: hq_2
+
+- id: 3
+  type: Causal Inference
+  question: "I had a cloth in my hand immediately after this happened. [IMAGE] Why was I so worried about these few drops?"
+  image_prompt: "A close-up of a few clear water droplets resting on the surface of the matte black leather backpack."
+  evaluation_criteria:
+    ideal_answer: "The user was worried about the water droplets because they are meticulous about maintaining the matte leather finish with regular conditioning. The concern follows an accidental spill during a meeting that could potentially stain the premium leather."
+    key_points:
+      - "Water was accidentally spilled near it during a recent meeting."
+      - "The user is meticulous about its care and regular conditioning to maintain its finish."
+  options:
+    - "The drops matter because the user wants to wipe them off quickly and preserve the carefully maintained leather."
+    - "They are very careful with its maintenance and want to wipe it off immediately to preserve the leather's quality."
+    - "Even a few drops could threaten the matte leather finish the user keeps maintaining with conditioner."
+    - "The user wants to make sure no water gets into the main zipper and reaches the tech inside."
+  answer: "They are very careful with its maintenance and want to wipe it off immediately to preserve the leather's quality."
+  image_id: hq_3
+
+- id: 4
+  type: State Identification
+  question: "Look at the silhouette here. [IMAGE] Why does the front panel look so unusually distorted and bulged?"
+  image_prompt: "A photo of the black sculpted leather backpack looking over-stuffed and bulging on a desk."
+  evaluation_criteria:
+    ideal_answer: "The front panel looks distorted because the user had to carry more than usual for a recent site visit. This conflicts with its long-term sculpted, aerodynamic-like silhouette which is normally smooth and minimalist."
+    key_points:
+      - "The user recently had to carry an unusually heavy load for a site visit."
+      - "The concept has a long-term, unique sculpted and aerodynamic-like silhouette."
+  options:
+    - "The bag is over-packed with heavy materials, causing its sculpted shape to bulge and distort."
+    - "The heavy load shifted the internal supports and made the front panel bulge."
+    - "The leather has stretched over time, leading to a loss of its original sculpted form."
+    - "The items inside were poorly organized, creating uneven pressure on the front panel."
+  answer: "The bag is over-packed with heavy materials, causing its sculpted shape to bulge and distort."
+  image_id: hq_4
+
+- id: 5
+  type: Counterfactual / Recommendation Reasoning
+  question: "If I have to travel on a tiny budget airline tomorrow where the only space is under the seat. [IMAGE] Why would I probably leave it at home?"
+  image_prompt: "The black leather backpack sitting on the floor next to a very small, cramped-looking space under an airplane seat."
+  evaluation_criteria:
+    ideal_answer: "The user would likely leave the backpack at home because it has a long-term dislike of being squeezed into tight spaces. This was recently reinforced when it was compressed on a crowded bus, showing it doesn't handle tight storage well."
+    key_points:
+      - "It was recently squeezed and compressed on a crowded bus."
+      - "The concept has a long-term dislike for being squeezed into tight spaces like under seats."
+  options:
+    - "The premium leather might get scuffed or dirty if it's placed on the floor under an airplane seat."
+    - "The bag is too precious to risk damaging its unique sculpted shape in such a small compartment."
+    - "The bag doesn't fit well in tight spaces and the user wants to avoid another situation like the crowded bus."
+    - "The user prefers a bag that can handle being compressed without losing its shape or looking worn."
+  answer: "The bag doesn't fit well in tight spaces and the user wants to avoid another situation like the crowded bus."
+  image_id: hq_5

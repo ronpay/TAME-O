@@ -1,0 +1,84 @@
+- id: 1
+  type: Preference Conflict
+  question: "How did the user address the conflict between the headphones' dislike for extreme weather and the accidental snowstorm? [IMAGE]"
+  image_prompt: "The Crimson Ears being worn outdoors during a harsh snowstorm, showing signs of malfunction and the user trying to shield them."
+  evaluation_criteria:
+    ideal_answer: "The user carefully protected the headphones during the snowstorm, knowing they dislike extreme cold. They likely used a protective case or cover to minimize exposure to harsh conditions."
+    key_points:
+      - "The headphones were exposed to extreme cold during the snowstorm."
+      - "The user is aware the headphones dislike extreme conditions and will take precautionary measures."
+  options:
+    - "The user waited to turn the headphones on until reaching a warmer indoor place."
+    - "The user used a protective case to shield the headphones from the harsh cold."
+    - "The user tried to avoid using the headphones outdoors until the snowstorm ended."
+    - "The user quickly found indoor shelter to prevent further damage to the headphones."
+  answer: "The user used a protective case to shield the headphones from the harsh cold."
+  image_id: hq_1
+
+- id: 2
+  type: State Identification
+  question: "Given that the headphones are known to support long listening sessions, how did the user manage when the battery unexpectedly drained? [IMAGE]"
+  image_prompt: "The Crimson Ears, with a visual cue indicating the battery is dead during an important event, and the user looking frustrated."
+  evaluation_criteria:
+    ideal_answer: "Despite the headphones supporting long listening sessions, their unexpected battery drain occurred during a critical moment. The user likely became frustrated, as they relied on the headphones to last longer."
+    key_points:
+      - "The battery unexpectedly drained during a critical moment."
+      - "The headphones usually support long listening sessions without battery drain."
+  options:
+    - "The user is shown with a drained device, but the image does not reveal how they handled the failure emotionally."
+    - "The user paused the session to decide whether a backup device would be easier."
+    - "The user was surprised and annoyed by the sudden failure in the middle of something important."
+    - "The user switched to a backup audio device for the remainder of the event."
+  answer: "The user was surprised and annoyed by the sudden failure in the middle of something important."
+  image_id: hq_2
+
+- id: 3
+  type: Causal Inference
+  question: "Despite the headphones' preference for pairing with various devices, how did the user handle the connectivity issues after the puddle incident? [IMAGE]"
+  image_prompt: "The Crimson Ears showing signs of connectivity issues next to a smartwatch, with the user looking concerned."
+  evaluation_criteria:
+    ideal_answer: "The user likely tried multiple connection attempts to resolve the issue, knowing the headphones usually pair well with various devices. The puddle incident caused temporary damage, leading to connectivity problems."
+    key_points:
+      - "The headphones had connectivity issues with a smartwatch after the puddle incident."
+      - "The headphones are known for pairing well with various devices."
+  options:
+    - "The user attempted to reset the headphones to improve device connectivity."
+    - "The user blamed the smartwatch for the connectivity problems."
+    - "The user tried different devices to pair the headphones with success."
+    - "The user immediately brought the headphones to a repair shop for help."
+  answer: "The user attempted to reset the headphones to improve device connectivity."
+  image_id: hq_3
+
+- id: 4
+  type: Causal Inference
+  question: "How did the user's awareness of the headphones' dislike for liquid influence their reaction to the puddle accident? [IMAGE]"
+  image_prompt: "The Crimson Ears partially submerged in a puddle on a rainy day, with the user looking concerned and trying to retrieve them."
+  evaluation_criteria:
+    ideal_answer: "The user reacted with immediate concern, knowing the headphones dislike liquid. They likely tried to rescue the headphones and dry them as quickly as possible to prevent further damage."
+    key_points:
+      - "The headphones were accidentally dropped in a puddle."
+      - "The user is aware the headphones dislike liquid and act to prevent damage."
+  options:
+    - "The user checked the buttons and case first to see whether the puddle had caused visible damage."
+    - "The user assumed the headphones would be fine after the puddle incident."
+    - "The user immediately tried to dry the headphones to prevent damage."
+    - "The user planned to get replacement headphones right away."
+  answer: "The user immediately tried to dry the headphones to prevent damage."
+  image_id: hq_4
+
+- id: 5
+  type: Preference Conflict
+  question: "How did the user's deep emotional connection to the headphones influence their decision-making when the battery failed during a meaningful session? [IMAGE]"
+  image_prompt: "The Crimson Ears worn by the user during a meaningful session, with a visual cue indicating the battery is dead, and the user looking distressed."
+  evaluation_criteria:
+    ideal_answer: "Due to the user's emotional attachment, they likely kept trying to troubleshoot or extend the battery life, hoping to finish the session. The unexpected battery drain felt more impactful given their reliance on the headphones."
+    key_points:
+      - "The battery unexpectedly drained during a meaningful session."
+      - "The user has a strong emotional connection to the headphones."
+  options:
+    - "The user was disappointed and gave up on completing the meaningful session."
+    - "The user decided to replace the headphones immediately to avoid future issues."
+    - "The user continued to try restarting the headphones to extend battery life."
+    - "The user resorted to using other audio devices to salvaging the session."
+  answer: "The user continued to try restarting the headphones to extend battery life."
+  image_id: hq_5

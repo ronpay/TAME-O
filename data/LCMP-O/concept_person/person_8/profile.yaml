@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: person_8
+concept_type: "person"
+name: "Ethan"
+category: "Amateur Baseball Pitcher"
+
+core_identity:
+  summary: "Ethan is a dedicated amateur baseball player who serves as the starting pitcher for his local league team."
+  role_in_user_life: "He is the user's teammate and a close friend who shares a passion for weekend sports."
+
+stable_visual_identity:
+  summary: "A athletic man often seen in baseball attire, characterized by his facial hair and specific gear."
+  key_features:
+    - "A neatly trimmed goatee"
+    - "A signature navy blue baseball cap with a prominent red 'A' logo"
+    - "Bright yellow and black Nike baseball cleats"
+
+stable_behavioral_identity:
+  traits:
+    - "Highly focused and intensely competitive during official league games"
+    - "Meticulous about the maintenance and 'break-in' state of his leather gear"
+  preferences:
+    loves:
+      - "Playing under direct, warm sunlight in dry conditions"
+      - "The reliable grip and traction of his favorite yellow cleats"
+    dislikes:
+      - "Pitching on muddy or poorly maintained dirt mounds"
+      - "Using stiff, new gloves that haven't been properly broken in"
+
+relational_meaning:
+  user_relationship: "Long-time teammate and weekend training partner."
+  emotional_value: "Ethan represents the competitive spirit and camaraderie of the user's social sports circle."
+  related_entities:
+    - "The 'Local Legends' amateur baseball team"
+
+history:
+  knowledge:
+    - "Instruction: Introduce Ethan's long-term habit of wearing his lucky navy blue cap with the red 'A' for every game."
+    - "Instruction: Introduce his signature goatee as a stable part of his appearance since joining the team."
+    - "Instruction: Introduce his yellow and black Nike cleats, explaining they are his favorite for their superior traction."
+    - "Instruction: Introduce his strong dislike for muddy fields, as they negatively impact his pitching consistency."
+    - "Instruction: Introduce his role as the starting pitcher who takes pride in his specialized position."
+    - "Instruction: Introduce his attachment to his old, perfectly broken-in black and tan Rawlings glove."
+  event:
+    - "Instruction: Introduce a recent event where a sudden thunderstorm turned the local diamond into a muddy mess."
+    - "Instruction: Introduce a recent game where Ethan realized he had forgotten his lucky cap at home."
+    - "Instruction: Introduce a recent incident where Ethan's old glove developed a significant tear in the webbing."
+    - "Instruction: Introduce a recent game where Ethan decided to try out a brand new, stiff backup glove."
+
+hard_questions:
+  - "Draft: Create a preference-conflict question asking why Ethan performed poorly in the third inning, combining his dislike of mud with the recent thunderstorm event."
+  - "Draft: Create a state-identification question about why Ethan looked so anxious before the championship game, combining his lucky cap habit with the event of forgetting it."
+  - "Draft: Create a causal-inference question about why Ethan spent the entire practice session rubbing oil into a new glove, combining his dislike of stiff gloves with the event of his old one tearing."
+  - "Draft: Create a counterfactual question about whether he would be slipping if the field were dry, combining his reliance on cleat traction with the recent mud event."
+  - "Draft: Create a counterfactual / recommendation reasoning question about why Ethan might be hesitant to stay on the mound, combining his pitching role with the recent muddy field conditions."

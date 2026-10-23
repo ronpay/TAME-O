@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: maine_coon_3
+concept_type: "pet"
+name: "Thor"
+category: "Maine Coon"
+
+core_identity:
+  summary: "A large, fluffy Maine Coon cat known for his size and dog-like devotion."
+  role_in_user_life: "A constant daily companion who provides emotional grounding and routine to his owner."
+
+stable_visual_identity:
+  summary: "A massive Maine Coon with prominent ear tufts and a full coat."
+  key_features:
+    - "Pale cream-orange tabby fur with a lion-like ruff"
+    - "Prominent lynx tips on his ears"
+    - "A thick, sturdy blue collar with a silver bell"
+
+stable_behavioral_identity:
+  traits:
+    - "Follows the owner everywhere around the house"
+    - "Very vocal, frequently chirping rather than meowing"
+  preferences:
+    loves:
+      - "Lounging on the highest platform of his cat tree"
+      - "Eating fresh salmon treats"
+    dislikes:
+      - "Getting his paws wet"
+      - "The loud noise of the vacuum cleaner"
+
+relational_meaning:
+  user_relationship: "The owner treats Thor like a best friend and relies on his constant presence."
+  emotional_value: "Thor's affectionate, gentle-giant nature provides significant comfort and stress relief."
+  related_entities:
+    - "The owner's large wooden desk"
+
+history:
+  knowledge:
+    - "Instruction: Introduce Thor, the pale cream-orange Maine Coon, wearing his thick blue collar and silver bell."
+    - "Instruction: Introduce his love for eating fresh salmon treats."
+    - "Instruction: Introduce that Thor loves to lounge on the highest platform of his tall cat tree."
+    - "Instruction: Introduce his strong dislike for getting his paws wet, refusing to step in a damp bathtub."
+    - "Instruction: Introduce his fear of the vacuum cleaner, which always makes him run away."
+    - "Instruction: Introduce his role as a constant companion who always sits on the wooden desk while they work."
+  event:
+    - "Instruction: Introduce that yesterday, the owner spilled a large glass of water all over the wooden desk."
+    - "Instruction: Introduce that earlier today, the owner bought a brand new robotic vacuum cleaner and turned it on."
+    - "Instruction: Introduce that Thor recently managed to take his blue collar off while scratching his neck."
+    - "Instruction: Introduce a recent evening where a piece of his salmon treat rolled all the way under the sofa."
+
+hard_questions:
+  - "Draft: Create a preference-conflict question asking why Thor is avoiding his usual spot on the wooden desk, combining his long-term dislike of wet paws with the recent event of water being spilled on the desk."
+  - "Draft: Create a causal-inference question explaining why Thor is hiding on top of a bookshelf, combining his long-term fear of vacuums with the recent event of the robotic vacuum being turned on."
+  - "Draft: Create a state-identification question about why Thor is awkwardly reaching under the sofa instead of resting in his usual high spot, combining his long-term love for lounging on his high cat tree with the recent event of a salmon treat rolling under the sofa."
+  - "Draft: Create a state-identification question about why Thor's neck looks bare, combining his long-term visual feature of wearing a blue collar with the recent event of him scratching it off."
+  - "Draft: Create a causal-inference question about why Thor is pawing frantically at the edge of the sofa, combining his long-term love for fresh salmon treats with the recent event of a treat rolling under the sofa."

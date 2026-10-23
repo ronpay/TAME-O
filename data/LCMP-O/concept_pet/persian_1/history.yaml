@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "This is Duchess in a recent photo. [IMAGE] She always wears that pastel-pink velvet collar with a tiny silver bell."
+  assistant_response: "Got it. I've noted the pastel-pink velvet collar and silver bell as a stable visual feature."
+  image_prompt: "A clear portrait of a pure white Persian cat wearing a pastel-pink velvet collar with a tiny silver bell."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "Here is a close-up photo. [IMAGE] She is a pure white Persian cat with striking, large copper-colored eyes."
+  assistant_response: "Understood. I have recorded her pure white fur and copper-colored eyes as stable traits."
+  image_prompt: "A close-up photo of a pure white Persian cat with large, round copper-colored eyes."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "Take a look at this. [IMAGE] Her absolute favorite place to sleep is the smooth silk throw pillow on the living room sofa."
+  assistant_response: "I've noted that her preferred sleeping spot is the smooth silk throw pillow on the sofa."
+  image_prompt: "A pure white Persian cat peacefully sleeping on a smooth, shiny silk throw pillow on a modern living room sofa."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "She was so scared here. [IMAGE] She has a strong, long-term dislike of loud, sudden noises."
+  assistant_response: "I've recorded her strong dislike and fear of loud, sudden noises."
+  image_prompt: "A pure white Persian cat looking terrified and cowering beneath a chair, with a vacuum cleaner visible in the background."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "Watch out for her paws here. [IMAGE] She has an intense aversion to getting her paws wet or stepping on damp floors."
+  assistant_response: "Got it. I've noted her intense aversion to wet paws and damp floors."
+  image_prompt: "A pure white Persian cat gingerly lifting one paw to avoid a small puddle of water on a tiled floor."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "This is our evening routine. [IMAGE] I rely on brushing her long fur every evening with a natural bristle brush as a shared calming ritual."
+  assistant_response: "I've noted the evening brushing ritual with a natural bristle brush as an important shared activity."
+  image_prompt: "A person gently brushing a pure white Persian cat's long fur with a wooden natural bristle brush, the cat looking relaxed."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "I had an accident in the kitchen yesterday. [IMAGE] I dropped a heavy glass, making a very loud shattering noise."
+  assistant_response: "I've noted the recent event of a heavy glass shattering loudly in the kitchen."
+  image_prompt: "A shattered heavy glass scattered across a kitchen floor."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "What a mess this morning. [IMAGE] The bathroom floor was completely flooded due to a leaky sink pipe."
+  assistant_response: "I've recorded the recent event of the bathroom floor being flooded by a leaky pipe."
+  image_prompt: "A flooded bathroom floor with a steady drip of water coming from the pipe under the sink."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "I redecorated the living room today. [IMAGE] I replaced the old silk throw pillow with a rough wool one."
+  assistant_response: "I've noted that you recently replaced the silk pillow with a rough wool pillow."
+  image_prompt: "A living room sofa featuring a new, rough-textured wool throw pillow, replacing the old smooth silk one."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "I had to improvise grooming tonight. [IMAGE] I lost the usual brush and had to use a stiff plastic comb instead."
+  assistant_response: "I've noted the recent use of a stiff plastic comb because the usual brush was lost."
+  image_prompt: "A person holding a stiff plastic comb near a pure white Persian cat's long fur."
+  image_id: turn_10

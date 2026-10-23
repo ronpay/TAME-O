@@ -1,0 +1,84 @@
+- id: 1
+  type: State Identification
+  question: "Look at this photo from our walk today. [IMAGE] Why does he look so unhappy and reluctant to keep moving?"
+  image_prompt: "A Japanese Chin standing on a sidewalk during a sudden heavy downpour, looking miserable and soaked."
+  evaluation_criteria:
+    ideal_answer: "He normally dislikes getting his paws wet or dirty, and this image shows him caught in an unexpected rain shower. His unhappy expression is because the sudden rain forces him to get wet, which conflicts with his long-term preference."
+    key_points:
+      - "He was recently caught in an unexpected rain shower."
+      - "He has a long-term dislike of getting his paws wet or dirty."
+  options:
+    - "The photo shows reluctance on a rainy walk, but not which personal dislike is driving it."
+    - "The temperature dropped suddenly because of the rain, making him feel too cold."
+    - "He is anxious because the rain is accompanied by loud thunder, which scares him."
+    - "He is unhappy because the sudden rain forces him to get wet, which he hates."
+  answer: "He is unhappy because the sudden rain forces him to get wet, which he hates."
+  image_id: hq_1
+
+- id: 2
+  type: Preference Conflict
+  question: "Here is a picture from the weekend. [IMAGE] Why is he sleeping on the floor instead of his usual spot?"
+  image_prompt: "A Japanese Chin sleeping on the hardwood floor next to a blue velvet armchair that is completely covered in a crinkly clear plastic sheet."
+  evaluation_criteria:
+    ideal_answer: "He deeply loves sleeping on the blue velvet armchair, but it was temporarily covered with a crinkly plastic sheet for painting. He is sleeping on the floor because the plastic sheet made his favorite spot unavailable."
+    key_points:
+      - "The blue velvet armchair was temporarily covered with a plastic sheet."
+      - "He has a strong long-term preference for sleeping on the blue velvet armchair."
+  options:
+    - "The blue velvet armchair may be unavailable, but the photo alone does not show why."
+    - "He was scolded for getting the armchair dirty, so he chose to sleep on the floor instead."
+    - "The strong smell of fresh paint in the room forced him to find a lower spot to sleep."
+    - "He is sleeping on the floor because the plastic sheet made his favorite spot unavailable."
+  answer: "He is sleeping on the floor because the plastic sheet made his favorite spot unavailable."
+  image_id: hq_2
+
+- id: 3
+  type: Causal Inference
+  question: "Look at his reaction this morning. [IMAGE] Why is he hiding under the sofa looking so terrified?"
+  image_prompt: "A Japanese Chin hiding far underneath a sofa, trembling and looking terrified with wide eyes."
+  evaluation_criteria:
+    ideal_answer: "He has an extreme fear of loud sudden noises, and loud construction started right outside the window. He is hiding under the sofa because the recent construction noise scared him."
+    key_points:
+      - "Loud construction recently started outside the living room window."
+      - "He has a long-term extreme fear of loud sudden noises."
+  options:
+    - "He is hiding under the sofa because the recent construction noise outside scared him."
+    - "He squeezed under the sofa to retrieve a toy that rolled out of his reach."
+    - "The unfamiliar painter in the house could have startled him into hiding under the sofa."
+    - "He felt overwhelmed by the strong smell of the wet paint in the living room."
+  answer: "He is hiding under the sofa because the recent construction noise outside scared him."
+  image_id: hq_3
+
+- id: 4
+  type: Causal Inference
+  question: "I took this photo while the friend was visiting. [IMAGE] Why is he growling at the new visitor?"
+  image_prompt: "A Japanese Chin standing defensively and growling at a small golden retriever puppy that is holding a small red rubber ball."
+  evaluation_criteria:
+    ideal_answer: "He is highly possessive of his small red rubber ball, and the visiting puppy started playing with the toys. He is growling because the puppy took his favorite toy, which triggers his possessiveness."
+    key_points:
+      - "A visiting puppy started playing with the toys on the floor."
+      - "He is highly possessive of his small red rubber ball."
+  options:
+    - "The photo shows growling at a visitor, but not what the visitor or puppy did."
+    - "He is growling because the puppy took his favorite red rubber ball, which he is highly possessive of."
+    - "The puppy stepped on his paws, causing him pain and a defensive reaction."
+    - "He feels his personal space is invaded and wants the puppy to move away."
+  answer: "He is growling because the puppy took his favorite red rubber ball, which he is highly possessive of."
+  image_id: hq_4
+
+- id: 5
+  type: Counterfactual / Recommendation Reasoning
+  question: "Given what is happening outside today. [IMAGE] If I tried to take him for a walk right now, how would he likely react?"
+  image_prompt: "A view from the front door showing heavy construction equipment breaking concrete loudly just outside the house."
+  evaluation_criteria:
+    ideal_answer: "Loud construction is happening right outside, and he has an extreme fear of loud noises. If taken for a walk, he would likely panic and try to run back inside to avoid the terrifying noise."
+    key_points:
+      - "Loud construction recently started right outside the house."
+      - "He has a long-term extreme fear of loud sudden noises."
+  options:
+    - "He would likely resist, but the image alone does not identify which outside noise triggers him."
+    - "He would likely panic and try to run back inside because of his extreme fear of loud noises."
+    - "He would bark aggressively at the construction workers to protect his territory."
+    - "He would calmly walk past the equipment as long as I kept him on a short leash."
+  answer: "He would likely panic and try to run back inside because of his extreme fear of loud noises."
+  image_id: hq_5

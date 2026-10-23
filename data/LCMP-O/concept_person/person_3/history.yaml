@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "This is Grace in her living room. [IMAGE] She has this amazing melting clock on her wall that everyone always asks about."
+  assistant_response: "That's a very distinctive piece. I've noted Grace's signature melting wall clock in her living room."
+  image_prompt: "A middle-aged woman named Grace standing in her living room next to a surrealist melting wall clock, similar to a Salvador Dalí painting."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "She's wearing her favorite purple fuzzy sweater in this photo from a casual dinner. [IMAGE] She practically lives in it."
+  assistant_response: "I've recorded that she frequently wears this specific purple fuzzy sweater for informal gatherings."
+  image_prompt: "A woman with curly brown hair wearing a vibrant, textured purple fuzzy sweater while sitting at a dinner table."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "Here's a clear shot of her. [IMAGE] Her curly brown hair and those rectangular glasses are her most recognizable features."
+  assistant_response: "Understood. I've noted her thick curly brown hair and rectangular dark-framed glasses as key visual identity markers."
+  image_prompt: "A clear portrait of a woman with thick curly brown hair and dark-framed rectangular glasses looking directly at the camera."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "She is obsessed with Groundhog Day. [IMAGE] This is from her big party back in 2012."
+  assistant_response: "I've documented her deep interest in Groundhog Day and her history of celebrating the holiday."
+  image_prompt: "A woman celebrating at a party with a banner that says 'Groundhog Day 2012' visible in the background."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "At birthday parties, she always does this funny thing where she wears two party hats at the same time. [IMAGE]"
+  assistant_response: "Got it. I've recorded her quirky habit of wearing multiple party hats during birthday celebrations."
+  image_prompt: "A woman smiling at a birthday party while wearing two colorful, pointed party hats stacked on top of each other."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "She always brings this personalized purple balloon with her initial to every event. [IMAGE]"
+  assistant_response: "I've noted the purple balloon with the stylized 'G' as a recurring item she brings to parties."
+  image_prompt: "A woman holding a string attached to a bright purple balloon that has a large, stylized letter 'G' printed on it."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "She had to attend a very formal corporate dinner last week. [IMAGE] It was a bit of a change of pace for her."
+  assistant_response: "I've noted that she recently attended a high-end corporate event."
+  image_prompt: "A woman sitting at a formal dinner table with white linens, fine china, and multiple wine glasses in a professional setting."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "She was wearing this plain navy blazer for the dinner instead of her usual fuzzy sweater. [IMAGE]"
+  assistant_response: "Understood. I've recorded that she recently swapped her favorite purple sweater for a navy blazer during a formal event."
+  image_prompt: "A woman dressed in a structured, plain navy blue blazer, looking professional and formal."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "She just bought this standard square clock for her office. [IMAGE] She was looking at it earlier today."
+  assistant_response: "I've noted that she recently purchased a conventional, square office clock."
+  image_prompt: "A woman holding or looking at a simple, modern square wall clock with a black frame and white face."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "She was squinting at a menu last night because she didn't have her glasses. [IMAGE]"
+  assistant_response: "I've recorded that she was recently seen without her glasses and had difficulty reading a menu."
+  image_prompt: "A woman holding a menu close to her face, squinting with effort and not wearing her usual glasses."
+  image_id: turn_10

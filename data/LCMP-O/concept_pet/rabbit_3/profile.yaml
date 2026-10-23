@@ -1,0 +1,55 @@
+concept_id: rabbit_3
+concept_type: "pet"
+name: "Maple"
+category: "Mini Lop Rabbit"
+
+core_identity:
+  summary: "A fluffy white-and-warm-brown mini lop rabbit with long drooping ears and a soft, gentle expression."
+  role_in_user_life: "A cherished house rabbit whose quiet routines are tied closely to the user's daily home life."
+
+stable_visual_identity:
+  summary: "A compact lop rabbit with mostly white cream fur, warm brown patches, and a darker patch centered across the nose and mouth."
+  key_features:
+    - "Long warm-brown drooping ears that frame the sides of the face"
+    - "A cocoa-brown patch centered over the nose and mouth"
+    - "Scattered warm-brown patches on the forehead, back, and mostly white fluffy coat"
+
+stable_behavioral_identity:
+  traits:
+    - "Calm and affectionate once the room is quiet"
+    - "Quick to tuck himself away when sweeping tools appear nearby"
+  preferences:
+    loves:
+      - "Dried apple chips"
+      - "Resting on a cream fleece cushion under the side table"
+    dislikes:
+      - "Wet floor under his paws"
+      - "Brooms and sweeping motions around him"
+
+relational_meaning:
+  user_relationship: "The user treats him gently and notices small shifts in his comfort level."
+  emotional_value: "He makes the home feel softer and more grounded through his familiar resting spots and routines."
+  related_entities:
+    - "A cream fleece cushion kept under the side table"
+    - "The side table itself, which becomes cover when he feels uneasy"
+
+history:
+  knowledge:
+    - "Instruction: Introduce Maple's long warm-brown drooping ears and centered brown patch over the nose and mouth as stable visual features."
+    - "Instruction: Introduce that dried apple chips are Maple's favorite snack."
+    - "Instruction: Introduce that Maple dislikes stepping onto wet floor."
+    - "Instruction: Introduce the cream fleece cushion under the side table as Maple's favorite resting spot."
+    - "Instruction: Introduce that Maple relaxes when the user strokes his forehead gently."
+    - "Instruction: Introduce that Maple gets nervous whenever a broom is left nearby."
+  event:
+    - "Instruction: Introduce that Maple's cream fleece cushion was washed today and hung outside to dry."
+    - "Instruction: Introduce that water recently splashed across the kitchen doorway and left the floor wet."
+    - "Instruction: Introduce that the user held out a dried apple chip from the far side of the wet doorway, but Maple refused to cross."
+    - "Instruction: Introduce that a broom was left beside the side table and Maple tucked himself underneath it."
+
+hard_questions:
+  - "Draft: Create a preference-conflict question about why he is not resting on the cream fleece cushion."
+  - "Draft: Create a causal-inference question about why he refused to cross for the apple chip."
+  - "Draft: Create a state-identification question about why he is crouched under the side table beside the broom."
+  - "Draft: Create a counterfactual or recommendation question about how to get him across the wet doorway."
+  - "Draft: Create a preference-conflict question about why ignoring the apple chip is especially unusual for him."

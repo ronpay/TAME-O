@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: person_11
+concept_type: "person"
+name: "Arthur Sterling"
+category: "Retired Symphony Conductor"
+
+core_identity:
+  summary: "A distinguished elderly man with a background in classical music leadership."
+  role_in_user_life: "A respected mentor and grandfather figure who shares his love for music and tradition."
+
+stable_visual_identity:
+  summary: "An elegant man typically seen in formal attire with recognizable eyewear."
+  key_features:
+    - "Thin-framed gold glasses that he wears constantly"
+    - "Well-groomed white hair and a cheerful, dignified expression"
+    - "A preference for wearing a tuxedo or dark formal suit in public"
+
+stable_behavioral_identity:
+  traits:
+    - "Maintains a disciplined and eloquent manner of speaking"
+    - "Deeply committed to traditional musical standards and craftsmanship"
+  preferences:
+    loves:
+      - "Listening to his extensive collection of vintage vinyl records"
+      - "Mentoring young musicians at the local conservatory"
+    dislikes:
+      - "High-pitched, synthetic digital alarm sounds"
+      - "Wearing informal or casual footwear in public settings"
+
+relational_meaning:
+  user_relationship: "The user's mentor and advisor on classical music and life."
+  emotional_value: "Represents a bridge to a more formal and dedicated era of artistry."
+  related_entities:
+    - "The City Philharmonic Orchestra where he served for decades"
+
+history:
+  knowledge:
+    - "Instruction: Introduce his signature thin-framed gold glasses as a constant visual element."
+    - "Instruction: Introduce his vast collection of vintage vinyl records that he treasures."
+    - "Instruction: Introduce his long career as a conductor for the City Philharmonic."
+    - "Instruction: Introduce his strict preference for formal attire like tuxedos for appearances."
+    - "Instruction: Introduce his long-standing dislike for synthetic digital alarm sounds."
+    - "Instruction: Introduce his role as a mentor to young students at the conservatory."
+  event:
+    - "Instruction: Introduce a recent event where he sprained his ankle while gardening."
+    - "Instruction: Introduce that his grandson recently gifted him a modern smart speaker."
+    - "Instruction: Introduce a recent decision to judge a 'Battle of the Bands' youth contest."
+    - "Instruction: Introduce that he recently misplaced his favorite silver-tipped baton."
+
+hard_questions:
+  - "Draft: Create a preference-conflict question explaining why he looks distressed near the new smart speaker (dislikes digital sounds + received smart speaker)."
+  - "Draft: Create a causal-inference question explaining why he is wearing medical sneakers with a tuxedo (dislikes casual footwear + sprained ankle)."
+  - "Draft: Create a state-identification question explaining why he is using a wooden stick instead of his baton (renowned conductor + misplaced favorite baton)."
+  - "Draft: Create a recommendation question about his reaction to a loud rock performance (dislikes digital/loud noise + judging youth contest)."
+  - "Draft: Create a reasoning question about why he insisted on turning off the smart speaker to listen to records (loves vinyl + received smart speaker)."

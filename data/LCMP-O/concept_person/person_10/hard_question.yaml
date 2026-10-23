@@ -1,0 +1,84 @@
+- id: 1
+  type: Preference Conflict
+  question: "Look at her working here. [IMAGE] Since she strongly prefers analog projection, why is she using a digital projector in this instance?"
+  image_prompt: "A close-up of Elena's focused face as she operates a glowing modern digital projector in a darkened projection booth."
+  evaluation_criteria:
+    ideal_answer: "Elena normally prefers analog film projection, but she had to use a digital projector recently because a film reel broke during a screening."
+    key_points:
+      - "The film reel snapped during a recent screening."
+      - "Elena has a long-term preference for analog film projectors."
+  options:
+    - "She had to use the digital projector because the special screening arrived without an analog copy."
+    - "She had to switch to digital because a film reel broke, even though she normally prefers analog."
+    - "She is using digital projection for a special screening that didn't have an analog copy available."
+    - "She is training a new projectionist on how to use the modern equipment instead of the old one."
+  answer: "She had to switch to digital because a film reel broke, even though she normally prefers analog."
+  image_id: hq_1
+
+- id: 2
+  type: Causal Inference
+  question: "She looks incredibly tired in this photo from this morning. [IMAGE] Based on her recent work at the theater, why is she so exhausted?"
+  image_prompt: "A candid photo of Elena at a coffee shop in the morning, looking weary with dark circles under her eyes, holding a large cup of coffee."
+  evaluation_criteria:
+    ideal_answer: "Elena is exhausted because she stayed at the theater until 3 AM to prepare for a special midnight screening, which is part of her role as the curator."
+    key_points:
+      - "She stayed late at the theater until 3 AM for a midnight screening."
+      - "Elena is the curator for 'The Silver Screen' cinema."
+  options:
+    - "She is exhausted because she stayed until 3 AM preparing for a special midnight screening."
+    - "She is exhausted because she spent the previous day reorganizing the vintage poster archive."
+    - "She is tired from a long day of organizing the vintage poster collection in her office."
+    - "She has been working double shifts to cover for a missing projectionist at the theater."
+  answer: "She is exhausted because she stayed until 3 AM preparing for a special midnight screening."
+  image_id: hq_2
+
+- id: 3
+  type: State Identification
+  question: "Her office is usually full of posters, but what is the reason for this new tube sitting on the desk today? [IMAGE]"
+  image_prompt: "Elena at her desk in her white shirt and brown patterned bowtie, holding a sturdy cardboard mailing tube for a newly arrived poster."
+  evaluation_criteria:
+    ideal_answer: "The tube contains a rare 1950s French film poster that Elena recently acquired for her vintage collection."
+    key_points:
+      - "A rare 1950s French film poster recently arrived."
+      - "Elena maintains an extensive collection of vintage film posters."
+  options:
+    - "The tube contains a set of new programs she just finished printing for the cinema."
+    - "The tube holds several posters that she is planning to ship out to another collector."
+    - "It is a new addition to her vintage collection: a rare 1950s French film poster."
+    - "It contains architectural plans for the upcoming renovation of 'The Silver Screen'."
+  answer: "It is a new addition to her vintage collection: a rare 1950s French film poster."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "She seems very distressed about this ink spill. [IMAGE] Why does this accident bother her so much more than a typical spill would?"
+  image_prompt: "Elena looking down at her ink-stained journal with a look of genuine sadness and frustration."
+  evaluation_criteria:
+    ideal_answer: "The spill is distressing because Elena uses that specific leather-bound journal to record meticulous notes during every film screening."
+    key_points:
+      - "An ink spill recently damaged several pages of her journal."
+      - "She has a long-term habit of taking detailed notes in that journal during screenings."
+  options:
+    - "The open journal matters because the ink spread across several pages she had just been using."
+    - "She is upset because the ink also ruined the white shirt she was wearing at the time."
+    - "She is distressed because that journal holds all her meticulous notes from every screening."
+    - "The spill ruined the rare French poster she was working on at her desk."
+  answer: "She is distressed because that journal holds all her meticulous notes from every screening."
+  image_id: hq_4
+
+- id: 5
+  type: State Identification
+  question: "Look at where she is sitting during the midnight show. [IMAGE] Why is she in the front row instead of her favorite back row seat?"
+  image_prompt: "Elena sitting in the very front row of the theater, looking up at the screen with a focused expression during a dark screening."
+  evaluation_criteria:
+    ideal_answer: "Elena is in the front row to closely monitor the screening she stayed late to prepare, even though she usually prefers the back row for viewing."
+    key_points:
+      - "She stayed late specifically to prepare for this special midnight screening."
+      - "Her favorite spot is normally the middle seat of the back row."
+  options:
+    - "The theater was completely full for the midnight show, so she had to take the only seat left."
+    - "She wanted a different perspective on the film to help with her curation notes."
+    - "The digital projector required her to sit closer to the screen to check for glitches."
+    - "She is sitting closer to supervise the special screening she worked late to prepare."
+  answer: "She is sitting closer to supervise the special screening she worked late to prepare."
+  image_id: hq_5

@@ -1,0 +1,84 @@
+- id: 1
+  type: "Preference Conflict"
+  question: "I took this photo while sitting at a busy outdoor cafe today. [IMAGE] Why does using these headphones here conflict with my usual habits?"
+  image_prompt: "A first-person view of a busy outdoor cafe table with a coffee cup and the black Sony headphones connected to a phone via a white dongle."
+  evaluation_criteria:
+    ideal_answer: "You typically only use these headphones while sitting at your dedicated desk for focused listening, so using them at a busy outdoor cafe is a departure from your established routine. This move from your desk likely happened because you recently took them to a friend's house and had to retrieve them."
+    key_points:
+      - "The user recently took the headphones out of their usual environment to a friend's house."
+      - "The user has a long-term habit of using these headphones only while sitting at their desk."
+  options:
+    - "The issue is mostly that they are away from their wooden stand after being carried around, not that the cafe itself is loud."
+    - "You normally keep them on a wooden stand, so having them on a cafe table is a significant change."
+    - "You only use them for classical music, which is hard to appreciate in a loud outdoor setting like this."
+    - "Using them at a cafe conflicts with your long-term habit of only using them for focus at your desk."
+  answer: "Using them at a cafe conflicts with your long-term habit of only using them for focus at your desk."
+  image_id: hq_1
+
+- id: 2
+  type: "State Identification"
+  question: "If I were to lose these and had to identify them in a lost-and-found box, what two specific physical details would I look for? [IMAGE]"
+  image_prompt: "A close-up of the black headphones showing both the newly replaced darker ear pads and the small scratch on the left side."
+  evaluation_criteria:
+    ideal_answer: "You would look for the new, darker ear pads that you recently installed and the tiny, faint scratch on the left ear pad that has been there since your move last year."
+    key_points:
+      - "The headphones recently had their ear pads replaced with new, darker ones."
+      - "There is a long-term, tiny scratch on the left ear pad from a previous move."
+  options:
+    - "You would look for the silver Sony logo and the long black wired cable."
+    - "You would look for the red 'Right' indicator and the neatly coiled cable with a Velcro strap."
+    - "You would identify them by the new darker ear pads and the permanent tiny scratch on the left side."
+    - "You would identify them by the water damage near the earcups and the specific brand logo."
+  answer: "You would identify them by the new darker ear pads and the permanent tiny scratch on the left side."
+  image_id: hq_2
+
+- id: 3
+  type: "Causal Inference"
+  question: "I felt completely 'lost' when I accidentally left these at my friend's house last weekend. [IMAGE] Why did their absence affect me so much?"
+  image_prompt: "An empty wooden headphone stand on a desk, looking lonely without the headphones."
+  evaluation_criteria:
+    ideal_answer: "You felt lost because those headphones are your primary tool for your 'Focus' playlist, which you rely on to get into the zone while at your desk. Forgetting them at a friend's house disrupted your core productivity routine."
+    key_points:
+      - "The user recently forgot the headphones at a friend's house."
+      - "The user has a long-term reliance on these headphones for their specific 'Focus' playlist."
+  options:
+    - "Leaving them behind disrupted your 'Focus' playlist routine that you only do with these headphones."
+    - "You felt lost because your desk Focus routine depends on having this exact pair nearby."
+    - "You were worried about them getting damaged while they were away from your desk."
+    - "You felt lost because you didn't have your dedicated wooden stand to keep them safe."
+  answer: "Leaving them behind disrupted your 'Focus' playlist routine that you only do with these headphones."
+  image_id: hq_3
+
+- id: 4
+  type: "Counterfactual / Recommendation Reasoning"
+  question: "My friend suggested I take these on my morning run tomorrow. [IMAGE] Based on how I've been using them lately, why might this be a bad idea?"
+  image_prompt: "The black headphones sitting next to a pair of running shoes and a smartphone with a white dongle attached."
+  evaluation_criteria:
+    ideal_answer: "Taking them for a run would be difficult because you now have to use a dongle to connect them to your phone, and you normally prefer to keep them in a neatly coiled, stable state at your desk for focused listening."
+    key_points:
+      - "The user now requires an awkward dongle to connect the headphones to their phone."
+      - "The user has a long-term preference for keeping the cable neatly coiled and using them at a desk."
+  options:
+    - "The run is a bad idea because the cable and phone dongle could tug loose while moving."
+    - "Running outdoors could make the new darker ear pads collect sweat faster than they do at a desk."
+    - "The new darker ear pads might get ruined if they are exposed to the elements outside."
+    - "The wired connection and required dongle would be too cumbersome for a run compared to your desk setup."
+  answer: "The wired connection and required dongle would be too cumbersome for a run compared to your desk setup."
+  image_id: hq_4
+
+- id: 5
+  type: "State Identification"
+  question: "My friend sent me this photo of some headphones left at their place. [IMAGE] How can I be sure these are definitely mine and not someone else's?"
+  image_prompt: "A pair of black Sony headphones on a coffee table, with the cable neatly coiled and secured with a black Velcro strap."
+  evaluation_criteria:
+    ideal_answer: "You can be sure they are yours because they are sitting on your friend's coffee table where you recently left them, and they have the distinctive neatly coiled cable secured with a Velcro strap that you always use."
+    key_points:
+      - "The headphones are currently at a friend's house where they were recently left."
+      - "The user has a long-term habit of keeping the cable neatly coiled with a Velcro strap."
+  options:
+    - "They are yours because they are at your friend's house and feature your signature Velcro-strapped coiled cable."
+    - "The silver logo and darker ear pads match the pair used in the office photo."
+    - "The silver Sony logo and the black color match the pair you use for classical music."
+    - "You can tell by the new darker ear pads and the way they are resting on the glass table."
+  answer: "They are yours because they are at your friend's house and feature your signature Velcro-strapped coiled cable."
+  image_id: hq_5

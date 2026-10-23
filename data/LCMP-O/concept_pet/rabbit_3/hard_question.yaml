@@ -1,0 +1,84 @@
+- id: 1
+  type: Preference Conflict
+  question: "Why is he lying on the bare floor instead of his usual comfy spot today? [IMAGE]"
+  image_prompt: "A brown-and-white lop rabbit resting on a plain floor under a side table with no cushion underneath him."
+  evaluation_criteria:
+    ideal_answer: "He is not on his usual comfy spot because the cream fleece cushion was washed today and hung outside to dry, even though that cushion is normally his favorite resting place."
+    key_points:
+      - "His cream fleece cushion was washed today and hung outside to dry."
+      - "The cream fleece cushion under the side table is his favorite resting spot."
+  options:
+    - "He is lying on the bare floor because the table legs make that spot feel sheltered from footsteps."
+    - "He is lying on the bare floor because loose hay was pushed into the place where he wanted to rest."
+    - "He is lying on the bare floor because the cushion is unavailable today even though it is normally his favorite place to rest."
+    - "He is lying on the bare floor because cooler room air settles there instead of near the doorway."
+  answer: "He is lying on the bare floor because the cushion is unavailable today even though it is normally his favorite place to rest."
+  image_id: hq_1
+
+- id: 2
+  type: Causal Inference
+  question: "Why would he refuse to cross over for the apple chip even though it is right there? [IMAGE]"
+  image_prompt: "A lop rabbit paused at the edge of a wet doorway while a hand offers a dried apple chip from the other side."
+  evaluation_criteria:
+    ideal_answer: "He refused because the doorway floor was recently splashed wet, and he strongly dislikes stepping onto wet floor with his paws."
+    key_points:
+      - "The floor across the kitchen doorway was recently left wet."
+      - "He strongly dislikes stepping onto wet floor."
+  options:
+    - "He refused because the wet doorway blocks a surface he normally refuses to step onto."
+    - "He refused because the doorway gap makes the apple chip feel farther away than it is."
+    - "He refused because he no longer likes dried apple chips."
+    - "He refused because he was waiting for the cushion to be brought back first."
+  answer: "He refused because the wet doorway blocks a surface he normally refuses to step onto."
+  image_id: hq_2
+
+- id: 3
+  type: State Identification
+  question: "Why is he crouched so low under the side table right now? [IMAGE]"
+  image_prompt: "A brown-and-white lop rabbit crouched tightly under a side table while a broom leans nearby."
+  evaluation_criteria:
+    ideal_answer: "He is crouched there because a broom was recently left beside the side table, and brooms and sweeping motions are one of the things that make him nervous."
+    key_points:
+      - "A broom was recently left beside the side table."
+      - "Brooms and sweeping motions make him uneasy."
+  options:
+    - "He is crouched there because the side table gives him a low covered place to pause."
+    - "He is crouched there because the broom nearby is making him nervous."
+    - "He is crouched there because the wet doorway made the whole house feel cold."
+    - "He is crouched there because he wants to wait until the cushion finishes drying outside."
+  answer: "He is crouched there because the broom nearby is making him nervous."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "If I want him to come over for the apple chip right now, what should I change first? [IMAGE]"
+  image_prompt: "A hand holding a dried apple chip beyond a wet kitchen doorway while a lop rabbit waits on the dry side."
+  evaluation_criteria:
+    ideal_answer: "The best change is to dry the doorway or give him a dry path first, because the recent wet floor blocks him and he dislikes stepping onto wet floor."
+    key_points:
+      - "The kitchen doorway was recently left wet."
+      - "He dislikes stepping onto wet floor."
+  options:
+    - "Dry the doorway or make a dry path first so he does not have to step on the wet floor."
+    - "Move the apple chip onto his side of the doorway so he does not have to decide immediately."
+    - "Move the broom closer to the doorway so he notices the apple chip from a new angle."
+    - "Pick him up and place him on the wet side immediately."
+  answer: "Dry the doorway or make a dry path first so he does not have to step on the wet floor."
+  image_id: hq_4
+
+- id: 5
+  type: Preference Conflict
+  question: "Why is his refusal at the doorway especially unusual for him? [IMAGE]"
+  image_prompt: "A lop rabbit staring at a dried apple chip from the dry side of a wet doorway without moving forward."
+  evaluation_criteria:
+    ideal_answer: "It is especially unusual because he recently refused to cross the doorway even though the snack being offered was a dried apple chip, which is normally his favorite treat."
+    key_points:
+      - "He recently refused to cross the wet doorway even when offered a dried apple chip."
+      - "Dried apple chips are his favorite snack."
+  options:
+    - "It is unusual because the image shows the apple chip, but not his usual response to that treat."
+    - "It is unusual because he usually waits for treats beside the cushion instead of near the doorway."
+    - "It is unusual because he usually comes quickly for dried apple chips, so refusing one shows how strong the current obstacle is."
+    - "It is unusual because the broom noise should have sent him toward the side table, not the snack."
+  answer: "It is unusual because he usually comes quickly for dried apple chips, so refusing one shows how strong the current obstacle is."
+  image_id: hq_5

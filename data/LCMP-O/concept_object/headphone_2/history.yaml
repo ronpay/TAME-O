@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "This is my favorite pair of Sony Wired Studio Headphones. [IMAGE] I love using them for classical music because the sound is so clear."
+  assistant_response: "Got it. I've noted that you prefer these Sony Wired Studio Headphones for classical music due to their clear sound."
+  image_prompt: "A pair of black Sony wired over-ear headphones resting on a white surface, with the silver Sony logo clearly visible on the earcup."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "I always make sure to keep the cable neatly coiled like this. [IMAGE] I use a small Velcro strap to keep it from getting tangled."
+  assistant_response: "Understood. I've recorded that you keep the cable neatly coiled with a Velcro strap to avoid tangles."
+  image_prompt: "A close-up of the black headphone cable neatly coiled and secured with a small black Velcro strap on a wooden desk."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "When I'm not using them, they always go back on this wooden stand. [IMAGE] It keeps them safe and looks nice on my desk."
+  assistant_response: "I've noted that they are kept on a dedicated wooden stand when not in use."
+  image_prompt: "The black headphones hanging on a minimalist curved wooden headphone stand on a desk."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "I really only use these when I'm sitting here at my desk. [IMAGE] It's my dedicated space for focused listening."
+  assistant_response: "Recorded. You primarily use them while sitting at your desk for focused sessions."
+  image_prompt: "A first-person view of a clean wooden desk with a laptop and the headphones resting nearby, suggesting an indoor study environment."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "I have this specific 'Focus' playlist that I only listen to with these. [IMAGE] The combination really helps me get into the zone."
+  assistant_response: "I've noted that you have a dedicated 'Focus' playlist specifically for use with these headphones."
+  image_prompt: "A laptop screen showing a music player with a playlist titled 'Focus', with the headphones visible in the foreground."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "If you look closely, there's this tiny scratch on the left ear pad from when I moved last year. [IMAGE] It's hard to see but I know it's there."
+  assistant_response: "Understood. I've recorded the detail of the tiny scratch on the left ear pad."
+  image_prompt: "A macro shot of the left ear pad of the black headphones, showing a very small, faint scratch on the synthetic leather material."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "I had a bit of a scare today when I spilled some water on my desk. [IMAGE] Luckily, it didn't actually touch the earcups, so they're perfectly fine."
+  assistant_response: "That was a close call. I've noted the water spill incident and that they remained undamaged."
+  image_prompt: "A wooden desk with some water droplets near a pair of black headphones, but the headphones themselves are dry."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "I'm trying to use them with my new phone today, but I have to use this annoying dongle. [IMAGE] It's the only way since there's no jack anymore."
+  assistant_response: "I've recorded that you're now using a dongle to connect them to your jackless phone."
+  image_prompt: "A hand holding a smartphone connected to the black headphone cable via a small white USB-C to 3.5mm dongle."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "I actually forgot them at my friend's house over the weekend. [IMAGE] I felt so lost without them until I went back to get them today."
+  assistant_response: "I've noted that you recently left them at a friend's house and have since retrieved them."
+  image_prompt: "The black headphones sitting on a coffee table in a living room that looks different from the user's usual desk environment."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "The old ear pads were getting pretty worn out, so I finally replaced them with these new ones. [IMAGE] They're a bit darker than the original ones, but they feel great."
+  assistant_response: "Understood. I've recorded that you replaced the original ear pads with new, slightly darker ones."
+  image_prompt: "The black headphones with fresh, dark black ear pads, looking slightly more matte and darker than the headband."
+  image_id: turn_10

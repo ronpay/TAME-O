@@ -1,0 +1,84 @@
+- id: 1
+  type: Causal Inference
+  question: "Here he is earlier today. [IMAGE] Why was he likely retreating to this spot?"
+  image_prompt: "A light gray Persian cat with a blue collar hiding nervously under a dark living room sofa."
+  evaluation_criteria:
+    ideal_answer: "He normally dislikes loud noises like the vacuum cleaner. He was likely hiding under the sofa to escape a loud noise or cleaning activity."
+    key_points:
+      - "He was recently hiding under the living room sofa."
+      - "He has a long-term dislike for loud noises like the vacuum cleaner."
+  options:
+    - "He was likely hiding under the sofa to escape a loud noise or cleaning activity."
+    - "He went under the sofa because it is a cool, dark place to nap."
+    - "He was playing a game and waiting to ambush someone walking by."
+    - "He prefers sleeping under the sofa because the plush chair was occupied."
+  answer: "He was likely hiding under the sofa to escape a loud noise or cleaning activity."
+  image_id: hq_1
+
+- id: 2
+  type: State Identification
+  question: "Look at his appearance here. [IMAGE] Why does his coat look so different from normal?"
+  image_prompt: "A Persian cat with a blue collar, whose normally light gray fur is severely matted, dusty, and dirty, standing in an attic."
+  evaluation_criteria:
+    ideal_answer: "His fur is normally light gray, but it is currently matted and dirty because he recently sneaked into the dusty attic."
+    key_points:
+      - "His fur is currently matted and dirty from the dusty attic."
+      - "He normally has thick, light gray fur."
+  options:
+    - "The attic lighting changes the photo, but it does not explain why his fur is actually dirty."
+    - "His fur is normally light gray, but it is currently matted and dirty because he recently sneaked into the dusty attic."
+    - "He was playing outside in damp soil, which temporarily stained the lower part of his normally light gray coat."
+    - "He brushed against dark storage paint while exploring the basement, changing how his light gray fur appears."
+  answer: "His fur is normally light gray, but it is currently matted and dirty because he recently sneaked into the dusty attic."
+  image_id: hq_2
+
+- id: 3
+  type: Preference Conflict
+  question: "Here he is at mealtime today. [IMAGE] Why is this meal surprising given his usual taste?"
+  image_prompt: "A light gray Persian cat with a blue collar eating plain dry kibble from a standard ceramic pet bowl."
+  evaluation_criteria:
+    ideal_answer: "He normally prefers premium salmon paste, so it is surprising to see him eating plain dry kibble today."
+    key_points:
+      - "He recently ate plain dry kibble from a bowl."
+      - "He has a strong preference for premium salmon paste."
+  options:
+    - "The dry kibble may be visible, but the image alone does not show why the meal is surprising."
+    - "He may have eaten earlier and is only sniffing the kibble now."
+    - "He normally prefers premium salmon paste, so it is surprising to see him eating plain dry kibble today."
+    - "He usually refuses to eat from ceramic bowls, preferring metal dishes instead."
+  answer: "He normally prefers premium salmon paste, so it is surprising to see him eating plain dry kibble today."
+  image_id: hq_3
+
+- id: 4
+  type: Preference Conflict
+  question: "This is where he chose to sit today. [IMAGE] Why is this spot unusual for him?"
+  image_prompt: "A light gray Persian cat with a blue collar sitting somewhat awkwardly on a bare, hard wooden stool."
+  evaluation_criteria:
+    ideal_answer: "He has a habit of claiming the plush home office chair, making his current choice of a hard wooden stool very unusual."
+    key_points:
+      - "He is currently sitting on a hard wooden stool."
+      - "He has a habit of claiming the plush home office chair."
+  options:
+    - "He is sitting there, but the image alone does not show which preferred seat makes the stool unusual."
+    - "He always avoids wooden furniture after slipping once, so choosing the stool would be a surprising exception."
+    - "He prefers sleeping on the living room sofa, so the hard wooden stool is not his first choice."
+    - "He has a habit of claiming the plush home office chair, making his current choice of a hard wooden stool very unusual."
+  answer: "He has a habit of claiming the plush home office chair, making his current choice of a hard wooden stool very unusual."
+  image_id: hq_4
+
+- id: 5
+  type: Counterfactual / Recommendation Reasoning
+  question: "Given his current state here. [IMAGE] What grooming tool would he be happiest to see right now?"
+  image_prompt: "A Persian cat with severely matted, dusty, and dirty fur, wearing a blue collar, standing in an attic."
+  evaluation_criteria:
+    ideal_answer: "His fur is currently matted and dirty, but since he absolutely loves being brushed with a specific wire brush, he would be happiest to see that tool used to clean him up."
+    key_points:
+      - "His fur is currently matted and dirty from the dusty attic."
+      - "He absolutely loves being brushed with a specific wire brush."
+  options:
+    - "He would prefer a warm bath with cat shampoo to wash off the dust."
+    - "He would be happiest if someone used a soft bristle brush to gently clean his coat."
+    - "His fur is currently matted and dirty, but since he absolutely loves being brushed with a specific wire brush, he would be happiest to see that tool used to clean him up."
+    - "He wants his coat trimmed with clippers to quickly remove the dirty mats."
+  answer: "His fur is currently matted and dirty, but since he absolutely loves being brushed with a specific wire brush, he would be happiest to see that tool used to clean him up."
+  image_id: hq_5

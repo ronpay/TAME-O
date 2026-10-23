@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "This is a photo of Alistair. [IMAGE] He always wears that olive flat cap; he calls it his 'thinking hat' whenever he's planning a new cinema season."
+  assistant_response: "I've noted that the olive flat cap is Alistair's signature 'thinking hat' for his curation work."
+  image_prompt: "A clear portrait of Alistair on a city street wearing his olive flat cap and a thoughtful expression."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "You will rarely see him without this navy pinstripe blazer. [IMAGE] It has become his signature professional look over the years."
+  assistant_response: "Understood. I've recorded the navy pinstripe blazer as his daily professional uniform."
+  image_prompt: "A shot of the person standing confidently in his navy pinstripe blazer with hands in his pockets."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "He also loves this long, silk-like navy scarf. [IMAGE] It was a gift, and he wears it during almost every city walk."
+  assistant_response: "I've noted the navy silk-like scarf as a cherished accessory he wears frequently."
+  image_prompt: "A close-up of the long navy scarf loosely tied around the person's neck over his blazer."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "Here is where he spends most of his time. [IMAGE] He's the head curator at the 'Silver Screen' independent cinema."
+  assistant_response: "Got it. I've recorded his role as head curator at the 'Silver Screen' independent cinema."
+  image_prompt: "The person standing in front of the 'Silver Screen' cinema's classic marquee and ticket booth."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "He's a real celluloid purist. [IMAGE] He insists on using 35mm film reels for all the classics, as he really dislikes digital projection."
+  assistant_response: "I've noted his strong preference for 35mm film and his dislike for digital projection."
+  image_prompt: "Alistair in a projection booth, his face and olive flat cap visible as he carefully handles a 35mm film reel."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "He always carries this leather-bound notebook with him for his film reviews. [IMAGE] He refuses to use any digital devices for his writing."
+  assistant_response: "Understood. I've recorded his habit of using a leather-bound notebook and his avoidance of digital writing tools."
+  image_prompt: "The person writing carefully in a leather-bound notebook while sitting at a small cafe table."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "I can't believe he actually agreed to attend that blockbuster premiere last night. [IMAGE] Look at him in that loud, neon-lit IMAX lobby; he looks so uncomfortable."
+  assistant_response: "I see that he recently attended an event at a modern, neon-lit IMAX theater, which seemed to make him uneasy."
+  image_prompt: "The person looking visibly out of place in a bright, neon-lit modern cinema lobby filled with blockbuster posters."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "He had a bit of a disaster this morning and spilled coffee all over his favorite blazer. [IMAGE] He's quite upset about the large stain on the lapel."
+  assistant_response: "I've noted the recent coffee spill incident and the stain on his signature pinstripe blazer."
+  image_prompt: "The person looking down in frustration at a large, dark coffee stain on the lapel of his navy pinstripe blazer."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "His usual leather notebook finally ran out of space today, so he's had to use this bright yellow spiral notebook for now. [IMAGE] It looks so out of character."
+  assistant_response: "I've recorded that he is temporarily using a bright yellow spiral notebook because his usual one is full."
+  image_prompt: "The person looking at a bright yellow spiral-bound notebook on a desk with an expression of mild distaste, his signature olive flat cap sitting nearby."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "The 35mm projector at the cinema broke down today, so he was forced to use the digital one. [IMAGE] He's struggling with the digital interface controls."
+  assistant_response: "I've noted the technical failure at the cinema and that he is currently being forced to use a digital projector."
+  image_prompt: "The person looking frustrated while looking at the glowing touchscreen controls of a modern digital cinema projector."
+  image_id: turn_10

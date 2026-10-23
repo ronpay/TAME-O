@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: person_7
+concept_type: "person"
+name: "Leo"
+category: "Amateur Skateboarder"
+
+core_identity:
+  summary: "A passionate young skateboarder who spends every afternoon practicing tricks at his favorite local spot."
+  role_in_user_life: "The user's younger brother and frequent subject of his amateur skate videos."
+
+stable_visual_identity:
+  summary: "A young man with a casual, athletic look, always seen with his signature skateboard."
+  key_features:
+    - "Thick, messy curly brown hair that often covers his forehead."
+    - "A favorite teal-green t-shirt with a 'Zumwalt 2011' tree graphic on the front."
+    - "A well-used skateboard featuring bright yellow wheels."
+
+stable_behavioral_identity:
+  traits:
+    - "Highly persistent, often spending hours repeating a single trick until it's perfect."
+    - "Usually quiet and focused, becoming 'in the zone' when he starts skating."
+  preferences:
+    loves:
+      - "Quiet, fenced-off paths where he can skate without being watched by crowds."
+      - "His teal 'lucky' shirt which he believes helps him land difficult maneuvers."
+    dislikes:
+      - "Wearing safety gear like helmets, which he finds restrictive and uncool."
+      - "Rainy weather because it ruins the grip tape on his board."
+
+relational_meaning:
+  user_relationship: "The user is Leo's older sibling who acts as his 'cameraman'."
+  emotional_value: "Leo represents youthful energy and dedication to a craft the user enjoys supporting."
+  related_entities:
+    - "The 'Old Fence' spot behind the local park."
+
+history:
+  knowledge:
+    - "Instruction: Introduce Leo's 'lucky' teal Zumwalt 2011 tree t-shirt as his staple outfit."
+    - "Instruction: Introduce his messy curly brown hair as a recognizable feature in his skate clips."
+    - "Instruction: Introduce his favorite skateboard setup, specifically highlighting the yellow wheels."
+    - "Instruction: Introduce his preference for the quiet, fenced-off path for practice sessions."
+    - "Instruction: Introduce his role as the user's brother who always wants his tricks recorded."
+    - "Instruction: Introduce his long-standing habit of refusing to wear a helmet while skating."
+  event:
+    - "Instruction: Introduce a recent nasty fall Leo took while practicing, resulting in a scraped leg."
+    - "Instruction: Introduce a recent surprising moment where Leo actually put on a helmet after his fall."
+    - "Instruction: Introduce a recent event where Leo stayed out to skate even as it started to rain."
+    - "Instruction: Introduce the moment Leo finally landed a difficult 360 flip he's been practicing."
+
+hard_questions:
+  - "Draft: Create a state-identification question asking why Leo is wearing a helmet today (event) given his usual dislike for safety gear (knowledge)."
+  - "Draft: Create a preference-conflict question asking why Leo stayed out in the drizzle (event) despite his usual hatred of rain ruining his board (knowledge)."
+  - "Draft: Create a causal-inference question linking his success in landing the 360 flip (event) to him wearing his 'lucky' teal shirt (knowledge)."
+  - "Draft: Create a counterfactual question asking if he would be wearing the helmet (event) if he hadn't scraped his leg in the recent fall (event/knowledge context)."
+  - "Draft: Create a multi-clue reasoning question about why he is sitting idle at the 'old fence' spot (knowledge) with a bandage on his leg (event)."

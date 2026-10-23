@@ -1,0 +1,84 @@
+- id: 1
+  type: Causal Inference
+  question: "Here he is right now. [IMAGE] Why is he squeezing himself under this bed frame?"
+  image_prompt: "A Keeshond dog hiding nervously under a wooden bed frame, looking out anxiously."
+  evaluation_criteria:
+    ideal_answer: "He has a long-term fear of loud vacuum cleaners, and there is currently a loud robot vacuum running in the living room. He is hiding under the bed to escape the noise."
+    key_points:
+      - "There is currently a loud robot vacuum running in the house."
+      - "He has a long-term habit of hiding under the bed to avoid vacuum cleaners."
+  options:
+    - "He is using the bed frame as a cool, sheltered resting spot away from the open room."
+    - "He prefers sleeping under the bed because the floor there is much colder."
+    - "He was scolded for being on the furniture and retreated under the bed."
+    - "He is hiding under the bed to escape the noise of the active robot vacuum."
+  answer: "He is hiding under the bed to escape the noise of the active robot vacuum."
+  image_id: hq_1
+
+- id: 2
+  type: State Identification
+  question: "Look at where he decided to lie down. [IMAGE] Why is he splayed out on these hard kitchen tiles instead of a soft rug?"
+  image_prompt: "A Keeshond dog lying flat on hard, bare kitchen floor tiles, panting slightly."
+  evaluation_criteria:
+    ideal_answer: "It is currently a sweltering hot day indoors with broken AC, and he has a stable preference for resting on cold surfaces. The kitchen tiles provide the cooling relief he needs."
+    key_points:
+      - "The indoor environment is currently sweltering hot."
+      - "He strongly prefers resting on cold surfaces."
+  options:
+    - "He is resting on the tiles to cool down because the house is currently sweltering hot."
+    - "He may simply prefer open floor space to a soft rug when resting."
+    - "He was locked out of the living room and the kitchen floor was his only option."
+    - "He is avoiding the living room rugs because the robot vacuum is cleaning them."
+  answer: "He is resting on the tiles to cool down because the house is currently sweltering hot."
+  image_id: hq_2
+
+- id: 3
+  type: State Identification
+  question: "Look at him in the hallway. [IMAGE] Why is he panting so heavily and looking so exhausted?"
+  image_prompt: "A Keeshond dog with a thick, predominantly dark charcoal-black double coat and tan-gray highlights standing in a hallway, panting heavily with a tired expression."
+  evaluation_criteria:
+    ideal_answer: "It is currently a sweltering hot day indoors with broken AC, and he has a thick double coat that traps heat. The combination of the hot environment and his heavy fur is causing him to overheat and pant heavily."
+    key_points:
+      - "The indoor environment is currently sweltering hot with broken AC."
+      - "He has a thick, predominantly dark charcoal-black double coat."
+  options:
+    - "He is panting in the photo, but the visible scene alone does not show whether heat, play, or stress caused it."
+    - "He is panting heavily because his thick double coat traps heat on this sweltering hot day."
+    - "He is stressed and panting because the robot vacuum is chasing him down the hallway."
+    - "He is thirsty because he just finished eating a frozen carrot treat."
+  answer: "He is panting heavily because his thick double coat traps heat on this sweltering hot day."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "This was just dropped on the floor. [IMAGE] What will he most likely do if he walks into the room?"
+  image_prompt: "A bright orange frozen carrot stick lying unattended on a patterned kitchen rug."
+  evaluation_criteria:
+    ideal_answer: "A frozen carrot stick was just dropped on the rug, and chewing on frozen carrots is his absolute favorite treat. He will eagerly pick it up and start chewing on it."
+    key_points:
+      - "A frozen carrot stick was just dropped on the floor."
+      - "He has a strong preference for chewing on frozen carrot sticks."
+  options:
+    - "He will eagerly pick it up and chew on it because it is his favorite treat."
+    - "He will sniff the carrot first because it landed on an unfamiliar rug."
+    - "He will sniff it and walk away because he dislikes hard, frozen items."
+    - "He will bark at it because it is an unfamiliar object on his favorite rug."
+  answer: "He will eagerly pick it up and chew on it because it is his favorite treat."
+  image_id: hq_4
+
+- id: 5
+  type: Causal Inference
+  question: "Look at him pacing near the furniture. [IMAGE] Why is he whining next to this spot instead of settling down?"
+  image_prompt: "A Keeshond dog pacing and whining next to a green armchair that is completely covered in a pile of folded laundry."
+  evaluation_criteria:
+    ideal_answer: "He always tries to claim the green armchair as his favorite sleeping spot, but it is currently piled high with folded laundry. He is whining because his preferred resting place is blocked."
+    key_points:
+      - "The green armchair is currently covered with a pile of folded laundry."
+      - "He always prefers to sleep on the green armchair."
+  options:
+    - "He is pacing near the furniture, but the image alone does not identify what is stopping him from settling."
+    - "He wants to sleep on the green armchair, but it is currently blocked by folded laundry."
+    - "He is anxious because the robot vacuum is approaching the armchair."
+    - "He is trying to get his owner's attention to help him climb onto the tall armchair."
+  answer: "He wants to sleep on the green armchair, but it is currently blocked by folded laundry."
+  image_id: hq_5

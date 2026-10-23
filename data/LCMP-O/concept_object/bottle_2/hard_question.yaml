@@ -1,0 +1,84 @@
+- id: 1
+  type: Preference Conflict
+  question: "I usually start my day with five ice cubes in here, but look at it now. [IMAGE] Why does this current use conflict so much with its normal preference?"
+  image_prompt: "A close-up of steam rising from the blue water bottle's open top, with a dark liquid visible inside instead of clear water and ice."
+  evaluation_criteria:
+    ideal_answer: "The bottle is currently filled with hot coffee, which conflicts with its long-term preference for five ice cubes and chilled filtered water. The owner accidentally used boiling liquid which could potentially warp the plastic."
+    key_points:
+      - "The owner recently filled it with hot coffee by mistake."
+      - "The owner has a long-term habit of filling it with exactly five ice cubes every morning."
+  options:
+    - "It is being used for a hot beverage, which ignores the owner's morning ice cube routine."
+    - "It was filled with coffee accidentally, clashing with its stable preference for cold water and ice."
+    - "The plastic might warp because the owner forgot to add the usual five ice cubes before the coffee."
+    - "The owner is trying a new morning routine with hot drinks, even though it usually prefers ice."
+  answer: "It was filled with coffee accidentally, clashing with its stable preference for cold water and ice."
+  image_id: hq_1
+
+- id: 2
+  type: State Identification
+  question: "It's back in its usual spot at home today. [IMAGE] What specific change in its condition can be seen now that wasn't there before its trip to the park?"
+  image_prompt: "The frosted blue water bottle sitting on the blue and white patterned tablecloth, with a small, fresh white scratch clearly visible near the base."
+  evaluation_criteria:
+    ideal_answer: "While sitting in its normal spot on the patterned tablecloth, a new scratch is visible near the base. This scratch is a recent result of it falling over at the park earlier today."
+    key_points:
+      - "It recently sustained a small scratch near the base after a fall at the park."
+      - "It is normally kept on a specific blue and white patterned tablecloth when at home."
+  options:
+    - "From the photo alone, the visible change could just be lighting on the logo rather than a new condition."
+    - "The bottle looks slightly warped after being left in direct sun during the park visit."
+    - "There is a new scratch near the base from a recent fall, visible even in its usual home spot."
+    - "It is sitting on the tablecloth, but the lid loop appears to be loosened from the recent trip."
+  answer: "There is a new scratch near the base from a recent fall, visible even in its usual home spot."
+  image_id: hq_2
+
+- id: 3
+  type: Causal Inference
+  question: "I was already on my way to my workout when I had to turn back. [IMAGE] Based on my usual habits, why was it impossible for me to just keep going to the gym?"
+  image_prompt: "A view from inside a car showing the blue water bottle sitting alone on an office desk through a window, as the owner arrives to retrieve it."
+  evaluation_criteria:
+    ideal_answer: "The owner had to return because they forgot the bottle at the office. Since they have a strict preference for carrying this specific bottle by its loop to the gym, and they refuse to share others' bottles for hygiene, they needed to retrieve it."
+    key_points:
+      - "The owner recently forgot the bottle on their office desk."
+      - "The owner always carries this specific bottle by its loop when walking to the gym."
+  options:
+    - "The scene alone does not show why the owner turned back for this exact bottle instead of continuing."
+    - "The office was closer than the gym, so it was easier to go back for the favorite blue bottle."
+    - "The owner forgot it at the office and needed it because they always carry it by the loop to the gym."
+    - "The owner realized they hadn't put the five ice cubes in yet and had to go back to the office kitchen."
+  answer: "The owner forgot it at the office and needed it because they always carry it by the loop to the gym."
+  image_id: hq_3
+
+- id: 4
+  type: Causal Inference
+  question: "My coworker just showed up with the same bottle today. [IMAGE] Why was it so urgent for me to add this specific green leaf marker to mine?"
+  image_prompt: "Two identical blue Casno bottles sitting side-by-side on a gym bench, but one has a small green leaf sticker on the lid."
+  evaluation_criteria:
+    ideal_answer: "The owner added a green leaf sticker to the lid as a recent modification to distinguish it from a coworker's identical bottle. This was urgent because the owner has a long-term, strict rule against sharing bottles for hygiene reasons."
+    key_points:
+      - "The owner recently added a green leaf sticker to the lid for identification."
+      - "The owner has a long-term rule of never letting anyone else use their bottle for hygiene reasons."
+  options:
+    - "The leaf sticker makes his bottle visually distinct from the coworker's, so the two identical lids are easier to tell apart."
+    - "The green leaf sticker indicates that the bottle contains filtered water rather than tap water."
+    - "It was a recommendation from the coworker to add a sticker to avoid any hygiene confusion."
+    - "The sticker helps identify the owner's bottle so they don't violate their strict no-sharing rule."
+  answer: "The sticker helps identify the owner's bottle so they don't violate their strict no-sharing rule."
+  image_id: hq_4
+
+- id: 5
+  type: Counterfactual / Recommendation Reasoning
+  question: "It just got this new mark on the bottom today. [IMAGE] Why am I so determined to keep using it rather than just buying a brand new one?"
+  image_prompt: "A hand holding the blue bottle, pointing at the new scratch, while a gift tag from a friend is visible in the background."
+  evaluation_criteria:
+    ideal_answer: "Despite the recent scratch from the fall at the park, the owner wants to keep it because it has significant sentimental value. It was a gift from a best friend specifically to celebrate the owner's first 10k race."
+    key_points:
+      - "The bottle recently sustained a scratch after a tumble at the park."
+      - "The bottle was a meaningful gift received after the owner's first 10k race."
+  options:
+    - "The scratch alone does not explain why the owner is determined to keep using this specific bottle."
+    - "The scratch is small enough that replacing the bottle would feel wasteful."
+    - "The owner believes the bottle is lucky because they've had it since their very first race."
+    - "It has sentimental value as a 10k race gift, so the owner values it more than a new, unmarked one."
+  answer: "It has sentimental value as a 10k race gift, so the owner values it more than a new, unmarked one."
+  image_id: hq_5

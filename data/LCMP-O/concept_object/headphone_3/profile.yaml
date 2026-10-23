@@ -1,0 +1,60 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: headphone_3
+concept_type: "object"
+name: "Crimson Ears"
+category: "Wireless Over-Ear Headphones"
+
+core_identity:
+  summary: "A vibrant red pair of wireless over-ear headphones, cherished for their superior sound and sleek design."
+  role_in_user_life: "These headphones are an indispensable companion for the user, used daily for commutes, workouts, and relaxing evenings."
+
+stable_visual_identity:
+  summary: "The headphones are a striking crimson color with a metallic sheen, featuring a minimalistic yet sophisticated design."
+  key_features:
+    - "Rich crimson color with a slightly glossy finish"
+    - "Large, rounded ear cups with mesh grills"
+    - "Adjustable headband with integrated control buttons"
+
+stable_behavioral_identity:
+  traits:
+    - "Provide crystal-clear audio with deep bass"
+    - "Easily foldable for compact storage and portability"
+  preferences:
+    loves:
+      - "Long listening sessions without battery drain"
+      - "Pairing with a wide range of devices"
+    dislikes:
+      - "Being exposed to extreme weather conditions"
+      - "Spills and liquid damage"
+
+relational_meaning:
+  user_relationship: "The user views these headphones as a true friend, always there to provide an immersive auditory experience."
+  emotional_value: "The headphones represent the user's love for music and a symbol of their personal style and identity."
+  related_entities:
+    - "The user's daily commute"
+    - "The user's favorite music playlist"
+    - "The user's smartphone and various other audio devices"
+
+history:
+  knowledge:
+    - "Instruction: Show the headphones folded neatly in the user's bag, ready for a long journey."
+    - "Instruction: Display the headphones connected to a high-end audio system in the user's living room."
+    - "Instruction: Capture the shine of the metallic finish when the evening light hits the headphones."
+    - "Instruction: Show the user cleaning the headphones with a soft cloth after a long day."
+    - "Instruction: Illustrate the headphones snugly fitting in the user's dedicated charging dock."
+    - "Instruction: Introduce the long-term preference of enjoying long listening sessions, showing them in use for hours."
+  event:
+    - "Instruction: Introduce a scene where the user accidentally drops the headphones in a puddle, exposing them to liquid."
+    - "Instruction: Show the headphones experiencing connectivity issues with a smartwatch immediately after the puddle incident."
+    - "Instruction: Display the user getting caught in a sudden snowstorm, showing the headphones exposed to extreme cold."
+    - "Instruction: Illustrate the headphones' battery unexpectedly draining completely during a critical moment."
+
+hard_questions:
+  - "Draft: How did the user address the conflict between the headphones' dislike for extreme weather and the accidental snowstorm?"
+  - "Draft: Given that the headphones are known to support long listening sessions, how did the user manage when the battery unexpectedly drained?"
+  - "Draft: Despite the headphones' preference for pairing with various devices, how did the user handle the connectivity issues after the puddle incident?"
+  - "Draft: How did the user's awareness of the headphones' dislike for liquid influence their reaction to the puddle accident?"
+  - "Draft: How did the user's deep emotional connection to the headphones influence their decision-making when the battery failed during a meaningful session?"

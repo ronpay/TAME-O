@@ -1,0 +1,84 @@
+- id: 1
+  type: Preference Conflict
+  question: "We are at the new indoor restaurant tonight. [IMAGE] Why is she sitting so close to the entrance and looking towards the street?"
+  image_prompt: "Elena sitting at a table right next to an open restaurant door, looking out at the sidewalk while holding a menu."
+  evaluation_criteria:
+    ideal_answer: "Elena normally prefers outdoor dining for the air and light, but she is currently at a famous indoor-only restaurant. She is likely sitting by the door to get as much fresh air as possible to compensate for her dislike of cramped indoor spaces."
+    key_points:
+      - "She is currently visiting a strictly indoor-only restaurant."
+      - "She has a long-term preference for outdoor dining and fresh air."
+  options:
+    - "She is watching the entrance because she expects another friend and chose the doorway seat to spot them quickly."
+    - "She is trying to get better light for her blog photos near the open door."
+    - "She chose the seat because the indoor restaurant is too crowded for her usual taste."
+    - "She is sitting by the door because she prefers outdoor dining and wants to feel less enclosed in the indoor space."
+  answer: "She is sitting by the door because she prefers outdoor dining and wants to feel less enclosed in the indoor space."
+  image_id: hq_1
+
+- id: 2
+  type: Causal Inference
+  question: "She's been reaching for the water pitcher all evening. [IMAGE] Based on what happened earlier, why is she drinking so much more than usual?"
+  image_prompt: "Elena at a restaurant table, pouring a second large glass of water while a bowl of red curry sits nearby."
+  evaluation_criteria:
+    ideal_answer: "Elena accidentally ordered a very spicy 'Chef's Surprise' curry earlier. Since she has a long-term dislike for spicy food, she is drinking lots of water to cool down her mouth from the unexpected heat."
+    key_points:
+      - "She recently accidentally ordered a dish that was much spicier than expected."
+      - "She has a long-term, strong dislike for spicy food."
+  options:
+    - "She is drinking more, but the image alone does not show which earlier dish caused the thirst."
+    - "She is drinking water to clear her palate after trying a new seafood dish."
+    - "She is trying to stay hydrated while experimenting with different types of wine."
+    - "She is drinking heavily to cope with the heat of a spicy dish she accidentally ordered."
+  answer: "She is drinking heavily to cope with the heat of a spicy dish she accidentally ordered."
+  image_id: hq_2
+
+- id: 3
+  type: State Identification
+  question: "Looking at this photo from today's lunch, what is noticeably different about her appearance? [IMAGE]"
+  image_prompt: "A medium shot of Elena at a lunch table with her bangs visible but no hat on her head."
+  evaluation_criteria:
+    ideal_answer: "Elena is not wearing her signature beige newsboy cap, which is her most recognizable accessory. This is because she recently left the cap at a friend's house, creating a conflict with her stable visual identity."
+    key_points:
+      - "She recently left her favorite cap at a friend's house."
+      - "The beige newsboy cap is her signature and most recognizable visual feature."
+  options:
+    - "She has changed her hairstyle and no longer has straight-cut bangs."
+    - "She is missing her signature beige cap, which she almost always wears."
+    - "She is not wearing her usual silver dangle earrings for this meal."
+    - "She is wearing casual clothes instead of her usual professional blogger attire."
+  answer: "She is missing her signature beige cap, which she almost always wears."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "The waiter just asked if she wants another round. [IMAGE] Knowing her usual habits and what she's trying tonight, what will she likely say?"
+  image_prompt: "Elena looking at a wine list with a half-empty glass of white wine on the table."
+  evaluation_criteria:
+    ideal_answer: "Elena decided to try white wine tonight to see if it paired better with her fish, but she has a long-term, consistent preference for dry red wine. She will likely return to her usual red wine for the next round now that her experiment is over."
+    key_points:
+      - "She recently decided to try white wine as an experiment."
+      - "She has a long-standing and consistent preference for dry red wine."
+  options:
+    - "She will likely switch back to her usual dry red wine for the next glass."
+    - "She will order another white wine because she wants to finish her experiment."
+    - "She will stop drinking because she didn't enjoy the white wine as much as her seafood."
+    - "She will ask for a spicy cocktail to try something completely different from her usual wine."
+  answer: "She will likely switch back to her usual dry red wine for the next glass."
+  image_id: hq_4
+
+- id: 5
+  type: State Identification
+  question: "She's looking at the 'Spicy Prawn Pasta' on the menu with a very conflicted expression. [IMAGE] Why is this specific dish causing her so much trouble?"
+  image_prompt: "Elena pointing at a menu item titled 'Spicy Prawn Pasta' with a worried and hesitant look on her face."
+  evaluation_criteria:
+    ideal_answer: "The dish combines prawns, which she loves as a seafood fan, with a spicy sauce, which she strongly dislikes. Her conflict comes from the fact that a long-term favorite ingredient is paired with a long-term dislike, especially after her recent spicy food accident."
+    key_points:
+      - "She recently had a bad experience with an unexpectedly spicy dish."
+      - "She loves seafood but has a long-term dislike for spicy food."
+  options:
+    - "She is torn because she loves prawns but is afraid of the spice after her recent accident."
+    - "She is worried the prawns won't be fresh since she is at an indoor restaurant."
+    - "She is hesitant because she usually only eats seafood when she is outdoors."
+    - "She is unsure because the dish may be too heavy for a meal she planned to review."
+  answer: "She is torn because she loves prawns but is afraid of the spice after her recent accident."
+  image_id: hq_5

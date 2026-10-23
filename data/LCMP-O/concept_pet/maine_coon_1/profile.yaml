@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: maine_coon_1
+concept_type: "pet"
+name: "Barnaby"
+category: "Maine Coon"
+
+core_identity:
+  summary: "A large, fluffy brown tabby-and-white Maine Coon cat with distinctive ear tufts and a bushy tail."
+  role_in_user_life: "A gentle giant companion who follows the user around the house."
+
+stable_visual_identity:
+  summary: "A massive, long-haired brown tabby-and-white Maine Coon with prominent ear tufts and a large white ruff around his neck."
+  key_features:
+    - "Thick, long coat with brown tabby patches over a white chest, ruff, and legs"
+    - "Prominent lynx-like ear tufts"
+    - "A very bushy, raccoon-like tail"
+
+stable_behavioral_identity:
+  traits:
+    - "Very vocal, frequently trilling and chirping instead of meowing."
+    - "Follows the owner from room to room like a dog."
+  preferences:
+    loves:
+      - "Playing with running water from the faucet."
+      - "Sleeping in small, enclosed boxes despite his large size."
+    dislikes:
+      - "Closed doors that block his path to the owner."
+      - "Loud, sudden noises like the vacuum cleaner."
+
+relational_meaning:
+  user_relationship: "A deeply bonded companion who provides constant, comforting presence."
+  emotional_value: "Brings calm and structure to the user's daily routine, acting as a grounding emotional anchor."
+  related_entities:
+    - "The user's home office chair, which he frequently claims."
+
+history:
+  knowledge:
+    - "Instruction: Introduce that Barnaby is a large Maine Coon with prominent ear tufts."
+    - "Instruction: Introduce his habit of chirping and trilling instead of meowing."
+    - "Instruction: Introduce his love for sleeping in awkwardly small cardboard boxes."
+    - "Instruction: Introduce his strong dislike of closed doors, often pawing at them."
+    - "Instruction: Introduce his fascination with playing with running tap water."
+    - "Instruction: Introduce that he is a constant companion, especially claiming the user's office chair."
+  event:
+    - "Instruction: Introduce that Barnaby recently squeezed into a tiny shoe box that barely fit him."
+    - "Instruction: Introduce that he was accidentally locked out of the home office and sat outside the closed door."
+    - "Instruction: Introduce that he recently discovered the bathroom sink dripping and splashed water everywhere."
+    - "Instruction: Introduce that the user recently bought a new, larger office chair, but Barnaby immediately claimed it."
+
+hard_questions:
+  - "Draft: Create a Causal Inference question asking why Barnaby is aggressively pawing at the home office door, combining his dislike of closed doors with the recent event of being locked out."
+  - "Draft: Create a State Identification question about why the bathroom floor is covered in water, combining his long-term love of running tap water with the recent dripping sink event."
+  - "Draft: Create a Preference Conflict question about why a massive cat is overflowing from a tiny shoe box, combining his long-term preference for small boxes with the recent shoe box event."
+  - "Draft: Create a Counterfactual / Recommendation Reasoning question about where Barnaby will likely be found during the user's workday, combining his long-term habit of claiming the office chair with the recent purchase of a new, larger chair."
+  - "Draft: Create another multi-clue reasoning question asking why Barnaby is making chirping sounds near the closed door, combining his vocal traits with his recent event of being locked out."

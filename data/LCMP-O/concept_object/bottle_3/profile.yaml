@@ -1,0 +1,60 @@
+concept_id: bottle_3
+concept_type: object
+name: Thirsty
+category: Blue Water Bottle
+core_identity:
+  summary: A well-loved blue water bottle that serves as a companion in everyday hydration.
+  role_in_user_life: A reliable everyday accessory that has become a part of the owner's
+    personal ritual.
+stable_visual_identity:
+  summary: A transparent blue water bottle with a blue cap and a handy blue strap.
+  key_features:
+  - Transparency makes the water level visible
+  - Blue cap with a secure loop
+  - Blue silicone strap for easy carrying
+stable_behavioral_identity:
+  traits:
+  - Always kept filled to encourage hydration
+  - Taken everywhere the owner goes
+  preferences:
+    loves:
+    - Chilled lemonade refills
+    - Regular use ensuring its well-being
+    dislikes:
+    - Being left out of the daily routine
+    - Accidental spills that leave it dirty
+relational_meaning:
+  user_relationship: An indispensable companion that ensures proper hydration.
+  emotional_value: Represents commitment to health and daily well-being.
+  related_entities:
+  - The user, who relies on it for constant hydration.
+  - The kitchen counter, its primary resting place.
+history:
+  knowledge:
+  - 'Instruction: Show the bottle half-filled, emphasizing its transparency and daily
+    usage.'
+  - 'Instruction: Show the cap loop, highlighting its convenient carrying option.'
+  - 'Instruction: Show a kitchen countertop scene, indicating its common resting spot.'
+  - 'Instruction: Show the bottle refilled with lemonade, emphasizing a favorite drink.'
+  - 'Instruction: Show the user holding the bottle, establishing its role in daily
+    life.'
+  - 'Instruction: Show a close-up of the strap, emphasizing its design feature.'
+  event:
+  - 'Instruction: Show a scene of the bottle being accidentally knocked over and left
+    half-empty.'
+  - 'Instruction: Show the bottle being refilled at the gym, a change in environment.'
+  - 'Instruction: Show the bottle with a new scratch, a recent and atypical event.'
+  - 'Instruction: Show the user carrying the bottle with a red cap replacement, a
+    temporary condition.'
+hard_questions:
+- 'Draft: Given that Thirsty always prefers lemonade and was recently left half-empty,
+  what was the user''s likely action before noticing the spill?'
+- 'Draft: Considering Thirsty is usually kept on the kitchen counter and was recently
+  seen at the gym, what might have caused this change?'
+- 'Draft: Knowing Thirsty dislikes spills and now has a new scratch, what event could
+  have caused this conflict with its usual state?'
+- 'Draft: Given Thirsty''s routine of always being filled and the user''s temporary
+  red cap replacement, what recommendation would best fit their preferences moving
+  forward?'
+- 'Draft: Based on Thirsty''s usual resting place on the counter and its recent gym
+  appearance, infer the most likely reason for the change using the event clue.'

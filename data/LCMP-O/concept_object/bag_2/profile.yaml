@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: bag_2
+concept_type: "object" # person | pet | object
+name: "Onyx Coach Tote"
+category: "Signature Canvas Work Bag" # e.g. Astrophysics PhD Candidate | Shiba Inu | Mechanical Keyboard
+
+core_identity:
+  summary: "A reliable and professional black Coach tote bag used for daily commuting and carrying work essentials."
+  role_in_user_life: "The user's primary work bag that transitions between office meetings and casual after-work events."
+
+stable_visual_identity:
+  summary: "A structured black tote with a subtle textured signature pattern and contrasting leather elements."
+  key_features:
+    - "Subtle signature 'C' pattern on black canvas"
+    - "Durable black leather handles with silver-tone hardware"
+    - "Classic Coach leather logo tag hanging from the handle strap"
+
+stable_behavioral_identity:
+  traits:
+    - "Always stays upright when placed on flat surfaces due to its reinforced base"
+    - "Holds its shape even when carrying heavy laptops and documents"
+  preferences:
+    loves:
+      - "Being organized with internal pouches"
+      - "Dry, air-conditioned office environments"
+    dislikes:
+      - "Overstuffing with bulky items that distort the zipper line"
+      - "Direct contact with abrasive concrete or wet floors"
+
+relational_meaning:
+  user_relationship: "A symbol of the user's professional journey, purchased after their first major promotion."
+  emotional_value: "Provides a sense of confidence and readiness for any business situation."
+  related_entities:
+    - "Silver-tone laptop that always travels inside it"
+
+history:
+  knowledge:
+    - "Instruction: Show the bag being unboxed, highlighting its pristine condition and the Coach tag as a gift from the user's mentor."
+    - "Instruction: Show the bag's signature pattern under bright office lighting, establishing its professional look."
+    - "Instruction: Show the user carefully placing a specific leather organizer inside, establishing a routine of order."
+    - "Instruction: Show the bag sitting securely on a clean desk next to a coffee cup, emphasizing its preference for dry environments."
+    - "Instruction: Show the bag's reinforced bottom corners, proving it is built for durability during a morning commute."
+    - "Instruction: Show the bag being polished with leather conditioner, reflecting the user's care and sentimental value."
+  event:
+    - "Instruction: Introduce a recent rainy day where the bag is slightly wet, showing the user's concern for its material."
+    - "Instruction: Introduce an event where the bag is overstuffed with a thick gym towel, showing the distorted zipper line it 'dislikes'."
+    - "Instruction: Introduce a moment where the bag is accidentally placed on a dusty floor at a construction site visit, conflicting with its usual preference."
+    - "Instruction: Introduce a recent scene where the bag has a new decorative silk scarf tied to the handle, signaling a change for a special event."
+
+hard_questions:
+  - "Draft: Based on the bag's dislike for overstuffing and its current state with the gym towel, why might the user have trouble closing the main zipper today?"
+  - "Draft: If the user is visiting a construction site today, which of the bag's usual preferences is being most directly violated?"
+  - "Draft: Considering the bag's origin as a promotion gift and the recent addition of a silk scarf, what does this suggest about the user's upcoming evening plans?"
+  - "Draft: Given the bag's usual office routine and the recent rainy day event, why might the user be looking for a specialized fabric protector today?"
+  - "Draft: How does the presence of the leather organizer inside the bag (from history) conflict with the current state of being overstuffed with a gym towel?"

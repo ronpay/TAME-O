@@ -1,0 +1,59 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: person_5
+concept_type: "person"
+name: "Elena"
+category: "Urban Food Explorer"
+
+core_identity:
+  summary: "A cheerful young woman with a passion for discovering hidden culinary gems in the city."
+  role_in_user_life: "A close friend who always knows the best street food spots and brings a sense of adventure to every outing."
+
+stable_visual_identity:
+  summary: "Elena has a bright and welcoming presence, often dressed in practical yet stylish winter gear."
+  key_features:
+    - "Wavy auburn-brown hair that falls past her shoulders."
+    - "A distinctive blue and purple paisley patterned scarf."
+    - "A signature bright white puffer jacket, often worn in cold weather."
+
+stable_behavioral_identity:
+  traits:
+    - "Always displays a genuine, wide smile when enjoying a good meal."
+    - "Prefers the casual atmosphere of street markets over formal restaurants."
+  preferences:
+    loves:
+      - "Freshly made sandwiches with plenty of crisp greens and onions."
+      - "The bustling energy of outdoor winter markets."
+    dislikes:
+      - "Stuffy indoor dining rooms with low lighting."
+      - "Cold, soggy fries from fast-food chains."
+
+relational_meaning:
+  user_relationship: "Adventurous best friend and food guide."
+  emotional_value: "She embodies the joy of discovery and the warmth of shared experiences."
+  related_entities:
+    - "Local street food stalls"
+    - "Winter holiday markets"
+
+history:
+  knowledge:
+    - "Instruction: Introduce Elena wearing her signature blue and purple paisley scarf."
+    - "Instruction: Introduce Elena's preference for fresh, mild sandwiches with lettuce and onions."
+    - "Instruction: Introduce her recognizable white puffer jacket as her go-to winter outerwear."
+    - "Instruction: Introduce her wavy auburn-brown hair as a stable physical feature."
+    - "Instruction: Introduce her habit of eating at high-top tables in outdoor markets."
+    - "Instruction: Introduce her interest in documenting food with a small silver vintage camera."
+  event:
+    - "Instruction: Introduce Elena wearing a new dark green knit beanie for the first time."
+    - "Instruction: Introduce Elena trying a very spicy local snack that made her eyes water."
+    - "Instruction: Introduce a recent incident where Elena's white puffer jacket got a small coffee stain on the left cuff."
+    - "Instruction: Introduce Elena wearing a long black trench coat because her white jacket was being professionally cleaned."
+
+hard_questions:
+  - "Draft: Create a state-identification question about why Elena is wearing a black trench coat instead of her usual white jacket, referencing a recent cleaning need."
+  - "Draft: Create a causal-inference question about Elena's distressing reaction to a new snack, combining her usual cheerful habit with a recent spicy experience."
+  - "Draft: Create a preference-conflict question about Elena's market look, identifying which item is a long-term staple and which is a new beanie."
+  - "Draft: Create a recommendation reasoning question about which menu item Elena would avoid, based on her preference for mild food and a recent spicy mishap."
+  - "Draft: Create a state-identification question about a brown mark on a white jacket, identifying the source based on a recent spill."

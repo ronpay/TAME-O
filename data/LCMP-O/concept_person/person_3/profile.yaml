@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: person_3
+concept_type: "person"
+name: "Grace"
+category: "Surrealist Art Enthusiast & Family Friend"
+
+core_identity:
+  summary: "Grace is a playful and quirky family friend known for her love of surrealist art and unconventional celebrations."
+  role_in_user_life: "She is a long-time family friend who always brings a sense of whimsy to gatherings."
+
+stable_visual_identity:
+  summary: "A middle-aged woman with thick curly brown hair and rectangular glasses, often seen in vibrant or textured clothing."
+  key_features:
+    - "Signature thick, curly brown hair that frames her face."
+    - "Rectangular dark-framed glasses."
+    - "A favorite purple fuzzy sweater that she wears to almost every informal event."
+
+stable_behavioral_identity:
+  traits:
+    - "Consistently playful, often wearing multiple hats at celebrations."
+    - "Deeply obsessed with surrealist aesthetics, particularly 'melting' motifs."
+  preferences:
+    loves:
+      - "Groundhog Day celebrations (her favorite holiday)."
+      - "Surrealist decor, especially melting clocks."
+    dislikes:
+      - "Traditional, 'boring' household items."
+      - "Crowded events where she can't be herself."
+
+relational_meaning:
+  user_relationship: "A close friend of the user's family who has attended every birthday for a decade."
+  emotional_value: "She represents creativity and the freedom to be eccentric."
+  related_entities:
+    - "A purple balloon with a stylized 'G' she uses at parties."
+
+history:
+  knowledge:
+    - "Instruction: Introduce Grace's signature melting wall clock that hangs in her living room."
+    - "Instruction: Introduce her favorite purple fuzzy sweater, showing her wearing it at a casual dinner."
+    - "Instruction: Introduce her distinctive curly brown hair and rectangular glasses in a clear portrait."
+    - "Instruction: Introduce her intense passion for Groundhog Day with a photo of her 2012 celebration."
+    - "Instruction: Introduce her quirky habit of wearing two party hats at once during birthdays."
+    - "Instruction: Introduce her personalized 'G' balloon that she brings to every event."
+  event:
+    - "Instruction: Introduce a recent event where Grace attended a very formal corporate dinner."
+    - "Instruction: Introduce a recent photo where Grace is wearing a plain navy blazer instead of her purple sweater."
+    - "Instruction: Introduce a recent moment where Grace is looking at a standard, square office clock she just bought."
+    - "Instruction: Introduce a recent photo of Grace without her glasses, looking slightly confused at a menu."
+
+hard_questions:
+  - "Draft: Create a preference-conflict question: Why did Grace buy a boring square clock (E3) despite her well-known love for surrealist melting clocks (K1)?"
+  - "Draft: Create a causal-inference question: Grace is wearing a navy blazer (E2) today. Why isn't she in her signature purple fuzzy sweater (K2)?"
+  - "Draft: Create a state-identification question: Why is Grace squinting at the menu in this photo (E4) given what we know about her usual appearance (K3)?"
+  - "Draft: Create a counterfactual or recommendation question: Grace is attending a formal corporate event (E1). Based on her usual party habits (K5), should she wear her double party hats there?"
+  - "Draft: Create another multi-clue reasoning question: Grace is at a party without her 'G' balloon (K6) and looks uncomfortable (E1). Explain why this event feels different for her."

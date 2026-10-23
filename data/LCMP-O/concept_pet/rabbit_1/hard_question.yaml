@@ -1,0 +1,84 @@
+- id: 1
+  type: Causal Inference
+  question: "Why is he hiding in this cardboard box right now? [IMAGE]"
+  image_prompt: "A black-and-white Dutch rabbit tucked deep inside a cardboard box while looking tense."
+  evaluation_criteria:
+    ideal_answer: "He is hiding there because a loud delivery truck recently rumbled past the window, and he is normally very skittish around sudden loud noises."
+    key_points:
+      - "A loud delivery truck recently rumbled past the window."
+      - "He is easily startled by sudden loud noises."
+  options:
+    - "He is hiding because the cardboard box gives him a shaded place away from the open floor."
+    - "He is hiding because the loud truck noise startled him and he is usually very skittish around sudden noises."
+    - "He is hiding because he is upset that the blue ceramic bowl is empty."
+    - "He is hiding because he wants to avoid the new red rubber ball."
+  answer: "He is hiding because the loud truck noise startled him and he is usually very skittish around sudden noises."
+  image_id: hq_1
+
+- id: 2
+  type: Preference Conflict
+  question: "Why did he lose interest in the new red ball so quickly? [IMAGE]"
+  image_prompt: "A bright red rubber ball on the floor while a Dutch rabbit turns away toward a willow stick nearby."
+  evaluation_criteria:
+    ideal_answer: "He ignored the new red rubber ball because he has a long-term preference for chewing natural willow sticks and generally dislikes rubber toys."
+    key_points:
+      - "The new red rubber ball was offered to him today, but he ignored it."
+      - "He prefers chewing willow sticks instead of rubber toys."
+  options:
+    - "He ignored it because the image shows a red ball, but not his long-term toy preference."
+    - "He ignored it because he had already played with the ball earlier in the day."
+    - "He ignored it because he only plays when food is in the blue bowl."
+    - "He ignored it because rubber toys do not fit his usual preference for natural willow sticks."
+  answer: "He ignored it because rubber toys do not fit his usual preference for natural willow sticks."
+  image_id: hq_2
+
+- id: 3
+  type: State Identification
+  question: "If he were sitting calmly in the middle of the room while the truck passed by, why would that be unusual? [IMAGE]"
+  image_prompt: "A black-and-white rabbit sitting exposed in the middle of a room while a large truck is visible through the window."
+  evaluation_criteria:
+    ideal_answer: "That calm behavior would be unusual because the truck just made a loud rumbling noise, and he is normally very skittish around sudden loud sounds."
+    key_points:
+      - "A loud delivery truck recently rumbled past the window."
+      - "He usually startles and tenses up around sudden loud noises."
+  options:
+    - "It would be unusual because the image alone cannot show how he normally reacts to truck noise."
+    - "It would be unusual because loud truck noise should startle him rather than leave him calm in the open."
+    - "It would be unusual because he prefers the gray rug over the middle of the room."
+    - "It would be unusual because he always plays with red toys during noisy moments."
+  answer: "It would be unusual because loud truck noise should startle him rather than leave him calm in the open."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "If I offered him fresh cilantro while he was still focused on the chamomile spill, what would he most likely do? [IMAGE]"
+  image_prompt: "A Dutch rabbit sniffing spilled chamomile tea while a hand offers a bunch of fresh cilantro nearby."
+  evaluation_criteria:
+    ideal_answer: "He would most likely turn toward the cilantro because he recently became absorbed in the chamomile spill, but fresh cilantro is one of his strongest long-term favorites."
+    key_points:
+      - "He recently spent several minutes investigating a spill of dried chamomile tea."
+      - "Fresh cilantro strongly excites him and is one of his favorite treats."
+  options:
+    - "He would probably keep sniffing the chamomile, but the image alone does not show his treat preference."
+    - "He would most likely turn toward the cilantro because it is a favorite treat even though he was investigating the tea spill."
+    - "He would run straight to the cardboard box because cilantro always makes him nervous."
+    - "He would pick up the red rubber ball instead because new toys matter more to him than herbs."
+  answer: "He would most likely turn toward the cilantro because it is a favorite treat even though he was investigating the tea spill."
+  image_id: hq_4
+
+- id: 5
+  type: Counterfactual / Recommendation Reasoning
+  question: "Once he finally comes out of the cardboard box, where is he most likely to settle down? [IMAGE]"
+  image_prompt: "A Dutch rabbit stepping out of a cardboard box and looking across the room toward a soft gray rug."
+  evaluation_criteria:
+    ideal_answer: "He is most likely to settle on the gray plush rug because he recently hid in the box after the noise, and the rug is his normal favorite resting place when the room feels calm again."
+    key_points:
+      - "He recently hid inside a cardboard box after the loud truck noise."
+      - "The gray plush rug is his favorite place to rest."
+  options:
+    - "He is most likely to remain near the box, but the image alone does not show his usual resting place."
+    - "He is most likely to sleep inside the blue ceramic bowl because that is his safest place."
+    - "He is most likely to settle on the gray plush rug because that is where he usually rests once things feel calm."
+    - "He is most likely to go back to the window because loud trucks make him curious."
+  answer: "He is most likely to settle on the gray plush rug because that is where he usually rests once things feel calm."
+  image_id: hq_5

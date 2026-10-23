@@ -1,0 +1,84 @@
+- id: 1
+  type: Preference Conflict
+  question: "I found her like this in the middle of the night. [IMAGE] Given what I've told you before, why is this situation particularly problematic for her?"
+  image_prompt: "A Hello Kitty plush toy lying face down on a dark tiled floor, partially in shadow."
+  evaluation_criteria:
+    ideal_answer: "This is problematic because the plush was accidentally knocked onto the floor (short-term event), and she has a long-term dislike for being left on the cold, hard floor (long-term knowledge)."
+    key_points:
+      - "She was accidentally knocked onto the floor last night."
+      - "She has a long-term, stable dislike for being left on the floor."
+  options:
+    - "She was found beside the laundry basket, away from the clean display area where she is usually kept."
+    - "She fell from the bed, and the impact might have damaged her delicate embroidered features."
+    - "She is away from her usual sunny spot, which makes her feel neglected during the night."
+    - "She is lying on the floor, which is a place she specifically dislikes being left on."
+  answer: "She is lying on the floor, which is a place she specifically dislikes being left on."
+  image_id: hq_1
+
+- id: 2
+  type: Causal Inference
+  question: "She's sitting on the shelf today. [IMAGE] Why is she here instead of in her usual spot in the morning sunlight?"
+  image_prompt: "The Hello Kitty plush toy sitting on a wooden bookshelf between several books, away from any windows."
+  evaluation_criteria:
+    ideal_answer: "She is on the shelf because the user is currently making the bed (short-term event), which has temporarily displaced her from her usual preferred spot in the morning sunlight (long-term knowledge)."
+    key_points:
+      - "She was moved to the shelf temporarily while the bed is being made."
+      - "She normally spends her mornings sitting in the sunlight on the bed."
+  options:
+    - "The user wanted to display her with the books for a change of scenery."
+    - "The shelf is a safer place for her to stay while the room is being cleaned."
+    - "She is being kept on the shelf to protect her from any more accidental spills."
+    - "The bed is being made, so she was moved from her usual sunny spot to the shelf."
+  answer: "The bed is being made, so she was moved from her usual sunny spot to the shelf."
+  image_id: hq_2
+
+- id: 3
+  type: State Identification
+  question: "I noticed this when I looked at her dress closely. [IMAGE] Based on her usual appearance, what exactly has changed here?"
+  image_prompt: "A macro close-up of the pink ruffled dress of the Hello Kitty plush, showing a small, circular, slightly darker stain."
+  evaluation_criteria:
+    ideal_answer: "The change is a small juice stain on the dress caused by a recent snack spill (short-term event), which contrasts with her signature look of wearing a clean pink ruffled dress (long-term knowledge)."
+    key_points:
+      - "There was a recent accidental juice spill that caused a stain."
+      - "Her signature outfit is a clean, bright pink ruffled dress."
+  options:
+    - "Her signature pink dress now has a small stain on it from a recent juice spill."
+    - "The fabric of the pink dress is starting to fray due to her being very old."
+    - "The dress has a new damp spot because she was just recently washed in a basin."
+    - "The color of the dress has faded because she spends too much time in the sun."
+  answer: "Her signature pink dress now has a small stain on it from a recent juice spill."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "Now that she's finally dry after her wash, where should I put her to best satisfy her preferences? [IMAGE]"
+  image_prompt: "The Hello Kitty plush toy sitting on a clean, dry towel, looking fresh and clean."
+  evaluation_criteria:
+    ideal_answer: "You should put her back on the bed propped against the pillows or in the sunlight, because she was just washed after falling (short-term event) and she loves freshly laundered linens and sunlight (long-term knowledge)."
+    key_points:
+      - "She was recently washed after an accidental fall on the floor."
+      - "She loves freshly laundered linens and being propped against pillows in the sun."
+  options:
+    - "Put her back on the bed against the pillows, especially since she loves fresh linens."
+    - "Place her on the bookshelf permanently so she stays clean and away from the floor."
+    - "Leave her on the towel for another day to ensure her embroidered whiskers are dry."
+    - "Move her to the windowsill so she can get the maximum amount of sunlight."
+  answer: "Put her back on the bed against the pillows, especially since she loves fresh linens."
+  image_id: hq_4
+
+- id: 5
+  type: Causal Inference
+  question: "If I'm cleaning the dress near her face, why do I need to be extra careful in this specific area? [IMAGE]"
+  image_prompt: "A close-up of the Hello Kitty plush's face and the top of her dress, with a finger pointing to the area near the whiskers and the stain."
+  evaluation_criteria:
+    ideal_answer: "You need to be careful because you are cleaning a recent juice stain (short-term event) very close to the delicate embroidered brown whiskers (long-term knowledge)."
+    key_points:
+      - "There is a recent juice stain on the dress that needs cleaning."
+      - "The brown whiskers are delicate embroidered features that the user admires."
+  options:
+    - "That spot needs a gentle hand because the juice stain sits right beside the embroidered face details."
+    - "The pink dress is attached to the face in a way that makes it easy to tear."
+    - "You are cleaning a recent stain near the whiskers, which are delicate embroidered details."
+    - "Cleaning the stain might cause the white fur to turn a different color permanently."
+  answer: "You are cleaning a recent stain near the whiskers, which are delicate embroidered details."
+  image_id: hq_5

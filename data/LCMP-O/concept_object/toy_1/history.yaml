@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "This is Pinky Kitty, my favorite plush toy that I've had since I was five years old. [IMAGE]"
+  assistant_response: "It looks very well-loved! I've noted that Pinky Kitty has been your favorite companion since childhood."
+  image_prompt: "A soft white Hello Kitty plush toy with a yellow nose and black eyes, sitting on a wooden surface."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "She's always wearing this pink ruffled dress. [IMAGE] It's her signature outfit and I think it looks so cute on her."
+  assistant_response: "The pink ruffled dress is definitely a standout feature. I've recorded it as her signature outfit."
+  image_prompt: "A close-up of the Hello Kitty plush toy focusing on its bright pink ruffled dress."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "I always keep her propped up against the pillows on my bed. [IMAGE] It's her favorite spot."
+  assistant_response: "Understood. I've noted that she is typically propped up against the pillows on your bed."
+  image_prompt: "The Hello Kitty plush toy sitting upright and propped against several white bed pillows."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "One thing she really dislikes is being left on the cold, hard floor. [IMAGE] I always make sure she's on the bed or a shelf."
+  assistant_response: "I've recorded her strong dislike for being on the floor."
+  image_prompt: "The Hello Kitty plush toy sitting on a light-colored tiled floor, looking a bit out of place."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "During the day, I move her so she can sit in the morning sunlight from the window. [IMAGE]"
+  assistant_response: "That's a nice ritual. I've noted that she spends time in the sunlight during the day."
+  image_prompt: "The Hello Kitty plush toy sitting in a patch of bright morning sunlight on a bed."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "I've always admired the delicate brown whiskers embroidered on her face. [IMAGE] They're such a nice detail."
+  assistant_response: "The embroidered brown whiskers are indeed a very fine detail. I've noted them as a feature you appreciate."
+  image_prompt: "A very close-up shot of the Hello Kitty plush's face, showing the three brown embroidered whiskers on its cheek."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "Oh no, I accidentally knocked her onto the floor in the middle of the night! [IMAGE]"
+  assistant_response: "I see that she ended up on the floor last night. I've recorded the incident."
+  image_prompt: "The Hello Kitty plush toy lying face down on the floor next to a bed in a dimly lit room."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "Since she fell on the floor, I decided it was time to give her a gentle wash. [IMAGE]"
+  assistant_response: "That's a good idea after she fell. I've noted that she's being washed."
+  image_prompt: "The Hello Kitty plush toy being gently hand-washed in a basin of soapy water."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "I'm making the bed now, so I've put her on this shelf temporarily. [IMAGE]"
+  assistant_response: "I've recorded that she's been moved to a shelf while you're busy making the bed."
+  image_prompt: "The Hello Kitty plush toy sitting on a bookshelf surrounded by some books."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "I was eating a snack and accidentally spilled some juice. [IMAGE] Now there's a small stain on her pink dress."
+  assistant_response: "I see the small juice stain on the dress. I've noted this recent spill."
+  image_prompt: "A close-up of the Hello Kitty plush's pink ruffled dress with a small, darker damp spot from a juice spill."
+  image_id: turn_10

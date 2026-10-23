@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "This is a photo of Obsidian, my go-to leather backpack for important architecture client meetings. [IMAGE]"
+  assistant_response: "I've noted that Obsidian is your premium backpack for professional architecture meetings."
+  image_prompt: "A clear, well-lit photo of Obsidian, a black sculpted leather backpack, sitting elegantly on a polished conference table."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "Look at the unique sculpted design and that premium matte leather texture. [IMAGE] It really stands out."
+  assistant_response: "The sculpted silhouette and high-quality matte leather are very distinctive."
+  image_prompt: "A close-up shot of the front of Obsidian, showcasing its smooth black leather grain and unique aerodynamic-like sculpted form."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "I really hate it when it gets squeezed; here it is looking so cramped in this tiny locker at the gallery. [IMAGE]"
+  assistant_response: "I see. I've noted that you dislike seeing it squeezed or placed in tight, cramped spaces."
+  image_prompt: "A photo of Obsidian looking wedged and uncomfortable inside a small, narrow metal storage locker."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "When I'm at home, I always make sure to store it in this soft dust bag to protect the leather. [IMAGE]"
+  assistant_response: "I've recorded your habit of storing it in a dust bag to keep it in top condition."
+  image_prompt: "A shot of Obsidian partially tucked into a grey fabric dust bag in a tidy closet."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "I try to keep it away from direct sunlight so the leather doesn't dry out. [IMAGE]"
+  assistant_response: "Understood. I've noted that you're careful to avoid exposing it to direct sunlight for long periods."
+  image_prompt: "A hand moving Obsidian away from a bright patch of sunlight on a wooden floor, placing it in the shade."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "I'm very meticulous about its care; here I am applying some leather conditioner to maintain the finish. [IMAGE]"
+  assistant_response: "I see you take great care of it with regular leather conditioning."
+  image_prompt: "A close-up of a hand using a soft cloth to apply a small amount of leather conditioner to the surface of Obsidian."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "I had to take a crowded bus this morning and it got squeezed into a really tight space. [IMAGE]"
+  assistant_response: "I see it was compressed during your commute on the crowded bus."
+  image_prompt: "A photo of Obsidian looking slightly flattened as it is wedged between other bags on a crowded public transportation rack."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "We had a long lunch on a sunny terrace today and I realized I left it right in the sun for hours. [IMAGE]"
+  assistant_response: "I've noted that it was exposed to direct sunlight for several hours during your lunch."
+  image_prompt: "Obsidian sitting on a chair on an outdoor terrace, with strong midday sunlight hitting its black leather surface."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "I accidentally spilled some water near it during our meeting, and a few drops got on the leather. [IMAGE]"
+  assistant_response: "I see the water droplets on the surface from the accidental spill."
+  image_prompt: "A close-up of Obsidian's leather surface with several clear water droplets visible on it."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "I had to pack way more than usual for a site visit today, and it looks a bit distorted. [IMAGE]"
+  assistant_response: "I see that carrying the extra load for the site visit has slightly altered its sculpted shape."
+  image_prompt: "A photo of Obsidian looking over-stuffed and bulging, which has slightly changed its normally smooth silhouette."
+  image_id: turn_10

@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "This is my Blue Casno Bottle. [IMAGE] I got it as a gift from my best friend right after I finished my very first 10k race."
+  assistant_response: "That's a meaningful gift. I've noted that the Blue Casno Bottle was a reward for your first 10k."
+  image_prompt: "A frosted blue water bottle sitting on a wooden table, with a clear flip-top lid and a small medal visible in the background."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "I have a strict morning routine with this. [IMAGE] Every single day, I fill it up with exactly five ice cubes before adding filtered water."
+  assistant_response: "Understood. I've recorded your daily habit of using exactly five ice cubes for your morning hydration."
+  image_prompt: "A close-up of a frosted blue water bottle being filled with ice cubes; five distinct ice cubes are visible at the bottom."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "You can see here that the logo is starting to look a bit worn. [IMAGE] It's been washed so many times that the white CASNO text is slightly faded now."
+  assistant_response: "I see. I've noted the slightly faded white CASNO logo as a stable visual feature due to frequent washing."
+  image_prompt: "A detailed shot of the side of the blue bottle where the white 'CASNO' logo appears slightly weathered and less sharp than original."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "When I'm walking to the gym, I always carry it like this. [IMAGE] I prefer using the built-in carrying loop on the lid rather than holding the body."
+  assistant_response: "Got it. I've noted your preference for carrying it by the loop on the lid while heading to the gym."
+  image_prompt: "A person's hand holding a blue water bottle by its integrated lid loop while walking outdoors."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "Whenever I'm at home, this is its designated spot. [IMAGE] It always sits right here on this blue and white patterned tablecloth."
+  assistant_response: "I've recorded that its home location is on the blue and white patterned tablecloth."
+  image_prompt: "A frosted blue water bottle standing upright on a tablecloth with a distinctive blue and white geometric pattern."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "I'm very strict about hygiene with my gear. [IMAGE] I never let anyone else take a sip from it, no matter who they are."
+  assistant_response: "Understood. I've noted your personal rule about not sharing it with others for hygiene reasons."
+  image_prompt: "A person holding the blue bottle close to themselves, emphasizing a sense of personal ownership and hygiene."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "I made a huge mistake this morning. [IMAGE] I accidentally filled it with boiling hot coffee instead of water, and I was worried it might warp the plastic."
+  assistant_response: "I've noted the accidental use of hot coffee today and your concern about the heat affecting the material."
+  image_prompt: "Steam rising from the open top of the blue water bottle as dark liquid is poured inside, contrasting with its usual use for cold water."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "It took a bit of a tumble at the park today. [IMAGE] Now there is a small, fresh scratch right near the base that wasn't there before."
+  assistant_response: "I've recorded the new scratch near the base caused by the fall at the park."
+  image_prompt: "A macro shot of the bottom edge of the blue bottle showing a small, distinct white scratch on the frosted surface."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "I actually had to drive all the way back to the office just now. [IMAGE] I realized halfway home that I'd left it sitting on my desk by mistake."
+  assistant_response: "I've noted that you left it at the office today and had to return to retrieve it."
+  image_prompt: "A blue water bottle sitting alone on a clean office desk next to a computer monitor, looking forgotten."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "My coworker just bought the exact same model, so I had to make a change. [IMAGE] I added this small green leaf sticker to the lid so we don't mix them up."
+  assistant_response: "I've updated the records to include the new green leaf sticker on the lid for identification."
+  image_prompt: "A close-up of the blue lid of the bottle with a small, vibrant green leaf sticker applied near the clear cap."
+  image_id: turn_10

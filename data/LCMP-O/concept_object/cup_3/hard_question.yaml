@@ -1,0 +1,84 @@
+- id: 1
+  type: Preference Conflict
+  question: "Why would the owner be especially upset to see this light brown ring at the bottom? [IMAGE]"
+  image_prompt: "Looking down into the creamy porcelain cup to show a faint, light brown tea stain ring at the bottom."
+  evaluation_criteria:
+    ideal_answer: "The owner normally avoids dark, staining liquids and uses light herbal teas to keep the porcelain clean. The presence of a tea stain ring represents a failure to maintain this long-term preference for cleanliness."
+    key_points:
+      - "A tea stain has recently formed at the bottom of the cup."
+      - "The owner has a long-term preference for light-colored teas to avoid staining the porcelain."
+  options:
+    - "Because the image only shows a brown ring, not why that stain conflicts with the owner's tea habit."
+    - "Because they always hand-wash it immediately and should have prevented this."
+    - "Because the porcelain is very expensive and any mark reduces its value."
+    - "Because they normally only drink light chamomile tea specifically to avoid such staining."
+  answer: "Because they normally only drink light chamomile tea specifically to avoid such staining."
+  image_id: hq_1
+
+- id: 2
+  type: State Identification
+  question: "What is wrong with the way the table is set in this photo? [IMAGE]"
+  image_prompt: "The creamy fluted porcelain cup resting on a plain, smooth white saucer that does not match its swirled pattern."
+  evaluation_criteria:
+    ideal_answer: "The cup is being used with a plain saucer, which conflicts with the long-term history of always using it with its matching fluted-edge saucer."
+    key_points:
+      - "The cup is currently resting on a plain, non-matching saucer."
+      - "The owner consistently uses the cup with its matching fluted-edge saucer."
+  options:
+    - "The saucer is a different color than the ivory porcelain of the cup."
+    - "The table is too cluttered for a proper morning tea ritual."
+    - "The cup is missing its matching fluted saucer, which it is always paired with."
+    - "The silver teaspoon is missing from the setup, making it incomplete."
+  answer: "The cup is missing its matching fluted saucer, which it is always paired with."
+  image_id: hq_2
+
+- id: 3
+  type: Causal Inference
+  question: "Why is the presence of ice cubes in this image a departure from the owner's normal routine? [IMAGE]"
+  image_prompt: "The fluted porcelain cup filled with iced tea and ice cubes, sitting on a sunlit table."
+  evaluation_criteria:
+    ideal_answer: "The owner usually uses the cup for a hot morning tea ritual. Using it for an iced drink with ice cubes is a recent exception caused by the unusually hot weather."
+    key_points:
+      - "The owner is currently using the cup for an iced drink with ice."
+      - "The cup is typically used for a hot morning tea ritual."
+  options:
+    - "Because the ice cubes show the cup is being used for an iced drink instead of the usual warm routine."
+    - "Because the porcelain is too thin for cold drinks and might crack."
+    - "Because the silver teaspoon is not meant to be used with cold liquids."
+    - "Because it is normally used for hot morning tea, not iced drinks."
+  answer: "Because it is normally used for hot morning tea, not iced drinks."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "Given the owner's cleaning habits, how will they likely deal with the stain shown here? [IMAGE]"
+  image_prompt: "Looking down into the creamy porcelain cup to show a faint, light brown tea stain ring at the bottom."
+  evaluation_criteria:
+    ideal_answer: "The owner will likely use a gentle hand-wash with a soft sponge, as they strictly avoid the dishwasher and prefer careful hand-cleaning for this delicate item."
+    key_points:
+      - "The cup has a recent tea stain that needs cleaning."
+      - "The owner strictly follows a long-term rule of hand-washing the cup with a soft sponge."
+  options:
+    - "They will see a faint tea ring, but the photo alone does not show the owner's cleaning habit."
+    - "They will use a harsh abrasive cleaner to make sure the stain is gone."
+    - "They will stop using it for tea and only use it for decorative purposes."
+    - "They will gently hand-wash it with a soft sponge to protect the porcelain."
+  answer: "They will gently hand-wash it with a soft sponge to protect the porcelain."
+  image_id: hq_4
+
+- id: 5
+  type: State Identification
+  question: "Why would the situation in this photo be particularly alarming to the owner? [IMAGE]"
+  image_prompt: "The fluted porcelain cup sitting precariously close to a tall, slightly tilted stack of books on a desk."
+  evaluation_criteria:
+    ideal_answer: "The cup is a delicate family heirloom with unique features like the ornate scroll handle. A fall could destroy this irreplaceable item that holds significant emotional value."
+    key_points:
+      - "A stack of books is currently leaning precariously toward the cup."
+      - "The cup is a cherished family heirloom with delicate, ornate details."
+  options:
+    - "Because the books might get wet if the tea spills on them."
+    - "Because the cup is an irreplaceable family heirloom that is very delicate."
+    - "Because the owner needs the cup for their next morning tea session."
+    - "Because the wooden desk might be damaged by a liquid spill."
+  answer: "Because the cup is an irreplaceable family heirloom that is very delicate."
+  image_id: hq_5

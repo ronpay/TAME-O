@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: cup_1
+concept_type: "object"
+name: "Vintage Woven Mug"
+category: "Ceramic Mug with Basket Weave Pattern"
+
+core_identity:
+  summary: "A ceramic mug with a distinctive yellowish-orange hue and a textured exterior mimicking a woven basket."
+  role_in_user_life: "A cherished morning coffee mug that brings a sense of nostalgia and warmth to the user's start of the day."
+
+stable_visual_identity:
+  summary: "A yellowish-orange textured ceramic mug with a white interior."
+  key_features:
+    - "Yellowish-orange exterior with a woven basket texture."
+    - "Large, uniform handle with the same basket weave texture."
+    - "Smooth, stark white ceramic interior."
+
+stable_behavioral_identity:
+  traits:
+    - "Always placed on a cork coaster to prevent scratches."
+    - "Hand-washed only, never put in the dishwasher to preserve the glossy finish."
+  preferences:
+    loves:
+      - "Warm Earl Grey tea with a splash of honey."
+      - "Being filled to exactly one inch below the rim."
+    dislikes:
+      - "Being left with cold coffee dregs for too long, which can stain the white interior."
+      - "Abrasive sponges that might dull the exterior basket weave texture."
+
+relational_meaning:
+  user_relationship: "A gift from Grandmother Rose during a visit to her countryside cottage."
+  emotional_value: "Represents comfort, tradition, and a connection to family history."
+  related_entities:
+    - "A small handmade cork coaster."
+
+history:
+  knowledge:
+    - "Instruction: Introduce that the mug was a gift from Grandmother Rose during a visit to her countryside cottage."
+    - "Instruction: Introduce the user's strict habit of always using a specific handmade cork coaster for this mug."
+    - "Instruction: Introduce how the basket weave texture provides a superior grip, often shown being held by both hands."
+    - "Instruction: Introduce the user's preference for Earl Grey tea, often evidenced by a Twinings tea tag hanging over the side."
+    - "Instruction: Introduce the pristine white interior and how it contrasts with the dark tea."
+    - "Instruction: Introduce a tiny, barely noticeable chip on the bottom rim that occurred during a kitchen renovation."
+  event:
+    - "Instruction: Introduce a recent snowy evening where the user broke tradition and used the mug for hot cocoa with marshmallows."
+    - "Instruction: Introduce that this morning, in a rush, the user left the mug directly on the marble counter without its coaster."
+    - "Instruction: Introduce a moment where the user noticed a faint brown ring at the bottom after leaving tea in it for five hours."
+    - "Instruction: Introduce that the mug was carefully placed on a high bookshelf temporarily while the kitchen walls were being painted."
+
+hard_questions:
+  - "Draft: Create a preference-conflict question that combines the 'Earl Grey tea preference' with the 'hot cocoa event' to ask what surprising drink was in the mug during the snowstorm."
+  - "Draft: Create a causal-inference question that combines the 'Grandmother Rose gift' history with the 'bookshelf' event to ask why the user was so anxious when the painter moved near the shelf."
+  - "Draft: Create a state-identification question that combines the 'cork coaster habit' with the 'marble counter' event to identify what is missing from the scene."
+  - "Draft: Create a counterfactual or recommendation question that combines the 'basket weave grip' knowledge with the 'hot cocoa' event to ask if the mug's texture helped prevent a spill when the cocoa was steaming hot."
+  - "Draft: Create another multi-clue reasoning question that combines the 'tiny chip on bottom' knowledge with the 'faint brown ring' event to confirm this is the user's specific mug despite the unusual location."

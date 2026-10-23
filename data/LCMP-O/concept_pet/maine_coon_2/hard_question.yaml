@@ -1,0 +1,84 @@
+- id: 1
+  type: State Identification
+  question: "Take a look at his fur here. [IMAGE] Why does his mane look so messy compared to its normal pristine state?"
+  image_prompt: "A giant orange Maine Coon cat with thick sticky cobwebs tangled in its usually fluffy neck mane."
+  evaluation_criteria:
+    ideal_answer: "He normally has a beautiful, fluffy orange-and-white mane, but he recently explored the unfinished basement. His mane is messy because it is covered in sticky cobwebs from that event."
+    key_points:
+      - "He recently explored the basement and got cobwebs stuck in his fur."
+      - "He normally has a thick, prominent mane around his neck."
+  options:
+    - "He was outside in the rain, which matted down his beautiful orange mane."
+    - "He has not been brushed with his favorite slicker brush in a while, causing tangles."
+    - "He got his thick mane tangled in cobwebs while recently exploring the unfinished basement."
+    - "He rubbed against some wet paint, ruining his normally pristine fluffy fur."
+  answer: "He got his thick mane tangled in cobwebs while recently exploring the unfinished basement."
+  image_id: hq_1
+
+- id: 2
+  type: Causal Inference
+  question: "Here he is right now. [IMAGE] Why is he squeezing himself under a low table instead of walking freely?"
+  image_prompt: "A large orange Maine Coon cat awkwardly squeezed underneath a low coffee table, looking out defensively with wide eyes."
+  evaluation_criteria:
+    ideal_answer: "He has a strong fear of vacuums, and a loud new robot vacuum was recently turned on. He is hiding under the low table to escape the frightening device."
+    key_points:
+      - "A loud new robot vacuum is currently operating on the floor."
+      - "He has a long-term intense fear of vacuum cleaners."
+  options:
+    - "He squeezed under the table because the low space looks enclosed and secure."
+    - "He found a comfortable new sleeping area under the table that is cooler than his usual spots."
+    - "He is hiding under the low table because the loud new robot vacuum is operating, and he strongly fears vacuums."
+    - "He got stuck underneath the furniture while chasing a toy and cannot get out."
+  answer: "He is hiding under the low table because the loud new robot vacuum is operating, and he strongly fears vacuums."
+  image_id: hq_2
+
+- id: 3
+  type: Preference Conflict
+  question: "Look at him pawing at this jar. [IMAGE] Why hasn't he eaten any of these, even though he loves them?"
+  image_prompt: "A large orange Maine Coon cat pawing at a sealed glass jar of salmon treats lying on its side on the floor."
+  evaluation_criteria:
+    ideal_answer: "He loves fresh salmon treats, but he recently knocked the jar onto the floor and the lid stayed perfectly sealed. He cannot eat them because the jar remains unopened, despite his strong preference."
+    key_points:
+      - "He recently knocked over the treat jar, but it remained completely sealed."
+      - "He has a long-term obsession with fresh salmon treats."
+  options:
+    - "He is pawing at the jar, but the image alone does not show why the treats remain unreachable."
+    - "He loves these treats, but he cannot eat them because the jar fell and the lid remained perfectly sealed."
+    - "He is not hungry right now, so he is just batting the jar around for fun."
+    - "He is waiting for his owner to serve them in his bowl, as he refuses to eat off the floor."
+  answer: "He loves these treats, but he cannot eat them because the jar fell and the lid remained perfectly sealed."
+  image_id: hq_3
+
+- id: 4
+  type: Causal Inference
+  question: "He has been sitting like this for a while. [IMAGE] Why is he staring so sadly at this appliance?"
+  image_prompt: "A large orange Maine Coon cat sitting on the floor, staring mournfully at the glass door of a modern front-loading washing machine."
+  evaluation_criteria:
+    ideal_answer: "He is intensely loyal to his favorite soft blue blanket. The blanket was recently placed inside the washing machine, so he is sadly watching it tumble instead of resting on it."
+    key_points:
+      - "His favorite soft blue blanket was recently put into the washing machine."
+      - "He has a strong long-term attachment and loyalty to that specific blue blanket."
+  options:
+    - "He is staring at the washer, but the image alone does not reveal what important item is inside."
+    - "He may be waiting for warm laundry to come out so he can nap on it."
+    - "He is annoyed by the loud noise the washing machine makes during its spin cycle."
+    - "He is staring at the machine because his favorite blue blanket, which he is very attached to, is inside being washed."
+  answer: "He is staring at the machine because his favorite blue blanket, which he is very attached to, is inside being washed."
+  image_id: hq_4
+
+- id: 5
+  type: Preference Conflict
+  question: "There are salmon treats placed on the rug below him. [IMAGE] Why is he refusing to come down and eat them?"
+  image_prompt: "A large Maine Coon cat sitting nervously on the highest shelf of a bookcase, looking down at some salmon treats on the floor while a black robot vacuum operates nearby."
+  evaluation_criteria:
+    ideal_answer: "He habitually sleeps on the highest shelf and has a strong fear of vacuums. Even though he loves salmon treats, the new loud robot vacuum is operating on the floor, so he refuses to come down."
+    key_points:
+      - "A loud new robot vacuum is currently operating on the floor."
+      - "He habitually seeks out the highest resting spots to feel safe from threats."
+  options:
+    - "He refuses to come down from his high shelf because the new robot vacuum is operating, and he wants to stay away from it."
+    - "He is waiting because the shelf still feels safer than the busy floor below."
+    - "He is not interested in the treats right now because he just woke up from a long nap on his shelf."
+    - "He cannot figure out how to climb down safely, so he is stuck looking at the treats."
+  answer: "He refuses to come down from his high shelf because the new robot vacuum is operating, and he wants to stay away from it."
+  image_id: hq_5

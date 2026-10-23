@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "This is my favorite water bottle, The Blue Hydrator. [IMAGE] My sister Sarah gave it to me as a gift after I finished the 'City Run' 10k."
+  assistant_response: "I've recorded The Blue Hydrator and that it was a gift from your sister Sarah after your 10k race."
+  image_prompt: "A translucent blue sports water bottle with a dark blue flip-top lid and a grey grip band, held by a person outdoors near a race finish line."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "I have a strict routine with it every morning. [IMAGE] I always make sure to add exactly three large ice cubes to keep the water cold all day."
+  assistant_response: "Understood. I've noted your daily habit of adding exactly three ice cubes to the bottle."
+  image_prompt: "A close-up of three large ice cubes being dropped into the open mouth of a blue translucent water bottle."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "It's been through a lot with me. [IMAGE] If you look closely at the grey grip band, you can see a small scratch from a camping trip last summer."
+  assistant_response: "I see the mark. I've recorded the small scratch on the grey grip band as a permanent feature."
+  image_prompt: "A macro shot of the grey textured grip band on a blue water bottle, showing a small but distinct horizontal scratch."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "It's very convenient to carry around. [IMAGE] It fits perfectly into the mesh side pocket of my black gym bag."
+  assistant_response: "I've noted that it has a dedicated spot in the side pocket of your black gym bag."
+  image_prompt: "A blue water bottle tucked securely into the mesh side pocket of a black nylon gym bag sitting on a bench."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "I much prefer this flip-top mechanism over those old screw-on lids. [IMAGE] It makes it so much easier to drink while I'm working or at the gym."
+  assistant_response: "I've recorded your preference for the flip-top lid over traditional screw-on designs."
+  image_prompt: "A hand pressing the latch on a dark blue flip-top lid of a water bottle, showing the cap springing open."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "You can tell how much I use it by looking at the back. [IMAGE] The '1L' measurement marking is actually starting to fade away."
+  assistant_response: "I've noted that the 1L measurement marking on the back of the bottle is becoming less visible from frequent use."
+  image_prompt: "The back of a blue plastic water bottle showing a partially faded '1L' printed marking among other measurement lines."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "I had a bit of a scare recently. [IMAGE] I accidentally left it in a gym locker, but luckily I was able to go back and retrieve it later that day."
+  assistant_response: "That's a relief. I've recorded the event where you temporarily lost and then recovered the bottle at the gym."
+  image_prompt: "A blue water bottle sitting alone inside a metal gym locker with the door slightly ajar."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "I decided to change things up a bit this morning. [IMAGE] I added a slice of lemon to my water for the first time to give it some flavor."
+  assistant_response: "I've noted that you've started adding a lemon slice to your water for extra flavor."
+  image_prompt: "A translucent blue water bottle filled with water and a single yellow lemon slice floating inside."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "It just tipped over on my desk a minute ago! [IMAGE] I was worried about my keyboard, but the seal held perfectly and not a drop came out."
+  assistant_response: "It's good to know the seal is that reliable. I've recorded that the bottle tipped over without leaking."
+  image_prompt: "A blue water bottle lying on its side on a white desk next to a keyboard, with no water leaking from the closed lid."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "I just got this new blue sleeve for the base today. [IMAGE] It should help protect it from any more scratches when I put it down."
+  assistant_response: "I've noted the addition of a new blue protective sleeve to the base of your bottle."
+  image_prompt: "A blue water bottle with a new, slightly darker blue silicone sleeve fitted around its bottom base."
+  image_id: turn_10

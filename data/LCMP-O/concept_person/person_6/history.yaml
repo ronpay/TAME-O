@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "Here is a photo of Elena from our tournament yesterday. [IMAGE] She always wears that navy blue t-shirt with the white 'TORONTO' lettering for luck in her important matches."
+  assistant_response: "Got it. I've noted that Elena wears a specific lucky navy blue t-shirt for important tournaments."
+  image_prompt: "A clear portrait of Elena, a young athletic woman with dark hair tied back, wearing a navy blue t-shirt with white 'TORONTO' lettering while holding a tennis racket."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "She's so disciplined about her pre-match ritual. [IMAGE] She always insists on a full 20-minute warmup session to make sure she avoids any muscle strains."
+  assistant_response: "I've recorded her commitment to a strict 20-minute warmup routine to prevent injuries."
+  image_prompt: "A photo of her on a tennis court doing dynamic stretches and light jogging, focused and prepared."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "Her signature two-handed backhand is incredible. [IMAGE] It’s her strongest shot and she’s worked on it for years."
+  assistant_response: "Understood. I've noted that her two-handed backhand is her signature and most powerful technique."
+  image_prompt: "A mid-action shot of her hitting a powerful two-handed backhand on a hard court, showing great form and concentration."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "She is very particular about her equipment. [IMAGE] She only ever uses professional high-tension strings because she says anything else ruins her control."
+  assistant_response: "I've noted her strong preference for high-tension professional strings for better racket control."
+  image_prompt: "Elena on a tennis court holding her orange and black racket close to the camera, with her face visible behind the tightly strung professional-grade strings."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "She really struggles when the air gets thick. [IMAGE] She absolutely hates playing in humid conditions because she says it makes the ball feel heavy and sluggish."
+  assistant_response: "I've recorded her dislike for playing in humidity and how it negatively affects her perception of the ball's weight."
+  image_prompt: "A shot of her wiping sweat from her forehead during a break on a clearly humid indoor court."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "After every match, she always has the same recovery routine. [IMAGE] She swears by this specific chocolate protein bar for her post-game recovery."
+  assistant_response: "Got it. I've noted her ritual of eating a chocolate protein bar for recovery after every game."
+  image_prompt: "A photo of her sitting on a bench after practice, holding a chocolate protein bar and a water bottle."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "The ventilation system at the club broke down today, and it was miserable. [IMAGE] The humidity on the court was through the roof."
+  assistant_response: "I've noted that the club's ventilation failure today caused extremely humid conditions on the court."
+  image_prompt: "Elena standing on the humid indoor tennis court, looking uncomfortable as condensation covers the glass windows around her."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "She had to have her racket re-strung today, but the shop was out of her usual high-tension brand. [IMAGE] She had to settle for a standard string type she normally avoids."
+  assistant_response: "I've recorded that she was forced to use a standard string brand today because her usual choice was unavailable."
+  image_prompt: "Elena at a pro shop watching her orange and black racket being re-strung, with a standard non-professional string package visible nearby."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "She was running so late today because of traffic. [IMAGE] She had to jump straight into the match and skip her usual 20-minute warmup."
+  assistant_response: "I've noted that she skipped her 20-minute warmup today due to being late."
+  image_prompt: "A photo of her rushing onto the court with her gear, looking hurried as she prepares to start a match immediately."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "She hurt her finger this morning and can't grip her racket properly. [IMAGE] She's been trying to play with a one-handed backhand all day to compensate."
+  assistant_response: "I've recorded that a finger injury is currently forcing her to switch to a one-handed backhand."
+  image_prompt: "A shot of her hitting a one-handed backhand, with a visible bandage on her finger and a look of concentration."
+  image_id: turn_10

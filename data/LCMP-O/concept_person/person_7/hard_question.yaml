@@ -1,0 +1,84 @@
+- id: 1
+  type: State Identification
+  question: "Look at him standing there. [IMAGE] Why is he wearing a helmet now, given his usual attitude toward safety gear?"
+  image_prompt: "A young man with curly hair and a teal t-shirt standing with his skateboard and wearing a black skate helmet, looking more cautious than usual."
+  evaluation_criteria:
+    ideal_answer: "He is wearing a helmet because he recently took a nasty fall that resulted in a painful scrape on his leg. This event caused him to temporarily set aside his usual long-term habit of refusing to wear safety gear because he finds it restrictive."
+    key_points:
+      - "He recently suffered a nasty fall and a bad scrape on his leg."
+      - "He has a long-standing habit of never wearing a helmet while skating."
+  options:
+    - "He put it on, but the image alone does not show what changed his attitude toward helmets."
+    - "He put it on because he is filming a professional video and needs to look responsible."
+    - "He decided to wear it because a recent painful fall made him rethink his usual dislike of helmets."
+    - "He is wearing it because the weather is bad and he wants extra protection from the rain."
+  answer: "He decided to wear it because a recent painful fall made him rethink his usual dislike of helmets."
+  image_id: hq_1
+
+- id: 2
+  type: Preference Conflict
+  question: "The ground is getting wet from the drizzle. [IMAGE] He normally avoids skating in the rain to protect his board, so why is he still practicing?"
+  image_prompt: "A young man on a skateboard in a light drizzle, looking determined as he prepares for a trick on a damp asphalt path."
+  evaluation_criteria:
+    ideal_answer: "He is still practicing in the rain because his short-term goal of landing a difficult 360 flip has overridden his long-term preference for avoiding wet weather, which he usually dislikes because it ruins his board's grip tape."
+    key_points:
+      - "He is currently determined to land a difficult 360 flip he has been practicing for weeks."
+      - "He usually hates rain because it ruins the grip tape on his skateboard."
+  options:
+    - "He is practicing because the drizzle is light and the path still seems to have enough grip."
+    - "He decided to keep going because his lucky shirt provides enough confidence to skate in any weather."
+    - "He is practicing because he recently got new waterproof wheels that work well in the rain."
+    - "He is staying out because his determination to land a trick overrode his usual concern for his board."
+  answer: "He is staying out because his determination to land a trick overrode his usual concern for his board."
+  image_id: hq_2
+
+- id: 3
+  type: Causal Inference
+  question: "He finally nailed the 360 flip. [IMAGE] Beyond his hard work, why does he feel particularly lucky today?"
+  image_prompt: "A young man with a big smile on his face, wearing a teal Zumwalt 2011 tree t-shirt and holding his skateboard after landing a trick."
+  evaluation_criteria:
+    ideal_answer: "He feels lucky because he is wearing his teal Zumwalt 2011 tree shirt, which he considers a lucky charm. Landing the 360 flip he had been practicing for a month reinforced this long-term belief."
+    key_points:
+      - "He just successfully landed a difficult 360 flip he's been working on all month."
+      - "He believes his teal Zumwalt 2011 tree shirt is a lucky charm for landing tricks."
+  options:
+    - "He is happy because he is wearing his lucky teal shirt, which he believes helps him land maneuvers."
+    - "He feels lucky because the quiet fence spot was empty when he landed the trick."
+    - "He feels successful because he finally mastered the use of his new yellow wheels."
+    - "He is lucky because the wheels felt smoother on the fence-side concrete than they did yesterday."
+  answer: "He is happy because he is wearing his lucky teal shirt, which he believes helps him land maneuvers."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "Imagine he hadn't taken that nasty spill yesterday. [IMAGE] What would most likely be different about his appearance in this photo?"
+  image_prompt: "A young man standing with a skateboard wearing a helmet, but the image is framed as a 'what if' scenario."
+  evaluation_criteria:
+    ideal_answer: "If he hadn't fallen yesterday, he would likely be skating without a helmet. His recent decision to wear one was a direct response to the injury, which interrupted his long-term habit of avoiding safety gear."
+    key_points:
+      - "He took a bad fall recently that resulted in a scraped leg."
+      - "He has a long-standing habit of never wearing a helmet while skating."
+  options:
+    - "He would probably look less guarded and more relaxed with the skateboard."
+    - "He would most likely be skating without a helmet, as per his usual habit."
+    - "He would likely be practicing at a different spot with more room for the trick."
+    - "He would likely have switched to a board with different colored wheels."
+  answer: "He would most likely be skating without a helmet, as per his usual habit."
+  image_id: hq_4
+
+- id: 5
+  type: State Identification
+  question: "He’s just sitting there by the fence instead of skating. [IMAGE] Knowing what happened during his last session, why is he being so idle today?"
+  image_prompt: "A young man sitting on the ground next to his skateboard by a chain-link fence, looking at a bandage on his leg."
+  evaluation_criteria:
+    ideal_answer: "He is sitting idle because his leg is still sore from the nasty scrape he received during yesterday's fall. Although he is at his favorite practice spot, the recent injury is preventing him from skating normally."
+    key_points:
+      - "He recently suffered a painful scrape on his leg from a fall during practice."
+      - "He is at his favorite quiet practice spot by the chain-link fence."
+  options:
+    - "He is waiting at the fence, but the image alone does not show what happened in his last session."
+    - "He is taking a break because he finally landed his trick and doesn't feel the need to practice."
+    - "He is resting because his leg is still sore from the nasty scrape he got yesterday."
+    - "He is waiting for more people to show up at the fence spot so he can show off his new board."
+  answer: "He is resting because his leg is still sore from the nasty scrape he got yesterday."
+  image_id: hq_5

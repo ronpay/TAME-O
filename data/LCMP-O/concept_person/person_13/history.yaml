@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "Here's a photo of Robert Miller out in the field. [IMAGE] He never goes anywhere without those thin-framed rectangular glasses."
+  assistant_response: "Got it. I'll remember that Robert always wears those thin-framed rectangular glasses for his shoots."
+  image_prompt: "A middle-aged man with short brown hair wearing thin-framed rectangular glasses, looking through the viewfinder of a camera in a sunlit field."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "He's very particular about lighting. [IMAGE] He strictly prefers natural light and almost never uses a flash because he thinks it ruins the scene."
+  assistant_response: "Understood. I've noted that he avoids flash photography in favor of natural lighting."
+  image_prompt: "Robert Miller photographing trees during golden hour, with soft natural light around him reflecting his preferred natural-light style."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "Check out this close-up of him adjusting his lens. [IMAGE] You can clearly see the silver wedding band he always wears on his left hand."
+  assistant_response: "I see it. I've recorded the silver wedding band as a stable visual feature."
+  image_prompt: "Robert Miller adjusting a camera lens, with his face partly visible and a simple silver wedding band clearly visible on his left hand."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "He's wearing his favorite striped shirt again today. [IMAGE] It's his go-to for these long weekend hikes."
+  assistant_response: "Recorded. He consistently wears that striped outdoor shirt during his excursions."
+  image_prompt: "A man in a light-colored, thin-striped button-down shirt walking along a forest path with a camera bag over his shoulder."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "He spends so much time on his nature photography. [IMAGE] He's built up quite a collection of professional-looking landscape shots over the years."
+  assistant_response: "I've noted his dedicated hobby and his extensive collection of nature photos."
+  image_prompt: "A man standing on a hill overlooking a valley, tripod set up, capturing the expansive landscape at sunset."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "He always tries to find the most secluded, quiet spots in the forest. [IMAGE] He loves the tranquility and being away from the noise of the city."
+  assistant_response: "Understood. He prioritizes peaceful, remote areas for his outdoor time."
+  image_prompt: "A man sitting quietly on a fallen log in a dense, silent forest, surrounded by tall trees and thick undergrowth."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "Look at this one from yesterday's twilight hike. [IMAGE] It got dark so fast in the woods that he actually had to use his phone's flash to get the shot."
+  assistant_response: "I've noted that he recently had to use a flash due to the extreme low light conditions during his hike."
+  image_prompt: "Robert Miller crouching on the forest floor at night, using his phone flash to photograph a mushroom against a nearly black background."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "He's having a bit of a tough time today. [IMAGE] He accidentally left his glasses at home when we headed out this morning."
+  assistant_response: "That's unfortunate. I've recorded that he's currently without his usual glasses."
+  image_prompt: "A man squinting and holding a digital camera screen very close to his face, looking slightly frustrated without his glasses."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "He looked so out of place at that crowded city festival last weekend. [IMAGE] He only went because a friend was showing some art."
+  assistant_response: "I see. I've noted his recent visit to the crowded event, which is a major departure from his usual preference."
+  image_prompt: "A man looking tense and slightly overwhelmed in the middle of a dense, colorful crowd at an outdoor urban art festival."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "He just set his phone to permanent silent mode. [IMAGE] He doesn't want any sudden notifications scaring off the wildlife while he's shooting."
+  assistant_response: "I've recorded that he's now keeping his phone on silent to maintain the quiet of his photography sessions."
+  image_prompt: "Robert Miller holding his smartphone while sitting near his camera gear, with the screen showing the Silent Mode or Do Not Disturb toggle being switched on."
+  image_id: turn_10

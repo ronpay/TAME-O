@@ -1,0 +1,84 @@
+- id: 1
+  type: "State Identification"
+  question: "He is standing behind a podium in this photo. [IMAGE] Based on his usual speaking style and recent events, why is he remaining stationary today?"
+  image_prompt: "The subject standing still and leaning slightly on a wooden podium while speaking to an audience."
+  evaluation_criteria:
+    ideal_answer: "He is using a podium because he recently sprained his ankle, which conflicts with his usual long-term preference for walking freely across the stage and avoiding podiums."
+    key_points:
+      - "He recently sprained his ankle and needs the podium for stability."
+      - "He normally dislikes podiums and prefers to walk freely across the stage."
+  options:
+    - "He is standing at the podium, but the image alone does not reveal why he needs to stay there."
+    - "He is staying behind the podium to appear more formal, despite his usual energetic style."
+    - "He is using the podium for support due to a recent ankle injury, despite his usual dislike for being confined."
+    - "He is remaining stationary because the stage is too small for him to walk around as he normally does."
+  answer: "He is using the podium for support due to a recent ankle injury, despite his usual dislike for being confined."
+  image_id: "hq_1"
+
+- id: 2
+  type: "Causal Inference"
+  question: "The stage lighting is bright red in this shot. [IMAGE] Why does this environment likely make him feel less comfortable than usual?"
+  image_prompt: "The subject speaking on a stage that is completely illuminated by harsh red lights, looking slightly frustrated."
+  evaluation_criteria:
+    ideal_answer: "A recent technical glitch turned the stage lighting red, which makes him uncomfortable because he has a strong long-term preference for vibrant blue lighting and backgrounds."
+    key_points:
+      - "A recent technical glitch turned the stage lighting red."
+      - "He has a long-term preference for blue-themed stage lighting and backgrounds."
+  options:
+    - "The red lighting makes his signature tie look washed out under the stage lamps."
+    - "He is uncomfortable because the red light conflicts with his preferred blue stage environment."
+    - "He dislikes red lighting because it makes his signature pink tie look washed out."
+    - "The red lighting was a deliberate choice by the crew that he simply find aesthetically unpleasing."
+  answer: "He is uncomfortable because the red light conflicts with his preferred blue stage environment."
+  image_id: "hq_2"
+
+- id: 3
+  type: "Preference Conflict"
+  question: "He is using a bulky standard remote today. [IMAGE] Why is this a significant departure from his normal routine?"
+  image_prompt: "A close-up of the subject's hand holding a large, clunky black remote with numerous silver buttons."
+  evaluation_criteria:
+    ideal_answer: "He is using a bulky remote because his preferred minimalist clicker broke recently, which forces him to abandon his long-term habit of using a tiny, sleek device that fits in his palm."
+    key_points:
+      - "His favorite minimalist clicker broke right before the talk."
+      - "He has a long-term preference for using a specific tiny, minimalist black slide clicker."
+  options:
+    - "The tech crew assigned the bulky remote because it controls the venue lights as well as slides."
+    - "He is using the bulky remote because it has more features than his usual minimalist one."
+    - "He switched to a standard remote because his usual minimalist one broke, even though he is very particular about his tools."
+    - "The bulky remote was recommended by the tech crew as being more reliable than his small clicker."
+  answer: "He switched to a standard remote because his usual minimalist one broke, even though he is very particular about his tools."
+  image_id: "hq_3"
+
+- id: 4
+  type: "Causal Inference"
+  question: "He is wearing a plain blue tie in this session. [IMAGE] Given his usual habits, what does this change indicate about his morning?"
+  image_prompt: "The subject on stage wearing a plain, solid blue silk tie instead of his usual patterned one."
+  evaluation_criteria:
+    ideal_answer: "He is wearing a borrowed plain blue tie because he forgot his signature pink patterned tie this morning, which is a departure from his long-term habit of wearing that specific tie for major keynotes."
+    key_points:
+      - "He was rushed this morning and forgot his usual tie, so he had to borrow a blue one."
+      - "He has a long-term habit of wearing a signature pink patterned tie for all major presentations."
+  options:
+    - "He may have chosen the blue tie because it fits the blue stage environment he usually tries to create."
+    - "He is wearing a blue tie because the event dress code called for a plain solid color."
+    - "The blue tie was a gift from a colleague that he decided to wear instead of his usual signature tie."
+    - "He is wearing a borrowed blue tie because he forgot his usual pink one in a morning rush."
+  answer: "He is wearing a borrowed blue tie because he forgot his usual pink one in a morning rush."
+  image_id: "hq_4"
+
+- id: 5
+  type: "Counterfactual / Recommendation Reasoning"
+  question: "If the technician fixed the lighting glitch but could not provide a minimalist clicker, would he be back to his ideal speaking state? [IMAGE]"
+  image_prompt: "The subject standing on a blue-lit stage but still holding the bulky standard remote."
+  evaluation_criteria:
+    ideal_answer: "No, because while the blue lighting would satisfy his long-term preference, he would still be forced to use a bulky remote due to the recent failure of his minimalist clicker, which remains a conflict with his usual habits."
+    key_points:
+      - "His minimalist clicker is still broken, forcing him to use a bulky remote."
+      - "He has a long-term preference for minimalist tools and specific stage lighting."
+  options:
+    - "No, but the image alone cannot show whether the remaining problem is the remote, tie, or lighting."
+    - "No, because he would still be struggling with a bulky remote that conflicts with his preference for minimalist tools."
+    - "Yes, as long as he can move freely, the remote and lighting are secondary concerns."
+    - "No, because the blue lighting would still look wrong with the borrowed tie."
+  answer: "No, because he would still be struggling with a bulky remote that conflicts with his preference for minimalist tools."
+  image_id: "hq_5"

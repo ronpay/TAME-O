@@ -1,0 +1,84 @@
+- id: 1
+  type: Causal Inference
+  question: "Here is what happened after my meeting started. [IMAGE] Why was he aggressively pawing and scratching at this door?"
+  image_prompt: "A large Maine Coon cat standing on its hind legs, aggressively pawing and scratching at a closed white office door from the hallway."
+  evaluation_criteria:
+    ideal_answer: "He normally dislikes closed doors, and he was recently locked out of the home office for a confidential call. He was pawing at the door because being locked out triggered his long-term dislike of closed doors."
+    key_points:
+      - "He was recently locked out of the home office."
+      - "He has a long-term strong dislike of closed doors."
+  options:
+    - "He wanted to explore a new room he hadn't been allowed into before."
+    - "He was pawing at the door because being locked out triggered his long-term dislike of closed doors."
+    - "He saw a toy slide under the door and was trying to reach it."
+    - "He was hungry and trying to get your attention to feed him."
+  answer: "He was pawing at the door because being locked out triggered his long-term dislike of closed doors."
+  image_id: hq_1
+
+- id: 2
+  type: State Identification
+  question: "I took this photo in the bathroom later that morning. [IMAGE] Why is the counter completely soaked and covered in wet paw prints?"
+  image_prompt: "A bathroom counter completely soaked with water puddles and wet paw prints leading away from a dripping faucet."
+  evaluation_criteria:
+    ideal_answer: "He has a long-term fascination with playing with running tap water, and he recently discovered the bathroom sink was dripping. He splashed the water everywhere because the dripping sink gave him the perfect opportunity to play with water."
+    key_points:
+      - "He recently discovered the bathroom sink was dripping."
+      - "He has a long-term fascination with running tap water."
+  options:
+    - "He splashed the water everywhere because the dripping sink gave him the perfect opportunity to play with water."
+    - "He knocked over a rinse cup while batting at the faucet handle, then tracked water across the counter."
+    - "You spilled water while washing your face and he walked through the puddles."
+    - "He was trying to catch a bug near the sink and knocked things into the basin."
+  answer: "He splashed the water everywhere because the dripping sink gave him the perfect opportunity to play with water."
+  image_id: hq_2
+
+- id: 3
+  type: Preference Conflict
+  question: "Look at this ridiculous scene. [IMAGE] Given his massive size, why would he choose to cram himself into this specific box?"
+  image_prompt: "A huge Maine Coon cat crammed tightly into a tiny, rectangular shoe box, with its fur and limbs overflowing over the edges."
+  evaluation_criteria:
+    ideal_answer: "He has a long-term preference for sleeping in awkwardly small cardboard boxes, and you recently left a tiny shoe box out. He crammed himself into it because his preference for small boxes outweighs his physical comfort."
+    key_points:
+      - "You recently left out a tiny new shoe box."
+      - "He has a long-term preference for sleeping in awkwardly small boxes."
+  options:
+    - "He may have picked the tiny shoebox simply because it was the newest enclosed spot available, even though it is too small."
+    - "He was feeling cold and wanted the tightest space possible to keep warm."
+    - "He crammed himself into it because his preference for small boxes outweighs his physical comfort."
+    - "He was hiding from the vacuum cleaner and got stuck inside the box."
+  answer: "He crammed himself into it because his preference for small boxes outweighs his physical comfort."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "I need to sit down to start my workday. [IMAGE] Based on his habits, where is he most likely to be sleeping right now?"
+  image_prompt: "A clean home office setup featuring a brand-new, oversized ergonomic office chair at the desk, currently empty."
+  evaluation_criteria:
+    ideal_answer: "He has a long-term habit of claiming the office chair as his own, and you recently bought a new, larger ergonomic chair. He is most likely sleeping in the new chair because he immediately claimed it as his new spot."
+    key_points:
+      - "You recently bought a new, larger office chair."
+      - "He has a long-term habit of claiming your office chair."
+  options:
+    - "He is most likely sleeping near the desk because the new chair makes the room smell unfamiliar."
+    - "He is most likely sleeping on the warm laptop keyboard while you are away."
+    - "He is most likely sleeping under the desk to avoid the light."
+    - "He is most likely sleeping in the new chair because he immediately claimed it as his new spot."
+  answer: "He is most likely sleeping in the new chair because he immediately claimed it as his new spot."
+  image_id: hq_4
+
+- id: 5
+  type: Causal Inference
+  question: "I recorded this audio outside the room while I was on my call. [IMAGE] Why is he making these specific high-pitched sounds?"
+  image_prompt: "A large Maine Coon cat sitting outside a closed white door, looking up with its mouth open mid-vocalization."
+  evaluation_criteria:
+    ideal_answer: "He normally communicates with chirps and trills instead of meows, and he was recently locked out of the home office. He is making those sounds to communicate his frustration about being locked out using his typical vocal style."
+    key_points:
+      - "He was recently locked out of the home office during a call."
+      - "He naturally communicates using chirps and trills instead of meows."
+  options:
+    - "He is making those sounds to communicate his frustration about being locked out using his typical vocal style."
+    - "He is chirping because he spotted a bird outside the window down the hall."
+    - "He is meowing loudly because he is hungry and wants you to open the door."
+    - "He is making high-pitched sounds because he is scared of a loud noise in the house."
+  answer: "He is making those sounds to communicate his frustration about being locked out using his typical vocal style."
+  image_id: hq_5

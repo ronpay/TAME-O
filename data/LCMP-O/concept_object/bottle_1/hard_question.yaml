@@ -1,0 +1,84 @@
+- id: 1
+  type: Preference Conflict
+  question: "I've started making some changes to my drink today. [IMAGE] Based on my normal routine, why does the bottle's contents look different than usual?"
+  image_prompt: "A close-up of the translucent blue water bottle filled with water, showing three large ice cubes and a single yellow lemon slice floating inside."
+  evaluation_criteria:
+    ideal_answer: "The contents look different because while you maintained your usual habit of adding three large ice cubes, you also added a lemon slice today for the first time."
+    key_points:
+      - "The user added a lemon slice this morning for the first time."
+      - "The user has a long-term habit of adding exactly three large ice cubes every morning."
+  options:
+    - "The difference is due to adding a lemon slice for flavor alongside your standard three ice cubes."
+    - "It looks different because you switched to a colder drink for the workout."
+    - "The bottle looks different because the ice has melted faster due to the new lemon slice addition."
+    - "You decided to replace your usual ice cube routine with lemon slices to change the flavor profile."
+  answer: "The difference is due to adding a lemon slice for flavor alongside your standard three ice cubes."
+  image_id: hq_1
+
+- id: 2
+  type: Causal Inference
+  question: "I was so worried when I realized I'd left this behind today. [IMAGE] Why was I so determined to go back and retrieve it instead of just buying a replacement?"
+  image_prompt: "A person's hand reaching into a gym locker to retrieve the blue water bottle, with an expression of relief."
+  evaluation_criteria:
+    ideal_answer: "You were determined to retrieve it because the bottle was a sentimental gift from your sister, Sarah, after your 'City Run' 10k, making it irreplaceable."
+    key_points:
+      - "The user recently left the bottle in a gym locker and went back to get it."
+      - "The bottle was a long-term sentimental gift from the user's sister after a 10k race."
+  options:
+    - "You went back because you didn't want to spend money on a new bottle when this one was still perfectly fine."
+    - "You retrieved it because it's the only bottle you own that fits perfectly in your gym bag's side pocket."
+    - "You went back because you needed it for your next gym session and didn't have time to buy a new one."
+    - "You were determined to get it back because it was a sentimental gift from your sister Sarah after a race."
+  answer: "You were determined to get it back because it was a sentimental gift from your sister Sarah after a race."
+  image_id: hq_2
+
+- id: 3
+  type: State Identification
+  question: "I just added this new protective part to the bottom today. [IMAGE] How might this change affect how I've been carrying the bottle until now?"
+  image_prompt: "A blue water bottle with a new silicone sleeve on the base being held next to the mesh pocket of a black gym bag."
+  evaluation_criteria:
+    ideal_answer: "The new protective sleeve on the base might make the bottle slightly wider, which could interfere with its usual perfect fit in the gym bag's mesh side pocket."
+    key_points:
+      - "The user recently added a new blue protective sleeve to the bottle's base."
+      - "The bottle has a long-term characteristic of fitting perfectly in the mesh side pocket of the gym bag."
+  options:
+    - "The new sleeve might make the bottle feel heavier to carry by hand."
+    - "The sleeve may make the bottle easier to grip during a workout."
+    - "You will now need to carry the bottle inside the bag instead of using the side pocket to avoid losing the sleeve."
+    - "The added thickness from the new sleeve might make it harder to slide into its usual spot in the gym bag."
+  answer: "The added thickness from the new sleeve might make it harder to slide into its usual spot in the gym bag."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "It just fell over right next to my computer! [IMAGE] Based on why I chose this specific model, why was I so lucky this happened with this one instead of a different design?"
+  image_prompt: "The blue water bottle lying on its side on a desk near a laptop, with the flip-top lid securely closed and no water leaking."
+  evaluation_criteria:
+    ideal_answer: "You were lucky because you specifically prefer this bottle's flip-top mechanism, and the event showed that its seal held perfectly during the fall, preventing a spill."
+    key_points:
+      - "The bottle recently tipped over on the desk, but the seal held and prevented a leak."
+      - "The user has a long-term preference for this flip-top mechanism over other lid types."
+  options:
+    - "It was lucky because the flip-top lid you prefer stayed sealed, whereas other lids might have leaked."
+    - "You were lucky because the grey grip band kept it from sliding farther across the desk."
+    - "The translucent body allowed you to see that the lid was closed before it even tipped over."
+    - "A different design would have cracked upon impact, but this plastic is much more durable than others."
+  answer: "It was lucky because the flip-top lid you prefer stayed sealed, whereas other lids might have leaked."
+  image_id: hq_4
+
+- id: 5
+  type: State Identification
+  question: "There were several similar blue bottles in the lost and found. [IMAGE] Which specific detail helped me identify this one as mine?"
+  image_prompt: "A close-up of the back of the blue water bottle, highlighting a partially faded '1L' mark among other clear markings."
+  evaluation_criteria:
+    ideal_answer: "You could identify it among other similar bottles because of the faded '1L' measurement marking on the back, which is a unique result of your frequent use."
+    key_points:
+      - "The user had to identify their bottle after leaving it at the gym recently."
+      - "The bottle has a long-term unique feature of a fading '1L' measurement marking on the back."
+  options:
+    - "You recognized the specific shade of translucent blue which is different from newer models."
+    - "The small scratch on the grey grip band was the only way to tell it apart from the others."
+    - "The presence of a lemon slice inside made it immediately obvious which bottle belonged to you."
+    - "You identified it by the faded 1L measurement marking on the back, caused by your long-term use."
+  answer: "You identified it by the faded 1L measurement marking on the back, caused by your long-term use."
+  image_id: hq_5

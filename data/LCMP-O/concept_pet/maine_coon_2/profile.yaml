@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: maine_coon_2
+concept_type: "pet"
+name: "Leo"
+category: "Maine Coon"
+
+core_identity:
+  summary: "A giant, majestic ginger-orange tabby Maine Coon cat with cream-white muzzle and chest fur, known for his tufted ears and imposing size."
+  role_in_user_life: "A loyal and gentle giant who acts as a comforting companion and unofficial guardian of the house."
+
+stable_visual_identity:
+  summary: "An extremely large cat with thick, fluffy ginger-orange tabby fur and lighter cream-white fur on his muzzle, chest, and front ruff."
+  key_features:
+    - "Distinctive lynx-like tufted ears"
+    - "A massive, extremely bushy tail"
+    - "A fluffy mane around his neck resembling a lion"
+
+stable_behavioral_identity:
+  traits:
+    - "Chirps and trills to communicate instead of meowing"
+    - "Habitually sleeps on the highest shelf in the room"
+  preferences:
+    loves:
+      - "Fresh salmon treats"
+      - "His favorite soft blue blanket on the living room sofa"
+    dislikes:
+      - "The loud noise of the vacuum cleaner"
+      - "Closed doors, as he prefers to patrol the whole house"
+
+relational_meaning:
+  user_relationship: "A deeply bonded companion who brings warmth and calmness to the user's daily life."
+  emotional_value: "His presence turns the house into a comforting home."
+  related_entities:
+    - "His favorite soft blue blanket"
+
+history:
+  knowledge:
+    - "Instruction: Introduce Leo's enormous size and fluffy ginger-orange tabby coat with a cream-white front ruff in a casual portrait."
+    - "Instruction: Introduce his distinctive lynx-like tufted ears up close."
+    - "Instruction: Introduce his stable habit of sleeping on the highest shelf in the room."
+    - "Instruction: Introduce his intense dislike and fear of the vacuum cleaner."
+    - "Instruction: Introduce his love and obsession for fresh salmon treats."
+    - "Instruction: Introduce his loyalty to his favorite soft blue blanket on the sofa."
+  event:
+    - "Instruction: Introduce a recent event where his mane got covered in sticky cobwebs from exploring the unfinished basement."
+    - "Instruction: Introduce a recent event where a loud new robot vacuum was turned on to clean the floor."
+    - "Instruction: Introduce a recent event where his favorite blue blanket was placed inside the washing machine."
+    - "Instruction: Introduce a recent event where a jar of salmon treats fell on the floor but remained perfectly sealed."
+
+hard_questions:
+  - "Draft: Create a state-identification question that combines his normally fluffy mane with the recent cobwebs event."
+  - "Draft: Create a causal-inference question that combines his intense fear of vacuums with the recent robot vacuum event to explain why he is hiding under a low table."
+  - "Draft: Create a preference-conflict question that combines his obsession with salmon treats with the event where the jar fell but remained sealed, to explain why he is not eating."
+  - "Draft: Create a causal-inference question that combines his loyalty to his blue blanket with the recent washing machine event to explain why he is staring sadly at the appliance."
+  - "Draft: Create a preference-conflict question that combines his habit of sleeping on the highest shelf with the recent robot vacuum event, asking why he is refusing to come down to eat his treats."

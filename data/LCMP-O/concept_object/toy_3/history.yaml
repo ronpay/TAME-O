@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "This is Kiki, my favorite plush pillow. [IMAGE] I always keep it right here on the grey reading chair."
+  assistant_response: "Got it. I've noted Kiki's usual spot on the grey reading chair."
+  image_prompt: "A white Hello Kitty plush pillow resting on a comfortable grey upholstered reading chair in a living room."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "Look at the large pink bow on the ear. [IMAGE] It's definitely the most recognizable feature of this pillow."
+  assistant_response: "That's a very prominent feature. I've recorded the large pink bow as its key visual trait."
+  image_prompt: "A close-up of a white plush pillow focusing on a large, puffy pink bow attached to the left ear."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "I always move it far away whenever I have a drink. [IMAGE] I'm terrified of getting any stains on the white plush."
+  assistant_response: "That makes sense. I've noted the owner's caution about liquids and potential stains."
+  image_prompt: "A white plush pillow being moved to the far end of a table, away from a full glass of water."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "This is the lavender detergent I always use. [IMAGE] The pillow absolutely loves this specific scent when it's freshly washed."
+  assistant_response: "Understood. I've recorded its preference for being washed with lavender-scented soap."
+  image_prompt: "A bottle of lavender-scented laundry detergent sitting next to a white Hello Kitty plush pillow."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "Here is an old photo from the day I got it. [IMAGE] It was a special gift from a childhood friend who moved to Japan."
+  assistant_response: "What a meaningful origin. I've noted that it was a gift from a friend who moved away."
+  image_prompt: "An old, slightly faded photo showing a person receiving a white Hello Kitty plush pillow as a gift."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "I love using it as a headrest like this. [IMAGE] It's perfect for those late-night reading sessions."
+  assistant_response: "It looks very cozy. I've recorded its role as a headrest during reading."
+  image_prompt: "A person reclining on a grey chair using a white plush pillow as a headrest while holding a book."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "Look at this mess on the rug right next to the empty chair. [IMAGE] I accidentally knocked over my coffee this morning."
+  assistant_response: "I see the coffee stain on the rug near the usual spot. That's unfortunate."
+  image_prompt: "A large, dark coffee stain on a light-colored rug next to an empty grey reading chair."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "I decided to put it up here for now. [IMAGE] It's sitting on a high bedroom shelf where it's much safer."
+  assistant_response: "That's a safe choice. I've noted it has been moved to a high shelf in the bedroom."
+  image_prompt: "A white Hello Kitty plush pillow sitting alone on a high, white wooden shelf in a bedroom."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "I just bought this new 'extra-strength' lavender soap. [IMAGE] I'm about to give the pillow its deepest wash yet."
+  assistant_response: "I see the new extra-strength lavender detergent. I've recorded this upcoming wash."
+  image_prompt: "A hand holding a bottle of 'Extra-Strength Lavender' laundry detergent with a white plush pillow in the background."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "My nephew just arrived and he has chocolate all over his hands. [IMAGE] He's heading straight for the living room."
+  assistant_response: "I've noted the arrival of a toddler with messy hands near the living area."
+  image_prompt: "A toddler with visible chocolate smudges on their face and hands walking toward a living room doorway."
+  image_id: turn_10

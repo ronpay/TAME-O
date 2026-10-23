@@ -1,0 +1,84 @@
+- id: 1
+  type: Causal Inference
+  question: "Look at her on this path. [IMAGE] Why is she conducting a professional work call while walking in the park instead of at a desk?"
+  image_prompt: "A woman walking on a park path, holding a red phone to her ear and speaking intently, surrounded by green grass and trees."
+  evaluation_criteria:
+    ideal_answer: "She is conducting her call while walking because she is a PR consultant who recently decided to move all her afternoon calls to 'walking meetings' in the park to stay sharper."
+    key_points:
+      - "She recently started a policy of having 'walking meetings' for her afternoon calls."
+      - "She is a professional PR consultant who is constantly on her work phone."
+  options:
+    - "She is taking the call in the park, but the image alone does not explain why this became her work routine."
+    - "She is a PR consultant who recently switched to 'walking meetings' for her afternoon work calls."
+    - "She is currently in a park because her home office is undergoing renovations, and she needs to work."
+    - "She is enjoying a leisure walk and happened to receive an emergency call from a family member."
+  answer: "She is a PR consultant who recently switched to 'walking meetings' for her afternoon work calls."
+  image_id: hq_1
+
+- id: 2
+  type: State Identification
+  question: "Look at the expression on her face in this photo. [IMAGE] Why is she so frustrated right now?"
+  image_prompt: "A woman standing in a park, looking down at a dark mobile phone screen with a look of extreme frustration and annoyance."
+  evaluation_criteria:
+    ideal_answer: "She is frustrated because her red phone's battery died during her walk, which conflicts with her long-term dislike of being unreachable."
+    key_points:
+      - "Her red mobile phone battery died unexpectedly during her walk."
+      - "She has a long-term dislike of being unreachable or having a dead phone battery."
+  options:
+    - "She is frustrated because glare on the screen made her miss part of the call."
+    - "She is annoyed because the park is too crowded and she can't focus on her mentoring duties."
+    - "She is upset because her phone died, making her unreachable, which is something she hates."
+    - "She is angry because she just received bad news from a client during her walking meeting."
+  answer: "She is upset because her phone died, making her unreachable, which is something she hates."
+  image_id: hq_2
+
+- id: 3
+  type: Preference Conflict
+  question: "She used to wear a dark navy jacket, but look at her here. [IMAGE] Why is she wearing this bright red one instead?"
+  image_prompt: "A woman wearing a bright red zip-up jacket over a white shirt, walking outdoors on a sunny day."
+  evaluation_criteria:
+    ideal_answer: "She is wearing the red jacket because she has a long-term love for bold colors like red, and she recently bought this specific jacket to match her phone."
+    key_points:
+      - "She recently purchased a new red zip-up jacket."
+      - "She has a long-term preference for the color red in her clothing and accessories."
+  options:
+    - "She chose the red jacket because it matches her phone and fits her long-term love for the color red."
+    - "She chose the jacket because the park path was colder than her office."
+    - "She is wearing the red jacket because she forgot her usual navy one at her sunny coastal childhood home."
+    - "She bought a red jacket to be more visible while she takes her walking meetings in the park."
+  answer: "She chose the red jacket because it matches her phone and fits her long-term love for the color red."
+  image_id: hq_3
+
+- id: 4
+  type: Causal Inference
+  question: "Why did she choose to work in this bright, sunny outdoor area today? [IMAGE]"
+  image_prompt: "A woman working on a laptop at a table in a sunny, open-air park that feels like a coastal setting."
+  evaluation_criteria:
+    ideal_answer: "She is working outdoors because her coastal background makes her more productive in sunny environments, and she recently implemented a 'walking meeting' policy for her afternoon work."
+    key_points:
+      - "She recently decided to move her afternoon work sessions and calls to the park."
+      - "Her upbringing in a sunny coastal city gave her a lifelong preference for working in outdoor settings."
+  options:
+    - "She is working in the park, but the image alone does not reveal which personal preference drew her outside."
+    - "She is working in the park because she is currently handling a PR crisis and needs the fresh air to think."
+    - "She is working outdoors to take advantage of the sun, which she loves due to her coastal background."
+    - "She is in the park because she is waiting for her red phone to charge at a nearby public station."
+  answer: "She is working outdoors to take advantage of the sun, which she loves due to her coastal background."
+  image_id: hq_4
+
+- id: 5
+  type: State Identification
+  question: "She is usually very composed when we talk. [IMAGE] Why does she look so intensely focused and a bit tense in this outdoor photo?"
+  image_prompt: "A woman sitting on a park bench, leaning forward and looking intently at her red phone with a focused, serious expression."
+  evaluation_criteria:
+    ideal_answer: "She looks tense because she is handling a major PR crisis that occurred this morning, requiring her full attention as a PR consultant."
+    key_points:
+      - "She had to handle a massive PR crisis for a big client earlier this morning."
+      - "She is a professional PR consultant who takes her communication and client responsibilities seriously."
+  options:
+    - "She is serious because she is managing a major PR crisis that broke earlier today."
+    - "She is tense because her walking meeting was interrupted by an unexpected rain shower in the park."
+    - "She is focused because she is trying to troubleshoot her red phone after the battery died."
+    - "She is tense because she is reviewing a difficult email for the user in her role as a mentor."
+  answer: "She is serious because she is managing a major PR crisis that broke earlier today."
+  image_id: hq_5

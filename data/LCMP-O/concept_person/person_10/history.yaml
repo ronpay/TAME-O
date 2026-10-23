@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "This is a photo of Elena at work. [IMAGE] She always looks so sharp in that white button-down and her favorite brown patterned bowtie."
+  assistant_response: "Got it. I've noted Elena's signature style featuring a white shirt and a brown patterned bowtie."
+  image_prompt: "A professional portrait of Elena wearing a crisp white button-down shirt and a distinctive brown patterned bowtie, with her long dark hair and straight-cut bangs clearly visible."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "Here is where she spends most of her time. [IMAGE] As the curator for 'The Silver Screen', she's always busy organizing new programs."
+  assistant_response: "Understood. I've recorded her role as the curator for 'The Silver Screen' cinema."
+  image_prompt: "A shot of the entrance to 'The Silver Screen' cinema, with a person recognizable as the curator standing near the ticket booth."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "I love visiting her office. [IMAGE] She has this amazing collection of vintage film posters everywhere."
+  assistant_response: "I've noted the extensive collection of vintage film posters kept in the office."
+  image_prompt: "Elena standing in her office beside a cluttered but organized wall covered in large colorful vintage film posters from different eras."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "She's very traditional when it comes to technology. [IMAGE] She strongly prefers using analog film projectors over anything digital."
+  assistant_response: "I've recorded her strong preference for analog film projection over digital formats."
+  image_prompt: "Elena in a projection booth operating a vintage 35mm film projector, with the mechanical parts clearly visible beside her."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "She never goes to a screening without this. [IMAGE] She takes incredibly detailed notes in her leather-bound journal during every movie."
+  assistant_response: "Got it. I've noted the habit of recording detailed notes in a leather-bound journal during screenings."
+  image_prompt: "Elena sitting in a dimly lit theater with her leather-bound journal open on her lap, her face visible as a pen rests on pages filled with dense neat handwriting."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "This is her absolute favorite spot in the house. [IMAGE] She always sits in the back row, right in the middle, for the best view."
+  assistant_response: "Understood. I've recorded the preference for the back row, middle seat in the theater."
+  image_prompt: "Elena sitting clearly in the middle seat of the very last row of an empty cinema theater, looking toward the screen from her favorite spot."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "She was so frustrated last night. [IMAGE] The film reel snapped, so she had to switch over to the digital projector mid-screening."
+  assistant_response: "I've noted the recent incident where a broken film reel forced a switch to the digital projector."
+  image_prompt: "Elena in the projection booth looking frustrated while holding a piece of torn 35mm film, with a modern digital projector glowing in the background."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "She's been working so hard lately. [IMAGE] She stayed at the theater until 3 AM last night getting ready for the special midnight screening."
+  assistant_response: "I've recorded that she recently stayed late at the theater for midnight screening preparations."
+  image_prompt: "Elena visible through the upstairs office window of 'The Silver Screen' cinema at night, with a nearby clock showing 3:00 AM."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "Look what just arrived today! [IMAGE] It's a rare French film poster from the 1950s that she's been trying to find for years."
+  assistant_response: "I've noted the recent acquisition of a rare 1950s French film poster."
+  image_prompt: "Elena carefully unrolling a large vintage French film poster with 1950s-style artwork on a wooden table in her office."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "She was devastated this afternoon. [IMAGE] She accidentally knocked over her inkwell, and it soaked right through several pages of her journal."
+  assistant_response: "I've recorded the recent accident where an ink spill damaged pages of the leather-bound journal."
+  image_prompt: "Elena looking devastated at her open leather-bound journal as a large dark ink stain spreads across the pages beside a tipped-over ink bottle."
+  image_id: turn_10

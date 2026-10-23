@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "This is Ethan from a game last season. [IMAGE] He never steps onto the mound without that navy blue cap with the red 'A'."
+  assistant_response: "I've noted the lucky navy blue cap with the red 'A' as a core part of his game-day identity."
+  image_prompt: "Ethan, an amateur baseball player, standing on a dirt field wearing a navy blue baseball cap with a red 'A' logo, a white sleeveless shirt, and grey pants."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "Check out this close-up from earlier. [IMAGE] That neatly trimmed goatee has been his signature look since he joined the Local Legends."
+  assistant_response: "Understood. The signature goatee is recorded as a stable visual feature."
+  image_prompt: "A close-up portrait of the player showing a neatly trimmed goatee and a focused expression."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "Those yellow and black Nike cleats really stand out on the dirt. [IMAGE] He swears they give him the best traction for his wind-up."
+  assistant_response: "Got it. I've noted that the yellow and black Nike cleats are preferred for their superior traction."
+  image_prompt: "Ethan standing on a baseball diamond, with his face visible and his bright yellow and black Nike cleats clearly shown on the dirt."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "He's always picky about field conditions. [IMAGE] He absolutely hates pitching on muddy mounds because it messes with his consistency."
+  assistant_response: "I've recorded his strong dislike for muddy fields and how they affect his pitching."
+  image_prompt: "The player standing near a baseball mound, looking down at the dirt with a slightly annoyed expression."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "Being the team's starting pitcher is a big responsibility. [IMAGE] Every warmup session is handled with extreme focus."
+  assistant_response: "I've noted his role as the starting pitcher and his competitive, focused nature during practice."
+  image_prompt: "The player in a pitching stance on a baseball field, mid-motion, showing intense concentration."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "That black and tan Rawlings glove has been around forever. [IMAGE] It’s perfectly broken-in, which is exactly how he likes his gear."
+  assistant_response: "Recorded. He prefers his gear, like that old black and tan Rawlings glove, to be well broken-in."
+  image_prompt: "Ethan holding his well-worn black and tan leather baseball glove toward the camera, with his face and baseball uniform visible behind it."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "The sky just opened up during the third inning today. [IMAGE] Now the whole infield is a slippery, muddy mess."
+  assistant_response: "I see. The field has become muddy due to a recent thunderstorm."
+  image_prompt: "Ethan standing on a baseball diamond under heavy rain, looking frustrated as visible puddles and mud form on the dirt tracks."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "He was so stressed out in the dugout earlier. [IMAGE] He realized he forgot his lucky cap at home and had to borrow a plain navy one."
+  assistant_response: "I've noted that he recently had to play without his lucky red-logo cap for the first time."
+  image_prompt: "The player sitting in a dugout, wearing a plain navy blue cap without any logo, looking visibly stressed."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "Look at the webbing on the old glove after today's session. [IMAGE] A huge tear developed right through the leather."
+  assistant_response: "That's unfortunate. I've recorded the significant tear that recently developed in the old glove's webbing."
+  image_prompt: "Ethan looking upset while holding up his black and tan baseball glove, showing a large fresh tear in the leather webbing."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "He's out there today trying to get used to a brand new backup. [IMAGE] It’s still so stiff and hard to close compared to his old one."
+  assistant_response: "Understood. He is currently using a new, stiff backup glove because of the damage to his old one."
+  image_prompt: "The player on the field, repeatedly squeezing a brand new, shiny leather baseball glove that looks very stiff."
+  image_id: turn_10

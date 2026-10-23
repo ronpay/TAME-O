@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: person_2
+concept_type: "person"
+name: "Elena"
+category: "Travel and Food Blogger"
+
+core_identity:
+  summary: "A passionate traveler who documents local culinary experiences around the world."
+  role_in_user_life: "A close friend and travel companion who always knows the best local spots to eat."
+
+stable_visual_identity:
+  summary: "Often seen in casual, practical travel attire, almost always wearing her favorite headwear."
+  key_features:
+    - "A signature beige newsboy-style cap"
+    - "Dark hair with straight-cut bangs"
+    - "Small, silver dangle earrings"
+
+stable_behavioral_identity:
+  traits:
+    - "Always takes a photo of her meal before the first bite"
+    - "Prefers the atmosphere of open-air or outdoor dining"
+  preferences:
+    loves:
+      - "Fresh seafood, especially shrimp and prawns"
+      - "Dry red wine, usually a Cabernet or Merlot"
+    dislikes:
+      - "Extremely spicy or 'tongue-numbing' food"
+      - "Cramped, windowless indoor dining rooms"
+
+relational_meaning:
+  user_relationship: "Long-time travel partner."
+  emotional_value: "She represents the joy of discovery and the shared bond of exploring new cultures through food."
+  related_entities:
+    - "Her vintage leather travel journal"
+
+history:
+  knowledge:
+    - "Instruction: Introduce Elena's signature beige newsboy cap as her most recognizable accessory."
+    - "Instruction: Introduce her long-standing preference for dry red wine during dinner."
+    - "Instruction: Introduce her deep love for fresh seafood dishes."
+    - "Instruction: Introduce her strong dislike for spicy food, which she finds overwhelming."
+    - "Instruction: Introduce her habit of seeking out outdoor seating for the best lighting and air."
+    - "Instruction: Introduce her role as a food blogger who meticulously records her dining experiences."
+  event:
+    - "Instruction: Introduce a recent visit to a famous but strictly indoor-only fusion restaurant."
+    - "Instruction: Introduce a recent accident where she ordered a dish that was far spicier than expected."
+    - "Instruction: Introduce the fact that she recently left her signature cap at a friend's house."
+    - "Instruction: Introduce a recent decision to try a crisp white wine to see if it pairs better with a specific fish."
+
+hard_questions:
+  - "Draft: Create a preference-conflict question about why Elena is sitting right by the door at the indoor restaurant, combining her dislike of indoor spaces with the recent visit."
+  - "Draft: Create a causal-inference question about why Elena is drinking an entire bottle of water rapidly, combining her dislike for spicy food with the accident of ordering a spicy dish."
+  - "Draft: Create a state-identification question about what is visually unusual about Elena in a recent photo, combining her signature cap with the event of losing it."
+  - "Draft: Create a recommendation question about what Elena should order next after her white wine experiment, combining her usual red wine preference with the recent decision."
+  - "Draft: Create a reasoning question about why Elena is hesitant to try the 'House Special' seafood pasta today, combining her love for seafood with the recent spicy food accident."

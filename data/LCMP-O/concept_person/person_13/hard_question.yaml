@@ -1,0 +1,84 @@
+- id: 1
+  type: Preference Conflict
+  question: "Looking at this photo from last night, [IMAGE] the lighting is quite harsh. Why did he decide to use a flash here when he usually avoids it?"
+  image_prompt: "Robert Miller crouching near a forest plant at night, photographing it with a sharp direct flash that makes it stand out against a dark background."
+  evaluation_criteria:
+    ideal_answer: "He usually avoids using a flash because he prefers natural light, but he was forced to use it yesterday because it got dark too quickly during his twilight hike."
+    key_points:
+      - "He was forced to use his phone's flash during a very dark twilight hike yesterday."
+      - "He has a strict long-term preference for natural light and avoids using a flash."
+  options:
+    - "He was forced to use it because it got dark too fast during his twilight hike, despite his usual dislike of flash."
+    - "He wanted to experiment with different lighting techniques for his nature photography collection."
+    - "He chose to use the flash to highlight the details of the forest plant more clearly in the low light."
+    - "He decided that the natural light wasn't sufficient for the artistic effect he wanted to achieve last night."
+  answer: "He was forced to use it because it got dark too fast during his twilight hike, despite his usual dislike of flash."
+  image_id: hq_1
+
+- id: 2
+  type: Causal Inference
+  question: "In this picture taken earlier today, [IMAGE] he's holding the camera screen unusually close to his eyes and squinting. What's the most likely reason for this?"
+  image_prompt: "A man holding a digital camera very close to his face, squinting with a frustrated expression as he tries to see the settings on the LCD screen."
+  evaluation_criteria:
+    ideal_answer: "He is struggling to see the camera settings because he accidentally left his thin-framed rectangular glasses at home this morning."
+    key_points:
+      - "He accidentally left his glasses at home during this morning's outing."
+      - "He always wears his thin-framed rectangular glasses for clarity while shooting."
+  options:
+    - "He is struggling to see because he left his usual glasses at home this morning."
+    - "He is trying to check the fine details of a macro shot he just took in the forest."
+    - "The sun is too bright, making it difficult for him to see the screen clearly from a normal distance."
+    - "He is adjusting to a new camera model that has a much smaller display than his previous one."
+  answer: "He is struggling to see because he left his usual glasses at home this morning."
+  image_id: hq_2
+
+- id: 3
+  type: State Identification
+  question: "He looks quite stressed and out of his element in this photo. [IMAGE] What about this specific situation is making him uncomfortable?"
+  image_prompt: "A man standing in the middle of a dense, noisy crowd at a city festival, looking tense and clutching his camera bag tightly."
+  evaluation_criteria:
+    ideal_answer: "He is uncomfortable because he is in a noisy, crowded urban environment, which he typically finds stressful and avoids in favor of secluded natural spots."
+    key_points:
+      - "He reluctantly attended a crowded city festival last weekend."
+      - "He typically finds noisy, crowded urban environments stressful and prefers secluded natural spots."
+  options:
+    - "He is stressed in a crowd, but the image alone does not reveal which setting preference is being violated."
+    - "He is uncomfortable because he is attending the festival alone and doesn't know many people there."
+    - "He is stressed because he is in a crowded urban environment, which he usually finds overwhelming."
+    - "He is frustrated because the crowds are preventing him from getting any clear photos of the art."
+  answer: "He is stressed because he is in a crowded urban environment, which he usually finds overwhelming."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "A group of friends wants to surprise him with a retirement party at a busy, popular downtown lounge. [IMAGE] Based on his recent behavior and personality, how would he likely react to this plan?"
+  image_prompt: "Robert Miller standing tensely in a busy modern downtown lounge with dim lighting, loud music, and many people talking and drinking."
+  evaluation_criteria:
+    ideal_answer: "He would likely find the party stressful and unpleasant because he prefers quiet, secluded natural spots and recently looked out of place at a crowded city festival."
+    key_points:
+      - "He recently attended a crowded city festival and looked visibly out of place."
+      - "He has a long-term preference for the tranquility of secluded natural spots and avoids crowds."
+  options:
+    - "He would likely appreciate the city view but feel awkward about being the center of attention."
+    - "He would be appreciative of the gesture but would probably leave early to go on a hike instead."
+    - "He would find the venue interesting from a photography perspective, even if he doesn't like the noise."
+    - "He would likely be overwhelmed and unhappy due to his strong preference for quiet, secluded environments over crowds."
+  answer: "He would likely be overwhelmed and unhappy due to his strong preference for quiet, secluded environments over crowds."
+  image_id: hq_4
+
+- id: 5
+  type: Causal Inference
+  question: "His phone received several important calls while he was taking photos this afternoon, but it didn't make a sound. [IMAGE] Why was his phone silent during this time?"
+  image_prompt: "Robert Miller sitting near a park bench with his camera lens beside him, looking at a smartphone screen lit up with missed calls but no audible ringtone."
+  evaluation_criteria:
+    ideal_answer: "His phone was silent because he recently set it to permanent silent mode to avoid scaring off wildlife while he is pursuing his passion for nature photography."
+    key_points:
+      - "He recently set his phone to permanent silent mode to avoid scaring birds."
+      - "He is a dedicated nature photographer who values quiet and tranquility during his shoots."
+  options:
+    - "He intentionally silenced his phone to ensure he didn't disturb the wildlife while taking photos."
+    - "His phone's battery was low, so it automatically switched to a power-saving mode that silences notifications."
+    - "The forest setting likely had weak reception, so the calls reached the phone without producing a normal live ring."
+    - "He forgot to turn the volume back up after attending the crowded city festival last weekend."
+  answer: "He intentionally silenced his phone to ensure he didn't disturb the wildlife while taking photos."
+  image_id: hq_5

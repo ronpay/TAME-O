@@ -1,0 +1,81 @@
+- turn: 1
+  log_type: knowledge
+  user_input: This is Thirsty, my blue water bottle, shown here half-filled. [IMAGE]
+    The transparency makes it easy to see the water level.
+  assistant_response: Noted. Thirsty's transparency clearly shows its current water
+    level.
+  image_prompt: A transparent blue water bottle half-filled with water, highlighting
+    its clear side and blue cap.
+  image_id: turn_1
+- turn: 2
+  log_type: knowledge
+  user_input: "Here\u2019s a close image showing the cap loop. [IMAGE] It's a convenient\
+    \ feature for carrying."
+  assistant_response: Understood. The cap loop is a handy carrying option.
+  image_prompt: A close-up of the blue water bottle cap with a secure loop, ready
+    for hanging or holding.
+  image_id: turn_2
+- turn: 3
+  log_type: knowledge
+  user_input: Check out this photo of the kitchen countertop. [IMAGE] This is where
+    it usually rests.
+  assistant_response: Got it. It commonly stays on the kitchen counter.
+  image_prompt: A blue water bottle placed on a clean white kitchen countertop, showcasing
+    its regular resting spot.
+  image_id: turn_3
+- turn: 4
+  log_type: knowledge
+  user_input: "Here's an image where I'm holding the bottle. [IMAGE] It shows how\
+    \ it\u2019s an essential part of my daily routine."
+  assistant_response: Confirmed. It's a constant companion for daily use.
+  image_prompt: A person holding a transparent blue water bottle, emphasizing its
+    role in daily life.
+  image_id: turn_4
+- turn: 5
+  log_type: knowledge
+  user_input: "Look at this close-up of the strap. [IMAGE] It\u2019s a thoughtful\
+    \ design feature."
+  assistant_response: Noted. The strap is a useful design element.
+  image_prompt: A close-up of the blue silicone strap on a blue water bottle, highlighting
+    its ease and durability.
+  image_id: turn_5
+- turn: 6
+  log_type: knowledge
+  user_input: "Here\u2019s the bottle filled with lemonade. [IMAGE] It's my favorite\
+    \ drink."
+  assistant_response: Understood. Lemonade is a preferred drink.
+  image_prompt: A close-up of the blue water bottle filled with chilled lemonade,
+    emphasizing the drink choice.
+  image_id: turn_6
+- turn: 7
+  log_type: event
+  user_input: This image shows the accident at the counter. [IMAGE] It was knocked
+    over and left half-empty.
+  assistant_response: Noted. An accidental spill left it half-empty.
+  image_prompt: A blue water bottle on a kitchen countertop, knocked over with some
+    water spilled around it, left half-empty.
+  image_id: turn_7
+- turn: 8
+  log_type: event
+  user_input: "Here\u2019s a scene from the gym. [IMAGE] It was refilled there, a\
+    \ change from its usual spot."
+  assistant_response: Confirmed. It was refilled at the gym.
+  image_prompt: A blue water bottle being refilled at a water station in a gym, showing
+    a change from its usual resting place.
+  image_id: turn_8
+- turn: 9
+  log_type: event
+  user_input: "This photo shows a new scratch. [IMAGE] It\u2019s a rare event that\
+    \ happened recently."
+  assistant_response: Understood. A new scratch appeared due to a recent event.
+  image_prompt: A close-up image of the blue water bottle showing a visible scratch
+    on its side.
+  image_id: turn_9
+- turn: 10
+  log_type: event
+  user_input: "Here\u2019s an image with the red cap replacement. [IMAGE] It was a\
+    \ temporary fix."
+  assistant_response: Got it. A red cap was used as a temporary replacement.
+  image_prompt: A blue water bottle with a temporary red cap instead of the usual
+    blue one, highlighting the change.
+  image_id: turn_10

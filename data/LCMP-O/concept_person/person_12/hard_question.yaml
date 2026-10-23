@@ -1,0 +1,84 @@
+- id: 1
+  type: Preference Conflict
+  question: "He is seen here wearing a full, formal suit for an event. [IMAGE] Why does this choice seem unusual based on his established style?"
+  image_prompt: "A man wearing a stiff, dark formal suit and a tie, looking visibly uncomfortable."
+  evaluation_criteria:
+    ideal_answer: "He is currently attending his cousin's wedding, which requires formal attire. This is unusual because he has a long-term, strong dislike for formal clothing like suits and ties, preferring comfortable waffle-knit shirts."
+    key_points:
+      - "He is attending a wedding that requires formal attire."
+      - "He has a long-term dislike for formal clothing and ties."
+  options:
+    - "He is wearing a suit for a wedding, which conflicts with his established dislike for formal clothing and ties."
+    - "He is wearing a suit because the venue lent him one after his suitcase was delayed."
+    - "He chose the suit because the photographer requested a matching formal look for group photos."
+    - "He is dressed formally because he is filling in for someone in the ceremony."
+  answer: "He is wearing a suit for a wedding, which conflicts with his established dislike for formal clothing and ties."
+  image_id: hq_1
+
+- id: 2
+  type: Causal Inference
+  question: "He is using a black pro-controller in this photo. [IMAGE] Why has he switched to this device instead of his long-time favorite?"
+  image_prompt: "Julian sitting in his living room holding a new black pro-controller, with his long hair tied back and gaming setup visible."
+  evaluation_criteria:
+    ideal_answer: "He recently dropped and cracked his favorite white game remote, making it unusable. As a result, he had to switch to using a new black pro-controller for his gaming sessions."
+    key_points:
+      - "He recently dropped and cracked his favorite white remote."
+      - "The white game remote has been his favorite device for years."
+  options:
+    - "He is using the black controller because he wanted to upgrade his gaming setup after many years."
+    - "He switched to the black pro-controller because his preferred white remote was recently damaged in an accident."
+    - "He is using a new controller because the old white one was no longer working as well as it used to."
+    - "He chose the black pro-controller as a replacement for his favorite white remote which he recently broke."
+  answer: "He switched to the black pro-controller because his preferred white remote was recently damaged in an accident."
+  image_id: hq_2
+
+- id: 3
+  type: State Identification
+  question: "He looks quite dissatisfied while using this generic third-party remote. [IMAGE] Why is he not using his preferred gaming equipment?"
+  image_prompt: "A man looking frustrated while holding a cheap-looking, generic third-party game controller."
+  evaluation_criteria:
+    ideal_answer: "He is frustrated because he has a long-term preference for his original white remote and a dislike for generic controllers. Since he recently cracked his favorite white one, he is likely using this as a temporary, less-than-ideal substitute."
+    key_points:
+      - "He recently cracked his favorite white game remote."
+      - "He has a long-term preference for his white remote and dislikes using generic ones."
+  options:
+    - "He is frustrated because the generic controller doesn't feel as comfortable as his original white one."
+    - "He looks unhappy because he is forced to use a generic controller after his preferred white remote was damaged."
+    - "He is using a generic remote because his favorite white one broke, even though he dislikes third-party equipment."
+    - "He is dissatisfied with the generic controller since it is a poor substitute for his favorite, now-broken white remote."
+  answer: "He is using a generic remote because his favorite white one broke, even though he dislikes third-party equipment."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "If he were to start a new gaming session right now, why would he likely be seen with a different controller than the white one he used for years? [IMAGE]"
+  image_prompt: "Julian kneeling on the dark wood floor beside a new black pro-controller and his cracked white remote."
+  evaluation_criteria:
+    ideal_answer: "He would use a different controller because he recently cracked his favorite white remote and subsequently purchased a new black pro-controller to replace it."
+    key_points:
+      - "He recently bought a new black pro-controller to replace a broken one."
+      - "His long-term favorite white remote was recently cracked and is now out of use."
+  options:
+    - "He would use a new controller because his favorite white one was recently damaged and replaced with a black one."
+    - "He would switch to the black pro-controller because its extra buttons suit a new game mode."
+    - "He would use the black controller because a friend left it synced to the console after visiting."
+    - "He would use the black pro-controller because its battery is already charged for the session."
+  answer: "He would use a new controller because his favorite white one was recently damaged and replaced with a black one."
+  image_id: hq_4
+
+- id: 5
+  type: Causal Inference
+  question: "The usual spot next to him on the dark wood floor is empty during this gaming session. [IMAGE] Where is his frequent companion?"
+  image_prompt: "Julian sitting on the couch during a game, looking toward the empty rug on the dark wood floor where his dog usually sits."
+  evaluation_criteria:
+    ideal_answer: "His frequent companion, a black dog, is currently away staying at his parents' house for the weekend. Normally, the dog is a constant presence and sits right by his side during games."
+    key_points:
+      - "The dog is currently away staying at his parents' house for the weekend."
+      - "His black dog is a constant companion that always sits nearby during gaming sessions."
+  options:
+    - "His companion is not there because the dog is away at his parents' house, despite usually being by his side."
+    - "The dog is sleeping in another room because the controller sounds bothered it."
+    - "The spot is empty because the dog was taken for a walk during the gaming session."
+    - "The dog moved to the hallway after the new controller cables crowded the floor."
+  answer: "His companion is not there because the dog is away at his parents' house, despite usually being by his side."
+  image_id: hq_5

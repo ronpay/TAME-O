@@ -1,0 +1,59 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: cup_2
+concept_type: "object"
+name: "The Polka-Rose Pitcher"
+category: "Hand-painted Ceramic Creamer"
+
+core_identity:
+  summary: "A small, vibrant ceramic pitcher featuring a distinct dual-pattern design with yellow and cream sections."
+  role_in_user_life: "A cherished morning ritual object used specifically for serving cream during weekend breakfasts."
+
+stable_visual_identity:
+  summary: "A two-toned ceramic pitcher with a spout and handle, decorated with polka dots and floral motifs."
+  key_features:
+    - "A bright yellow lower half adorned with large white polka dots."
+    - "A cream-colored upper half featuring small pink dots and delicate hand-painted roses."
+    - "A prominent curved handle and a classic pointed pouring spout with thin black rim detailing."
+
+stable_behavioral_identity:
+  traits:
+    - "Always hand-washed and never placed in the dishwasher to protect the delicate glaze."
+    - "Stored on an open wooden shelf rather than inside a dark cupboard."
+  preferences:
+    loves:
+      - "Chilled organic cream or whole milk"
+      - "Bright, sunlit breakfast nooks"
+    dislikes:
+      - "Harsh chemical detergents"
+      - "Extremely hot boiling liquids which might craze the glaze"
+
+relational_meaning:
+  user_relationship: "A sentimental heirloom passed down from the user's grandmother."
+  emotional_value: "Represents a connection to family traditions and the slow pace of weekend mornings."
+  related_entities:
+    - "Grandmother Martha (original owner)"
+    - "The matching blue linen tablecloth"
+
+history:
+  knowledge:
+    - "Instruction: Introduce that the pitcher has a unique yellow bottom with white polka dots."
+    - "Instruction: Introduce that the top half features hand-painted roses among pink dots."
+    - "Instruction: Introduce the long-term sensitivity to boiling liquids which can cause the glaze to craze."
+    - "Instruction: Introduce the preference for hand-washing with a gentle sponge."
+    - "Instruction: Introduce its role in serving cream during Sunday family breakfasts."
+    - "Instruction: Introduce its usual storage spot on a sunny kitchen shelf."
+  event:
+    - "Instruction: Introduce a recent morning where it was accidentally left near a hot stove."
+    - "Instruction: Introduce a recent incident where a small chip appeared near the base."
+    - "Instruction: Introduce a recent morning where it was used to hold wildflowers instead of cream."
+    - "Instruction: Introduce a recent decision to use a new, harsher soap because the usual one ran out."
+
+hard_questions:
+  - "Draft: Create a preference-conflict question about the recent use of harsh soap despite the long-term preference for gentle hand-washing."
+  - "Draft: Create a causal-inference question about why the pitcher was moved away from the stove based on its dislike of extreme heat."
+  - "Draft: Create a state-identification question about why it's on the dining table with flowers instead of its usual shelf spot with cream."
+  - "Draft: Create a counterfactual question about whether the pitcher should be put in the dishwasher after the recent chipping incident."
+  - "Draft: Create a multi-clue reasoning question about the risk of crazing if used for hot tea today given its history of being near the stove."

@@ -1,0 +1,84 @@
+- id: 1
+  type: State Identification
+  question: "He's wearing contact lenses in this photo. [IMAGE] Based on his usual habits, why do you think he switched to them today?"
+  image_prompt: "A man in a white shirt looking closely into a mirror, carefully adjusting a contact lens in his eye, with his face clearly visible."
+  evaluation_criteria:
+    ideal_answer: "He switched to contact lenses because he recently broke the frame of his signature silver-rimmed oval glasses. While he normally relies on those specific frames for his meticulous work, the recent accident forced him to use an alternative."
+    key_points:
+      - "He recently broke the frame of his silver-rimmed oval glasses."
+      - "He consistently uses silver-rimmed oval glasses for his daily work."
+  options:
+    - "He is wearing contacts, but the image alone does not show what happened to his usual glasses."
+    - "He is using contact lenses because his signature silver-rimmed glasses are currently broken."
+    - "He is trying out a new style because his usual glasses were lost during a recent trip."
+    - "He found that glasses were getting in the way of his circuit board work, so he switched to contacts."
+  answer: "He is using contact lenses because his signature silver-rimmed glasses are currently broken."
+  image_id: hq_1
+
+- id: 2
+  type: Preference Conflict
+  question: "He is wearing a standard red silk tie in this picture. [IMAGE] Why does this choice seem so unusual for him?"
+  image_prompt: "A man standing at a formal event wearing a plain red silk tie, looking slightly out of place."
+  evaluation_criteria:
+    ideal_answer: "Wearing a standard silk tie is unusual for him because he has an exclusive preference for 8-bit, pixelated tie designs. He only made this exception because he was attending a very formal, traditional family wedding that required standard attire."
+    key_points:
+      - "He was recently required to wear a standard silk tie for a formal family wedding."
+      - "He has an exclusive collection and preference for 8-bit pixelated neckties."
+  options:
+    - "He is wearing a red tie, but the image alone does not reveal which usual tie preference was overridden."
+    - "He decided to try a more professional look to match his role as a Lead Architect."
+    - "He wore it because a traditional wedding requirement overrode his usual 8-bit tie preference."
+    - "He is wearing it because he ran out of clean 8-bit ties and needed a quick replacement."
+  answer: "He wore it because a traditional wedding requirement overrode his usual 8-bit tie preference."
+  image_id: hq_2
+
+- id: 3
+  type: Causal Inference
+  question: "He's wearing large, wrap-around sunglasses and a wide-brimmed sun hat here. [IMAGE] What specifically prompted this setup?"
+  image_prompt: "A man sitting outdoors in a bright area, wearing oversized dark sunglasses and a wide-brimmed hat that shades his entire face."
+  evaluation_criteria:
+    ideal_answer: "He is wearing this protective gear because he is highly sensitive to bright light and usually avoids sunny environments. Since he was forced to spend several hours in a sunny park for a team-building event, he had to take extreme measures to shield his eyes."
+    key_points:
+      - "He recently had to spend several hours in a bright, sunny park for a team-building event."
+      - "He is highly sensitive to bright light and normally avoids sunny outdoor settings."
+  options:
+    - "He seems prepared for a long outdoor walk rather than a short team event."
+    - "He misplaced his usual fedora and glasses, so he had to buy whatever was available at the park."
+    - "He is testing out new outdoor equipment before a planned vacation to a sunny location."
+    - "He is wearing the gear to cope with his light sensitivity during a recent mandatory outdoor event."
+  answer: "He is wearing the gear to cope with his light sensitivity during a recent mandatory outdoor event."
+  image_id: hq_3
+
+- id: 4
+  type: State Identification
+  question: "In this photo, he is standing bareheaded and looking quite distressed. [IMAGE] Why is his signature look missing?"
+  image_prompt: "A man standing on a train platform with messy hair and no hat, looking around anxiously with a frustrated expression."
+  evaluation_criteria:
+    ideal_answer: "His signature black fedora is missing because he accidentally left it on the train during a recent trip. This is particularly noticeable because he is almost never seen in public without that specific hat."
+    key_points:
+      - "He recently lost his favorite black fedora on a commuter train."
+      - "He is almost never seen without his signature black fedora when he is out."
+  options:
+    - "His signature hat is missing, but the image alone does not show where he lost it."
+    - "He took it off because of the extreme heat during his recent visit to a sunny park."
+    - "His signature hat is missing because he accidentally left it on a train recently."
+    - "He is appearing bareheaded because he is trying to blend in at a modern tech expo."
+  answer: "His signature hat is missing because he accidentally left it on a train recently."
+  image_id: hq_4
+
+- id: 5
+  type: Counterfactual / Recommendation Reasoning
+  question: "He is looking at a new, high-end VR headset that emulates vintage arcade games. [IMAGE] Based on his history, is he likely to enjoy this product?"
+  image_prompt: "A man at a tech expo looking skeptically at a sleek, modern VR headset displayed on a pedestal."
+  evaluation_criteria:
+    ideal_answer: "He is unlikely to truly enjoy the VR headset because he has a strict preference for original, physical retro hardware over digital emulations. Even though he was invited to test these at a recent Tech Expo, his long-term habits suggest he finds authentic hardware much more satisfying."
+    key_points:
+      - "He recently visited a Tech Expo where he was invited to test new VR-based emulators."
+      - "He has a stubborn preference for playing on original retro hardware rather than using emulators."
+  options:
+    - "No, because he prefers the authentic experience of original physical hardware over any emulation."
+    - "Yes, because the VR headset allows him to experience more games than his original consoles."
+    - "Yes, because it fits his role as a Lead Architect to stay updated on the latest tech trends."
+    - "No, because his light sensitivity would make using a VR headset uncomfortable for long periods."
+  answer: "No, because he prefers the authentic experience of original physical hardware over any emulation."
+  image_id: hq_5

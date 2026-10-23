@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "I finally caught up with Elena for dinner tonight. [IMAGE] She was wearing that beige newsboy cap she's so famous for; I don't think I've ever seen her without it."
+  assistant_response: "It's good to see her! I've noted that the beige newsboy cap is Elena's signature accessory."
+  image_prompt: "A portrait of Elena wearing a beige newsboy cap and silver dangle earrings, sitting at a restaurant table."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "She's such a creature of habit when it comes to drinks. [IMAGE] She always insists on a glass of dry red wine, no matter what's on the menu."
+  assistant_response: "Understood. I've recorded her consistent preference for dry red wine during meals."
+  image_prompt: "Elena holding a glass of dark red wine at a dinner table, looking happy."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "We went to a coastal spot because she absolutely loves fresh seafood. [IMAGE] She ordered the shrimp soup and looked like she was in heaven."
+  assistant_response: "I've noted her love for fresh seafood, like the shrimp soup she enjoyed."
+  image_prompt: "A close-up of Elena about to eat a shrimp from a bowl of soup with a fork."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "The one thing you have to watch out for with her is anything hot. [IMAGE] She really dislikes spicy food; even a little bit of chili makes her uncomfortable."
+  assistant_response: "Got it. I've noted her strong dislike for spicy food."
+  image_prompt: "Elena pushing away a plate with visible red chili peppers, looking hesitant."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "She always asks for a table outside. [IMAGE] She says she needs the fresh air and the natural light for her blog photos."
+  assistant_response: "That makes sense for a blogger. I've recorded her preference for outdoor dining."
+  image_prompt: "Elena sitting at an outdoor restaurant table at night, with blurred street lights in the background."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "Watching her work is impressive. [IMAGE] She's a dedicated food blogger and takes photos of every single detail before she even starts eating."
+  assistant_response: "I've noted her professional approach as a food blogger."
+  image_prompt: "Elena taking a photo of a beautifully plated dish with her smartphone."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "We actually went to that new 'Vault' restaurant yesterday. [IMAGE] It's famous, but it's entirely underground with no windows, which was a big change for her."
+  assistant_response: "I've noted the visit to the windowless indoor restaurant, which is quite different from her usual preference."
+  image_prompt: "Elena sitting in a dimly lit, windowless indoor dining room, looking slightly boxed in."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "She had a bit of a disaster today. [IMAGE] She ordered the 'Chef's Surprise' and it turned out to be a Thai-style spicy curry. She was not prepared for that heat."
+  assistant_response: "Oh no! I've recorded the incident where she accidentally ordered a very spicy curry."
+  image_prompt: "Elena with a flushed face, holding a napkin to her mouth next to a bowl of red curry."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "She looked so different today because she left her signature cap at a friend's house. [IMAGE] Her hair was just down without any hat at all."
+  assistant_response: "That must have been a rare sight. I've noted that she recently lost access to her favorite cap."
+  image_prompt: "Elena sitting at a cafe with her dark hair and bangs visible, but without her usual beige cap."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "She decided to be adventurous tonight. [IMAGE] Instead of her usual red, she ordered a crisp glass of white wine to see if it went better with the sea bass."
+  assistant_response: "I've noted her decision to switch to white wine for tonight's meal."
+  image_prompt: "Elena at a dinner table with a glass of clear white wine instead of her usual red."
+  image_id: turn_10

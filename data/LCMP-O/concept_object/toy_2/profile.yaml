@@ -1,0 +1,59 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: toy_2
+concept_type: "object"
+name: "Snowy"
+category: "Sherpa Miffy Plush"
+
+core_identity:
+  summary: "A soft, white sherpa-textured bunny plush wearing a signature peach knitted scarf."
+  role_in_user_life: "A sentimental companion and study buddy that provides comfort during long working hours."
+
+stable_visual_identity:
+  summary: "A minimalist white bunny with a bumpy fleece texture and a bright peach scarf."
+  key_features:
+    - "White sherpa (boucle) fabric texture across the entire body"
+    - "Peach-colored knitted scarf with fringe tassels at the ends"
+    - "Signature black 'X' embroidered mouth and two black bead eyes"
+
+stable_behavioral_identity:
+  traits:
+    - "Usually resides on a clean, clutter-free oak nightstand"
+    - "Acts as a 'silent listener' during late-night study sessions"
+  preferences:
+    loves:
+      - "Freshly laundered linens and clean surfaces"
+      - "Soft, warm indoor lighting"
+    dislikes:
+      - "Dust and messy environments"
+      - "Direct, harsh sunlight which might fade its white fur"
+
+relational_meaning:
+  user_relationship: "The user's primary emotional comfort object."
+  emotional_value: "A cherished graduation gift representing peace and focus."
+  related_entities:
+    - "The user's study laptop"
+    - "A specific oak nightstand"
+
+history:
+  knowledge:
+    - "Instruction: Introduce Snowy's bumpy white sherpa texture as its most recognizable tactile and visual feature."
+    - "Instruction: Introduce the peach-colored knitted scarf as a permanent accessory that the user added to keep it 'warm'."
+    - "Instruction: Introduce the 'X' mouth as a symbol of its role as a quiet, non-judgmental study companion."
+    - "Instruction: Introduce that Snowy has a dedicated spot on an oak nightstand where it stays to avoid getting dirty."
+    - "Instruction: Introduce its preference for clean, dust-free spaces to maintain its bright white color."
+    - "Instruction: Introduce that Snowy was a graduation gift, often associated with the user's academic milestones."
+  event:
+    - "Instruction: Introduce that Snowy was recently moved from the nightstand to a wide window sill to 'watch the sunrise'."
+    - "Instruction: Introduce a recent accident where a small drop of tea was spilled on its left paw during a late-night session."
+    - "Instruction: Introduce that Snowy was placed inside a clear acrylic box yesterday to protect it from a dusty room renovation."
+    - "Instruction: Introduce that the peach scarf was removed recently to be hand-washed for the first time in months."
+
+hard_questions:
+  - "Draft: Create a state-identification question about why Snowy is in an acrylic box, combining its dislike of dust with the recent room renovation event."
+  - "Draft: Create a causal-inference question about the missing scarf, combining its long-term visual identity with the recent hand-wash event."
+  - "Draft: Create a preference-conflict question about Snowy's new spot on the window sill, combining its dislike of harsh sunlight with the recent move to the window."
+  - "Draft: Create a causal-inference question about the mark on the paw, combining its role as a study buddy with the recent tea spill accident."
+  - "Draft: Create a causal-inference question about Snowy's presence in a celebratory photo, combining its sentimental origin as a graduation gift with its recent move to the window."

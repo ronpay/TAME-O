@@ -1,0 +1,59 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: headphone_2
+concept_type: "object"
+name: "Sony Wired Studio Headphones"
+category: "Audio Equipment"
+
+core_identity:
+  summary: "A pair of classic black Sony wired headphones used for focused listening and audio monitoring."
+  role_in_user_life: "The user's primary tool for escaping into music and podcasts, often used during long study or work sessions."
+
+stable_visual_identity:
+  summary: "Black over-ear headphones with a prominent silver Sony logo on the earcups and a thick black cable."
+  key_features:
+    - "Circular black earcups with a brushed metallic texture and silver Sony branding."
+    - "A visible red indicator on the right hinge for stereo orientation."
+    - "A long, durable black audio cable connected to the left earcup."
+
+stable_behavioral_identity:
+  traits:
+    - "Worn almost exclusively during solo activities or in quiet environments."
+    - "Always handled with care and kept neatly coiled when not in use."
+  preferences:
+    loves:
+      - "Quiet indoor environments like libraries or home offices."
+      - "High-quality lossless audio files."
+    dislikes:
+      - "Being tangled or left on the floor."
+      - "Loud, crowded public spaces where the wired connection is a liability."
+
+relational_meaning:
+  user_relationship: "A reliable companion for focus and relaxation."
+  emotional_value: "They represent the user's personal time and commitment to deep focus."
+  related_entities:
+    - "User's wooden desk"
+    - "A specific audio interface or laptop"
+
+history:
+  knowledge:
+    - "Instruction: Introduce that these headphones are the user's favorite for classical music due to their clear sound."
+    - "Instruction: Introduce the fact that the user always keeps the cable neatly coiled with a Velcro strap."
+    - "Instruction: Show the headphones resting on a dedicated wooden headphone stand when not in use."
+    - "Instruction: Introduce the user's preference for using these headphones only while sitting at their desk."
+    - "Instruction: Show that the user has a specific 'Focus' playlist they only listen to with these headphones."
+    - "Instruction: Introduce the detail that the left ear pad has a tiny, almost invisible scratch from a previous move."
+  event:
+    - "Instruction: Introduce a recent event where the user accidentally spilled a little water near the headphones, but they were luckily spared."
+    - "Instruction: Show the user trying to use the headphones with a new phone that lacks a headphone jack, requiring a dongle."
+    - "Instruction: Introduce a situation where the user forgot the headphones at a friend's house and had to go back to retrieve them."
+    - "Instruction: Show the user replacing the worn-out ear pads with brand new ones that look slightly darker than the originals."
+
+hard_questions:
+  - "Draft: If the user is seen wearing the headphones at a noisy outdoor cafe, why might this be considered an unusual behavior based on their established preferences?"
+  - "Draft: After the recent water spill incident and the subsequent purchase of new ear pads, what is the current physical state of the headphones compared to their original 'knowledge' state?"
+  - "Draft: Given the user's preference for using these at their desk, how does the recent event of forgetting them at a friend's house suggest a change in the user's typical routine?"
+  - "Draft: Based on the requirement of a dongle for the new phone, would the user still prefer using these headphones for a quick walk outside, or would they likely stick to their indoor focus sessions?"
+  - "Draft: How does the presence of the new, darker ear pads combined with the 'knowledge' of the tiny scratch on the left side help identify these as the user's specific pair in a lineup of similar Sony headphones?"

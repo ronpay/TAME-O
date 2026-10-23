@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "Good morning! Here is The Heritage Fluted Cup, ready for my first tea of the day. [IMAGE] I just love the creamy color and those swirled ridges."
+  assistant_response: "It's a beautiful morning ritual. I've noted the creamy porcelain and the distinctive diagonal fluted texture."
+  image_prompt: "A close-up of The Heritage Fluted Cup, a creamy off-white porcelain cup with diagonal swirled fluting, sitting on a wooden table in soft morning light."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "Look at the detail on this handle. [IMAGE] That little scroll at the bottom is such a delicate touch."
+  assistant_response: "I see it now. The ornate handle and that small scroll detail are very elegant features."
+  image_prompt: "A focused shot showing the ornate handle of the creamy porcelain cup, highlighting the delicate scroll detail where the handle meets the body."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "I always make sure to use it with its matching saucer. [IMAGE] The fluted edges look so nice together on my desk."
+  assistant_response: "The matching set looks very cohesive. I've recorded that it is consistently used with the fluted-edge saucer."
+  image_prompt: "The creamy porcelain cup resting on its matching fluted saucer on a dark wooden desk, showing the consistent swirled pattern on both."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "It's best for light teas, like this chamomile I'm pouring. [IMAGE] I avoid anything too dark that might leave a mark."
+  assistant_response: "Understood. You prefer using it for light herbal teas like chamomile to avoid staining the porcelain."
+  image_prompt: "Light golden chamomile tea being poured from a glass teapot into the fluted porcelain cup, showing the light color of the liquid against the cream porcelain."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "Cleaning up now. [IMAGE] I never put this in the dishwasher; it only gets a gentle hand-wash."
+  assistant_response: "I've noted that you only hand-wash it to keep the delicate porcelain safe."
+  image_prompt: "A person's hands gently washing the creamy porcelain cup with a soft sponge in a kitchen sink, showing care for the delicate item."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "The set isn't complete without my favorite silver teaspoon. [IMAGE] They go together perfectly."
+  assistant_response: "The silver teaspoon with the floral engraving definitely complements the set. I've recorded it as part of the ritual."
+  image_prompt: "An engraved silver teaspoon resting beside the creamy fluted porcelain cup and saucer on a wooden surface."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "Oh no, I forgot to wash it yesterday and now there's a faint tea ring at the bottom. [IMAGE] I hope it comes out easily."
+  assistant_response: "I see the light tea stain at the bottom. It's unusual since you're normally so careful with it."
+  image_prompt: "Looking down into the creamy porcelain cup to show a faint, light brown tea stain ring at the bottom."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "The original saucer is being used for some cookies right now, so I'm using this plain one instead. [IMAGE] It feels a bit wrong."
+  assistant_response: "It does look different without the matching fluted saucer. I've noted this temporary change."
+  image_prompt: "The creamy fluted porcelain cup resting on a plain, smooth white saucer that does not match its swirled pattern."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "It's so hot today that I'm actually using it for an iced tea for once. [IMAGE] The porcelain keeps it surprisingly cool."
+  assistant_response: "That's a first! I've noted that you're using it for a cold drink today instead of your usual hot tea."
+  image_prompt: "The fluted porcelain cup filled with iced tea, with ice cubes and a lemon slice visible inside, sitting on a sunlit table."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "That was a close call! This stack of books almost knocked it over, but it's still standing. [IMAGE]"
+  assistant_response: "I'm glad it stayed upright! That was definitely a near-miss with those books."
+  image_prompt: "The fluted porcelain cup sitting precariously close to a tall, slightly tilted stack of books on a desk."
+  image_id: turn_10

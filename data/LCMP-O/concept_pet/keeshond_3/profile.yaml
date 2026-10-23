@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: keeshond_3
+concept_type: "pet"
+name: "Barnaby"
+category: "Keeshond"
+
+core_identity:
+  summary: "A fluffy, medium-sized Keeshond with a very pale silver-white long coat."
+  role_in_user_life: "A loyal, shadow-like companion who follows his owner everywhere around the house."
+
+stable_visual_identity:
+  summary: "A long-haired, mostly pale silver-white Keeshond with soft gray shading, a thick coat, plumed tail, and expressive face."
+  key_features:
+    - "Mostly pale silver-white double coat with soft gray shading and a prominent ruff around the neck"
+    - "Subtle dark 'spectacle' markings around the eyes that stand out against his pale face"
+    - "A bright blue collar with a small silver bell attached"
+
+stable_behavioral_identity:
+  traits:
+    - "Very vocal, often 'talking' or grumbling rather than just barking"
+    - "Tends to lean his body weight against his owner's legs when resting"
+  preferences:
+    loves:
+      - "Chewing on a well-worn rope toy"
+      - "Resting in the owner's comfortable reading chair"
+    dislikes:
+      - "The sound of the vacuum cleaner"
+      - "Getting his paws wet in rain puddles"
+
+relational_meaning:
+  user_relationship: "A constant source of comfort and routine, acting as a grounding presence in daily life."
+  emotional_value: "Brings joy and a sense of responsibility; his expressive face always seems to convey deep empathy."
+  related_entities:
+    - "The owner's comfortable reading chair, which Barnaby often claims as his own"
+
+history:
+  knowledge:
+    - "Instruction: Introduce that Barnaby wears a bright blue collar with a silver bell."
+    - "Instruction: Introduce Barnaby's mostly pale silver-white coat with soft gray shading and subtle dark 'spectacle' markings around his eyes."
+    - "Instruction: Introduce that Barnaby loves to chew on a well-worn rope toy."
+    - "Instruction: Introduce that Barnaby dislikes the vacuum cleaner, often hiding when it's out."
+    - "Instruction: Introduce that Barnaby intensely dislikes getting his paws wet in puddles."
+    - "Instruction: Introduce that Barnaby often claims the owner's reading chair as his own resting spot."
+  event:
+    - "Instruction: Introduce that Barnaby was recently bathed and looks unusually fluffy and clean."
+    - "Instruction: Introduce that Barnaby recently found a hidden stash of dog treats."
+    - "Instruction: Introduce that Barnaby recently sat proudly right in the middle of a muddy puddle."
+    - "Instruction: Introduce that Barnaby recently fell asleep right next to the vacuum cleaner while it was turned off."
+
+hard_questions:
+  - "Draft: Create a preference-conflict question that combines exactly one long-term knowledge clue (dislikes getting paws wet) with exactly one short-term event clue (sat proudly in a muddy puddle)."
+  - "Draft: Create a causal-inference question that combines exactly one long-term knowledge clue (dislikes the vacuum cleaner) with exactly one short-term event clue (fell asleep next to the turned-off vacuum)."
+  - "Draft: Create a state-identification question that combines exactly one long-term knowledge clue (claims the reading chair) with exactly one short-term event clue (was recently bathed)."
+  - "Draft: Create a counterfactual or recommendation question that combines exactly one long-term knowledge clue (loves his well-worn rope toy) with exactly one short-term event clue (found a hidden stash of dog treats)."
+  - "Draft: Create another multi-clue reasoning question grounded only in history, using exactly one long-term knowledge clue (subtle dark spectacle markings against his pale face) and exactly one short-term event clue (was recently bathed and looks unusually fluffy)."

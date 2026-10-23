@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "This is Astra, the backpack I got when I was promoted. [IMAGE] I love the clean grey look and that subtle brown logo."
+  assistant_response: "It looks very professional. I've noted the promotion gift, the grey fabric, and the small brown logo."
+  image_prompt: "A clear photo of a grey heathered Case Logic backpack on a clean table, with a small brown square logo visible on the front."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "It's perfect for my tech setup. [IMAGE] See how easily it holds my slim laptop and tablet without losing its shape."
+  assistant_response: "I see. It's well-suited for lightweight tech gear like your laptop and tablet."
+  image_prompt: "A side view of the grey backpack standing upright, looking slim and well-organized with a laptop partially visible in the rear sleeve."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "I'm very careful with it. [IMAGE] I always hang it on the back of my chair or place it on a desk to keep it off the floor."
+  assistant_response: "Understood. You prefer to keep it off the floor to maintain its cleanliness."
+  image_prompt: "The grey backpack hanging neatly on the back of a modern office chair in a bright room."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "It really struggles when I try to pack too much. [IMAGE] This bulky winter jacket almost broke the zipper."
+  assistant_response: "I've noted that it's not designed for overstuffing, as bulky items can strain the zippers."
+  image_prompt: "A close-up of the grey backpack with a bulky black jacket stuffed inside, causing the horizontal front zipper to look tight and strained."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "It always looks best in a dry office setting like this. [IMAGE] I try to keep it away from any humidity or wet environments."
+  assistant_response: "I've noted that it's ideally kept in dry, indoor environments to maintain its condition."
+  image_prompt: "The grey backpack sitting on a clean wooden desk in a bright, air-conditioned office next to a silver coffee mug."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "I'm really careful with it because it was a promotion gift, so I want to keep it in pristine condition. [IMAGE]"
+  assistant_response: "Understood. You value it highly as a gift and prioritize keeping it in top condition."
+  image_prompt: "A close-up of the backpack showing its clean fabric and well-maintained zippers, highlighting its pristine state."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "I have a big certification exam tomorrow, so I'm carrying all these heavy textbooks today. [IMAGE] It feels way heavier than usual."
+  assistant_response: "I see. You're carrying several heavy textbooks for your exam, which makes it look much bulkier today."
+  image_prompt: "The grey backpack on a table, looking visibly stuffed and rounded with several thick textbooks inside."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "I got caught in a massive downpour on my way to work today. [IMAGE] It's soaking wet!"
+  assistant_response: "That's unfortunate. The fabric is visibly damp from the rain."
+  image_prompt: "The grey backpack sitting on a towel, with darker patches on the fabric showing where it is soaked with water."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "This coffee shop is so crowded today. [IMAGE] I had to put it right on this dusty floor because there wasn't an extra chair."
+  assistant_response: "I've noted that due to the lack of space, you had to place it on the floor today."
+  image_prompt: "The grey backpack sitting on a dark, dusty wooden floor next to a table leg in a busy cafe."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "I'm headed to the airport now. [IMAGE] I added this bright red tag to the handle so I can spot it easily."
+  assistant_response: "Understood. You've added a red luggage tag for visibility during your trip."
+  image_prompt: "A close-up of the top handle of the grey backpack with a bright red rectangular luggage tag attached to it."
+  image_id: turn_10

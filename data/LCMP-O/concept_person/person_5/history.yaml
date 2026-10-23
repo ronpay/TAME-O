@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "This is my friend Elena. [IMAGE] She's always wearing that blue and purple paisley scarf whenever it gets chilly."
+  assistant_response: "I've noted Elena's favorite paisley scarf as a key part of her cold-weather look."
+  image_prompt: "A young woman named Elena with wavy auburn hair, wearing a distinctive blue and purple paisley scarf while smiling at a winter market."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "She's a big fan of street food and always has a wide smile when she's enjoying a good meal. [IMAGE] She especially loves these fresh, mild sandwiches piled high with lettuce and onions."
+  assistant_response: "Got it. I've recorded her preference for mild sandwiches and her habit of smiling while eating."
+  image_prompt: "A young woman in a white jacket with a wide, cheerful smile, holding a large sandwich filled with fresh green lettuce and sliced onions."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "She's so easy to find in a crowd because she almost always has on this bright white puffer jacket. [IMAGE]"
+  assistant_response: "Understood. The white puffer jacket is her signature outerwear."
+  image_prompt: "A young woman in a bright white puffer jacket standing in a busy outdoor market environment."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "I love the way her wavy auburn hair looks in the sunlight. [IMAGE] It's such a beautiful color."
+  assistant_response: "Recorded. Her wavy auburn hair is a stable and recognizable trait."
+  image_prompt: "A close-up of a young woman's wavy auburn-brown hair flowing over the collar of her white jacket, seen from the side."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "She really prefers the casual vibe of these outdoor markets. [IMAGE] She'd rather stand at a high-top table like this than sit in a formal restaurant."
+  assistant_response: "I've noted that she prefers standing at high-top tables in outdoor settings over formal dining."
+  image_prompt: "A young woman in a white jacket standing at a tall metal table in a bustling outdoor food market."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "She's also got this cool silver vintage camera that she uses to document all her food finds. [IMAGE]"
+  assistant_response: "Recorded. She uses a small silver vintage camera for her food photography."
+  image_prompt: "A young woman holding a small, silver vintage-style film camera up to her eye, with a bustling food stall in the background."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "She decided to switch things up today and wore this new dark green knit beanie. [IMAGE]"
+  assistant_response: "I've noted the addition of the dark green knit beanie to her current outfit."
+  image_prompt: "A young woman wearing a dark green knit beanie and her usual white puffer jacket, smiling at the camera."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "We tried a new stall today, and man, that snack was way spicier than she expected! [IMAGE] Her eyes were watering after the first bite."
+  assistant_response: "I've recorded that she recently had a surprisingly spicy encounter with a new street snack."
+  image_prompt: "A young woman in a green beanie and white jacket looking surprised and fanning her mouth after eating a small, spicy-looking street snack."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "Oh no, she accidentally spilled some coffee on the cuff of her favorite white jacket earlier. [IMAGE] She was so bummed."
+  assistant_response: "I've noted that her signature white puffer jacket recently got a coffee stain on the left cuff."
+  image_prompt: "Elena looking dismayed while wearing her bright white puffer jacket, holding up the sleeve to show a noticeable brown coffee stain on the cuff."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "Since her white jacket is being cleaned now, she had to wear this long black trench coat instead for our walk today. [IMAGE]"
+  assistant_response: "Understood. She's currently wearing a long black trench coat while her usual jacket is being cleaned."
+  image_prompt: "A young woman walking through a city park wearing a long black trench coat and her paisley scarf."
+  image_id: turn_10

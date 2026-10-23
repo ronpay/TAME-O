@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: bottle_1
+concept_type: "object"
+name: "The Blue Hydrator"
+category: "Translucent Blue Sports Water Bottle"
+
+core_identity:
+  summary: "A reliable, translucent blue plastic water bottle with a dark blue flip-top lid and a grey textured grip."
+  role_in_user_life: "The user's constant companion for hydration, moving from the office desk to the gym bag daily."
+
+stable_visual_identity:
+  summary: "A blue-toned ergonomic bottle designed for one-handed use."
+  key_features:
+    - "Translucent blue plastic body that shows the water level clearly."
+    - "Dark blue flip-top cap with a grey silicone seal ring."
+    - "A subtle grey grip band around the upper neck for better handling."
+
+stable_behavioral_identity:
+  traits:
+    - "Usually sits on the right-hand corner of the user's workspace."
+    - "Is refilled every morning at 9:00 AM sharp before the first meeting."
+  preferences:
+    loves:
+      - "Filtered water with exactly three large ice cubes."
+      - "Being hand-washed with mild soap to preserve the plastic clarity."
+    dislikes:
+      - "Carbonated drinks, which cause the lid to pop unexpectedly."
+      - "Direct sunlight for extended periods, making the water lukewarm."
+
+relational_meaning:
+  user_relationship: "A sentimental item received from the user's younger sister after their first 10k race."
+  emotional_value: "Represents the user's journey toward health and the support of their family."
+  related_entities:
+    - "The user's black gym bag where it has a dedicated side pocket."
+
+history:
+  knowledge:
+    - "Instruction: Introduce that the bottle was a gift from the user's sister, Sarah, after the 'City Run' 10k."
+    - "Instruction: Introduce that the user has a strict habit of adding three ice cubes to the bottle every morning."
+    - "Instruction: Introduce the small, barely visible scratch on the grey grip band from a camping trip."
+    - "Instruction: Introduce that the bottle fits perfectly in the mesh side pocket of the user's black gym bag."
+    - "Instruction: Introduce the user's preference for this bottle's flip-top mechanism over screw-on lids."
+    - "Instruction: Introduce the '1L' measurement marking on the back which is starting to fade from use."
+  event:
+    - "Instruction: Introduce a recent event where the user accidentally left the bottle at a gym locker but retrieved it later."
+    - "Instruction: Introduce that this morning, the user decided to add a slice of lemon to the water for the first time."
+    - "Instruction: Introduce a moment where the bottle tipped over on the desk, but the seal held perfectly."
+    - "Instruction: Introduce that the user recently bought a new matching blue sleeve to protect the bottle's base."
+
+hard_questions:
+  - "Draft: Create a preference-conflict question that combines the 'three ice cubes' habit with the 'lemon slice' event to ask what is currently cooling and flavoring the water."
+  - "Draft: Create a causal-inference question that combines the 'sister's gift' knowledge with the 'retrieved from gym' event to ask about the user's emotional relief."
+  - "Draft: Create a state-identification question that combines the 'gym bag pocket' knowledge with the 'new blue sleeve' event to ask if the bottle still fits as easily as before."
+  - "Draft: Create a counterfactual or recommendation question that combines the 'flip-top preference' knowledge with the 'tipped over on desk' event to ask why a regular cup would have been worse."
+  - "Draft: Create another multi-clue reasoning question that combines the 'fading 1L mark' knowledge with the 'retrieved from gym' event to identify the bottle among others."

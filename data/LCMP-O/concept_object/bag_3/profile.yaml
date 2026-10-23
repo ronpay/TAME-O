@@ -1,0 +1,59 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: bag_3
+concept_type: "object"
+name: "Obsidian"
+category: "Sculpted Leather Minimalist Backpack"
+
+core_identity:
+  summary: "A sleek, black leather backpack with a unique sculpted form and a minimalist single-zipper design."
+  role_in_user_life: "The user's premium carry-all for formal events and high-end client meetings, representing their professional and sophisticated taste."
+
+stable_visual_identity:
+  summary: "A matte black leather backpack with a smooth, almost seamless front panel and a single large zipper track running along the top arch."
+  key_features:
+    - "Premium black grain leather with subtle natural creasing"
+    - "Unique sculpted, aerodynamic-like silhouette"
+    - "Large silver-toned zipper with a prominent leather pull tab"
+    - "Minimalist design with no external pockets or visible branding on the front"
+
+stable_behavioral_identity:
+  traits:
+    - "Used exclusively for professional or formal settings; never taken to the gym or grocery store"
+    - "Maintained with regular leather conditioning to keep its matte finish"
+  preferences:
+    loves:
+      - "Holding high-end tech like a slim tablet or a leather-bound notebook"
+      - "Being stored upright in a dust bag when not in use"
+    dislikes:
+      - "Exposure to direct sunlight for long periods, which might dry the leather"
+      - "Being squeezed into tight spaces like overhead bins or under seats"
+
+relational_meaning:
+  user_relationship: "A symbol of professional success and a transition to a more refined lifestyle."
+  emotional_value: "A self-gifted item after landing a dream job in architecture; it symbolizes the user's appreciation for form and function."
+  related_entities:
+    - "A matching leather card holder (often kept inside)"
+
+history:
+  knowledge:
+    - "Instruction: Introduce Obsidian as the user's high-end leather backpack used for architecture client meetings."
+    - "Instruction: Introduce its unique sculpted design and premium matte leather texture."
+    - "Instruction: Introduce its dislike for being squeezed or placed in tight spaces, showing it looking cramped in a small locker."
+    - "Instruction: Introduce the habit of storing it in a soft dust bag when at home."
+    - "Instruction: Introduce its dislike for direct sunlight, showing the user moving it away from a sunny window."
+    - "Instruction: Introduce the user's meticulous care, showing them applying leather conditioner."
+  event:
+    - "Instruction: Introduce a recent event where the user had to take Obsidian on a crowded bus, and it looks slightly compressed in a tight space."
+    - "Instruction: Introduce a recent situation where Obsidian was left on a sunny terrace during a long lunch, showing visible sunlight on its surface."
+    - "Instruction: Introduce a recent meeting where the user accidentally spilled some water near it, showing a few water droplets on the leather."
+    - "Instruction: Introduce a recent site visit where the user had to carry more than usual, showing the sculpted form slightly distorted by the load."
+
+hard_questions:
+  - "Draft: Create a preference-conflict question: Obsidian normally dislikes being squeezed, so why does it look so compressed in this photo? Combine the long-term dislike of tight spaces with the short-term event of the crowded bus commute."
+  - "Draft: Create a state-identification question: Why is the user moving Obsidian away from the window in this image? Combine the long-term dislike of direct sunlight with the recent event of it being left on a sunny terrace."
+  - "Draft: Create a causal-inference question: Why did the user immediately wipe the surface of Obsidian in this photo? Combine the long-term care for the leather with the recent event of the water spill."
+  - "Draft: Create a state-identification question: Why does the sculpted front of Obsidian look less smooth than usual in this photo? Combine the long-term visual identity with the recent event of it being over-packed for a site visit."
+  - "Draft: Create a counterfactual question: If the user is traveling on a budget airline with very limited seat space today, why might they choose a different bag than Obsidian? Combine the long-term dislike of being squeezed with the knowledge of how it reacted to the recent bus event."

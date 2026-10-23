@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: person_12
+concept_type: "person"
+name: "Julian"
+category: "Casual Gamer & Tech Enthusiast"
+
+core_identity:
+  summary: "Julian is a tech-savvy individual who finds joy in casual gaming and comfortable, relaxed home environments."
+  role_in_user_life: "The user's long-time gaming partner and close friend from college."
+
+stable_visual_identity:
+  summary: "Julian is easily recognized by his long hair and preference for textured, casual clothing."
+  key_features:
+    - "Long reddish-brown hair usually tied back in a ponytail"
+    - "Frequently wears light-colored waffle-knit or thermal long-sleeve shirts"
+    - "Often seen holding or using a classic white motion-control game remote"
+
+stable_behavioral_identity:
+  traits:
+    - "Enjoys casual, interactive gaming sessions with friends at home"
+    - "Prefers a relaxed, informal atmosphere and comfortable attire"
+  preferences:
+    loves:
+      - "Comfortable, oversized waffle-knit thermal shirts"
+      - "Using his original, well-worn white game remote"
+    dislikes:
+      - "Formal business attire like suits, ties, or dress shoes"
+      - "Using generic or third-party game controllers"
+
+relational_meaning:
+  user_relationship: "Close friend and reliable gaming companion."
+  emotional_value: "A source of fun and relaxation through shared hobbies and low-pressure social interactions."
+  related_entities:
+    - "A black dog that usually stays by his side during gaming sessions"
+
+history:
+  knowledge:
+    - "Instruction: Introduce that Julian's signature look includes his long hair tied in a ponytail."
+    - "Instruction: Introduce his preference for wearing light green waffle-knit thermal shirts for comfort."
+    - "Instruction: Introduce his favorite white game remote that he has used for years."
+    - "Instruction: Introduce his strong dislike for formal clothing, showing him looking awkward in a borrowed tie."
+    - "Instruction: Introduce the distinctive dark wood flooring of the living room where he hosts gaming nights."
+    - "Instruction: Introduce his black dog, who is his constant companion and always sits nearby during games."
+  event:
+    - "Instruction: Introduce a recent event where Julian accidentally dropped and cracked his favorite white remote."
+    - "Instruction: Introduce a recent photo of Julian wearing a stiff, uncomfortable suit for his cousin's wedding."
+    - "Instruction: Introduce a recent decision where Julian bought a sleek new black pro-controller to replace the broken one."
+    - "Instruction: Introduce a recent weekend where Julian's dog is away staying at his parents' house."
+
+hard_questions:
+  - "Draft: Create a preference-conflict question about why Julian is wearing a formal suit [IMAGE] despite his known hatred for such clothes."
+  - "Draft: Create a causal-inference question about why Julian has switched to using a black pro-controller in this photo [IMAGE]."
+  - "Draft: Create a state-identification question about Julian looking frustrated while using a generic controller [IMAGE] after breaking his favorite one."
+  - "Draft: Create a counterfactual question about what controller Julian would be using in this photo [IMAGE] if he hadn't had a recent accident."
+  - "Draft: Create a reasoning question about why the dog is missing from its usual spot on the dark wood floor in this photo [IMAGE]."

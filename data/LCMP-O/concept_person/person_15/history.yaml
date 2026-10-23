@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "Look at this photo of Elena from yesterday. [IMAGE] She's always on that red phone of hers, dealing with PR crises."
+  assistant_response: "I've noted that Elena is a PR consultant who is constantly using her red phone for work."
+  image_prompt: "Elena, a professional woman, talking intently on a bright red mobile phone while outdoors."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "Whenever we're outside, she's wearing these large brown-tinted sunglasses. [IMAGE] It's like her signature look."
+  assistant_response: "Got it. I've recorded the brown-tinted sunglasses as her stable outdoor accessory."
+  image_prompt: "A close-up of a woman's face wearing large, stylish brown-tinted sunglasses in a sunny outdoor setting."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "She has such a thing for bold colors. [IMAGE] Red is definitely her favorite; she tries to incorporate it whenever she can."
+  assistant_response: "Understood. I've noted her preference for bold red clothing and accessories."
+  image_prompt: "Elena sitting at an outdoor table arranging her favorite red accessories, including a red phone, red scarf, and red notebook."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "Notice the stacked gold and silver rings on her left hand in this shot? [IMAGE] She's worn that exact set for years."
+  assistant_response: "Recorded. I've noted the specific set of gold and silver rings on her left hand."
+  image_prompt: "Elena outdoors with her face partly visible, holding up her left hand to show several thin stacked gold and silver rings on her ring finger."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "She's been such a great mentor to me. [IMAGE] Whenever I have a tough email to write, I show it to her first."
+  assistant_response: "I've noted her role as your communication mentor and the person you trust for advice."
+  image_prompt: "Elena sitting outdoors with another person, pointing at the laptop screen as she mentors them on a difficult email."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "She grew up in a really sunny coastal city. [IMAGE] I think that's why she feels so much more productive working outside than in a stuffy office."
+  assistant_response: "I've recorded that her coastal background influenced her strong preference for working in outdoor environments."
+  image_prompt: "A woman working on a laptop at an outdoor table in a bright, sunny park with a coastal vibe."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "She actually just decided to move all her afternoon calls to 'walking meetings' in the park. [IMAGE] She says it keeps her brain sharper."
+  assistant_response: "I've noted her new policy of conducting afternoon calls as walking meetings in the park."
+  image_prompt: "A woman walking along a paved park path while talking on a red mobile phone."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "She was so stressed this morning. [IMAGE] She had to handle a massive PR crisis for a big client."
+  assistant_response: "I've recorded that she successfully managed a significant PR crisis earlier today."
+  image_prompt: "A woman sitting on a park bench, looking intensely at her red phone with a focused and slightly stressed expression."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "Her red phone actually died right in the middle of our walk today! [IMAGE] I've never seen her so frustrated."
+  assistant_response: "I've noted the incident where her phone battery ran out during her walk."
+  image_prompt: "A woman looking frustrated at a black phone screen that won't turn on while standing in a park."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "Look at the new red zip-up jacket she just bought! [IMAGE] It matches her phone perfectly."
+  assistant_response: "I've noted her recent purchase of a new red zip-up jacket to complement her red phone."
+  image_prompt: "A woman wearing a bright red zip-up jacket with a black collar, looking at her red phone."
+  image_id: turn_10

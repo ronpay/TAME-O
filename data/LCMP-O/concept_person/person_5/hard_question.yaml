@@ -1,0 +1,84 @@
+- id: 1
+  type: State Identification
+  question: "She's wearing this long black trench coat today. [IMAGE] Based on our recent outings, why is she in this coat instead of her signature white one?"
+  image_prompt: "A young woman walking through a city park wearing a long black trench coat and a paisley scarf, looking slightly out of her usual element."
+  evaluation_criteria:
+    ideal_answer: "Elena is wearing the black trench coat because her signature white puffer jacket is currently being professionally cleaned. The change was necessary because of a recent coffee spill on the white jacket's cuff."
+    key_points:
+      - "Her signature white puffer jacket is currently being cleaned after a recent spill."
+      - "She is known for consistently wearing a bright white puffer jacket as her primary outerwear."
+  options:
+    - "She's wearing the black coat because her usual white puffer jacket is being professionally cleaned."
+    - "She wanted a more formal look for the city walk today."
+    - "The black trench coat is better for the windy weather we are having today."
+    - "She decided to retire her white jacket after she accidentally stained it with coffee."
+  answer: "She's wearing the black coat because her usual white puffer jacket is being professionally cleaned."
+  image_id: hq_1
+
+- id: 2
+  type: Causal Inference
+  question: "Look at her reaction after taking a bite. [IMAGE] Given her usual love for street food, why does she seem so distressed right now?"
+  image_prompt: "A young woman in a green beanie and white jacket looking surprised and fanning her mouth with her hand while standing at an outdoor market."
+  evaluation_criteria:
+    ideal_answer: "Although Elena usually enjoys street food with a wide smile, she is currently distressed because she just tried a new snack that was much spicier than she expected, causing her eyes to water."
+    key_points:
+      - "She recently tried a new street snack that turned out to be surprisingly spicy."
+      - "She usually displays a genuine, wide smile when enjoying street food at markets."
+  options:
+    - "She is upset after one bite, but the image alone does not show which flavor caused the reaction."
+    - "She is disappointed because the snack does not have enough fresh lettuce."
+    - "She is unhappy because she had to stand at a high-top table to eat."
+    - "She is reacting to the unexpected heat of a new spicy snack she just tried."
+  answer: "She is reacting to the unexpected heat of a new spicy snack she just tried."
+  image_id: hq_2
+
+- id: 3
+  type: Preference Conflict
+  question: "She's at the market again today. [IMAGE] Which part of her current look is a long-term staple, and which is a brand new addition?"
+  image_prompt: "A portrait of a young woman wearing her signature blue and purple paisley scarf along with a new dark green knit beanie."
+  evaluation_criteria:
+    ideal_answer: "The blue and purple paisley scarf is a long-term staple of Elena's visual identity, whereas the dark green knit beanie is a new addition she recently started wearing for extra warmth."
+    key_points:
+      - "She recently started wearing a new dark green knit beanie."
+      - "She is consistently recognized by her signature blue and purple paisley scarf."
+  options:
+    - "Her outfit is visible, but the image alone does not show which accessory is long-term and which is new."
+    - "The paisley scarf is her long-term staple, while the green beanie is a recent addition."
+    - "The scarf is the familiar part of her look; the green beanie is what changed recently."
+    - "Her current outfit adds warmer layers because the outdoor market is windy."
+  answer: "The paisley scarf is her long-term staple, while the green beanie is a recent addition."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "She's looking at a menu for a new stall. [IMAGE] Considering her long-term tastes and her recent experience with spicy food, which item would she most likely avoid?"
+  image_prompt: "A young woman in a white jacket pointing at an item on a large menu board at a street food stall."
+  evaluation_criteria:
+    ideal_answer: "Elena would likely avoid an extremely spicy option because of her recent painful experience with a snack that was too hot. This conflicts with her usual preference for mild, fresh sandwiches with lettuce and onions."
+    key_points:
+      - "She recently had a distressing experience with a snack that was way too spicy."
+      - "She has a long-term preference for fresh, mild sandwiches with lettuce and onions."
+  options:
+    - "Given only the menu image, it is unclear which item conflicts with her recent food experience."
+    - "A mild cheese and tomato toastie from a popular local stall."
+    - "An 'Extra-Hot Atomic Wrap' that everyone is talking about."
+    - "A simple garden salad from a nearby artisan bakery."
+  answer: "An 'Extra-Hot Atomic Wrap' that everyone is talking about."
+  image_id: hq_4
+
+- id: 5
+  type: State Identification
+  question: "There's a noticeable brown mark on the sleeve of this white jacket. [IMAGE] Based on what happened earlier today, what is the source of this stain?"
+  image_prompt: "A young woman looking dismayed at a brown coffee stain on the left cuff of her bright white puffer jacket."
+  evaluation_criteria:
+    ideal_answer: "The brown mark is a coffee stain. This happened earlier today when Elena accidentally spilled coffee on the cuff of her favorite white puffer jacket."
+    key_points:
+      - "She recently spilled coffee on the left cuff of her white jacket."
+      - "She is distinguished by her habit of wearing a bright white puffer jacket almost every day."
+  options:
+    - "It's a visible brown mark, but the image alone does not show what caused it earlier today."
+    - "It's a coffee stain from a recent accidental spill on her favorite jacket."
+    - "It's a crease in the sleeve fabric that looks darker in the photo."
+    - "It's a smudge from brushing the sleeve against an outdoor table."
+  answer: "It's a coffee stain from a recent accidental spill on her favorite jacket."
+  image_id: hq_5

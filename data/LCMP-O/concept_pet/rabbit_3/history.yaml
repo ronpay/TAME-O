@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "This is Maple, my mini lop rabbit. [IMAGE] His long ears and the brown patch over his nose are the first things everyone notices."
+  assistant_response: "I've noted his name along with the drooping ears and nose patch as stable visual features."
+  image_prompt: "A close portrait of a fluffy mini lop rabbit with long drooping ears and a cocoa-brown patch over the nose."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "Dried apple chips are his favorite snack. [IMAGE] He usually comes over the second he hears the bag rustle."
+  assistant_response: "I've recorded dried apple chips as his favorite snack."
+  image_prompt: "A brown-and-white lop rabbit leaning toward a dried apple chip held just in front of him."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "He really hates stepping on wet floor. [IMAGE] If his paws might get damp, he just stops and waits."
+  assistant_response: "I've noted that he strongly avoids wet floor under his paws."
+  image_prompt: "A lop rabbit halted at the edge of a damp patch on a kitchen floor."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "That cream fleece cushion under the side table is his favorite place to nap. [IMAGE] He always looks most settled there."
+  assistant_response: "I've recorded the cream fleece cushion under the side table as his preferred resting spot."
+  image_prompt: "A fluffy lop rabbit resting on a cream fleece cushion under a small side table."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "He melts when I rub his forehead gently. [IMAGE] That usually helps him relax right away."
+  assistant_response: "I've noted that gentle forehead strokes calm him down."
+  image_prompt: "A hand gently stroking the forehead of a relaxed brown-and-white lop rabbit."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "He gets nervous whenever a broom is nearby. [IMAGE] The sweeping motion always makes him wary."
+  assistant_response: "I've recorded that brooms and sweeping motions make him uneasy."
+  image_prompt: "A lop rabbit watching a broom from a cautious distance with a tense posture."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "I washed his cream fleece cushion today and hung it outside to dry. [IMAGE] It is not under the side table right now."
+  assistant_response: "I've noted that his favorite cushion is currently unavailable because it was washed today."
+  image_prompt: "An empty space under a side table indoors while a cream fleece cushion hangs outside to dry."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "Water splashed across the kitchen doorway a little while ago. [IMAGE] The floor there is still wet."
+  assistant_response: "I've recorded the recent wet floor across the kitchen doorway."
+  image_prompt: "A lop rabbit standing near a kitchen doorway where water has splashed across the floor."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "I held out a dried apple chip from the other side of the wet doorway, but he still would not cross over. [IMAGE]"
+  assistant_response: "I've noted that he refused to cross the wet doorway even when offered a dried apple chip."
+  image_prompt: "A brown-and-white lop rabbit staying on one side of a wet doorway while a hand offers a dried apple chip from the other side."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "A broom got left beside the side table and he tucked himself underneath it. [IMAGE] He has been staying low there."
+  assistant_response: "I've recorded that he recently tucked himself under the side table with the broom nearby."
+  image_prompt: "A lop rabbit crouched low under a side table while a broom leans beside it."
+  image_id: turn_10

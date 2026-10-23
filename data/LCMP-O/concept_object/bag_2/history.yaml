@@ -1,0 +1,69 @@
+- turn: 1
+  log_type: knowledge
+  user_input: "Look at my new Onyx Coach Tote! [IMAGE] It just arrived today, a special gift from my mentor to celebrate my promotion."
+  assistant_response: "Congratulations on the promotion! I've noted that the Onyx Coach Tote was a gift from your mentor and is in pristine condition."
+  image_prompt: "A black Coach tote bag being unboxed from tissue paper, with a visible leather Coach tag and a professional gift card nearby."
+  image_id: turn_1
+
+- turn: 2
+  log_type: knowledge
+  user_input: "I love how the signature pattern looks under the office lights. [IMAGE] It's subtle but adds such a professional touch."
+  assistant_response: "The signature pattern definitely gives it a polished look. I've recorded its appearance under bright office lighting."
+  image_prompt: "A close-up of the black canvas signature 'C' pattern on the tote bag, illuminated by bright overhead office fluorescent lights."
+  image_id: turn_2
+
+- turn: 3
+  log_type: knowledge
+  user_input: "I always keep my things organized. [IMAGE] I just bought this leather organizer to fit perfectly inside."
+  assistant_response: "That's a great way to keep everything in its place. I've noted your routine of using a leather organizer inside it."
+  image_prompt: "The interior of the black tote bag with a structured leather organizer being inserted, showing various compartments for pens and devices."
+  image_id: turn_3
+
+- turn: 4
+  log_type: knowledge
+  user_input: "It has its own spot on my desk, right next to my coffee. [IMAGE] I make sure to keep it away from any spills."
+  assistant_response: "It's good to keep it in a safe, dry spot. I've recorded its preferred placement on your clean office desk."
+  image_prompt: "The black tote bag sitting upright on a clean wooden desk next to a steaming cup of coffee in a white mug."
+  image_id: turn_4
+
+- turn: 5
+  log_type: knowledge
+  user_input: "These reinforced corners are a lifesaver for my daily commute. [IMAGE] It really handles the hustle and bustle well."
+  assistant_response: "Those reinforced corners definitely help with durability. I've noted they are built for your morning commute."
+  image_prompt: "A low-angle shot focusing on the reinforced black leather bottom corners of the tote bag, showing their sturdy construction."
+  image_id: turn_5
+
+- turn: 6
+  log_type: knowledge
+  user_input: "Giving it a little TLC tonight with some leather conditioner. [IMAGE] I want to keep it looking new for as long as possible."
+  assistant_response: "Proper care will definitely keep it looking great. I've noted your routine of polishing it with leather conditioner."
+  image_prompt: "A hand using a soft white cloth to apply leather conditioner to the handles and trim of the black tote bag."
+  image_id: turn_6
+
+- turn: 7
+  log_type: event
+  user_input: "The rain really caught me off guard today. [IMAGE] I'm so worried about the water spots on the canvas."
+  assistant_response: "I see the water droplets on it. I've recorded that it recently got wet during a rainy day."
+  image_prompt: "The black tote bag with visible small water droplets on its signature canvas surface, sitting on a indoor mat."
+  image_id: turn_7
+
+- turn: 8
+  log_type: event
+  user_input: "I might have pushed it too far today by stuffing my thick gym towel inside. [IMAGE] The zipper line looks all warped now."
+  assistant_response: "It does look a bit overstuffed. I've noted the distorted zipper line caused by the bulky gym towel."
+  image_prompt: "The black tote bag bulging at the sides with a thick gray towel peeking out, causing the top zipper to appear strained and uneven."
+  image_id: turn_8
+
+- turn: 9
+  log_type: event
+  user_input: "I had to visit a construction site for work today. [IMAGE] It ended up on the dusty floor for a bit, which I hated."
+  assistant_response: "That's quite a change from its usual office environment. I've noted it was placed on a dusty floor at a construction site."
+  image_prompt: "The black tote bag sitting on a dusty concrete floor with faint white footprints and construction debris nearby."
+  image_id: turn_9
+
+- turn: 10
+  log_type: event
+  user_input: "I'm heading straight to a gallery opening after work, so I tied this silk scarf on. [IMAGE] What do you think?"
+  assistant_response: "The scarf adds a nice touch of elegance! I've recorded the new decorative silk scarf on the handle for your special event."
+  image_prompt: "A colorful patterned silk scarf tied in a neat bow around one of the black leather handles of the tote bag."
+  image_id: turn_10

@@ -1,0 +1,84 @@
+- id: 1
+  type: Causal Inference
+  question: "I took this picture right after the kitchen accident. [IMAGE] Why is she hiding under the heavy blanket upstairs?"
+  image_prompt: "A pure white Persian cat completely hidden under a thick blanket on a bed, looking extremely frightened."
+  evaluation_criteria:
+    ideal_answer: "She normally has a strong fear of loud noises, and the recent shattering of the heavy glass in the kitchen frightened her. She is hiding because the loud event triggered her long-term fear."
+    key_points:
+      - "A heavy glass recently shattered in the kitchen with a loud noise."
+      - "She has a strong long-term dislike of loud, sudden noises."
+  options:
+    - "She hid upstairs, but the photo alone does not show which kitchen accident frightened her."
+    - "She dislikes the new scratchy wool pillow on the sofa and decided to sleep upstairs instead."
+    - "She hid under the blanket because the upstairs room was warmer and quieter than the kitchen."
+    - "She is hiding because the loud glass shattering in the kitchen triggered her long-term fear of sudden noises."
+  answer: "She is hiding because the loud glass shattering in the kitchen triggered her long-term fear of sudden noises."
+  image_id: hq_1
+
+- id: 2
+  type: State Identification
+  question: "Here she is standing at the edge of the hallway. [IMAGE] Why does she refuse to step fully into the room?"
+  image_prompt: "A pure white Persian cat standing hesitantly at the threshold of a flooded bathroom, refusing to step inside."
+  evaluation_criteria:
+    ideal_answer: "She intensely dislikes getting her paws wet, and the bathroom floor is currently flooded from a leaky pipe. She is refusing to enter because the short-term flooded state conflicts with her long-term aversion to dampness."
+    key_points:
+      - "The bathroom floor was recently flooded due to a leaky pipe."
+      - "She has an intense long-term aversion to getting her paws wet."
+  options:
+    - "She refuses to enter, but the image alone does not reveal what is wrong with the floor."
+    - "She is waiting at the hallway edge because someone is still cleaning up nearby."
+    - "She refuses to enter because the floor is flooded and she intensely dislikes getting her paws wet."
+    - "She avoids the room because it is too cold and damp for her usual sleeping preferences."
+  answer: "She refuses to enter because the floor is flooded and she intensely dislikes getting her paws wet."
+  image_id: hq_2
+
+- id: 3
+  type: Preference Conflict
+  question: "Look at this scene in the living room. [IMAGE] She usually loves resting on the sofa, so why is she sleeping on the hard floor instead?"
+  image_prompt: "A pure white Persian cat sleeping on a hard wooden floor next to a living room sofa that has a rough wool throw pillow on it."
+  evaluation_criteria:
+    ideal_answer: "Her favorite sleeping spot is the smooth silk throw pillow, but it was recently replaced with a scratchy wool one. She chose the floor because the new rough texture conflicts with her long-term preference for silk."
+    key_points:
+      - "The silk pillow was recently replaced with a rough wool throw pillow."
+      - "Her preferred sleeping spot is a smooth silk throw pillow on the sofa."
+  options:
+    - "She chose the floor because the new rough wool pillow conflicts with her long-term preference for the smooth silk pillow."
+    - "She chose the hard floor because the wool pillow is too warm for her thick fur."
+    - "She prefers the floor because the new wool pillow is uncomfortable."
+    - "She is sleeping on the floor to stay out of the way while the living room is being redecorated."
+  answer: "She chose the floor because the new rough wool pillow conflicts with her long-term preference for the smooth silk pillow."
+  image_id: hq_3
+
+- id: 4
+  type: Causal Inference
+  question: "Here is a snapshot from tonight's routine. [IMAGE] Why does she look so agitated and restless?"
+  image_prompt: "A pure white Persian cat looking agitated, squirming away from a person trying to groom her with a stiff plastic comb."
+  evaluation_criteria:
+    ideal_answer: "She usually enjoys her evening grooming as a calming ritual with a natural bristle brush, but tonight a stiff plastic comb is being used. She is agitated because the temporary use of the stiff comb ruins her long-term calming ritual."
+    key_points:
+      - "A stiff plastic comb is currently being used because the usual brush was lost."
+      - "She relies on being brushed with a natural bristle brush as a calming ritual."
+  options:
+    - "She is restless, but the photo alone does not show which grooming tool is bothering her."
+    - "She is agitated because the temporary stiff plastic comb is uncomfortable compared to her preferred natural bristle brush."
+    - "She is squirming because she wants to return to the sofa and sleep."
+    - "She is upset because she is still recovering from the loud noise in the kitchen earlier."
+  answer: "She is agitated because the temporary stiff plastic comb is uncomfortable compared to her preferred natural bristle brush."
+  image_id: hq_4
+
+- id: 5
+  type: Causal Inference
+  question: "Here is a picture of her hiding spot after the kitchen accident. [IMAGE] Since it was so dark under there, how did I find her so quickly?"
+  image_prompt: "A pure white Persian cat hiding in a dark space under a cabinet, with a pastel-pink velvet collar and tiny silver bell clearly visible."
+  evaluation_criteria:
+    ideal_answer: "She hid because of the recent loud shattering glass, but her location was given away by her collar. The long-term presence of her silver bell jingled, making her easy to find despite the dark."
+    key_points:
+      - "A heavy glass recently shattered in the kitchen with a loud noise, causing her to hide."
+      - "She always wears a pastel-pink velvet collar with a tiny silver bell."
+  options:
+    - "She was easy to find because her white fur and pink collar reflected the hallway light under the cabinet."
+    - "She was easy to find because the silver bell on her stable pastel-pink collar jingled when she hid from the loudly shattered glass."
+    - "The crash made her freeze under the cabinet, so the owner checked the closest hiding spot first."
+    - "She ran under the cabinet when the glass broke, and the owner saw the cabinet door shift."
+  answer: "She was easy to find because the silver bell on her stable pastel-pink collar jingled when she hid from the loudly shattered glass."
+  image_id: hq_5

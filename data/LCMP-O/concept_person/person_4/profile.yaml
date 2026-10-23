@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: person_4
+concept_type: "person"
+name: "Alistair"
+category: "Independent Film Curator"
+
+core_identity:
+  summary: "A dedicated film historian and curator known for his eclectic, classic-modern style and passion for analog cinema."
+  role_in_user_life: "A close friend and local cultural guide who often shares insights about the city's hidden artistic gems."
+
+stable_visual_identity:
+  summary: "Alistair maintains a distinct aesthetic blending vintage professional wear with casual urban elements."
+  key_features:
+    - "Frequently wears a structured flat cap (often in olive or brown tones)."
+    - "A signature navy blue pinstripe blazer that serves as his professional uniform."
+    - "A long, silk-like navy scarf loosely tied around his neck."
+
+stable_behavioral_identity:
+  traits:
+    - "Methodical and observant, often seen taking notes in public spaces."
+    - "Prefers walking through the city streets over using the subway or buses."
+  preferences:
+    loves:
+      - "35mm celluloid film screenings and old-fashioned independent cinemas."
+      - "Using high-quality, leather-bound notebooks for his film reviews."
+    dislikes:
+      - "Loud, neon-lit modern multiplexes and digital projection technology."
+      - "Using digital devices for creative or reflective tasks."
+
+relational_meaning:
+  user_relationship: "The user often joins Alistair for film screenings and urban walks."
+  emotional_value: "Alistair represents a commitment to tradition and craftsmanship in an increasingly digital world."
+  related_entities:
+    - "The 'Silver Screen' independent cinema"
+
+history:
+  knowledge:
+    - "Instruction: Introduce Alistair's flat cap as his 'thinking hat' that he wears for all important curation work."
+    - "Instruction: Introduce his signature navy pinstripe blazer as his daily professional staple."
+    - "Instruction: Introduce the navy silk-like scarf as a cherished gift he wears during city walks."
+    - "Instruction: Introduce his role as the head curator at the 'Silver Screen' independent cinema."
+    - "Instruction: Introduce his strong preference for 35mm film reels over digital files."
+    - "Instruction: Introduce his habit of using a specific leather-bound notebook for all his curated film notes."
+  event:
+    - "Instruction: Introduce a recent event where Alistair had to attend a premiere at a loud, neon-lit modern IMAX theater."
+    - "Instruction: Introduce a recent incident where he spilled coffee on his signature pinstripe blazer."
+    - "Instruction: Introduce a recent situation where his leather notebook was full, forcing him to use a bright yellow spiral notebook."
+    - "Instruction: Introduce a recent technical failure at the cinema where Alistair was forced to use a digital projector."
+
+hard_questions:
+  - "Draft: Create a preference-conflict question asking why Alistair looks uncomfortable in a neon-lit lobby, combining his dislike of multiplexes with the recent IMAX premiere event."
+  - "Draft: Create a causal-inference question explaining why Alistair is using a digital projector, combining his 35mm preference with the recent technical failure."
+  - "Draft: Create a state-identification question asking why Alistair is wearing a casual hoodie today, combining his pinstripe blazer staple with the recent coffee spill event."
+  - "Draft: Create a counterfactual question asking why he is writing in a yellow notebook, combining his leather-bound notebook habit with the recent 'notebook full' event."
+  - "Draft: Create a multi-clue reasoning question about his role at the 'Silver Screen' cinema and why he is holding a 'Digital Troubleshooting' manual despite his curated role."

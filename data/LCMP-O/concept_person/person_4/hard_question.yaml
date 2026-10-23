@@ -1,0 +1,84 @@
+- id: 1
+  type: Preference Conflict
+  question: "Look at the expression here. [IMAGE] Given his usual cinematic preferences, why does he look so uncomfortable in this modern theater lobby?"
+  image_prompt: "The person looking visibly uneasy and out of place in a bright, neon-lit modern IMAX cinema lobby."
+  evaluation_criteria:
+    ideal_answer: "He looks uncomfortable because he is attending a blockbuster premiere in a modern IMAX theater, which conflicts with his long-term preference for 35mm screenings at traditional independent cinemas."
+    key_points:
+      - "He recently attended a blockbuster premiere at a neon-lit IMAX theater."
+      - "He is a 35mm celluloid purist who typically avoids digital-focused modern multiplexes."
+  options:
+    - "He is uncomfortable in the lobby, but the image alone does not reveal his usual theater preference."
+    - "He is bothered because the crowd is blocking his view of the theater entrance."
+    - "He is worried about missing a screening at his own cinema while attending this networking event."
+    - "He is uneasy because the modern IMAX lobby's neon aesthetic conflicts with his preference for 35mm independent cinemas."
+  answer: "He is uneasy because the modern IMAX lobby's neon aesthetic conflicts with his preference for 35mm independent cinemas."
+  image_id: hq_1
+
+- id: 2
+  type: Causal Inference
+  question: "He’s normally so precise in the booth. [IMAGE] Why is he using this digital projector interface today despite his clear preference for 35mm film?"
+  image_prompt: "The person looking frustrated while interacting with the glowing digital interface of a modern cinema projector."
+  evaluation_criteria:
+    ideal_answer: "He is using the digital projector because the traditional 35mm projector at the cinema recently broke down, forcing him to use the digital equipment he usually avoids."
+    key_points:
+      - "The 35mm projector at the cinema recently broke down during a screening."
+      - "He has a strong long-term preference for 35mm film reels over digital projection."
+  options:
+    - "He is using a digital interface, but the image alone does not show what forced the switch."
+    - "He is trying to learn the digital system to see if it can replicate the look of 35mm film."
+    - "He is repairing the digital interface because he is the only one who understands the cinema's equipment."
+    - "He was forced to use the digital projector because the cinema's 35mm equipment suffered a technical failure."
+  answer: "He was forced to use the digital projector because the cinema's 35mm equipment suffered a technical failure."
+  image_id: hq_2
+
+- id: 3
+  type: State Identification
+  question: "He looks quite different today. [IMAGE] Based on his usual daily uniform, why is he wearing a casual grey hoodie instead of his signature pinstripe blazer?"
+  image_prompt: "The person standing on a sidewalk wearing a plain grey hoodie and looking slightly embarrassed."
+  evaluation_criteria:
+    ideal_answer: "He is wearing the casual hoodie because he recently spilled coffee on his favorite pinstripe blazer, making his signature professional uniform unwearable."
+    key_points:
+      - "He recently spilled coffee on his signature blazer, leaving a large stain."
+      - "He normally wears a navy pinstripe blazer as his daily professional uniform."
+  options:
+    - "He is dressed casually for a city walk, which is an exception to his usual professional style."
+    - "He is wearing the hoodie because his signature pinstripe blazer was recently ruined by a coffee spill."
+    - "He changed his outfit to blend in better at the modern IMAX premiere event he attended."
+    - "He is trying out a new urban look that differs from his traditional curator aesthetic."
+  answer: "He is wearing the hoodie because his signature pinstripe blazer was recently ruined by a coffee spill."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "I saw him writing in this earlier. [IMAGE] Why has he switched to using this bright yellow spiral notebook instead of his usual leather one?"
+  image_prompt: "The person writing in a bright yellow spiral notebook with an expression of mild distaste, his olive flat cap visible on the table."
+  evaluation_criteria:
+    ideal_answer: "He has switched to the yellow notebook because his usual leather-bound notebook finally ran out of space today, forcing him to use a temporary replacement."
+    key_points:
+      - "His usual leather-bound notebook recently ran out of space."
+      - "He has a long-term habit of using a specific leather-bound notebook for all his film reviews."
+  options:
+    - "He brought the bright spiral notebook, but the image alone does not show what happened to his usual one."
+    - "He is using a cheaper notebook because he is worried about damaging his leather one during city walks."
+    - "He switched to the spiral notebook because his preferred leather-bound one is currently full."
+    - "He decided to try a more colorful notebook to match his recent change in aesthetic."
+  answer: "He switched to the spiral notebook because his preferred leather-bound one is currently full."
+  image_id: hq_4
+
+- id: 5
+  type: Causal Inference
+  question: "He’s been the head curator for years. [IMAGE] Why is he spending his afternoon studying this 'Digital Troubleshooting' manual instead of his usual film notes?"
+  image_prompt: "The person intently reading a thick 'Digital Projector Troubleshooting' manual while sitting in a cinema seat."
+  evaluation_criteria:
+    ideal_answer: "He is studying the digital manual because the 35mm projector at the Silver Screen cinema broke down, requiring him to troubleshoot the digital system as the head curator."
+    key_points:
+      - "A recent technical failure of the 35mm projector occurred at the cinema."
+      - "He is the head curator at the 'Silver Screen' cinema, responsible for the screening equipment."
+  options:
+    - "He is reading the manual because a 35mm equipment failure forced him to handle the digital projector."
+    - "He is studying it because the cinema scheduled staff training on digital backups."
+    - "He is preparing a lecture on the differences between 35mm and digital projection for the cinema."
+    - "He is looking for ways to bypass the digital projector's automated settings to improve image quality."
+  answer: "He is reading the manual because a 35mm equipment failure forced him to handle the digital projector."
+  image_id: hq_5

@@ -1,0 +1,84 @@
+- id: 1
+  type: Causal Inference
+  question: "Why is the owner carrying him toward the bathroom even though he looks so resistant? [IMAGE]"
+  image_prompt: "The owner carrying a muddy Japanese Chin puppy toward a bathroom, with the puppy looking resistant and unhappy."
+  evaluation_criteria:
+    ideal_answer: "He recently got covered in thick mud from digging in the garden, so he needs a bath, but he has a long-term strong dislike of water and avoids baths at all costs."
+    key_points:
+      - "He recently got covered in thick mud after digging in the garden."
+      - "He strongly dislikes water and avoids getting bathed at all costs."
+  options:
+    - "The image shows him being carried toward the bathroom, but not the specific reason for the bath."
+    - "He stepped through potting soil on the porch, and the owner is carrying him so the clean hallway stays spotless."
+    - "He was splashed by garden sprinklers, so the owner is taking him in to towel-dry him even though being carried annoys him."
+    - "He recently got covered in thick mud from digging in the garden, so he needs a bath, but he has a long-term strong dislike of water and avoids baths at all costs."
+  answer: "He recently got covered in thick mud from digging in the garden, so he needs a bath, but he has a long-term strong dislike of water and avoids baths at all costs."
+  image_id: hq_1
+
+- id: 2
+  type: Preference Conflict
+  question: "Why is he curled up on the bare sofa instead of his favorite spot today? [IMAGE]"
+  image_prompt: "A fluffy Japanese Chin puppy sleeping directly on a bare sofa couch, looking slightly uncomfortable."
+  evaluation_criteria:
+    ideal_answer: "He loves sleeping on his soft yellow fleece blanket, but the owner recently washed it and hung it outside to dry, so it is currently unavailable."
+    key_points:
+      - "His yellow fleece blanket was recently washed and hung outside to dry."
+      - "He loves sleeping on his soft yellow fleece blanket."
+  options:
+    - "Because the bare sofa catches afternoon sun, making it warmer than the drafty floor beside the window."
+    - "He loves sleeping on his soft yellow fleece blanket, but the owner recently washed it and hung it outside to dry, so it is currently unavailable."
+    - "Because the freshly washed blanket still smells strongly of detergent, so he is avoiding it until the scent fades."
+    - "He got his usual blanket dirty while playing outside, so the owner moved it before he could settle there."
+  answer: "He loves sleeping on his soft yellow fleece blanket, but the owner recently washed it and hung it outside to dry, so it is currently unavailable."
+  image_id: hq_2
+
+- id: 3
+  type: State Identification
+  question: "Why is he hiding under the sofa right now? [IMAGE]"
+  image_prompt: "A fluffy Japanese Chin puppy cowering deep under a sofa, looking frightened."
+  evaluation_criteria:
+    ideal_answer: "The owner recently turned on a loud motorized toy car in the room, and he has a long-term terror of loud motorized sounds."
+    key_points:
+      - "A loud motorized toy car was recently turned on."
+      - "He is terrified of loud motorized sounds."
+  options:
+    - "He is hiding under the sofa, but the image alone does not reveal which sound or object scared him."
+    - "The owner recently turned on a loud motorized toy car in the room, and he has a long-term terror of loud motorized sounds."
+    - "He is trying to avoid getting a bath after getting covered in mud in the garden."
+    - "He dragged his favorite blue plush bone under the sofa and is protecting it from being taken away."
+  answer: "The owner recently turned on a loud motorized toy car in the room, and he has a long-term terror of loud motorized sounds."
+  image_id: hq_3
+
+- id: 4
+  type: Causal Inference
+  question: "Why is he stranded on the patio chair, refusing to come down? [IMAGE]"
+  image_prompt: "A fluffy Japanese Chin puppy sitting on a patio chair, looking down anxiously at the grass and refusing to jump off."
+  evaluation_criteria:
+    ideal_answer: "The sprinkler system accidentally turned on, making the grass wet, and he refuses to walk on wet grass because he hates how it feels on his paws."
+    key_points:
+      - "The sprinkler system accidentally turned on while he was in the yard."
+      - "He refuses to walk on wet grass because he hates how it feels on his paws."
+  options:
+    - "He is stranded because a toy rolled under the patio chair and he is waiting for help."
+    - "He is waiting on the chair because it is too high for him to jump down comfortably."
+    - "The sprinkler system accidentally turned on, making the grass wet, and he refuses to walk on wet grass because he hates how it feels on his paws."
+    - "He dropped his favorite blue plush bone in the mud and is waiting for the owner to get it."
+  answer: "The sprinkler system accidentally turned on, making the grass wet, and he refuses to walk on wet grass because he hates how it feels on his paws."
+  image_id: hq_4
+
+- id: 5
+  type: State Identification
+  question: "Why is the toy outside so filthy when he is completely clean? [IMAGE]"
+  image_prompt: "A fluffy Japanese Chin puppy, fresh and clean after a bath, looking sadly at a small blue plush squeaky bone toy that is completely covered in thick, dark mud on the grass outside."
+  evaluation_criteria:
+    ideal_answer: "He recently got covered in thick mud from digging in the garden and just had a bath, but because the blue plush bone is his absolute favorite toy, he had it with him while digging."
+    key_points:
+      - "He recently got covered in thick mud after digging in the garden."
+      - "The blue plush squeaky bone is his absolute favorite toy."
+  options:
+    - "He recently got covered in thick mud from digging in the garden and just had a bath, but because the blue plush bone is his absolute favorite toy, he had it with him while digging."
+    - "The sprinkler system turned on and washed the toy into a muddy puddle, and he is waiting for it to dry."
+    - "The blue plush bone got dirty because it was left outside when the sprinkler came on."
+    - "He tried to bury the toy in the mud to hide it from the loud motorized toy car that was running inside."
+  answer: "He recently got covered in thick mud from digging in the garden and just had a bath, but because the blue plush bone is his absolute favorite toy, he had it with him while digging."
+  image_id: hq_5

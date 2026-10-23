@@ -1,0 +1,84 @@
+- id: 1
+  type: Preference Conflict
+  question: "Here she is at the venue for that wedding she was hired for. [IMAGE] Given the conservative setting, why did she choose to wear such clashing and bold makeup instead of something more traditional?"
+  image_prompt: "A woman with vibrant purple and green asymmetrical eye makeup standing in an elegant, traditional wedding hall."
+  evaluation_criteria:
+    ideal_answer: "She wore bold makeup because she has a deep-seated dislike for conservative or 'safe' aesthetics, as established in her history. Even when hired for a traditional event like this wedding, her rebellious nature and preference for clashing neon colors overrode any expectation of a discreet look."
+    key_points:
+      - "She recently attended a conservative wedding where she maintained her bold style."
+      - "She has a long-term dislike for conservative, traditional, or 'safe' aesthetics."
+  options:
+    - "She may be using the conservative wedding as a chance to show her avant-garde makeup style instead of blending in."
+    - "She was instructed by the bride to provide a modern contrast to the traditional decor."
+    - "She simply forgot the dress code and arrived in her usual daily makeup."
+    - "She chose to stay true to her rebellious style because she dislikes conservative aesthetics."
+  answer: "She chose to stay true to her rebellious style because she dislikes conservative aesthetics."
+  image_id: hq_1
+
+- id: 2
+  type: Causal Inference
+  question: "Look at the application of the green shadow here. [IMAGE] Why is the makeup so much heavier and more blocky than her usual asymmetrical style?"
+  image_prompt: "A close-up of a woman's face where the neon green shadow is applied in a thick, dense rectangular block across one eye."
+  evaluation_criteria:
+    ideal_answer: "The makeup is unusually heavy because she recently acquired a new neon green eyeshadow and has been experimenting with it. This combines her long-term preference for neon clashing colors with the recent event of testing this specific new product."
+    key_points:
+      - "She has been experimenting with a new, thick neon green eyeshadow recently."
+      - "She has a long-term preference for vibrant and clashing neon color palettes."
+  options:
+    - "The image shows a blocky green shape, but not why it differs from her usual makeup style."
+    - "She is using a heavier application to better experiment with her new neon green shadow."
+    - "She accidentally applied too much and decided to leave it as a bold statement."
+    - "She is trying to hide a recent blemish by using a thicker layer of pigment."
+  answer: "She is using a heavier application to better experiment with her new neon green shadow."
+  image_id: hq_2
+
+- id: 3
+  type: State Identification
+  question: "In this photo, her lip piercing looks different. [IMAGE] What is the reason for this change from her normal appearance?"
+  image_prompt: "A close-up of a woman's mouth with a large, prominent silver stud in her lower lip piercing."
+  evaluation_criteria:
+    ideal_answer: "The change is due to her misplacing her favorite small lip ring this morning. While the piercing itself is a stable part of her identity, the current larger stud is a temporary replacement because of that recent loss."
+    key_points:
+      - "She recently misplaced her favorite lip ring and is using a temporary replacement."
+      - "A lip piercing is a stable and permanent part of her visual identity."
+  options:
+    - "She decided to upgrade to a more prominent piece of jewelry to match her bold makeup."
+    - "She is wearing a temporary larger stud because she lost her usual small lip ring."
+    - "She is trying out a new style of jewelry as part of her avant-garde career."
+    - "She recently got a second piercing and is using a larger stud to help it heal."
+  answer: "She is wearing a temporary larger stud because she lost her usual small lip ring."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "She just received this invitation. [IMAGE] Based on her history, how is she most likely to dress if she decides to attend this 'Minimalist Black & White' gala?"
+  image_prompt: "A woman looking at a sleek black and white invitation with a mocking smile."
+  evaluation_criteria:
+    ideal_answer: "She is likely to dress in a way that deliberately clashes with the minimalist theme. Her history shows she mocks minimalist or monochromatic trends and has a long-term preference for clashing neon colors and rebellious aesthetics."
+    key_points:
+      - "She recently received an invitation to a 'Minimalist Black & White' gala which she is mocking."
+      - "She has a long-term dislike for monochromatic styles and a love for clashing neon colors."
+  options:
+    - "She will probably arrive in black and white but use exaggerated green makeup as the disruptive element."
+    - "She will probably skip the event entirely because she hates minimalist aesthetics."
+    - "She will likely wear a bold, neon-colored outfit to intentionally clash with the theme."
+    - "She will attend in a simple outfit but use her makeup to add a small hint of color."
+  answer: "She will likely wear a bold, neon-colored outfit to intentionally clash with the theme."
+  image_id: hq_4
+
+- id: 5
+  type: Causal Inference
+  question: "She's been spending a lot of time at the Neon Gallery lately. [IMAGE] How does this relate to her professional career and her reaction to recent invitations?"
+  image_prompt: "A woman standing in a vibrant neon-lit gallery, looking thoughtfully at a piece of abstract street art."
+  evaluation_criteria:
+    ideal_answer: "She is visiting the gallery to find inspiration for her professional work as an avant-garde makeup artist. Her recent mockery of the minimalist gala suggests she is doubling down on her bold style, using the gallery's clashing colors to fuel her next project."
+    key_points:
+      - "She is currently mocking a minimalist gala and seeking alternative inspiration."
+      - "She works professionally as an avant-garde makeup artist in the underground scene."
+  options:
+    - "She is visiting the gallery, but the image alone does not show how those visits connect to her career."
+    - "She is meeting with a curator who wants her to design a more restrained corporate mural."
+    - "She is helping a friend set up a new art installation at the gallery."
+    - "She is seeking professional inspiration to counter the minimalist trends she dislikes."
+  answer: "She is seeking professional inspiration to counter the minimalist trends she dislikes."
+  image_id: hq_5

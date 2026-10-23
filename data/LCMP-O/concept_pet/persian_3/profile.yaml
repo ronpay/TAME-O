@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: persian_3
+concept_type: "pet"
+name: "Barnaby"
+category: "Persian Cat"
+
+core_identity:
+  summary: "A fluffy Persian cat with striking copper eyes and a very flat, pushed-in face."
+  role_in_user_life: "A pampered and highly adored indoor companion who dictates the mood of the household."
+
+stable_visual_identity:
+  summary: "A thick-coated Persian cat with a distinctively flat face."
+  key_features:
+    - "A very flat, pushed-in face with a small nose"
+    - "Thick, long, light gray fur with subtle darker facial markings"
+    - "No visible collar"
+
+stable_behavioral_identity:
+  traits:
+    - "Extremely lazy and prefers lounging on plush surfaces"
+    - "Grooms meticulously but often needs help due to his flat face"
+  preferences:
+    loves:
+      - "Being brushed with his special wire brush"
+      - "Eating premium salmon paste"
+    dislikes:
+      - "Loud noises, especially the vacuum cleaner"
+      - "Being picked up suddenly"
+
+relational_meaning:
+  user_relationship: "A deeply bonded companion who brings calm and quiet joy to the user."
+  emotional_value: "Provides a sense of routine and comfort; his presence is a stress reliever."
+  related_entities:
+    - "The user's plush home office chair"
+
+history:
+  knowledge:
+    - "Instruction: Introduce that Barnaby is a light gray Persian cat with a flat face and subtle darker facial markings."
+    - "Instruction: Introduce that Barnaby has no visible collar."
+    - "Instruction: Introduce his love for being brushed with a wire brush."
+    - "Instruction: Introduce his strong dislike for loud noises like the vacuum cleaner."
+    - "Instruction: Introduce his habit of claiming the plush home office chair."
+    - "Instruction: Introduce his preference for premium salmon paste."
+  event:
+    - "Instruction: Introduce that Barnaby was recently hiding under the sofa."
+    - "Instruction: Introduce that his fur is currently matted and dirty after sneaking into the dusty attic."
+    - "Instruction: Introduce that he was recently photographed eating dry kibble from a bowl."
+    - "Instruction: Introduce that he is currently sitting on a hard wooden stool instead of his usual spot."
+
+hard_questions:
+  - "Draft: Create a causal-inference question that combines his short-term hiding under the sofa with his long-term dislike for loud noises like the vacuum."
+  - "Draft: Create a state-identification question that combines his short-term matted and dirty fur with his long-term light gray appearance."
+  - "Draft: Create a preference-conflict question that combines his short-term eating of dry kibble with his long-term preference for premium salmon paste."
+  - "Draft: Create a preference-conflict question that combines his short-term sitting on a hard wooden stool with his long-term habit of claiming the plush home office chair."
+  - "Draft: Create a recommendation question that combines his short-term matted and dirty fur with his long-term love for being brushed with a wire brush."

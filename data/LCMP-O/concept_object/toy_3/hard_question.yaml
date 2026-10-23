@@ -1,0 +1,84 @@
+- id: 1
+  type: State Identification
+  question: "The usual reading spot is empty today. [IMAGE] Why has it been moved to this high shelf instead?"
+  image_prompt: "A white Hello Kitty plush pillow sitting on a high bedroom shelf, with a glimpse of an empty grey reading chair in another room visible through the doorway."
+  evaluation_criteria:
+    ideal_answer: "The pillow was moved to a high shelf because a coffee spill occurred right next to its usual spot on the grey reading chair, making the area unsafe for the white plush."
+    key_points:
+      - "A coffee spill recently occurred on the rug next to the usual spot."
+      - "The pillow is normally kept on the grey reading chair in the living room."
+  options:
+    - "It is on the shelf to keep it away from the coffee spill that happened near its usual chair."
+    - "It was moved because the owner wanted to decorate the bedroom for a change."
+    - "The high shelf keeps it away from toys scattered across the bedroom floor."
+    - "It was moved to the high shelf so it wouldn't get in the way of the afternoon reading session."
+  answer: "It is on the shelf to keep it away from the coffee spill that happened near its usual chair."
+  image_id: hq_1
+
+- id: 2
+  type: Causal Inference
+  question: "I'm heading straight to the laundry room. [IMAGE] Why am I so eager to wash it as soon as my nephew arrived?"
+  image_prompt: "The owner holding the white plush pillow near a washing machine while a toddler with chocolate-smudged hands stands in the background."
+  evaluation_criteria:
+    ideal_answer: "The owner is eager to wash it because a toddler with messy chocolate hands just arrived, and the owner is extremely protective of the white plush due to a fear of stains."
+    key_points:
+      - "A toddler with chocolate-covered hands just arrived at the house."
+      - "The owner is terrified of getting any stains or dirt on the white plush."
+  options:
+    - "The owner is rushing to the laundry room, but the image alone does not show what risk the toddler created."
+    - "The owner is washing it because the toddler accidentally dropped it on the floor."
+    - "The owner wants to protect it from the toddler's messy hands because they fear it will be stained."
+    - "The owner is preparing it for the toddler to sleep with later tonight."
+  answer: "The owner wants to protect it from the toddler's messy hands because they fear it will be stained."
+  image_id: hq_2
+
+- id: 3
+  type: Preference Conflict
+  question: "I was very upset about this mess. [IMAGE] Why did I react so strongly to a spill that didn't even reach the pillow?"
+  image_prompt: "A close-up of a coffee spill on a rug, with the pillow visible nearby, but completely untouched by the liquid."
+  evaluation_criteria:
+    ideal_answer: "The owner reacted strongly because they have a deep-seated fear of stains on the white plush and habitually keep all liquids far away from it to prevent damage."
+    key_points:
+      - "A coffee spill occurred right next to the pillow's usual location."
+      - "The owner has a stable preference for keeping the pillow far away from all drinks to avoid stains."
+  options:
+    - "The owner panicked because their caution about liquids makes any nearby spill feel like a threat to the pillow."
+    - "The owner felt upset because a nearby spill could spread into the reading pillow's favorite spot."
+    - "The owner was frustrated that they would have to move the pillow to a new room."
+    - "The owner was annoyed because the spill happened during their favorite reading time."
+  answer: "The owner panicked because their caution about liquids makes any nearby spill feel like a threat to the pillow."
+  image_id: hq_3
+
+- id: 4
+  type: Counterfactual / Recommendation Reasoning
+  question: "The house is full of kids today. [IMAGE] Based on its history, why is keeping it up on this high shelf the best decision?"
+  image_prompt: "A white plush pillow sitting safely on a high shelf while toys and mess are scattered across the floor below."
+  evaluation_criteria:
+    ideal_answer: "Keeping it on the high shelf is best because it is an irreplaceable gift from a childhood friend who moved to Japan, and the current presence of messy toddlers poses a high risk to its safety."
+    key_points:
+      - "There are messy toddlers currently visiting the living room."
+      - "The pillow is a sentimental, irreplaceable gift from a childhood friend who moved away."
+  options:
+    - "The shelf keeps the visiting kids from grabbing or staining it while the room is messy."
+    - "The shelf is the best spot because it keeps the white plush from getting dusty during the visit."
+    - "It is best kept there because it is a precious gift from a distant friend and needs protection from the visiting kids."
+    - "It should stay there so the owner doesn't forget where they put it while the house is busy."
+  answer: "It is best kept there because it is a precious gift from a distant friend and needs protection from the visiting kids."
+  image_id: hq_4
+
+- id: 5
+  type: Causal Inference
+  question: "I just bought this today. [IMAGE] Why did I specifically look for this 'extra-strength' version of the detergent for the next wash?"
+  image_prompt: "A hand holding a bottle of extra-strength lavender detergent next to the white plush pillow."
+  evaluation_criteria:
+    ideal_answer: "The owner chose the extra-strength version because they are about to perform a deep wash, and they know the pillow's favorite thing is the strong scent of lavender."
+    key_points:
+      - "The owner just purchased an extra-strength lavender detergent for an upcoming wash."
+      - "The pillow has a long-term preference for the scent of lavender after being washed."
+  options:
+    - "The owner bought extra-strength detergent, but the image alone does not show which scent goal matters."
+    - "The owner wants the detergent to cover the coffee smell left from the nearby spill."
+    - "The owner needs a stronger soap because the pillow has become very dirty over time."
+    - "The owner chose it to maximize the lavender scent that the pillow is known to love."
+  answer: "The owner chose it to maximize the lavender scent that the pillow is known to love."
+  image_id: hq_5

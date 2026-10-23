@@ -1,0 +1,58 @@
+# ===============================================
+#          Generic Long-Term Profile
+# ===============================================
+
+concept_id: keeshond_2
+concept_type: "pet"
+name: "Nimbus"
+category: "Keeshond"
+
+core_identity:
+  summary: "A fluffy, medium-sized Keeshond dog known for his silver and black coat and 'spectacles' markings around his eyes."
+  role_in_user_life: "A constant, cheerful companion who provides emotional support and daily structure."
+
+stable_visual_identity:
+  summary: "A thick double coat of silver, grey, and black with a plumed tail curled over his back."
+  key_features:
+    - "Distinctive 'spectacles' markings shading the eyes"
+    - "A thick ruff of fur around the neck and chest"
+    - "No visible collar or tag beneath his dense grey neck ruff"
+
+stable_behavioral_identity:
+  traits:
+    - "Highly alert but friendly, often acting as a 'watchdog' without aggression"
+    - "Tends to 'smile' by curling his lips up when excited"
+  preferences:
+    loves:
+      - "Cool weather and lying on cold tile floors"
+      - "Chewing on his favorite squeaky rubber chicken toy"
+    dislikes:
+      - "Loud sudden noises like fireworks or vacuums"
+      - "Wearing dog booties or any clothing on his paws"
+
+relational_meaning:
+  user_relationship: "Deeply bonded with the user, often following them from room to room."
+  emotional_value: "Brings a calming presence to the home, grounding the user during stressful times."
+  related_entities:
+    - "A local dog park where he meets his Samoyed friend"
+
+history:
+  knowledge:
+    - "Instruction: Introduce that Nimbus has no visible collar or tag beneath his dense grey neck ruff."
+    - "Instruction: Introduce that Nimbus 'smiles' by curling his lips when he is very excited or happy."
+    - "Instruction: Introduce his favorite toy, a squeaky rubber chicken that he carries around."
+    - "Instruction: Introduce his strong dislike for loud noises, specifically the vacuum cleaner, which makes him hide."
+    - "Instruction: Introduce his preference for lying on cold tile floors because of his thick coat."
+    - "Instruction: Introduce his absolute hatred for wearing dog booties on his paws."
+  event:
+    - "Instruction: Introduce a recent event where the user accidentally dropped a loud metal pot in the kitchen."
+    - "Instruction: Introduce a recent photo of Nimbus outside in the snow wearing bright red dog booties to protect his paws from ice."
+    - "Instruction: Introduce a recent moment where the user surprised Nimbus with a brand new squeaky rubber chicken."
+    - "Instruction: Introduce a recent hot summer day where the air conditioning broke, and Nimbus had to lie on a cooling mat instead of the tile."
+
+hard_questions:
+  - "Draft: Create a causal-inference question that combines his dislike for loud noises with an event of dropping a pot."
+  - "Draft: Create a state-identification question that combines his hatred for dog booties with the event of wearing red booties in the snow."
+  - "Draft: Create a state-identification question combining his 'smile' when happy and the event of receiving a new rubber chicken."
+  - "Draft: Create a preference-conflict question about him lying on a cooling mat instead of his usual cold tile floor."
+  - "Draft: Create a counterfactual question asking what would happen if he wasn't wearing his hated booties on the sharp ice."
